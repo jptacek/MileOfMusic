@@ -24,14 +24,29 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css" />
         <title>Mile Of Music</title>
     </head>
     <body>
         <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+            <h1>Mile of Music</h1>
+
+            <div id="app" data-ng-app="mileOfMusicApp" >
+                <div id="page"  data-ng-controller="artistsController" >
+                    <div id="splashPage" data-ng-show="!showArtists">
+                        <ul>
+                            <li data-ng-click="displayArtists()">Artists</li>
+                            <li>Shows</li>
+                            <li>Venues</li>
+                        </ul>
+                    </div>
+                    <div id="artists" data-ng-show="showArtists">
+                        <ul>
+                            <li data-ng-repeat="artist in performers.artists">{{artist.artistName}}</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
@@ -43,12 +58,6 @@
         <script src="js/vendor/angularJS/angular-touch.min.js"></script>
         <script src="js/mileOfMusicApp.js"></script>
         <script src="js/Controllers/artistsCtrl.js"></script>
-        <div id="app" data-ng-app="mileOfMusicApp">Test
-            <div id="artists" data-ng-controller="artistsController">{{performers.count}} -- {{kitty}}
-                <ul>
-                    <li data-ng-repeat="artist in performers.artists">{{artist.artistName}}</li>
-                </ul>
-            </div>
-        </div>
+
     </body>
 </html>
