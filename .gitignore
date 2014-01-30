@@ -3,6 +3,11 @@
 ## WebStorm
 .idea
 
+## cordoa platform
+build/
+adhoc/
+platforms/
+
 # =========================
 # Windows detritus
 # =========================
