@@ -29,22 +29,28 @@
         <title>Mile Of Music</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Mile of Music</h1>
+    <div class="app">
+        <div class="row">
+            <div  class="col-md-10 col-md-offset-2" fs>
+                <img src="img/logo.png" alt="Mile of music logo"/>
+            </div>
+        </div>
+
+        <div class="row"><div class="col-md-10 col-md-offset-2">of Music</h1></div> </div>
 
             <div id="app" data-ng-app="mileOfMusicApp" >
                 <div id="page"  data-ng-controller="artistsController" >
+                    <div class="row">
+                        <div  class="col-md-10 col-md-offset-2">
                     <div id="splashPage" data-ng-show="!showArtists">
-                        <ul>
-                            <li data-ng-click="displayArtists()">Artists</li>
-                            <li>Shows</li>
-                            <li>Venues</li>
-                        </ul>
+                            <button type="button" class="btn btn-default" data-ng-click="displayArtists()">Artists</button>
+                        <button type="button" class="btn btn-default" >Shows</button>
+                        <button type="button" class="btn btn-default" >Venues</button>
+                    </div>
+                        </div>
                     </div>
                     <div id="artists" data-ng-show="showArtists">
-                        <ul>
-                            <li data-ng-repeat="artist in performers.artists">{{artist.artistName}}</li>
-                        </ul>
+                            <button type="button" class="btn btn-default"  data-ng-repeat="artist in performers.artists">{{artist.artistName}}</button  >
                     </div>
                 </div>
             </div>
