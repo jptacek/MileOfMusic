@@ -1,9 +1,9 @@
 angular.module('mileOfMusicApp', ['fsCordova'])
     .controller('artistsListController',
-    function($scope, CordovaService) {
+    function($scope,$log, CordovaService) {
         CordovaService.ready.then(function() {
             $scope.performers =artistsData;
-
+            $log.info('hello from artist list');
 
         });
     });

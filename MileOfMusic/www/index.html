@@ -29,32 +29,30 @@
     <title>Mile Of Music</title>
 </head>
 <body>
+<div class="container">
 <div class="app">
     <div class="row">
         <div  class="col-md-10 col-md-offset-2" fs>
-            <img src="img/logo.png" alt="Mile of music logo"/>
+            <a href="./index.html"><img src="img/logo.png" alt="Mile of music logo"/></a>
         </div>
     </div>
 
     <div class="row"><div class="col-md-10 col-md-offset-2">Mile of Music</h1></div> </div>
     <div id="app" data-ng-app="mileOfMusicApp" >
-        <div id="page"  data-ng-controller="artistsController" >
-            {{showArtists}}
-
             <div class="row">
                 <div  class="col-md-10 col-md-offset-2">
-                    <div id="splashPage" data-ng-show="!showArtists">
-                        <button type="button" class="btn btn-default" data-ng-click="displayArtists()">Artists</button>
+                    <div id="splashPage" >
+                        <button type="button" class="btn btn-default" href="#/artistList">Artists</button>
                         <button type="button" class="btn btn-default" >Shows</button>
                         <button type="button" class="btn btn-default" >Venues</button>
                     </div>
+                    <a  href="#/artistList">Artists</a>
                 </div>
-            </div>
-            <div id="artists" data-ng-show="showArtists">
-                <button type="button" class="btn btn-default"  data-ng-repeat="artist in performers.artists">{{artist.artistName}}</button  >
-            </div>
+
+                <data-ng-view></data-ng-view>
         </div>
     </div>
+</div>
 </div>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
@@ -65,6 +63,7 @@
 <script src="js/vendor/angularJS/angular-touch.min.js"></script>
 <script src="js/mileOfMusicApp.js"></script>
 <script src="js/Controllers/artistsCtrl.js"></script>
+<script src="js/Controllers/artistListCtrl.js"></script>
 
 </body>
 </html>
