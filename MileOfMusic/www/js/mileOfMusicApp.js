@@ -1,4 +1,12 @@
 angular.module('fsCordova', [])
+    .config(function($routeProvider)
+    {
+        $routeProvider.when('artistList',
+            {
+                templateUrl:'templates/artistList.html',
+                controller: 'artistListController'
+            })
+    })
     .service('CordovaService', ['$document', '$q',
         function($document, $q) {
 
