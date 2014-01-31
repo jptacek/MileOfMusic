@@ -1,12 +1,10 @@
-mileOfMusicApp.controller('artistsController',
+angular.module('mileOfMusicApp', ['fsCordova'])
+    .controller('artistsListController',
     function($scope, CordovaService) {
-        $scope.showArtists = false;
         CordovaService.ready.then(function() {
             $scope.performers =artistsData;
 
-            $scope.displayArtists = function() {
-                $scope.showArtists = true;
-            }
+
         });
     });
 
@@ -21,6 +19,14 @@ var artistsData = {
             "url": "http://californiawives.com/"
         },
         {
+            "artistName": "Cory Chisel",
+            "twitter": "corychisel",
+            "instagram": "",
+            "facebook": "https://www.facebook.com/corychisel",
+            "description": "",
+            "url": "http://corychisel.com/"
+        },
+        {
             "artistName": "Travelling Suitcases",
             "twitter": "trvlingsuitcase",
             "instagram": "",
@@ -30,3 +36,5 @@ var artistsData = {
         }
     ]
 };
+
+
