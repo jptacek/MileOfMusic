@@ -1,7 +1,8 @@
-angular.module('mileOfMusicApp', ['fsCordova'])
-    .controller('artistsListController',
+mileOfMusicApp.controller('artistsListController',
     function($scope,$log, CordovaService) {
+        $log.info('heop');
         CordovaService.ready.then(function() {
+            $log.info('no heop');
             $scope.performers =artistsData;
             $log.info('hello from artist list');
 

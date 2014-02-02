@@ -22,11 +22,14 @@ angular.module('fsCordova', [])
             }, 3000);
         }]);
 
-mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova'])
-    .config(function($routeProvider) {
-    $routeProvider.when('/artistList',
-        {
-            templateUrl:'./templates/artistList.html',
-            controller: 'artistsListController'
-        })
+mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova','ngRoute']).
+    config(function($routeProvider) {
+        $routeProvider
+            .when('/artistList',
+            {
+                templateUrl:'templates/artistList.html',
+                controller: 'artistsListController'
+            })
+            .otherwise({redirectTo: '/'});
     });
+
