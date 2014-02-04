@@ -15,6 +15,7 @@ mileOfMusicApp.controller('artistsController',
 var artistsData = {
     artists: [
         {
+
             "artistName": "California Wives",
             "twitter": "californiawives",
             "instagram": "",

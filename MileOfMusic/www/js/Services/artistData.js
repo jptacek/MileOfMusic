@@ -1,13 +1,11 @@
-mileOfMusicApp.controller('artistsListController',
-    function($scope,$log, artistData,CordovaService) {
-        $log.info('heop');
-        CordovaService.ready.then(function() {
-            $log.info('no heop');
-            $scope.performers =artistData.getArtists();
-            $log.info('hello from artist list');
+app.factory('artistData', function($http, $log, $q) {
+    return {
+        getArtists: function() {
 
-        });
-    });
+            return artistsData;
+        }
+    };
+});
 
 var artistsData = {
     artists: [
@@ -45,5 +43,3 @@ var artistsData = {
         }
     ]
 };
-
-
