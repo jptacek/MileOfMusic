@@ -30,6 +30,11 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova','ngRoute']).
                 templateUrl:'templates/artistList.html',
                 controller: 'artistsListController'
             })
+            .when('/artistList',
+            {
+                templateUrl:'templates/artist.html',
+                controller: 'artistController'
+            })
             .otherwise({redirectTo: '/'});
     });
 
