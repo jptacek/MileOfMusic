@@ -49,16 +49,17 @@
                     <a  href="#/artistList">Artists</a>
                 </div>
 
-                <div  class="col-md-10 col-md-offset-2">
-                    <div id="foo" data-ng-controller="artistsController" >
-                        <li>
-                            <ul data-ng-repeat="artist in performers.artists">{{arist.artistName}}</ul>
-                        </li>
+                <div id="artists" >
+                    <ul>
+                        <li data-ng-repeat="artist in performers.artists">{{artist.artistName}}</li>
+                    </ul>
                 </div>
 
                 <ng-view></ng-view>
         </div>
     </div>
+
+
 </div>
 </div>
 <script type="text/javascript" src="cordova.js"></script>

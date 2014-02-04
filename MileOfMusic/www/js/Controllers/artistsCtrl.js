@@ -1,7 +1,9 @@
 mileOfMusicApp.controller('artistsController',
-    function($scope, CordovaService) {
+    function($scope, $log,CordovaService) {
         $scope.showArtists = false;
+        $log.info('artistsController outside');
         CordovaService.ready.then(function() {
+            $log.info('artistsController inside');
             $scope.performers =artistsData;
 
             $scope.displayArtists = function() {
