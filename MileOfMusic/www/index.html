@@ -37,25 +37,13 @@
         </div>
     </div>
 
-    <div class="row"><div class="col-md-10 col-md-offset-2">Mile of Music</h1></div> </div>
+
     <div id="app" data-ng-app="mileOfMusicApp" >
-            <div class="row">
-                <div  class="col-md-10 col-md-offset-2">
-                    <div id="splashPage" >
-                        <button type="button" class="btn btn-default" href="./#/artistList">Artists</button>
-                        <button type="button" class="btn btn-default" >Shows</button>
-                        <button type="button" class="btn btn-default" >Venues</button>
+                <div class="row">
+                    <div  class="col-md-10 col-md-offset-2">
+                        <ng-view></ng-view>
                     </div>
-                    <a  href="#/artistList">Artists</a>
                 </div>
-
-                <div id="artists" >
-                    <ul>
-                        <li data-ng-repeat="artist in performers.artists">{{artist.artistName}}</li>
-                    </ul>
-                </div>
-
-                <ng-view></ng-view>
         </div>
     </div>
 
@@ -71,7 +59,8 @@
 <script src="js/vendor/angularJS/angular-touch.min.js"></script>
 <script src="js/vendor/angularJS/angular-route.min.js"></script>
 <script src="js/mileOfMusicApp.js"></script>
-<script src="js/Controllers/artistsCtrl.js"></script>
+<script src="js/Controllers/homeCtrl.js"></script>
+<script src="js/Controllers/artistCtrl.js"></script>
 <script src="js/Controllers/artistListCtrl.js"></script>
 <script src="js/Services/artistData.js"></script>
 

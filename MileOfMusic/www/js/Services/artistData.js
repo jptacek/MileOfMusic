@@ -1,8 +1,27 @@
-app.factory('artistData', function($http, $log, $q) {
-    return {
-        getArtists: function() {
-
+mileOfMusicApp.factory('artistData', function($http, $log, $q) {
+    var getArtists = function()  {
+            $log.info('getArtists in');
             return artistsData;
+    };
+
+    var getArtist = function()  {
+        $log.info('getArtists in');
+        return artistsData.artists[0];
+    };
+
+    return {
+        getArtists: getArtists,
+        getArtist: getArtist
+    };
+});
+
+mileOfMusicApp.factory('artistData2', function($http, $log, $q) {
+
+    return {
+        getArtist2: function() {
+            $log.info('getArtist in');
+
+            return artistsData.artists[0];
         }
     };
 });
@@ -14,7 +33,7 @@ var artistsData = {
             "twitter": "californiawives",
             "instagram": "",
             "facebook": "https://www.facebook.com/CaliforniaWives",
-            "description": "",
+            "description": "Indie rock band from Chicago with darker ’80s rock and New-Wave influences. The group released their debut album in 2012.",
             "url": "http://californiawives.com/"
         },
         {
