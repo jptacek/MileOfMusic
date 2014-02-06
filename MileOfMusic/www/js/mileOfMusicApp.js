@@ -30,7 +30,7 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova','ngRoute']).
                 templateUrl:'templates/artistList.html',
                 controller: 'artistsListController'
             })
-            .when('/artist',
+            .when('/artist/:artistId',
             {
                 templateUrl:'templates/artist.html',
                 controller: 'artistController'

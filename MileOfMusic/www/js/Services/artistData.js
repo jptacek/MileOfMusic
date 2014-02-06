@@ -4,9 +4,9 @@ mileOfMusicApp.factory('artistData', function($http, $log, $q) {
             return artistsData;
     };
 
-    var getArtist = function()  {
+    var getArtist = function(artistId)  {
         $log.info('getArtists in');
-        return artistsData.artists[0];
+        return artistsData.artists[artistId-1];
     };
 
     return {
@@ -15,20 +15,11 @@ mileOfMusicApp.factory('artistData', function($http, $log, $q) {
     };
 });
 
-mileOfMusicApp.factory('artistData2', function($http, $log, $q) {
-
-    return {
-        getArtist2: function() {
-            $log.info('getArtist in');
-
-            return artistsData.artists[0];
-        }
-    };
-});
 
 var artistsData = {
     artists: [
         {
+            "artistId": 1,
             "artistName": "California Wives",
             "twitter": "californiawives",
             "instagram": "",
@@ -37,6 +28,7 @@ var artistsData = {
             "url": "http://californiawives.com/"
         },
         {
+            "artistId": 2,
             "artistName": "Cory Chisel",
             "twitter": "corychisel",
             "instagram": "",
@@ -45,6 +37,7 @@ var artistsData = {
             "url": "http://corychisel.com/"
         },
         {
+            "artistId": 3,
             "artistName": "Mel Flannery",
             "twitter": "melflannery",
             "instagram": "",
@@ -53,12 +46,13 @@ var artistsData = {
             "url": "http://melflannerytruckingco.com/"
         },
         {
+            "artistId": 4,
             "artistName": "Travelling Suitcases",
             "twitter": "trvlingsuitcase",
             "instagram": "",
             "facebook": "https://www.facebook.com/TheTravelingSuitcase",
             "description": "",
-            "url": "http://californiawives.com/"
+            "url": "http://thetravelingsuitcase.bandcamp.com/"
         }
     ]
 };

@@ -7,7 +7,7 @@
     <div  class="col-md-10 col-md-offset-2" >
 <div id="artists" >
     <ul>
-        <li data-ng-repeat="artist in performers.artists"><a href="#/artist">{{artist.artistName}}</a></li>
+        <li data-ng-repeat="artist in performers.artists"><a data-ng-href="#/artist/{{artist.artistId}}">{{artist.artistName}}</a></li>
     </ul>
 </div>
 </div>
