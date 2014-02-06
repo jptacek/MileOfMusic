@@ -8,8 +8,6 @@ mileOfMusicApp.factory('venueData', function($http, $log, $q, appHelper) {
         $log.info('getArtists in');
         var venueListIndex = appHelper.buildIndex(venuesData.venues,'venueId');
 
-
-
         return venueListIndex[venueId];
     };
 
@@ -78,7 +76,7 @@ var venuesData = {
             "underage": false,
             "underageWithAdult": true,
             "facebook": "https://www.facebook.com/anduzzis",
-            "description": "Stop before and after Appleton Events including Octoberfest, PAC Shows, Timber Rattler games, Weddings, Birthdays, Summer Festivals, and College Avenue activities - See more at: http://www.anduzzis.com/#sthash.uA8SURwy.dpuf",
+            "description": "Stop before and after Appleton Events including Octoberfest, PAC Shows, Timber Rattler games, Weddings, Birthdays, Summer Festivals.",
             "yelp": "http://www.yelp.com/biz/anduzzis-sports-club-appleton",
             "url": "http://www.anduzzis.com/"
         }
