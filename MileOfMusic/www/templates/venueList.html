@@ -1,0 +1,14 @@
+<div class="row">
+    <div  class="col-md-10 col-md-offset-2" >
+        <h3>Venue List</h3>
+    </div>
+</div>
+<div class="row">
+    <div  class="col-md-10 col-md-offset-2" >
+        <div id="venues" >
+            <ul>
+                <li data-ng-repeat="venue in locations.venues"><a data-ng-href="#/venue/{{venue.venueId}}">{{venue.venueName}}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

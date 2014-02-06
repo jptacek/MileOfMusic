@@ -1,6 +1,7 @@
 mileOfMusicApp.controller('artistController',
     function($scope,$log,$routeParams, artistData,CordovaService) {
         $log.info('heop');
+
         CordovaService.ready.then(function() {
             $log.info('artist  in');
             $log.info($routeParams.artistId);

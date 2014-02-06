@@ -1,4 +1,4 @@
-mileOfMusicApp.factory('artistData', function($http, $log, $q) {
+mileOfMusicApp.factory('artistData', function($http, $log, $q, appHelper) {
     var getArtists = function()  {
             $log.info('getArtists in');
             return artistsData;
@@ -6,7 +6,11 @@ mileOfMusicApp.factory('artistData', function($http, $log, $q) {
 
     var getArtist = function(artistId)  {
         $log.info('getArtists in');
-        return artistsData.artists[artistId-1];
+       var artistListIndex = appHelper.buildIndex(artistsData.venues,'artistId');
+
+
+
+        return artistListIndex[artistId];
     };
 
     return {
@@ -46,7 +50,7 @@ var artistsData = {
             "url": "http://melflannerytruckingco.com/"
         },
         {
-            "artistId": 4,
+            "artistId": 7,
             "artistName": "Travelling Suitcases",
             "twitter": "trvlingsuitcase",
             "instagram": "",

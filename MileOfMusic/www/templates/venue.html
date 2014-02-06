@@ -1,0 +1,75 @@
+<div class="row">
+    <div  class="col-md-10 col-md-offset-2">
+        <h3>{{selectedVenue.venueName}}</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div  class="col-md-10 col-md-offset-2">
+        {{selectedVenue.description}}
+    </div>
+</div>
+<div class="row">
+    <div  class="col-md-10  col-md-offset-2">
+        {{selectedVenue.address}} Appleton, WI {{selectedVenue.zip}}
+    </div>
+</div>
+<div class="row">
+    <div  class="col-md-10  col-md-offset-2">
+        {{selectedVenue.phone}}
+    </div>
+</div>
+<div class="row">
+    <div  class="col-md-10  col-md-offset-2">
+        {{selectedVenue.hours}}
+    </div>
+</div>
+
+<div class="row">
+    <div  class="col-md-2 col-md-offset-2">
+        <b>Twitter:</b>
+    </div>
+    <div  class="col-md-4">
+        <a data-ng-href="http://www.twitter.com/{{selectedVenue.twitter}}">{{selectedVenue.twitter}}</a>
+    </div>
+</div>
+<div class="row">
+    <div  class="col-md-2 col-md-offset-2">
+        <b>Facebook:</b>
+    </div>
+    <div  class="col-md-4">
+        <a data-ng-href="{{selectedVenue.facebook}}">{{selectedVenue.facebook}}</a>
+    </div>
+</div>
+<div class="row" >
+    <div  class="col-md-2 col-md-offset-2">
+        <b>Yelp:</b>
+    </div>
+    <div  class="col-md-4">
+        <a data-ng-href="{{selectedVenue.url}}">{{selectedVenue.yelp}}</a>
+    </div>
+</div>
+
+<div class="row" >
+    <div  class="col-md-2 col-md-offset-2">
+        <b>HomePage:</b>
+    </div>
+    <div  class="col-md-4">
+        <a data-ng-href="{{selectedVenue.url}}">{{selectedVenue.url}}</a>
+    </div>
+</div>
+<div class="row" data-ng-show="selectedVenue.underage" >
+    <div  class="col-md-10  col-md-offset-2">
+        This location allows underage patrons without parents
+    </div>
+</div>
+<div class="row" data-ng-show="selectedVenue.underageWithAdult" >
+    <div  class="col-md-10  col-md-offset-2">
+        This location allows underage patrons with parents
+    </div>
+</div>
+<div class="row" data-ng-show="!selectedVenue.underageWithAdult" >
+    <div  class="col-md-10  col-md-offset-2">
+        This location DOES NOT allow underage patrons with parents
+    </div>
+</div>
