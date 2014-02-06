@@ -1,0 +1,14 @@
+<div class="row">
+    <div  class="col-md-10 col-md-offset-2" >
+        <h3>Concert List</h3>
+    </div>
+</div>
+<div class="row">
+    <div  class="col-md-10 col-md-offset-2" >
+        <div id="concerts" >
+            <ul>
+                <li data-ng-repeat="concert in shows.concerts"><a data-ng-href="#/concert/{{concert.concertId}}">{{concert.time}}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
