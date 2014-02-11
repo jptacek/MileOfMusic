@@ -6,7 +6,7 @@ mileOfMusicApp.factory('artistData', function($http, $log, $q, appHelper) {
 
     var getArtist = function(artistId)  {
         $log.info('getArtists in');
-       var artistListIndex = appHelper.buildIndex(artistsData.venues,'artistId');
+       var artistListIndex = appHelper.buildIndex(artistsData.artists,'artistId');
 
 
 
