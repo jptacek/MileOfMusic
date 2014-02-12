@@ -3,12 +3,10 @@
         <h3>Venue List</h3>
     </div>
 </div>
-<div class="row">
-    <div  class="col-md-10 col-md-offset-2" >
-        <div id="venues" >
-            <ul>
-                <li data-ng-repeat="venue in locations.venues"><a data-ng-href="#/venue/{{venue.venueId}}">{{venue.venueName}}</a></li>
-            </ul>
+<div id="artists" >
+    <div class="row" data-ng-repeat="venue in locations.venues | orderBy:venue.venueName">
+        <div  class="col-md-10 col-md-offset-2" >
+            <a data-ng-href="#/venue/{{venue.venueId}}" class="btn btn-large btn-default">{{venue.venueName}}</a>
         </div>
     </div>
 </div>
