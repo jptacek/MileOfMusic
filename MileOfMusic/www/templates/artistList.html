@@ -5,8 +5,8 @@
 </div>
 <div id="artists" >
     <div class="row" data-ng-repeat="artist in performers.artists | orderBy:artist.artistName">
-        <div  class="col-md-10 col-md-offset-2" >
-            <a data-ng-href="#/artist/{{artist.artistId}}" class="btn btn-large btn-default">{{artist.artistName}}</a>
-        </div>
+        <ul class="list-group">
+            <li class="list-group-item"><a data-ng-href="#/artist/{{artist.artistId}}">{{artist.artistName}}</a></li>
+        </ul>
     </div>
 </div>

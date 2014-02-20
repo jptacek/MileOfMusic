@@ -5,8 +5,10 @@
 </div>
 <div id="artists" >
     <div class="row" data-ng-repeat="concert in shows.concerts | orderBy:-concert.time">
-        <div  class="col-md-10 col-md-offset-2" >
-            <a data-ng-href="#/concert/{{concert.concertId}}" class="btn btn-large btn-default">{{concert.time|date:'medium'}}</a>
-        </div>
+        <ul class="list-group">
+            <li class="list-group-item"><a data-ng-href="#/concert/{{concert.concertId}}" >
+                {{concert.time|date:'medium'}}</a>
+            </li>
+        </ul>
     </div>
 </div>
