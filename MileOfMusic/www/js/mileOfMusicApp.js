@@ -55,6 +55,38 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova','ngRoute']).
                 templateUrl:'templates/concert.html',
                 controller: 'concertController'
             })
+            .when('/info',
+            {
+                templateUrl:'templates/info.html'
+            })
+            .when('/festivalStory',
+            {
+                templateUrl:'templates/story.html'
+            })
+            .when('/tickets',
+            {
+                templateUrl:'templates/tickets.html'
+            })
+            .when('/directions',
+            {
+                templateUrl:'templates/directions.html'
+            })
+            .when('/sponsors',
+            {
+                templateUrl:'templates/sponsors.html'
+            })
+            .when('/volunteers',
+            {
+                templateUrl:'templates/volunteers.html'
+            })
+            .when('/settings',
+            {
+                templateUrl:'templates/settings.html'
+            })
+            .when('/credits',
+            {
+                templateUrl:'templates/credits.html'
+            })
             .when('/',
             {
                 templateUrl:'templates/home.html',
