@@ -1,6 +1,12 @@
-mileOfMusicApp.factory('concertData', function($http, $log, $q, appHelper) {
-    var getConcerts = function()  {
-        $log.info('getconcert in');
+mileOfMusicApp.factory('concertData', function($http, $log, $q, appHelper,artistData,venueData) {
+    var getConcerts = function(artistData,venueData)  {
+        $log.info('getconcert in: ' + concertsData.concerts.length);
+        for (var i = 0, len = concertsData.concerts.length; i < len; ++i) {
+            $log.info('foo1: ');
+            concertsData.concerts[i].artist = artistData.getArtist(concertsData.concerts[i].artistId);
+            $log.info('foo: ' + concertsData.concerts[i].artist);
+        }
+        $log.info('getconcert out');
         return concertsData;
     };
 

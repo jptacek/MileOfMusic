@@ -1,5 +1,5 @@
 mileOfMusicApp.controller('concertController',
-    function($scope,$log,$routeParams,concertData,CordovaService) {
+    function($scope,$log,$routeParams,concertData,artistData,venueData,CordovaService) {
         $log.info('heop');
 
         CordovaService.ready.then(function() {
