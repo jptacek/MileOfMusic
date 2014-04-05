@@ -1,5 +1,5 @@
-mileOfMusicApp.factory('concertData', function($http, $log, $q, appHelper,venueData) {
-    var getConcerts = function(artistData,venueData)  {
+mileOfMusicApp.factory('concertData', function($http, $log, $q,artistData, venueData,appHelper) {
+    var getConcerts = function()  {
         $log.info('getconcert in: ' + concertsData.concerts.length);
         for (var i = 0, len = concertsData.concerts.length; i < len; ++i) {
             $log.info('foo1: ');
@@ -10,11 +10,13 @@ mileOfMusicApp.factory('concertData', function($http, $log, $q, appHelper,venueD
         return concertsData;
     };
 
-    var getConcert = function(concertId,artistData)  {
+    var getConcert = function(concertId)  {
         $log.info('getArtists in');
         var concertListIndex = appHelper.buildIndex(concertsData.concerts,'concertId');
-
-        return concertListIndex[concertId];
+        var concertListItem = concertListIndex[concertId]
+        concertListItem.artist  = artistData.getArtist(concertListIndex[concertId].artistId);
+        concertListItem.venue = venueData.getVenue(concertListIndex[concertId].venueId);
+        return concertListItem;
     };
 
     return {
