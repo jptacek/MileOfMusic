@@ -2,6 +2,15 @@ body {
   margin: 70px;
   background-image: url("../img/grunge50.jpg");
 }
+@media screen and (max-width: 763px) {
+  body {
+    margin: 0;
+  }
+}
+/* ========================================================================== */
+/*   TYPOGRAPHY                                                               */
+/* ========================================================================== */
+/*#region Typography */
 h1,
 .h1 {
   font-size: 36px;
@@ -33,6 +42,11 @@ h6,
 p {
   margin: 0 0 10px;
 }
+/*#endregion */
+/* ========================================================================== */
+/*   WRAPPERS & MISC                                                          */
+/* ========================================================================== */
+/*#region Wrappers & Misc */
 .glyphicon {
   position: relative;
   top: 1px;
@@ -45,26 +59,77 @@ p {
   line-height: 1;
   -moz-osx-font-smoothing: grayscale;
 }
-.artistList .artist {
+.mom-list .mom-list-item {
   position: relative;
-  width: 98%;
+  width: 100%;
   margin: 8px 0;
 }
-.artistList .artist img {
+.mom-list .mom-list-item img {
   width: 100%;
 }
-.artistList .artist .artistLabel {
+.mom-list .mom-list-item .mom-list-label {
   background-color: rgba(0, 53, 91, 0.9);
   width: 90%;
   color: #fff;
   min-height: 40px;
   position: absolute;
   bottom: 30px;
-  font-size: 180%;
+  font-size: 30px;
   padding: 4px 15px;
 }
+@media screen and (max-width: 700px) {
+  .mom-list .mom-list-item .mom-list-label {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mom-list .mom-list-item .mom-list-label {
+    font-size: 18px;
+    bottom: :after 10px;
+  }
+}
+/*#endregion */
+/* ========================================================================== */
+/*   PAGE LAYOUTS                                                               */
+/* ========================================================================== */
+/*#region Page Layouts */
+/*#region Artist List */
+/*#endregion */
+/*#region Artist Detail */
+.artistDetail img {
+  max-width: 98%;
+}
+/*#endregion */
+/*#region Home */
+/*#endregion */
+/*#region Schedule */
+/*#endregion */
+/*#region Venue List */
+/*#endregion */
+/*#region Venue Detail */
 .venueitem {
   min-height: 60px;
   background: #ccc;
   margin: 10px;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #000000;
+  width: 100%;
+  padding: 20px;
 }

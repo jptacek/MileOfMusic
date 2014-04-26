@@ -32,32 +32,24 @@
 <body>
 
 <div id="page">
-    <header class="container">
+    <header>
         <div id="menu" class="navbar navbar-default navbar-fixed-top">
             <div class="navbar-header">
-                <button class="btn btn-success navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"> </span></button>
                 <div id="logo2"><span class="glyphicon glyphicon-chevron-left"></span>
-                    <a href="./index.html"><img src="img/momLogo.png" width="100px"  alt="Mile of music logo"/></a>
+                    <a href="./index.html"><img src="../img/logo-small.png" width="100px"  alt="Mile of music logo"/></a>
                 </div>
             </div>
-           <!--l class="nav navbar-nav navbar-right">
-                    <li class="nav "><a href="#/artistList"><span class="glyphicon glyphicon-star-empty"></span> Artists</a></li>
-                    <li class="nav"><a href="#/concertList"><span class="glyphicon glyphicon-music"></span> Shows</a></li>
-                    <li class="nav "><a href="#/venueList"><span class="glyphicon glyphicon-glass"></span> Venues</a></li>
-                </ul>
-            </div>-->
+       
         </div>
     </header>
 
-    <section id="body" class="container">
-        <section id="main" class="col-xs-12">
+    <section id="body">
+        <section id="main">
             <div id="app" data-ng-app="mileOfMusicApp">
                 <data-ng-view></data-ng-view>
             </div>
         </section>
     </section>
-
 </div>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
@@ -87,6 +79,7 @@ switch to AngularUI
 <script src="js/Controllers/concertListCtrl.js"></script>
 <script src="js/Services/concertData.js"></script>
 <script src="js/appHelper.js"></script>
+
 </body>
 </html>
 

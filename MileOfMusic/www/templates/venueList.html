@@ -1,8 +1,8 @@
-<div class="col-md-10 col-md-offset-2">
+<div>
     <h3>Venue List</h3>
 
     <div id="venues">
-        <div class="row venueitem" data-ng-repeat="venue in locations.venues | orderBy:'venueName'">
+        <div data-ng-repeat="venue in locations.venues | orderBy:'venueName'">
             <img src="{{venue.photo_url}}" />
             <a data-ng-href="#/venue/{{venue.venueId}}">{{venue.venueName}}</a>
             <br />

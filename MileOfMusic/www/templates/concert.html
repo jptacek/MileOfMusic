@@ -1,11 +1,11 @@
-<div class="row">
-    <div  class="col-md-10 col-md-offset-2">
+<div>
+    <div>
         <h3>{{selectedConcert.time | date:'fullDate'}}</h3>
         <h4>{{selectedConcert.time | date:'shortTime'}}</h4>
     </div>
 </div>
-<div class="row">
-    <div  class="col-md-10 col-md-offset-2">
+<div>
+    <div>
         <h3>{{selectedConcert.artist.artistName}}</h3>
         <h2>{{selectedConcert.venue.photoUrlRemote}}</h2>        
         Venue: <a data-ng-href="#/venue/{{selectedConcert.venue.venueId}}">{{selectedConcert.venue.venueName}}</a><br />
@@ -13,7 +13,7 @@
         Genre:{{selectedConcert.venue.genre}}<br />
     </div>
 </div>
-<div class="col-md-10 col-md-offset-2">
+<div>
     <p>&nbsp;</p>
     <a href="#/concertList" class="btn btn-primary" >Back to Concerts</a>
 </div>

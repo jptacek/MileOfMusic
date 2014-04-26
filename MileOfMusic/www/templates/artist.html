@@ -1,48 +1,48 @@
 
-<div class="col-md-10 col-md-offset-2 artistDetail">
+<div class="artistDetail">
     <img src="artistImages/{{selectedArtist.artistId}}.jpg" />
 </div>
 
-<div class="col-md-10 col-md-offset-2">
+<div>
     <h1>{{selectedArtist.artistName}}</h1>
 </div>
-<div class="col-md-10 col-md-offset-2">
+<div>
     {{selectedArtist.homebase}}
 </div>
-<div class="col-md-10 col-md-offset-2">
+<div>
     {{selectedArtist.genre}}
 </div>
-<div class="col-md-10 col-md-offset-2">
+<div>
     {{selectedArtist.description}}
 </div>
 
 
-<div class="row col-md-offset-2">
-    <div class="col-md-2 col-md-offset-1">
+<div>
+    <div>
         <b>Twitter:</b>
     </div>
-    <div class="col-md-4">
+    <div>
         <a data-ng-href="http://www.twitter.com/{{selectedArtist.twitter}}">{{selectedArtist.twitter}}</a>
     </div>
 </div>
-<div class="row col-md-offset-2">
-    <div class="col-md-2 col-md-offset-1">
+<div >
+    <div>
         <b>Facebook:</b>
     </div>
-    <div class="col-md-4">
+    <div>
         <a data-ng-href="{{selectedArtist.facebook}}">{{selectedArtist.facebook}}</a>
     </div>
 </div>
 
-<div class="row col-md-offset-2">
-    <div class="col-md-2 col-md-offset-1">
+<div>
+    <div>
         <b>HomePage:</b>
     </div>
-    <div class="col-md-4">
+    <div>
         <a data-ng-href="{{selectedArtist.url}}">{{selectedArtist.url}}</a>
     </div>
 </div>
-<div class="col-md-10 col-md-offset-2">
+<div>
     <p>&nbsp;</p>
     <a href="#/artistList" class="btn btn-primary" >Back to Artists</a>
 </div>
