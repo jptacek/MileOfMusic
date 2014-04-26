@@ -1,12 +1,12 @@
 <div class="col-md-10 col-md-offset-2">
     <h3>Artist List</h3>
 
-    <div id="artists">
-        <div class="row" data-ng-repeat="artist in performers.artists | orderBy:artist.artistName">
-            <ul class="list-group">
-                <li class="list-group-item"><a data-ng-href="#/artist/{{artist.artistId}}">{{artist.artistName}}</a>
-                </li>
-            </ul>
+    <div class="artistList">
+        <div class="row" data-ng-repeat="artist in performers.artists | orderBy:artist.artistName">                  
+            <a data-ng-href="#/artist/{{artist.artistId}}">
+                <img src="../artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
+            </a>
+            <div class="artistLabel">{{artist.artistName}}</div>
         </div>
     </div>
 

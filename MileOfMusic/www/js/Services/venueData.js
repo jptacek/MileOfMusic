@@ -5,7 +5,7 @@ mileOfMusicApp.factory('venueData', function($http, $log, $q, appHelper) {
     };
 
     var getVenue = function(venueId)  {
-        $log.info('getArtists in');
+        $log.info('getVenue in');
         var venueListIndex = appHelper.buildIndex(venuesData.venues,'venueId');
 
         return venueListIndex[venueId];
@@ -20,8 +20,8 @@ mileOfMusicApp.factory('venueData', function($http, $log, $q, appHelper) {
 
 var venuesData = {
     venues: [
-        {"venueId": 1,"venueName": "Frank’s Pizza Palace","region": "1","address": "college","city": "appleton","state": "wi","zip": "54911","phone": "555-1231","url": "www.cnn.com","facebook": "www","other": "www","contactPerson": "contact","email": "email","capacity": "capactiy","washroom": true,"washroom": true,"venueType": "1","hours": "41651","description": "","yelp": "","underage": false,"underageWithAdult": true},
-        {"venueId": 2,"venueName": "Spats","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true},
+        {"venueId": 1,"venueName": "Frank’s Pizza Palace","region": "1","address": "college","city": "appleton","state": "wi","zip": "54911","phone": "555-1231","url": "www.cnn.com","facebook": "www","other": "www","contactPerson": "contact","email": "email","capacity": "capactiy","washroom": true,"washroom": true,"venueType": "1","hours": "41651","description": "","yelp": "","underage": true,"underageWithAdult": true,"photo_url": ""},
+        {"venueId": 2,"venueName": "Spats","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true,"photo_url": ""},
         {"venueId": 3,"venueName": "Emmett's","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true},
         {"venueId": 4,"venueName": "Appleton Beer Factory","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true},
         {"venueId": 5,"venueName": "Jack’s Apple Pub ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true},

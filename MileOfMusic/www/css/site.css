@@ -1,3 +1,17 @@
 body {
     margin-top: 70px;
 }
+
+.artistList img {
+    width: 200px;    
+}
+
+.artistLabel {
+    font-size: x-large;
+}
+
+.venueitem {
+    min-height: 60px;
+    background: #ccc;
+    margin: 10px;
+}

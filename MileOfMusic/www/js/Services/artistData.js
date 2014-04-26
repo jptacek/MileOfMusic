@@ -22,7 +22,7 @@ mileOfMusicApp.factory('artistData', function($http, $log, $q, appHelper) {
 
 var artistsData = {
     artists: [
-        {"artistId": 1,"artistName": "Patchouli (Chicago) (ADI Show)","twitter": "","instagram": "","facebook": "","description": "","homebase": "","url": ""},
+        { "artistId": 1, "artistName": "Patchouli (Chicago) (ADI Show)", "twitter": "@twitterHandle", "instagram": "http://instagram.com/n33470", "facebook": "http://facebook.com/n33470", "description": "This is my description.   I like to work on DevCamps", "homebase": "Neenah, WI", "url": "http://www.skylinetechnologies.com" },
         {"artistId": 2,"artistName": "Roger Jokela (Key West)","twitter": "","instagram": "","facebook": "","description": "","homebase": "","url": ""},
         {"artistId": 3,"artistName": "Balinese Gamelan – Music Educ. Event","twitter": "","instagram": "","facebook": "","description": "","homebase": "","url": ""},
         {"artistId": 4,"artistName": "Marty Paschke (Fox Cities)","twitter": "","instagram": "","facebook": "","description": "","homebase": "","url": ""},
