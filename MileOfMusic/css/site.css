@@ -1,0 +1,70 @@
+body {
+  margin: 70px;
+  background-image: url("../img/grunge50.jpg");
+}
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+p {
+  margin: 0 0 10px;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-size: 80%;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}
+.artistList .artist {
+  position: relative;
+  width: 98%;
+  margin: 8px 0;
+}
+.artistList .artist img {
+  width: 100%;
+}
+.artistList .artist .artistLabel {
+  background-color: rgba(0, 53, 91, 0.9);
+  width: 90%;
+  color: #fff;
+  min-height: 40px;
+  position: absolute;
+  bottom: 30px;
+  font-size: 180%;
+  padding: 4px 15px;
+}
+.venueitem {
+  min-height: 60px;
+  background: #ccc;
+  margin: 10px;
+}

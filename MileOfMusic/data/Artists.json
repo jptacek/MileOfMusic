@@ -1,0 +1,64 @@
+{
+  "artists": [
+    {
+      "artistId": "334265",
+      "name": "Test Artist Adriel Denae",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Adriel, flock of God, the son of Barzillai, the Meholathite, to whom Saul gave in marriage his daughter Merab (1 Sam. 18:19).",
+      "homebase": null,
+      "url": "https://www.facebook.com/adrieldenae",
+      "genre": "Good Music",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334265/original.jpg?1398519059"
+    },
+    {
+      "artistId": "334263",
+      "name": "Test Artist Cats Playing Keyboards",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Cats Playing Keyboards Short Bio Cats Playing Keyboards Short Bio Cats Playing Keyboards Short Bio Cats Playing Keyboards Short Bio Cats Playing Keyboards Short Bio Cats Playing Keyboards Short Bio Cats Playing Keyboards Short Bio",
+      "homebase": "Chicago",
+      "url": "http://playhimoffkeyboardcat.com/",
+      "genre": "Cat Boogie",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334263/original.jpg?1398483019"
+    },
+    {
+      "artistId": "330938",
+      "name": "Test Artist Cory Chisel",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Cory Chisel is an old believer. You can hear it in his music – there’s a wisdom beyond his years in that voice. You can see it in his story – the son of a preacher, sheltered from pop music, raised on hymns and Johnny Cash. “Mom played piano and organ, my dad did the preaching, the thing that my sister and I could add to the service was to sing.” As fate would have it, the kid was born to do it.\n\nHe grew up in the Iron Range town of Babbitt, Minnesota, and the rural flatlands of Appleton, Wisconsin. Along with the family’s spiritual doctrine, came a musician uncle, who taught Cory about the blues: Howlin’ Wolf, Robert Johnson, Sonny Boy Williamson.",
+      "homebase": "Appleton",
+      "url": "",
+      "genre": "Americana, Folk Rock",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/330938/original.jpg?1398483302"
+    },
+    {
+      "artistId": "330936",
+      "name": "Test Artist Elvis Presley",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Simply put, Elvis Presley was the first real rock & roll star. A white Southerner singing blues laced with country, and country laced with gospel, he brought together American music from both sides of the color line and performed it with a natural hip-swiveling sexuality that made him a teen idol and a role model for generations of cool rebels. He was repeatedly dismissed as vulgar, incompetent, and a bad influence, but the force of his music and his image was no mere merchandising feat. Presley signaled to mainstream culture that it was time to let go. Four decades after his death, Presley’s image and influence remain undiminished. While certainly other artists preceded him and he by no means “invented” rock & roll, he is indisputably its king. \n\n As a recording artist, Presley’s accomplishments are unparalleled. He is believed to have sold over 1 billion records worldwide, about 40 percent of those outside the U.S. The RIAA has awarded Presley the largest number of gold, platinum, and multiplatinum certifications of any artist in history; as of early 2001, 131. His chart performance, as tracked by Billboard, is also unmatched, with 149 charting pop singles: 114 Top 40, 40 Top 10, and 18 #1s. ",
+      "homebase": "Greeceland",
+      "url": "",
+      "genre": "Rock",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/330936/original.jpg?1398483459"
+    },
+    {
+      "artistId": "330937",
+      "name": "Test Artist Frank Zappa",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Frank Vincent Zappa (December 21, 1940 – December 4, 1993) was an American composer, electric guitarist, record producer, and film director. In a career spanning more than 30 years, Zappa wrote rock, jazz, electronic, orchestral, and musique concrète works. He also directed feature-length films and music videos, and designed album covers. Zappa produced almost all of the more than 60 albums he released with the band Mothers of Invention and as a solo artist.",
+      "homebase": "Maryland",
+      "url": "",
+      "genre": "Jazz",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/330937/original.jpg?1398483543"
+    }
+  ]
+}

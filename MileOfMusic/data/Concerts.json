@@ -1,0 +1,130 @@
+{
+  "concerts": [
+    {
+      "concertId": "257378",
+      "artistId": "334265",
+      "venueId": "707601",
+      "description": "Adriel Denae performance at Acoca",
+      "timeStart": "2014-08-07T15:30:00Z",
+      "timeEnd": "2014-08-07T16:30:00Z",
+      "timeDoor": "2014-08-07T15:00:00Z"
+    },
+    {
+      "concertId": "257379",
+      "artistId": "330938",
+      "venueId": "707601",
+      "description": "Performance by Cory Chisel",
+      "timeStart": "2014-08-07T17:00:00Z",
+      "timeEnd": "2014-08-07T18:00:00Z",
+      "timeDoor": "2014-08-07T15:00:00Z"
+    },
+    {
+      "concertId": "257380",
+      "artistId": "334265",
+      "venueId": "707601",
+      "description": "Duo performance by Adriel and Cory",
+      "timeStart": "2014-08-07T18:00:00Z",
+      "timeEnd": "2014-08-07T19:00:00Z",
+      "timeDoor": "2014-08-07T15:00:00Z"
+    },
+    {
+      "concertId": "257380",
+      "artistId": "330938",
+      "venueId": "707601",
+      "description": "Duo performance by Adriel and Cory",
+      "timeStart": "2014-08-07T18:00:00Z",
+      "timeEnd": "2014-08-07T19:00:00Z",
+      "timeDoor": "2014-08-07T15:00:00Z"
+    },
+    {
+      "concertId": "257381",
+      "artistId": "334263",
+      "venueId": "707601",
+      "description": "Cats Playing Keyboards shreds all night.",
+      "timeStart": "2014-08-07T20:30:00Z",
+      "timeEnd": "2014-08-08T00:00:00Z",
+      "timeDoor": "2014-08-07T15:00:00Z"
+    },
+    {
+      "concertId": "257384",
+      "artistId": "334263",
+      "venueId": "707611",
+      "description": "Cats Playing Keyboards plays Country and Reggae all night",
+      "timeStart": "2014-08-07T16:00:00Z",
+      "timeEnd": "2014-08-08T00:00:00Z",
+      "timeDoor": "2014-08-07T15:30:00Z"
+    },
+    {
+      "concertId": "257382",
+      "artistId": "330937",
+      "venueId": "707601",
+      "description": "Frank Zappa shreds non-stop",
+      "timeStart": "2014-08-08T16:00:00Z",
+      "timeEnd": "2014-08-09T00:00:00Z",
+      "timeDoor": "2014-08-08T15:30:00Z"
+    },
+    {
+      "concertId": "257385",
+      "artistId": "330936",
+      "venueId": "707611",
+      "description": "A special night with Elvis",
+      "timeStart": "2014-08-08T16:00:00Z",
+      "timeEnd": "2014-08-09T00:00:00Z",
+      "timeDoor": "2014-08-08T15:30:00Z"
+    },
+    {
+      "concertId": "257383",
+      "artistId": "330936",
+      "venueId": "707601",
+      "description": "Elvis's Pelvis",
+      "timeStart": "2014-08-09T04:00:00Z",
+      "timeEnd": "2014-08-09T12:00:00Z",
+      "timeDoor": "2014-08-09T15:30:00Z"
+    },
+    {
+      "concertId": "257388",
+      "artistId": "330937",
+      "venueId": "707611",
+      "description": "Opening band Frank Zappa",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-09T17:00:00Z",
+      "timeDoor": "2014-08-09T15:30:00Z"
+    },
+    {
+      "concertId": "257399",
+      "artistId": "334265",
+      "venueId": "707597",
+      "description": "A crazy non-stop collaboration with a bunch of artists all night",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeDoor": "2014-08-09T15:30:00Z"
+    },
+    {
+      "concertId": "257399",
+      "artistId": "330938",
+      "venueId": "707597",
+      "description": "A crazy non-stop collaboration with a bunch of artists all night",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeDoor": "2014-08-09T15:30:00Z"
+    },
+    {
+      "concertId": "257399",
+      "artistId": "334263",
+      "venueId": "707597",
+      "description": "A crazy non-stop collaboration with a bunch of artists all night",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeDoor": "2014-08-09T15:30:00Z"
+    },
+    {
+      "concertId": "257399",
+      "artistId": "330936",
+      "venueId": "707597",
+      "description": "A crazy non-stop collaboration with a bunch of artists all night",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeDoor": "2014-08-09T15:30:00Z"
+    }
+  ]
+}

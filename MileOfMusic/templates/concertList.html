@@ -1,0 +1,14 @@
+<div class="col-md-10 col-md-offset-2">
+    <h3>Concert List</h3>
+
+    <div id="concerts">
+        <div class="row" data-ng-repeat="concert in shows.concerts | orderBy:['time','venue.venueId','venue.genre']">
+            <ul class="list-group">
+                <li class="list-group-item"><a data-ng-href="#/concert/{{concert.concertId}}">
+                    {{concert.time|date:'medium'}} - {{concert.artist.artistName}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+

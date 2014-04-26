@@ -1,0 +1,12 @@
+<div class="artistList">
+    <h3>Artist List</h3>
+
+        <div class="artist" data-ng-repeat="artist in performers.artists | orderBy:artist.artistName">                  
+            <a data-ng-href="#/artist/{{artist.artistId}}">
+                <img src="artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
+            </a>
+            <div class="artistLabel">{{artist.artistName}}</div>
+        </div>
+
+</div>
+
