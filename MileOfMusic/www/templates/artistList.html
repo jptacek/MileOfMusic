@@ -4,7 +4,7 @@
     <div class="artistList">
         <div class="row" data-ng-repeat="artist in performers.artists | orderBy:artist.artistName">                  
             <a data-ng-href="#/artist/{{artist.artistId}}">
-                <img src="../artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
+                <img src="artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
             </a>
             <div class="artistLabel">{{artist.artistName}}</div>
         </div>
