@@ -23,7 +23,8 @@
       "underage": true,
       "underageWithAdult": false,
       "latitude": "44° 15' 43.599\"",
-      "longitude": "-88° 24' 44.2188\""
+      "longitude": "-88° 24' 44.2188\"",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707601/original.jpg?1398484068"
     },
     {
       "venueId": "707611",
@@ -48,7 +49,8 @@
       "underage": false,
       "underageWithAdult": false,
       "latitude": "44.262489",
-      "longitude": "-88.410805"
+      "longitude": "-88.410805",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707611/original.jpg?1398484851"
     },
     {
       "venueId": "707597",
@@ -73,7 +75,8 @@
       "underage": false,
       "underageWithAdult": true,
       "latitude": "44.262074",
-      "longitude": "-88.414196"
+      "longitude": "-88.414196",
+      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707597/original.gif?1398521672"
     },
     {
       "venueId": "707633",
@@ -98,7 +101,8 @@
       "underage": false,
       "underageWithAdult": false,
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "photoUrlRemote": ""
     }
   ]
 }

@@ -3,7 +3,7 @@
 
     <div class="mom-list-item" data-ng-repeat="artist in performers.artists | orderBy:'artistName'">                  
         <a data-ng-href="#/artist/{{artist.artistId}}">
-            <img src="artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
+            <img  onerror="this.src='img/logo.png'" src="artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
         </a>
         <div class="mom-list-label">{{artist.artistName}}</div>
     </div>
