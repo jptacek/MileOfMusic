@@ -2,10 +2,9 @@
     <h3>Venue List</h3>
 
     <div id="venues" class="mom-list-item" data-ng-repeat="venue in locations.venues | orderBy:'venueName'">
-        <a data-ng-href="#/venue/{{venue.venueId}}">{{venue.venueName}}
+        <a data-ng-href="#/venue/{{venue.venueId}}">
             <img src="venueImages/707601.jpg" alt="image of {{venue.venueName}}" />
+            <div class="mom-list-label">{{venue.venueName}}</div>
         </a>
-        <br />
-        <a data-ng-href="tel:{{venue.phone}}">{{venue.phone}}</a><span class="pull-right"><a data-ng-href="http://bing.com/maps/default.aspx?where1={{venue.address}},{{venue.city}},{{venue.state}}" target="_blank">{{venue.address}}</a></span>
     </div>
 </div>
