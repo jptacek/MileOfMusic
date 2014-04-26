@@ -1,0 +1,24 @@
+{
+  "workshops": [
+    {
+      "workshopId": "51568",
+      "venueId": "707601",
+      "workshopName": "Test",
+      "description": "",
+      "timeStart": "2014-04-26T13:47:00Z",
+      "timeEnd": "2014-04-27T13:47:00Z",
+      "timeDoor": "2014-04-26T13:47:00Z",
+      "seating": "General Admission"
+    },
+    {
+      "workshopId": "51567",
+      "venueId": "707601",
+      "workshopName": "Test Workshop A",
+      "description": "Test Workshop A\nHow to play keyboards like a cat successfully, by Cats Playing Keyboards",
+      "timeStart": "2014-08-07T19:30:00Z",
+      "timeEnd": "2014-08-07T20:30:00Z",
+      "timeDoor": "2014-08-07T19:15:00Z",
+      "seating": "General Admission"
+    }
+  ]
+}

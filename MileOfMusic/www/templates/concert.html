@@ -1,12 +1,16 @@
 <div class="row">
     <div  class="col-md-10 col-md-offset-2">
-        <h3>{{selectedConcert.time}}</h3>
+        <h3>{{selectedConcert.time | date:'fullDate'}}</h3>
+        <h4>{{selectedConcert.time | date:'shortTime'}}</h4>
     </div>
 </div>
 <div class="row">
     <div  class="col-md-10 col-md-offset-2">
-        <h3>{{selectedConcert.artistId}} - {{selectedConcert.artist.artistName}}</h3>
-        Venue: {{selectedConcert.venue.venueName}}
+        <h3>{{selectedConcert.artist.artistName}}</h3>
+        <h2>{{selectedConcert.venue.photoUrlRemote}}</h2>        
+        Venue: <a data-ng-href="#/venue/{{selectedConcert.venue.venueId}}">{{selectedConcert.venue.venueName}}</a><br />
+        Address: {{selectedConcert.venue.address}}<br />
+        Genre:{{selectedConcert.venue.genre}}<br />
     </div>
 </div>
 <div class="col-md-10 col-md-offset-2">

@@ -1,31 +1,38 @@
+<div class="row" data-ng-show="selectedVenue.photo_url.length > 0">
+    <img src="{{selectedVenue.photo_url}}" />
+</div>
 <div class="row">
     <div  class="col-md-10 col-md-offset-2">
         <h3>{{selectedVenue.venueName}}</h3>
     </div>
 </div>
 
-<div class="row">
+<div class="row" data-ng-show="selectedVenue.description.length > 0">
     <div  class="col-md-10 col-md-offset-2">
         {{selectedVenue.description}}
     </div>
 </div>
-<div class="row">
+<div class="row" data-ng-show="selectedVenue.address.length > 0">
     <div  class="col-md-10  col-md-offset-2">
-        {{selectedVenue.address}} Appleton, WI {{selectedVenue.zip}}
+        <a data-ng-href="http://bing.com/maps/default.aspx?where1={{selectedVenue.address}},{{selectedVenue.city}},{{selectedVenue.state}}" target="_blank">
+            {{selectedVenue.address}} 
+            <br />
+            {{selectedVenue.city}}, {{selectedVenue.state}} {{selectedVenue.zip}}
+        </a>
     </div>
 </div>
-<div class="row">
+<div class="row" data-ng-show="selectedVenue.phone.length > 0">
     <div  class="col-md-10  col-md-offset-2">
         <a data-ng-href="tel:{{selectedVenue.phone}}">{{selectedVenue.phone}}</a>
     </div>
 </div>
-<div class="row">
+<div class="row"  data-ng-show="selectedVenue.hours.length > 0">
     <div  class="col-md-10  col-md-offset-2">
         {{selectedVenue.hours}}
     </div>
 </div>
 
-<div class="row">
+<div class="row" data-ng-show="selectedVenue.twitter.length > 0">
     <div  class="col-md-2 col-md-offset-2">
         <b>Twitter:</b>
     </div>
@@ -33,7 +40,7 @@
         <a data-ng-href="http://www.twitter.com/{{selectedVenue.twitter}}">{{selectedVenue.twitter}}</a>
     </div>
 </div>
-<div class="row">
+<div class="row" data-ng-show="selectedVenue.facebook.length > 0">
     <div  class="col-md-2 col-md-offset-2">
         <b>Facebook:</b>
     </div>
@@ -41,16 +48,16 @@
         <a data-ng-href="{{selectedVenue.facebook}}">{{selectedVenue.facebook}}</a>
     </div>
 </div>
-<div class="row" >
+<div class="row" data-ng-show="selectedVenue.yelp.length > 0">
     <div  class="col-md-2 col-md-offset-2">
         <b>Yelp:</b>
     </div>
     <div  class="col-md-4">
-        <a data-ng-href="{{selectedVenue.url}}">{{selectedVenue.yelp}}</a>
+        <a data-ng-href="{{selectedVenue.yelp}}">{{selectedVenue.yelp}}</a>
     </div>
 </div>
 
-<div class="row" >
+<div class="row" data-ng-show="selectedVenue.url.length > 0">
     <div  class="col-md-2 col-md-offset-2">
         <b>HomePage:</b>
     </div>
@@ -58,21 +65,28 @@
         <a data-ng-href="{{selectedVenue.url}}">{{selectedVenue.url}}</a>
     </div>
 </div>
-<div class="row" data-ng-show="selectedVenue.underage" >
-    <div  class="col-md-10  col-md-offset-2">
-        This location allows underage patrons without parents
+
+<div class="row">
+    <div  class="col-md-2 col-md-offset-2">
+        <b>Age Requirement:</b>
+    </div>
+    <div class="col-md-10  col-md-offset-2" data-ng-show="selectedVenue.underage" >
+        {{selectedVenue.venueName}} welcomes patrons of all ages
+    </div>
+    <div class="col-md-10  col-md-offset-2" data-ng-show="!selectedVenue.underage && selectedVenue.underageWithAdult" >
+        {{selectedVenue.venueName}} welcomes underage patrons when accompanied by an adult
+    </div>
+    <div class="col-md-10  col-md-offset-2" data-ng-show="!selectedVenue.underage && !selectedVenue.underageWithAdult" >
+        {{selectedVenue.venueName}} welcomes patrons age 21 and older
     </div>
 </div>
-<div class="row" data-ng-show="selectedVenue.underageWithAdult" >
-    <div  class="col-md-10  col-md-offset-2">
-        This location allows underage patrons with parents
+
+<div class="row">
+    <div class="col-md-2 col-md-offset-2">
+        <b>Enjoy these concerts at {{selectedVenue.venueName}}:</b>
     </div>
 </div>
-<div class="row" data-ng-show="!selectedVenue.underageWithAdult" >
-    <div  class="col-md-10  col-md-offset-2">
-        This location DOES NOT allow underage patrons with parents
-    </div>
-</div>
+
 <div class="col-md-10 col-md-offset-2">
     <p>&nbsp;</p>
     <a href="#/venueList" class="btn btn-primary" >Back to Venues</a>

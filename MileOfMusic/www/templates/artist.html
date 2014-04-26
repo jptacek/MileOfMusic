@@ -1,9 +1,21 @@
+
+<div class="col-md-10 col-md-offset-2 artistDetail">
+    <img src="artistImages/{{selectedArtist.artistId}}.jpg" />
+</div>
+
 <div class="col-md-10 col-md-offset-2">
     <h1>{{selectedArtist.artistName}}</h1>
 </div>
 <div class="col-md-10 col-md-offset-2">
-    <p>{{selectedArtist.description}}</p>
+    {{selectedArtist.homebase}}
 </div>
+<div class="col-md-10 col-md-offset-2">
+    {{selectedArtist.genre}}
+</div>
+<div class="col-md-10 col-md-offset-2">
+    {{selectedArtist.description}}
+</div>
+
 
 <div class="row col-md-offset-2">
     <div class="col-md-2 col-md-offset-1">
