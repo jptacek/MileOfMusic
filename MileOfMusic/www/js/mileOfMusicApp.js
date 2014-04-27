@@ -1,4 +1,5 @@
-angular.module('fsCordova', [])
+angular.module('fsCordova', 'ngMap'
+    , [])
     .service('CordovaService', ['$document', '$q',
         function($document, $q) {
 
