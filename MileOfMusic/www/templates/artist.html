@@ -1,49 +1,93 @@
 
-<div class="artistDetail">
-    <img src="artistImages/{{selectedArtist.artistId}}.jpg" />
+<div class="mom-list-item">
+    <a href="#/artistList">
+        <div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div>
+    </a>
+    <img onerror="this.src='img/logo.png'" data-ng-src="artistImages/{{selectedArtist.artistId}}.jpg" alt="image of {{selectedArtist.artistName}}" />
+    <div class="mom-list-label">{{selectedArtist.artistName}}</div>
 </div>
 
 <div>
-    <h1>{{selectedArtist.artistName}}</h1>
-</div>
-<div>
-    {{selectedArtist.homebase}}
-</div>
-<div>
-    {{selectedArtist.genre}}
-</div>
-<div>
-    {{selectedArtist.description}}
-</div>
+    
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="" data-toggle="tab" data-ng-click="setSelectedTab(1);">Info</a></li>
+        <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(2);">Schedule</a></li>
+    </ul>
 
+    <div data-ng-show="shouldShowTab(1)">
+        <!-- This is the INFO tab -->
+        <h3>
+            {{selectedArtist.homebase}}  //  {{selectedArtist.genre}}
+        </h3>
+        <div>
+            {{selectedArtist.description}}
+        </div>
+        <div class="social-section">
+            <!-- This is the SocialSection -->
+            <div data-ng-show="selectedArtist.twitter.length > 0">
+                <a data-ng-href="http://www.twitter.com/{{selectedArtist.twitter}}">
+                    <img src="img/icon-twitter.png" class="socialicons" alt="Twitter" />
+                    {{selectedArtist.twitter}}
+                </a>
+            </div>
+            <div data-ng-show="selectedArtist.facebook.length > 0">
+                <a data-ng-href="{{selectedArtist.facebook}}">
+                    <img src="img/icon-facebook.png" class="socialicons" alt="Facebook" />
+                    {{selectedArtist.facebook}}
+                </a>
+            </div>
+            <div data-ng-show="selectedArtist.instagram.length > 0">
+                <a data-ng-href="{{selectedArtist.instagram}}">
+                    <img src="img/icon-instagram.png" class="socialicons" alt="Instagram" />
+                    {{selectedArtist.instagram}}
+                </a>
+        </div>
+            <div data-ng-show="selectedArtist.url.length > 0">
+                <a data-ng-href="{{selectedArtist.url}}">
+                    <img src="img/icon-home.png" class="socialicons" alt="Homepage" />
+                    {{selectedArtist.url}}
+                </a>
+            </div>
+            </div>
+        </div>
+    <div data-ng-show="shouldShowTab(2)">
+        <!-- This is the Schedule tab -->
+        <div class="mom-list-schedule" data-ng-repeat="concert in concertListForArtist | orderBy:'artistName'">
 
-<div>
-    <div>
-        <b>Twitter:</b>
-    </div>
-    <div>
-        <a data-ng-href="http://www.twitter.com/{{selectedArtist.twitter}}">{{selectedArtist.twitter}}</a>
-    </div>
-</div>
-<div >
-    <div>
-        <b>Facebook:</b>
-    </div>
-    <div>
-        <a data-ng-href="{{selectedArtist.facebook}}">{{selectedArtist.facebook}}</a>
-    </div>
-</div>
+            <div class="mom-list-schedule-item">
+              <div class="float-left">  <a class="mom-list-schedule-item-favorite" data-ng-href="">
+                    <!-- favorites icon -->
+                    <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
+                </a></div>
+               <div> <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
+                    <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
+                    <p>{{concert.venue.venueName}}</p>
+                </a></div>
+            </div>
 
-<div>
-    <div>
-        <b>HomePage:</b>
+        </div>
     </div>
-    <div>
-        <a data-ng-href="{{selectedArtist.url}}">{{selectedArtist.url}}</a>
-    </div>
-</div>
-<div>
-    <p>&nbsp;</p>
-    <a href="#/artistList" class="btn btn-primary" >Back to Artists</a>
-</div>
 
+    <div data-ng-show="music.length > 0">
+        <h3>Sample Music</h3>
+        <div data-ng-repeat="item in music">
+            <div style="width: 100%; height: 110px;">
+                <div style="float: left; position: absolute">
+                    <img data-ng-src="{{item.imageUrl}}" alt="{{item.name}}" /> 
+                    <div style="margin-top: 5px;" data-ng-bind-html="item.audio"></div>
+                </div>
+                <div style="margin-left: 80px;">
+                <i>{{item.album}}</i><br />
+                {{item.name}}<br />
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-ng-show="shouldShowTab(2)">
+        <!-- This is the Schedule tab -->
+        <div>
+            This is the schedule
+        </div>
+    </div>
+</div>

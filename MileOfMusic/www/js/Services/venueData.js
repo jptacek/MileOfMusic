@@ -1,14 +1,23 @@
 mileOfMusicApp.factory('venueData', function($http, $log, $q, appHelper) {
-    var getVenues = function()  {
+    var getVenues = function () {
         $log.info('getVenues in');
-        return venuesData;
+        return $http.get('data/Venues.txt');
+
+        //return venuesData;
     };
 
-    var getVenue = function(venueId)  {
-        $log.info('getVenue in');
-        var venueListIndex = appHelper.buildIndex(venuesData.venues,'venueId');
+    var getVenue = function (venueId) {
+        //var venueListIndex = appHelper.buildIndex(venuesData.venues, 'venueId');
+        //return venueListIndex[venueId];
 
-        return venueListIndex[venueId];
+        var deferred = $q.defer();
+
+        getVenues().then(function (result) {
+            var dict = appHelper.buildIndex(result.data.venues, 'venueId');
+            deferred.resolve(dict[venueId]);
+        }, function () { deferred.reject(); });
+
+        return deferred.promise;
     };
 
     return {

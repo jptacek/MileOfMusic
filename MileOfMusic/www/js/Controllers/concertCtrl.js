@@ -6,8 +6,11 @@ mileOfMusicApp.controller('concertController',
             $log.info('concert  in');
             $log.info($routeParams.concertId);
 
-            $scope.selectedConcert =concertData.getConcert($routeParams.concertId);
-            $log.info('concert  out');
+            concertData.getConcert($routeParams.concertId).then(function (result) {
+                console.log(result)
+                $scope.selectedConcert = result;
+                $log.info('concert  out');
+            });
 
             $scope.showConcertList = function(){
                 $log.info('ShowconcertList');
@@ -15,7 +18,4 @@ mileOfMusicApp.controller('concertController',
             }
         });
 
-
-
     });
-

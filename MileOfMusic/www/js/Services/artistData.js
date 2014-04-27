@@ -1,21 +1,68 @@
 mileOfMusicApp.factory('artistData', function($http, $log, $q, appHelper) {
-    var getArtists = function()  {
-            $log.info('getArtists in');
-            return artistsData;
+    var getArtists = function () {
+        $log.info('getArtists in');
+        return $http.get('data/Artists.txt');
+
+        //return artistsData;
     };
 
     var getArtist = function(artistId)  {
         $log.info('getArtists in');
-       var artistListIndex = appHelper.buildIndex(artistsData.artists,'artistId');
 
+        var deferred = $q.defer();
 
+        getArtists().then(function (result) {
+            var dict = appHelper.buildIndex(result.data.artists, 'artistId');
+            deferred.resolve(dict[artistId]);
+        }, function () { deferred.reject(); });
 
-        return artistListIndex[artistId];
+        return deferred.promise;
+
+       //var artistListIndex = appHelper.buildIndex(artistsData.artists,'artistId');
+       // return artistListIndex[artistId];
     };
+
+    var getMusic = function (artistId) {
+
+        var deferred = $q.defer();
+
+        getArtist(artistId).then(function (result) {
+            var name = result.artistName.replace("Test Artist ", "").replace(/ /g, '+');
+        
+            $http.jsonp("https://itunes.apple.com/search?callback=JSON_CALLBACK&term=" + name).then(function (result) {
+                var output = [];
+
+                if (result.data.resultCount > 0) {
+                    $.each(result.data.results, function (i, item) {
+                        if (item.kind == "song") {
+                            output.push({
+                                name: item.trackCensoredName,
+                                album: item.collectionCensoredName,
+                                musicUrl: item.previewUrl,
+                                imageUrl: item.artworkUrl60
+                            });
+                        }
+
+                        if (output.length >= 10) {
+                            return false;
+                        }
+                    });
+                }
+                console.log(output);
+                deferred.resolve(output);
+            }, function () {
+                deferred.reject();
+            });
+
+        }, function() { deferred.reject(); })
+
+        return deferred.promise;
+    }
 
     return {
         getArtists: getArtists,
-        getArtist: getArtist
+        getArtist: getArtist,
+        getMusic: getMusic
     };
 });
 

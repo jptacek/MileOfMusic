@@ -87,6 +87,10 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova','ngRoute']).
             {
                 templateUrl:'templates/credits.html'
             })
+            .when('/map',
+            {
+                templateUrl: 'templates/map.html'
+            })
             .when('/',
             {
                 templateUrl:'templates/home.html',

@@ -3,9 +3,11 @@ mileOfMusicApp.controller('venueListController',
         $log.info('heop');
         CordovaService.ready.then(function() {
             $log.info('venue list in');
-            $scope.locations =venueData.getVenues();
-            $log.info('venue list out');
+
+            venueData.getVenues().then(function (result) {
+                $scope.locations = result.data;
+                $log.info('venue list out');
+            });
 
         });
     });
-

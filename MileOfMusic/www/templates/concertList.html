@@ -5,7 +5,7 @@
         <div data-ng-repeat="concert in shows.concerts | orderBy:['time','venue.venueId','venue.genre']">
             <ul class="list-group">
                 <li class="list-group-item"><a data-ng-href="#/concert/{{concert.concertId}}">
-                    {{concert.time|date:'medium'}} - {{concert.artist.artistName}}</a>
+                    {{concert.timeStart|date:'medium'}} - {{concert.artist.artistName}}</a>
                 </li>
             </ul>
         </div>

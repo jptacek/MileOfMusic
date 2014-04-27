@@ -1,27 +1,157 @@
-mileOfMusicApp.factory('concertData', function($http, $log, $q,artistData, venueData,appHelper) {
-    var getConcerts = function()  {
-        $log.info('getconcert in: ' + concertsData.concerts.length);
-        for (var i = 0, len = concertsData.concerts.length; i < len; ++i) {
-            $log.info('foo1: ');
-            concertsData.concerts[i].artist = artistData.getArtist(concertsData.concerts[i].artistId);
-            $log.info('foo: ' + concertsData.concerts[i].artist);
-        }
-        $log.info('getconcert out');
-        return concertsData;
+mileOfMusicApp.factory('concertData', function($http, $log, $q, artistData, venueData, appHelper) {
+    var getConcerts = function () {
+        var deferred = $q.defer();
+
+        $http.get('data/Concerts.txt').then(function (result) {
+            $.each(result.data.concerts, function (i, item) {
+                venueData.getVenue(item.venueId).then(function (result) {
+                    item.venue = result;
+                } ,function(data, status) {
+                    item.venue = null;
+                    $log.error(data);
+                });
+                artistData.getArtist(item.artistId).then(function (result) {
+                    item.artist = result;
+                }, function (data, status) {
+                    item.artist = null;
+                    $log.error(data);
+                });
+            });
+
+            var interval = setInterval(function () {
+                var isAllDataLoaded = true;
+                $.each(result.data.concerts, function (i, item) {
+                    if (item.venue == undefined || item.artist == undefined) {
+                        isAllDataLoaded = false;
+                        return false;
+                    }
+                });
+                if (isAllDataLoaded) {
+                    deferred.resolve(result);
+                }
+            }, 100);
+
+        });
+
+        return deferred.promise;
     };
 
     var getConcert = function(concertId)  {
         $log.info('getArtists in');
-        var concertListIndex = appHelper.buildIndex(concertsData.concerts,'concertId');
-        var concertListItem = concertListIndex[concertId]
-        concertListItem.artist  = artistData.getArtist(concertListIndex[concertId].artistId);
-        concertListItem.venue = venueData.getVenue(concertListIndex[concertId].venueId);
-        return concertListItem;
+
+        var deferred = $q.defer();
+
+        getConcerts().then(function (result) {
+            var dict = appHelper.buildIndex(result.data.concerts, 'concertId');
+            var concert = dict[concertId];
+            console.log(concert)
+            artistData.getArtist(concert.artistId).then(function (result) {
+                concert.artist = result;
+
+                venueData.getVenue(concert.venueId).then(function (result) {
+                    concert.venue = result;
+                    deferred.resolve(concert);
+                });
+            });
+        }, function () { deferred.reject(); });
+
+        return deferred.promise;
+
+        //var concertListIndex = appHelper.buildIndex(concertsData.concerts,'concertId');
+        //var concertListItem = concertListIndex[concertId]
+  
+        //return concertListItem;
+    };
+
+    var getConcertsByVenue = function (venueId) {
+        var deferred = $q.defer();
+
+        $http.get('data/Concerts.txt').then(function (result) {
+            $.each(result.data.concerts, function (i, item) {
+                artistData.getArtist(item.artistId).then(function (result) {
+                    item.artist = result;
+                }, function (data, status) {
+                    item.artist = null;
+                    $log.error(data);
+                });
+            });
+
+            var interval = setInterval(function () {
+                var isAllDataLoaded = true;
+                $.each(result.data.concerts, function (i, item) {
+                    if (item.artist == undefined) {
+                        isAllDataLoaded = false;
+                        return false;
+                    }
+                });
+                if (isAllDataLoaded) {
+                    var ary = [];
+                    $.each(result.data.concerts, function (i, item) {
+                        if (item.venueId == venueId) {
+                            ary.push(item);
+                        }
+                    });
+                    deferred.resolve(ary);
+                }
+            }, 100);
+
+        });
+
+        return deferred.promise;
+    };
+
+    var getConcertsByArtist = function (artistId) {
+        var deferred = $q.defer();
+
+        $http.get('data/Concerts.txt').then(function (result) {
+            $.each(result.data.concerts, function (i, item) {
+
+                // add the artist data to each concert
+                artistData.getArtist(item.artistId).then(function (result) {
+                    item.artist = result;
+                }, function (data, status) {
+                    item.artist = null;
+                    $log.error(data);
+                });
+
+                // add the venue data to each concert
+                venueData.getVenue(item.venueId).then(function (result) {
+                    item.venue = result;
+                }, function (data, status) {
+                    item.venue = null;
+                    $log.error(data);
+                });
+            });
+
+            var interval = setInterval(function () {
+                var isAllDataLoaded = true;
+                $.each(result.data.concerts, function (i, item) {
+                    if (item.artist == undefined) {
+                        isAllDataLoaded = false;
+                        return false;
+                    }
+                });
+                if (isAllDataLoaded) {
+                    var ary = [];
+                    $.each(result.data.concerts, function (i, item) {
+                        if (item.artistId == artistId) {
+                            ary.push(item);
+                        }
+                    });
+                    deferred.resolve(ary);
+                }
+            }, 100);
+
+        });
+
+        return deferred.promise;
     };
 
     return {
         getConcerts: getConcerts,
-        getConcert: getConcert
+        getConcert: getConcert,
+        getConcertsByVenue: getConcertsByVenue,
+        getConcertsByArtist: getConcertsByArtist
     };
 });
 

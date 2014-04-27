@@ -1,12 +1,11 @@
-<div class="mom-list">
-    <h3>Artist List</h3>
 
-    <div class="mom-list-item" data-ng-repeat="artist in performers.artists | orderBy:'artistName'">                  
+    <!--<h3>Artist List</h3>-->
+
+    <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | orderBy:'artistName'">                  
         <a data-ng-href="#/artist/{{artist.artistId}}">
-            <img  onerror="this.src='img/logo.png'" src="artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
+        <img  onerror="this.src='img/logo.png'" data-ng-src="artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
         </a>
         <div class="mom-list-label">{{artist.artistName}}</div>
     </div>
 
-</div>
 

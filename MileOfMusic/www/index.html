@@ -71,6 +71,7 @@ switch to AngularUI
 
 <!-- bundling -->
 <script src="js/mileOfMusicApp.js"></script>
+<script src="js/Directives/imageFallback.js"></script>
 <script src="js/Controllers/homeCtrl.js"></script>
 <script src="js/Controllers/artistCtrl.js"></script>
 <script src="js/Controllers/artistListCtrl.js"></script>
@@ -82,6 +83,31 @@ switch to AngularUI
 <script src="js/Controllers/concertListCtrl.js"></script>
 <script src="js/Services/concertData.js"></script>
 <script src="js/appHelper.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var position = $(window).scrollTop();
+
+        $(window).bind("scroll", function (e) {
+            var scroll = $(window).scrollTop();
+
+            $(".tilt-item").each(function () {
+                var $this = $(this);
+
+                if (scroll > position) {
+                    if ($this.offset().top + 10 < scroll) {
+                        $this.addClass("tilt");
+                    }
+                } else {
+                    if ($this.offset().top + 10 >= scroll) {
+                        $this.removeClass("tilt");
+                    }
+
+                }
+            });
+            position = scroll;
+        });
+    });
+</script>
 
 </body>
 </html>
