@@ -1,5 +1,4 @@
-angular.module('fsCordova', 'ngMap'
-    , [])
+angular.module('fsCordova', ['ngTouch'])
     .service('CordovaService', ['$document', '$q',
         function($document, $q) {
 
@@ -96,6 +95,11 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova','ngRoute']).
             {
                 templateUrl:'templates/home.html',
                 controller: 'homeController'
+            })
+            .when('/mySchedule',
+            {
+                templateUrl: 'templates/myschedule.html',
+                controller: 'myScheduleController'
             })
             .otherwise({redirectTo: '/'});
     });
