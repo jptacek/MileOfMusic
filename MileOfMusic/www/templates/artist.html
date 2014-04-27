@@ -22,30 +22,30 @@
         <div>
             {{selectedArtist.description}}
         </div>
-        <div class="social-section">
+        <div class="social-section ">
             <!-- This is the SocialSection -->
-            <div data-ng-show="selectedArtist.twitter.length > 0">
+            <div class="divided-sections" data-ng-show="selectedArtist.twitter.length > 0">
                 <a data-ng-href="http://www.twitter.com/{{selectedArtist.twitter}}">
                     <img src="img/icon-twitter.png" class="socialicons" alt="Twitter" />
                     {{selectedArtist.twitter}}
                 </a>
             </div>
-            <div data-ng-show="selectedArtist.facebook.length > 0">
+            <div class="divided-sections" data-ng-show="selectedArtist.facebook.length > 0">
                 <a data-ng-href="{{selectedArtist.facebook}}">
                     <img src="img/icon-facebook.png" class="socialicons" alt="Facebook" />
-                    {{selectedArtist.facebook}}
+                    Facebook
                 </a>
             </div>
-            <div data-ng-show="selectedArtist.instagram.length > 0">
-                <a data-ng-href="{{selectedArtist.instagram}}">
+            <div class="divided-sections" data-ng-show="selectedArtist.instagram.length > 0">
+                <a data-ng-href="https://www.instagram.com/{{selectedArtist.instagram}}">
                     <img src="img/icon-instagram.png" class="socialicons" alt="Instagram" />
                     {{selectedArtist.instagram}}
                 </a>
         </div>
-            <div data-ng-show="selectedArtist.url.length > 0">
+            <div class="divided-sections" data-ng-show="selectedArtist.url.length > 0">
                 <a data-ng-href="{{selectedArtist.url}}">
                     <img src="img/icon-home.png" class="socialicons" alt="Homepage" />
-                    {{selectedArtist.url}}
+                    Band Page
                 </a>
             </div>
             </div>
@@ -54,7 +54,7 @@
         <!-- This is the Schedule tab -->
         <div class="mom-list-schedule" data-ng-repeat="concert in concertListForArtist | orderBy:'artistName'">
 
-            <div class="mom-list-schedule-item">
+            <div class="mom-list-schedule-item divided-sections">
               <div class="float-left">  <a class="mom-list-schedule-item-favorite" data-ng-href="">
                     <!-- favorites icon -->
                     <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
@@ -77,9 +77,9 @@
                     <div style="margin-top: 5px;" data-ng-bind-html="item.audio"></div>
                 </div>
                 <div style="margin-left: 80px;">
-                <i>{{item.album}}</i><br />
-                {{item.name}}<br />
-                    </div>
+                    <i>{{item.album}}</i><br />
+                    {{item.name}}<br />
+                </div>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
     <div data-ng-show="shouldShowTab(2)">
         <!-- This is the Schedule tab -->
         <div>
-            This is the schedule
+            
         </div>
     </div>
 </div>

@@ -1,6 +1,7 @@
 ﻿body {
   margin: 70px;
   background-image: url("../img/grunge50.jpg");
+  padding: 10px;
 }
 @media screen and (max-width: 763px) {
   body {
@@ -27,6 +28,9 @@ footer {
   right: 0;
   left: 0;
   z-index: 1030;
+}
+.padding {
+  margin-top: 20px;
 }
 /* ========================================================================== */
 /*   TYPOGRAPHY                                                               */
@@ -68,6 +72,8 @@ p {
   max-width: 40px;
   max-height: 40px;
   margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .social-section {
   margin-top: 30px;
@@ -116,10 +122,7 @@ p {
   -moz-box-shadow: 0px 5px 12px 1px rgba(0, 0, 0, 0.6);
   box-shadow: 0px 5px 12px 1px rgba(0, 0, 0, 0.6);
   border: 1px solid #fff;
-  min-height: 360px;
-  max-width: 480px;
-  dissplay: block;
-  margin: 0 auto;
+  max-width: 98%;
 }
 .mom-list-item .mom-list-label {
   position: absolute;
@@ -166,6 +169,9 @@ p {
   min-height: 40px;
   font-size: 30px;
   padding: 4px 15px;
+}
+.divided-sections {
+  border-bottom: 1px solid #666666;
 }
 .tilt {
   -moz-transform-origin: 50% 100%;
