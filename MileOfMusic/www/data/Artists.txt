@@ -12,7 +12,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334276/original.jpg?1398613081",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334276.jpg",
-      "photoUrlLocal": "/artistImages/334276.jpg"
+      "photoUrlLocal": "/artistimages/334276.jpg"
     },
     {
       "artistId": "334277",
@@ -26,7 +26,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334277/original.jpg?1398613129",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334277.jpg",
-      "photoUrlLocal": "/artistImages/334277.jpg"
+      "photoUrlLocal": "/artistimages/334277.jpg"
     },
     {
       "artistId": "334278",
@@ -40,7 +40,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334278/original.jpg?1398613158",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334278.jpg",
-      "photoUrlLocal": "/artistImages/334278.jpg"
+      "photoUrlLocal": "/artistimages/334278.jpg"
     },
     {
       "artistId": "334279",
@@ -54,7 +54,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334279/original.jpg?1398613184",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334279.jpg",
-      "photoUrlLocal": "/artistImages/334279.jpg"
+      "photoUrlLocal": "/artistimages/334279.jpg"
     },
     {
       "artistId": "334280",
@@ -68,7 +68,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334280/original.jpg?1398613207",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334280.jpg",
-      "photoUrlLocal": "/artistImages/334280.jpg"
+      "photoUrlLocal": "/artistimages/334280.jpg"
     },
     {
       "artistId": "334281",
@@ -82,7 +82,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334281/original.jpg?1398613270",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334281.jpg",
-      "photoUrlLocal": "/artistImages/334281.jpg"
+      "photoUrlLocal": "/artistimages/334281.jpg"
     },
     {
       "artistId": "334282",
@@ -96,7 +96,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334282/original.jpg?1398613398",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334282.jpg",
-      "photoUrlLocal": "/artistImages/334282.jpg"
+      "photoUrlLocal": "/artistimages/334282.jpg"
     },
     {
       "artistId": "334283",
@@ -110,7 +110,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334283/original.jpg?1398613293",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334283.jpg",
-      "photoUrlLocal": "/artistImages/334283.jpg"
+      "photoUrlLocal": "/artistimages/334283.jpg"
     },
     {
       "artistId": "334284",
@@ -124,7 +124,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334284/original.jpg?1398613339",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334284.jpg",
-      "photoUrlLocal": "/artistImages/334284.jpg"
+      "photoUrlLocal": "/artistimages/334284.jpg"
     },
     {
       "artistId": "334285",
@@ -138,7 +138,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334285/original.jpg?1398613363",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334285.jpg",
-      "photoUrlLocal": "/artistImages/334285.jpg"
+      "photoUrlLocal": "/artistimages/334285.jpg"
     },
     {
       "artistId": "334286",
@@ -152,7 +152,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334286/original.jpg?1398613481",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334286.jpg",
-      "photoUrlLocal": "/artistImages/334286.jpg"
+      "photoUrlLocal": "/artistimages/334286.jpg"
     },
     {
       "artistId": "334287",
@@ -166,7 +166,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334287/original.jpg?1398613521",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334287.jpg",
-      "photoUrlLocal": "/artistImages/334287.jpg"
+      "photoUrlLocal": "/artistimages/334287.jpg"
     },
     {
       "artistId": "334288",
@@ -180,7 +180,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334288/original.jpg?1398613538",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334288.jpg",
-      "photoUrlLocal": "/artistImages/334288.jpg"
+      "photoUrlLocal": "/artistimages/334288.jpg"
     },
     {
       "artistId": "334289",
@@ -194,7 +194,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334289/original.jpg?1398613555",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334289.jpg",
-      "photoUrlLocal": "/artistImages/334289.jpg"
+      "photoUrlLocal": "/artistimages/334289.jpg"
     },
     {
       "artistId": "334290",
@@ -208,7 +208,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334290/original.jpg?1398613569",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334290.jpg",
-      "photoUrlLocal": "/artistImages/334290.jpg"
+      "photoUrlLocal": "/artistimages/334290.jpg"
     },
     {
       "artistId": "334291",
@@ -222,7 +222,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334291/original.jpg?1398613584",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334291.jpg",
-      "photoUrlLocal": "/artistImages/334291.jpg"
+      "photoUrlLocal": "/artistimages/334291.jpg"
     },
     {
       "artistId": "334292",
@@ -236,7 +236,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334292/original.jpg?1398613607",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334292.jpg",
-      "photoUrlLocal": "/artistImages/334292.jpg"
+      "photoUrlLocal": "/artistimages/334292.jpg"
     },
     {
       "artistId": "334293",
@@ -250,7 +250,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334293/original.jpg?1398613621",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334293.jpg",
-      "photoUrlLocal": "/artistImages/334293.jpg"
+      "photoUrlLocal": "/artistimages/334293.jpg"
     },
     {
       "artistId": "334294",
@@ -264,7 +264,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334294/original.jpg?1398613635",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334294.jpg",
-      "photoUrlLocal": "/artistImages/334294.jpg"
+      "photoUrlLocal": "/artistimages/334294.jpg"
     },
     {
       "artistId": "334295",
@@ -278,7 +278,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334295/original.jpg?1398613692",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334295.jpg",
-      "photoUrlLocal": "/artistImages/334295.jpg"
+      "photoUrlLocal": "/artistimages/334295.jpg"
     },
     {
       "artistId": "334296",
@@ -292,7 +292,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334296/original.jpg?1398613704",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334296.jpg",
-      "photoUrlLocal": "/artistImages/334296.jpg"
+      "photoUrlLocal": "/artistimages/334296.jpg"
     },
     {
       "artistId": "334297",
@@ -306,7 +306,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334297/original.jpg?1398613717",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334297.jpg",
-      "photoUrlLocal": "/artistImages/334297.jpg"
+      "photoUrlLocal": "/artistimages/334297.jpg"
     },
     {
       "artistId": "334298",
@@ -320,7 +320,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334298/original.jpg?1398613730",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334298.jpg",
-      "photoUrlLocal": "/artistImages/334298.jpg"
+      "photoUrlLocal": "/artistimages/334298.jpg"
     },
     {
       "artistId": "334299",
@@ -334,7 +334,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334299/original.jpg?1398613746",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334299.jpg",
-      "photoUrlLocal": "/artistImages/334299.jpg"
+      "photoUrlLocal": "/artistimages/334299.jpg"
     },
     {
       "artistId": "334300",
@@ -348,7 +348,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334300/original.jpg?1398613765",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334300.jpg",
-      "photoUrlLocal": "/artistImages/334300.jpg"
+      "photoUrlLocal": "/artistimages/334300.jpg"
     },
     {
       "artistId": "334301",
@@ -362,7 +362,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334301/original.jpg?1398613778",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334301.jpg",
-      "photoUrlLocal": "/artistImages/334301.jpg"
+      "photoUrlLocal": "/artistimages/334301.jpg"
     },
     {
       "artistId": "334302",
@@ -376,7 +376,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334302/original.jpg?1398613793",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334302.jpg",
-      "photoUrlLocal": "/artistImages/334302.jpg"
+      "photoUrlLocal": "/artistimages/334302.jpg"
     },
     {
       "artistId": "334303",
@@ -390,7 +390,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334303/original.jpg?1398613811",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334303.jpg",
-      "photoUrlLocal": "/artistImages/334303.jpg"
+      "photoUrlLocal": "/artistimages/334303.jpg"
     },
     {
       "artistId": "334304",
@@ -404,7 +404,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334304/original.jpg?1398613871",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334304.jpg",
-      "photoUrlLocal": "/artistImages/334304.jpg"
+      "photoUrlLocal": "/artistimages/334304.jpg"
     },
     {
       "artistId": "334305",
@@ -418,7 +418,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334305/original.jpg?1398613883",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334305.jpg",
-      "photoUrlLocal": "/artistImages/334305.jpg"
+      "photoUrlLocal": "/artistimages/334305.jpg"
     },
     {
       "artistId": "334306",
@@ -432,7 +432,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334306/original.jpg?1398613895",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334306.jpg",
-      "photoUrlLocal": "/artistImages/334306.jpg"
+      "photoUrlLocal": "/artistimages/334306.jpg"
     },
     {
       "artistId": "334307",
@@ -446,7 +446,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334307/original.jpg?1398613904",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334307.jpg",
-      "photoUrlLocal": "/artistImages/334307.jpg"
+      "photoUrlLocal": "/artistimages/334307.jpg"
     },
     {
       "artistId": "334308",
@@ -460,7 +460,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334308/original.jpg?1398613914",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334308.jpg",
-      "photoUrlLocal": "/artistImages/334308.jpg"
+      "photoUrlLocal": "/artistimages/334308.jpg"
     },
     {
       "artistId": "334309",
@@ -474,7 +474,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334309/original.jpg?1398613925",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334309.jpg",
-      "photoUrlLocal": "/artistImages/334309.jpg"
+      "photoUrlLocal": "/artistimages/334309.jpg"
     },
     {
       "artistId": "334310",
@@ -488,7 +488,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334310/original.jpg?1398613944",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334310.jpg",
-      "photoUrlLocal": "/artistImages/334310.jpg"
+      "photoUrlLocal": "/artistimages/334310.jpg"
     },
     {
       "artistId": "334311",
@@ -502,7 +502,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334311/original.jpg?1398613953",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334311.jpg",
-      "photoUrlLocal": "/artistImages/334311.jpg"
+      "photoUrlLocal": "/artistimages/334311.jpg"
     },
     {
       "artistId": "334312",
@@ -516,7 +516,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334312/original.jpg?1398613968",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334312.jpg",
-      "photoUrlLocal": "/artistImages/334312.jpg"
+      "photoUrlLocal": "/artistimages/334312.jpg"
     },
     {
       "artistId": "334313",
@@ -530,7 +530,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334313/original.jpg?1398613977",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334313.jpg",
-      "photoUrlLocal": "/artistImages/334313.jpg"
+      "photoUrlLocal": "/artistimages/334313.jpg"
     },
     {
       "artistId": "334314",
@@ -544,7 +544,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334314/original.jpg?1398613988",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334314.jpg",
-      "photoUrlLocal": "/artistImages/334314.jpg"
+      "photoUrlLocal": "/artistimages/334314.jpg"
     },
     {
       "artistId": "334315",
@@ -558,7 +558,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334315/original.jpg?1398614005",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334315.jpg",
-      "photoUrlLocal": "/artistImages/334315.jpg"
+      "photoUrlLocal": "/artistimages/334315.jpg"
     },
     {
       "artistId": "334316",
@@ -572,7 +572,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334316/original.jpg?1398614013",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334316.jpg",
-      "photoUrlLocal": "/artistImages/334316.jpg"
+      "photoUrlLocal": "/artistimages/334316.jpg"
     },
     {
       "artistId": "334317",
@@ -586,7 +586,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334317/original.jpg?1398614021",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334317.jpg",
-      "photoUrlLocal": "/artistImages/334317.jpg"
+      "photoUrlLocal": "/artistimages/334317.jpg"
     },
     {
       "artistId": "334318",
@@ -600,7 +600,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334318/original.jpg?1398614035",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334318.jpg",
-      "photoUrlLocal": "/artistImages/334318.jpg"
+      "photoUrlLocal": "/artistimages/334318.jpg"
     },
     {
       "artistId": "334319",
@@ -614,7 +614,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334319/original.jpg?1398614044",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334319.jpg",
-      "photoUrlLocal": "/artistImages/334319.jpg"
+      "photoUrlLocal": "/artistimages/334319.jpg"
     },
     {
       "artistId": "334320",
@@ -628,7 +628,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334320/original.jpg?1398614521",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334320.jpg",
-      "photoUrlLocal": "/artistImages/334320.jpg"
+      "photoUrlLocal": "/artistimages/334320.jpg"
     },
     {
       "artistId": "334321",
@@ -642,7 +642,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334321/original.jpg?1398614753",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334321.jpg",
-      "photoUrlLocal": "/artistImages/334321.jpg"
+      "photoUrlLocal": "/artistimages/334321.jpg"
     },
     {
       "artistId": "334322",
@@ -656,7 +656,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334322/original.jpg?1398614529",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334322.jpg",
-      "photoUrlLocal": "/artistImages/334322.jpg"
+      "photoUrlLocal": "/artistimages/334322.jpg"
     },
     {
       "artistId": "334323",
@@ -670,7 +670,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334323/original.jpg?1398614541",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334323.jpg",
-      "photoUrlLocal": "/artistImages/334323.jpg"
+      "photoUrlLocal": "/artistimages/334323.jpg"
     },
     {
       "artistId": "334324",
@@ -684,7 +684,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334324/original.jpg?1398614761",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334324.jpg",
-      "photoUrlLocal": "/artistImages/334324.jpg"
+      "photoUrlLocal": "/artistimages/334324.jpg"
     },
     {
       "artistId": "334325",
@@ -698,7 +698,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334325/original.jpg?1398614549",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334325.jpg",
-      "photoUrlLocal": "/artistImages/334325.jpg"
+      "photoUrlLocal": "/artistimages/334325.jpg"
     },
     {
       "artistId": "334326",
@@ -712,7 +712,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334326/original.jpg?1398614559",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334326.jpg",
-      "photoUrlLocal": "/artistImages/334326.jpg"
+      "photoUrlLocal": "/artistimages/334326.jpg"
     },
     {
       "artistId": "334327",
@@ -726,7 +726,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334327/original.jpg?1398614574",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334327.jpg",
-      "photoUrlLocal": "/artistImages/334327.jpg"
+      "photoUrlLocal": "/artistimages/334327.jpg"
     },
     {
       "artistId": "334328",
@@ -740,7 +740,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334328/original.jpg?1398614770",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334328.jpg",
-      "photoUrlLocal": "/artistImages/334328.jpg"
+      "photoUrlLocal": "/artistimages/334328.jpg"
     },
     {
       "artistId": "334329",
@@ -754,7 +754,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334329/original.jpg?1398614582",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334329.jpg",
-      "photoUrlLocal": "/artistImages/334329.jpg"
+      "photoUrlLocal": "/artistimages/334329.jpg"
     },
     {
       "artistId": "334330",
@@ -768,7 +768,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334330/original.jpg?1398614592",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334330.jpg",
-      "photoUrlLocal": "/artistImages/334330.jpg"
+      "photoUrlLocal": "/artistimages/334330.jpg"
     },
     {
       "artistId": "334331",
@@ -782,7 +782,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334331/original.jpg?1398614607",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334331.jpg",
-      "photoUrlLocal": "/artistImages/334331.jpg"
+      "photoUrlLocal": "/artistimages/334331.jpg"
     },
     {
       "artistId": "334332",
@@ -796,7 +796,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334332/original.jpg?1398614616",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334332.jpg",
-      "photoUrlLocal": "/artistImages/334332.jpg"
+      "photoUrlLocal": "/artistimages/334332.jpg"
     },
     {
       "artistId": "334333",
@@ -810,7 +810,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334333/original.jpg?1398614626",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334333.jpg",
-      "photoUrlLocal": "/artistImages/334333.jpg"
+      "photoUrlLocal": "/artistimages/334333.jpg"
     },
     {
       "artistId": "334334",
@@ -824,7 +824,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334334/original.jpg?1398614644",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334334.jpg",
-      "photoUrlLocal": "/artistImages/334334.jpg"
+      "photoUrlLocal": "/artistimages/334334.jpg"
     },
     {
       "artistId": "334335",
@@ -838,7 +838,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334335/original.jpg?1398614669",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334335.jpg",
-      "photoUrlLocal": "/artistImages/334335.jpg"
+      "photoUrlLocal": "/artistimages/334335.jpg"
     },
     {
       "artistId": "334336",
@@ -852,7 +852,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334336/original.jpg?1398614678",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334336.jpg",
-      "photoUrlLocal": "/artistImages/334336.jpg"
+      "photoUrlLocal": "/artistimages/334336.jpg"
     },
     {
       "artistId": "334337",
@@ -866,7 +866,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334337/original.jpg?1398614691",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334337.jpg",
-      "photoUrlLocal": "/artistImages/334337.jpg"
+      "photoUrlLocal": "/artistimages/334337.jpg"
     },
     {
       "artistId": "334338",
@@ -880,7 +880,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334338/original.jpg?1398614702",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334338.jpg",
-      "photoUrlLocal": "/artistImages/334338.jpg"
+      "photoUrlLocal": "/artistimages/334338.jpg"
     },
     {
       "artistId": "334339",
@@ -894,7 +894,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334339/original.jpg?1398614778",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334339.jpg",
-      "photoUrlLocal": "/artistImages/334339.jpg"
+      "photoUrlLocal": "/artistimages/334339.jpg"
     },
     {
       "artistId": "334340",
@@ -908,7 +908,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334340/original.jpg?1398614786",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334340.jpg",
-      "photoUrlLocal": "/artistImages/334340.jpg"
+      "photoUrlLocal": "/artistimages/334340.jpg"
     },
     {
       "artistId": "334341",
@@ -922,7 +922,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334341/original.jpg?1398614798",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334341.jpg",
-      "photoUrlLocal": "/artistImages/334341.jpg"
+      "photoUrlLocal": "/artistimages/334341.jpg"
     },
     {
       "artistId": "334342",
@@ -936,7 +936,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334342/original.jpg?1398614893",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334342.jpg",
-      "photoUrlLocal": "/artistImages/334342.jpg"
+      "photoUrlLocal": "/artistimages/334342.jpg"
     },
     {
       "artistId": "334343",
@@ -950,7 +950,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334343/original.jpg?1398614806",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334343.jpg",
-      "photoUrlLocal": "/artistImages/334343.jpg"
+      "photoUrlLocal": "/artistimages/334343.jpg"
     },
     {
       "artistId": "334344",
@@ -964,7 +964,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334344/original.jpg?1398614815",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334344.jpg",
-      "photoUrlLocal": "/artistImages/334344.jpg"
+      "photoUrlLocal": "/artistimages/334344.jpg"
     },
     {
       "artistId": "334345",
@@ -978,7 +978,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334345/original.jpg?1398614827",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334345.jpg",
-      "photoUrlLocal": "/artistImages/334345.jpg"
+      "photoUrlLocal": "/artistimages/334345.jpg"
     },
     {
       "artistId": "334346",
@@ -992,7 +992,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334346/original.jpg?1398614836",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334346.jpg",
-      "photoUrlLocal": "/artistImages/334346.jpg"
+      "photoUrlLocal": "/artistimages/334346.jpg"
     },
     {
       "artistId": "334347",
@@ -1006,7 +1006,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334347/original.jpg?1398614843",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334347.jpg",
-      "photoUrlLocal": "/artistImages/334347.jpg"
+      "photoUrlLocal": "/artistimages/334347.jpg"
     },
     {
       "artistId": "334348",
@@ -1020,7 +1020,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334348/original.jpg?1398614904",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334348.jpg",
-      "photoUrlLocal": "/artistImages/334348.jpg"
+      "photoUrlLocal": "/artistimages/334348.jpg"
     },
     {
       "artistId": "334349",
@@ -1034,7 +1034,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334349/original.jpg?1398614913",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334349.jpg",
-      "photoUrlLocal": "/artistImages/334349.jpg"
+      "photoUrlLocal": "/artistimages/334349.jpg"
     },
     {
       "artistId": "334350",
@@ -1048,7 +1048,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334350/original.jpg?1398614924",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334350.jpg",
-      "photoUrlLocal": "/artistImages/334350.jpg"
+      "photoUrlLocal": "/artistimages/334350.jpg"
     },
     {
       "artistId": "334351",
@@ -1062,7 +1062,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334351/original.jpg?1398614933",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334351.jpg",
-      "photoUrlLocal": "/artistImages/334351.jpg"
+      "photoUrlLocal": "/artistimages/334351.jpg"
     },
     {
       "artistId": "334352",
@@ -1076,7 +1076,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334352/original.jpg?1398614942",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334352.jpg",
-      "photoUrlLocal": "/artistImages/334352.jpg"
+      "photoUrlLocal": "/artistimages/334352.jpg"
     },
     {
       "artistId": "334353",
@@ -1090,7 +1090,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334353/original.jpg?1398614952",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334353.jpg",
-      "photoUrlLocal": "/artistImages/334353.jpg"
+      "photoUrlLocal": "/artistimages/334353.jpg"
     },
     {
       "artistId": "334354",
@@ -1104,7 +1104,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334354/original.jpg?1398614960",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334354.jpg",
-      "photoUrlLocal": "/artistImages/334354.jpg"
+      "photoUrlLocal": "/artistimages/334354.jpg"
     },
     {
       "artistId": "334355",
@@ -1118,7 +1118,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334355/original.jpg?1398614969",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334355.jpg",
-      "photoUrlLocal": "/artistImages/334355.jpg"
+      "photoUrlLocal": "/artistimages/334355.jpg"
     },
     {
       "artistId": "334356",
@@ -1132,7 +1132,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334356/original.jpg?1398615046",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334356.jpg",
-      "photoUrlLocal": "/artistImages/334356.jpg"
+      "photoUrlLocal": "/artistimages/334356.jpg"
     },
     {
       "artistId": "334357",
@@ -1146,11 +1146,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334357/original.jpg?1398615054",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334357.jpg",
-      "photoUrlLocal": "/artistImages/334357.jpg"
+      "photoUrlLocal": "/artistimages/334357.jpg"
     },
     {
       "artistId": "334358",
-      "artistName": "The Blakes",
+      "artistName": "Blakes, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1160,11 +1160,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334358/original.jpg?1398615062",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334358.jpg",
-      "photoUrlLocal": "/artistImages/334358.jpg"
+      "photoUrlLocal": "/artistimages/334358.jpg"
     },
     {
       "artistId": "334359",
-      "artistName": "The Candles",
+      "artistName": "Candles, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1174,11 +1174,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334359/original.jpg?1398615069",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334359.jpg",
-      "photoUrlLocal": "/artistImages/334359.jpg"
+      "photoUrlLocal": "/artistimages/334359.jpg"
     },
     {
       "artistId": "334360",
-      "artistName": "The Delta Routine",
+      "artistName": "Delta Routine, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1188,11 +1188,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334360/original.jpg?1398615082",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334360.jpg",
-      "photoUrlLocal": "/artistImages/334360.jpg"
+      "photoUrlLocal": "/artistimages/334360.jpg"
     },
     {
       "artistId": "334361",
-      "artistName": "The Family Business",
+      "artistName": "Family Business, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1202,11 +1202,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334361/original.jpg?1398615090",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334361.jpg",
-      "photoUrlLocal": "/artistImages/334361.jpg"
+      "photoUrlLocal": "/artistimages/334361.jpg"
     },
     {
       "artistId": "334362",
-      "artistName": "The Form",
+      "artistName": "Form, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1216,11 +1216,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334362/original.jpg?1398615099",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334362.jpg",
-      "photoUrlLocal": "/artistImages/334362.jpg"
+      "photoUrlLocal": "/artistimages/334362.jpg"
     },
     {
       "artistId": "334363",
-      "artistName": "The Guilty Wanted",
+      "artistName": "Guilty Wanted, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1230,11 +1230,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334363/original.jpg?1398615107",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334363.jpg",
-      "photoUrlLocal": "/artistImages/334363.jpg"
+      "photoUrlLocal": "/artistimages/334363.jpg"
     },
     {
       "artistId": "334364",
-      "artistName": "The Heart Pills",
+      "artistName": "Heart Pills, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1244,11 +1244,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334364/original.jpg?1398615116",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334364.jpg",
-      "photoUrlLocal": "/artistImages/334364.jpg"
+      "photoUrlLocal": "/artistimages/334364.jpg"
     },
     {
       "artistId": "334365",
-      "artistName": "The Hi-Matics",
+      "artistName": "Hi-Matics, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1258,11 +1258,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334365/original.jpg?1398615129",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334365.jpg",
-      "photoUrlLocal": "/artistImages/334365.jpg"
+      "photoUrlLocal": "/artistimages/334365.jpg"
     },
     {
       "artistId": "334381",
-      "artistName": "The Hold Steady",
+      "artistName": "Hold Steady, The",
       "twitter": "theholdsteady",
       "instagram": "theholdsteady",
       "facebook": "http://facebook.com/theholdsteady",
@@ -1276,7 +1276,7 @@
     },
     {
       "artistId": "334366",
-      "artistName": "The Lately",
+      "artistName": "Lately, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1286,11 +1286,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334366/original.jpg?1398615186",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334366.jpg",
-      "photoUrlLocal": "/artistImages/334366.jpg"
+      "photoUrlLocal": "/artistimages/334366.jpg"
     },
     {
       "artistId": "334367",
-      "artistName": "The Midwestern Charm",
+      "artistName": "Midwestern Charm, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1300,11 +1300,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334367/original.jpg?1398615194",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334367.jpg",
-      "photoUrlLocal": "/artistImages/334367.jpg"
+      "photoUrlLocal": "/artistimages/334367.jpg"
     },
     {
       "artistId": "334368",
-      "artistName": "The Pernicious Bean",
+      "artistName": "Pernicious Bean, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1314,11 +1314,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334368/original.jpg?1398615207",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334368.jpg",
-      "photoUrlLocal": "/artistImages/334368.jpg"
+      "photoUrlLocal": "/artistimages/334368.jpg"
     },
     {
       "artistId": "334369",
-      "artistName": "The Pines",
+      "artistName": "Pines, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1328,11 +1328,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334369/original.jpg?1398615215",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334369.jpg",
-      "photoUrlLocal": "/artistImages/334369.jpg"
+      "photoUrlLocal": "/artistimages/334369.jpg"
     },
     {
       "artistId": "334370",
-      "artistName": "The Relics",
+      "artistName": "Relics, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1342,11 +1342,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334370/original.jpg?1398615224",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334370.jpg",
-      "photoUrlLocal": "/artistImages/334370.jpg"
+      "photoUrlLocal": "/artistimages/334370.jpg"
     },
     {
       "artistId": "334371",
-      "artistName": "The Sleepwalkers",
+      "artistName": "Sleepwalkers, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1356,11 +1356,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334371/original.jpg?1398615232",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334371.jpg",
-      "photoUrlLocal": "/artistImages/334371.jpg"
+      "photoUrlLocal": "/artistimages/334371.jpg"
     },
     {
       "artistId": "334372",
-      "artistName": "The Traveling Suitcase",
+      "artistName": "Traveling Suitcase, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1370,11 +1370,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334372/original.jpg?1398615251",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334372.jpg",
-      "photoUrlLocal": "/artistImages/334372.jpg"
+      "photoUrlLocal": "/artistimages/334372.jpg"
     },
     {
       "artistId": "334373",
-      "artistName": "The Tyme Machines",
+      "artistName": "Tyme Machines, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1384,11 +1384,11 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334373/original.jpg?1398615278",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334373.jpg",
-      "photoUrlLocal": "/artistImages/334373.jpg"
+      "photoUrlLocal": "/artistimages/334373.jpg"
     },
     {
       "artistId": "334374",
-      "artistName": "The Wild Ones",
+      "artistName": "Wild Ones, The",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1398,7 +1398,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334374/original.jpg?1398615286",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334374.jpg",
-      "photoUrlLocal": "/artistImages/334374.jpg"
+      "photoUrlLocal": "/artistimages/334374.jpg"
     },
     {
       "artistId": "334375",
@@ -1412,7 +1412,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334375/original.jpg?1398615296",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334375.jpg",
-      "photoUrlLocal": "/artistImages/334375.jpg"
+      "photoUrlLocal": "/artistimages/334375.jpg"
     },
     {
       "artistId": "334376",
@@ -1426,7 +1426,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334376/original.jpg?1398614999",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334376.jpg",
-      "photoUrlLocal": "/artistImages/334376.jpg"
+      "photoUrlLocal": "/artistimages/334376.jpg"
     },
     {
       "artistId": "334377",
@@ -1440,7 +1440,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334377/original.jpg?1398614987",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334377.jpg",
-      "photoUrlLocal": "/artistImages/334377.jpg"
+      "photoUrlLocal": "/artistimages/334377.jpg"
     },
     {
       "artistId": "334378",
@@ -1454,7 +1454,7 @@
       "genre": "Original",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334378/original.jpg?1398614977",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334378.jpg",
-      "photoUrlLocal": "/artistImages/334378.jpg"
+      "photoUrlLocal": "/artistimages/334378.jpg"
     }
   ]
 }

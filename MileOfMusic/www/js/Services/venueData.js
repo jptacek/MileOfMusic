@@ -10,7 +10,7 @@ mileOfMusicApp.factory('venueData', function ($http, $log, $q, appHelper, common
 
     var getVenues = function () {
         var deferred = $q.defer();
-
+        
         var checkForMissingImages = function (result) { return commonData.checkForMissingImages(result.venues, "venueId", "venueImages"); }
 
         commonData.getRemoteData(storageKey_getVenues, versionUrl, dataUrl, function() { cache_geVenue = null; }, checkForMissingImages).then(function (result) {

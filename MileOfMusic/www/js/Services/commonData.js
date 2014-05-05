@@ -103,7 +103,7 @@
                     catch (err) { $log.error(err); }
                 },
                 success: function () {
-                    localItem[photoUrlProperty] = localItem.photoUrlLocal;
+                    localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
                 }, complete: function () {
                     if (localItem[photoUrlProperty] == null) localItem[photoUrlProperty] = ""
                 }

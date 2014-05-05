@@ -3,7 +3,10 @@
 
     <div data-listnav></div>
 
-    <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | orderBy:'artistName'">                  
+    Search:<br /><input type="text" data-ng-model="searchText" />
+
+
+    <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | filter:searchText | orderBy:'artistName'">                  
         <a id="nav-{{artist.artistName | firstLetter}}" data-ng-href="#/artist/{{artist.artistId}}">
         <img  onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />
         </a>

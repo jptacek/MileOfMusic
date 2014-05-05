@@ -12,6 +12,7 @@ body {
 #page {
   min-height: 100%;
   /* equal to footer height */
+
   /*margin-bottom: -142px;*/
   margin-top: 35px;
 }
@@ -39,7 +40,7 @@ body {
 /* ========================================================================== */
 /*   TYPOGRAPHY                                                               */
 /* ========================================================================== */
-/*# sourceMappingURL=site.css.map */
+/*#region Typography */
 h1,
 .h1 {
   font-size: 36px;
@@ -85,11 +86,11 @@ p {
 .bold {
   font-weight: bold;
 }
-/*# sourceMappingURL=site.css.map */
+/*#endregion */
 /* ========================================================================== */
 /*   WRAPPERS & MISC                                                          */
 /* ========================================================================== */
-/*# sourceMappingURL=site.css.map */
+/*#region Wrappers & Misc */
 .listNav {
   position: fixed;
   top: 60px;
@@ -212,14 +213,14 @@ p {
     -o-transition: all .5s ease-in-out; 
     transition: all .5s ease-in-out;
 }*/
-/*# sourceMappingURL=site.css.map */
+/*#endregion */
 /* ========================================================================== */
 /*   PAGE LAYOUTS                                                               */
 /* ========================================================================== */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
+/*#region Page Layouts */
+/*#region Artist List */
+/*#endregion */
+/*#region Artist Detail */
 .artistDetail img {
   max-width: 98%;
 }
@@ -300,14 +301,14 @@ p {
   padding-left: 4px;
   padding-top: 10px;
 }
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
-/*# sourceMappingURL=site.css.map */
+/*#endregion */
+/*#region Home */
+/*#endregion */
+/*#region Schedule */
+/*#endregion */
+/*#region Venue List */
+/*#endregion */
+/*#region Venue Detail */
 .venueitem {
   min-height: 60px;
   background: #ccc;
@@ -334,4 +335,3 @@ footer {
   width: 100%;
   padding: 20px;
 }
-/*# sourceMappingURL=site.css.map */

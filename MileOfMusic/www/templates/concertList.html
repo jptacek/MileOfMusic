@@ -1,8 +1,13 @@
+
+
 <div>
     <h3>Concert List</h3>
 
+    Search:<br /><input type="text" data-ng-model="searchText" />
+
+
     <div id="concerts">
-        <div data-ng-repeat="concert in shows.concerts | orderBy:['time','venue.venueId','venue.genre']">
+        <div data-ng-repeat="concert in shows.concerts | filter:searchText | orderBy:['time','venue.venueId','venue.genre']">
             <ul class="list-group">
                 <li class="list-group-item"><a data-ng-href="#/concert/{{concert.concertId}}">
                     {{concert.timeStart|date:'medium'}} - {{concert.artist.artistName}}</a>

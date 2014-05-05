@@ -26,7 +26,7 @@
       "longitude": "-88° 24' 44.2188\"",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707601/original.jpg?1398623417",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707601.jpg",
-      "photoUrlLocal": "/artistImages/707601.jpg"
+      "photoUrlLocal": "/venueimages/707601.jpg"
     },
     {
       "venueId": "707611",
@@ -54,7 +54,7 @@
       "longitude": "-88.410805",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707611/original.png?1398623652",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707611.jpg",
-      "photoUrlLocal": "/artistImages/707611.jpg"
+      "photoUrlLocal": "/venueimages/707611.jpg"
     },
     {
       "venueId": "707597",
@@ -82,7 +82,7 @@
       "longitude": "-88.414196",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707597/original.png?1398623668",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707597.jpg",
-      "photoUrlLocal": "/artistImages/707597.jpg"
+      "photoUrlLocal": "/venueimages/707597.jpg"
     },
     {
       "venueId": "707633",
@@ -166,7 +166,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707615/original.jpg?1398623686",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707615.jpg",
-      "photoUrlLocal": "/artistImages/707615.jpg"
+      "photoUrlLocal": "/venueimages/707615.jpg"
     },
     {
       "venueId": "707629",
@@ -194,7 +194,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707629/original.jpg?1398623847",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707629.jpg",
-      "photoUrlLocal": "/artistImages/707629.jpg"
+      "photoUrlLocal": "/venueimages/707629.jpg"
     },
     {
       "venueId": "707626",
@@ -222,7 +222,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707626/original.jpg?1398623958",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707626.jpg",
-      "photoUrlLocal": "/artistImages/707626.jpg"
+      "photoUrlLocal": "/venueimages/707626.jpg"
     },
     {
       "venueId": "707634",
@@ -250,7 +250,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707634/original.jpg?1398624296",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707634.jpg",
-      "photoUrlLocal": "/artistImages/707634.jpg"
+      "photoUrlLocal": "/venueimages/707634.jpg"
     },
     {
       "venueId": "707609",
@@ -278,7 +278,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707609/original.png?1398624307",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707609.jpg",
-      "photoUrlLocal": "/artistImages/707609.jpg"
+      "photoUrlLocal": "/venueimages/707609.jpg"
     },
     {
       "venueId": "707623",
@@ -306,7 +306,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707623/original.jpg?1398624456",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707623.jpg",
-      "photoUrlLocal": "/artistImages/707623.jpg"
+      "photoUrlLocal": "/venueimages/707623.jpg"
     },
     {
       "venueId": "707621",
@@ -334,7 +334,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707621/original.jpg?1398624616",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707621.jpg",
-      "photoUrlLocal": "/artistImages/707621.jpg"
+      "photoUrlLocal": "/venueimages/707621.jpg"
     },
     {
       "venueId": "707602",
@@ -362,7 +362,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707602/original.jpg?1398625213",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707602.jpg",
-      "photoUrlLocal": "/artistImages/707602.jpg"
+      "photoUrlLocal": "/venueimages/707602.jpg"
     },
     {
       "venueId": "707610",
@@ -390,7 +390,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707610/original.png?1398625233",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707610.jpg",
-      "photoUrlLocal": "/artistImages/707610.jpg"
+      "photoUrlLocal": "/venueimages/707610.jpg"
     },
     {
       "venueId": "707600",
@@ -418,7 +418,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707600/original.jpg?1398625324",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707600.jpg",
-      "photoUrlLocal": "/artistImages/707600.jpg"
+      "photoUrlLocal": "/venueimages/707600.jpg"
     },
     {
       "venueId": "707645",
@@ -446,7 +446,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707645/original.jpg?1398625428",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707645.jpg",
-      "photoUrlLocal": "/artistImages/707645.jpg"
+      "photoUrlLocal": "/venueimages/707645.jpg"
     },
     {
       "venueId": "707614",
@@ -474,7 +474,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707614/original.jpg?1398625523",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707614.jpg",
-      "photoUrlLocal": "/artistImages/707614.jpg"
+      "photoUrlLocal": "/venueimages/707614.jpg"
     },
     {
       "venueId": "707596",
@@ -502,7 +502,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707596/original.jpg?1398625674",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707596.jpg",
-      "photoUrlLocal": "/artistImages/707596.jpg"
+      "photoUrlLocal": "/venueimages/707596.jpg"
     },
     {
       "venueId": "707599",
@@ -530,7 +530,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707599/original.jpg?1398625961",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707599.jpg",
-      "photoUrlLocal": "/artistImages/707599.jpg"
+      "photoUrlLocal": "/venueimages/707599.jpg"
     },
     {
       "venueId": "707604",
@@ -558,7 +558,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707604/original.jpg?1398625973",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707604.jpg",
-      "photoUrlLocal": "/artistImages/707604.jpg"
+      "photoUrlLocal": "/venueimages/707604.jpg"
     },
     {
       "venueId": "707594",
@@ -586,7 +586,7 @@
       "longitude": "-88.418114",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707594/original.jpg?1398626049",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707594.jpg",
-      "photoUrlLocal": "/artistImages/707594.jpg"
+      "photoUrlLocal": "/venueimages/707594.jpg"
     },
     {
       "venueId": "707605",
@@ -614,7 +614,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707605/original.png?1398626066",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707605.jpg",
-      "photoUrlLocal": "/artistImages/707605.jpg"
+      "photoUrlLocal": "/venueimages/707605.jpg"
     },
     {
       "venueId": "707632",
@@ -642,7 +642,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707632/original.jpg?1398626205",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707632.jpg",
-      "photoUrlLocal": "/artistImages/707632.jpg"
+      "photoUrlLocal": "/venueimages/707632.jpg"
     },
     {
       "venueId": "707643",
@@ -670,7 +670,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707643/original.jpg?1398626462",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707643.jpg",
-      "photoUrlLocal": "/artistImages/707643.jpg"
+      "photoUrlLocal": "/venueimages/707643.jpg"
     },
     {
       "venueId": "707648",
@@ -698,7 +698,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707648/original.png?1398626478",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707648.jpg",
-      "photoUrlLocal": "/artistImages/707648.jpg"
+      "photoUrlLocal": "/venueimages/707648.jpg"
     },
     {
       "venueId": "707644",
@@ -726,7 +726,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707644/original.jpg?1398626587",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707644.jpg",
-      "photoUrlLocal": "/artistImages/707644.jpg"
+      "photoUrlLocal": "/venueimages/707644.jpg"
     },
     {
       "venueId": "707647",
@@ -754,7 +754,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707647/original.png?1398626654",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707647.jpg",
-      "photoUrlLocal": "/artistImages/707647.jpg"
+      "photoUrlLocal": "/venueimages/707647.jpg"
     },
     {
       "venueId": "707627",
@@ -782,7 +782,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707627/original.png?1398626890",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707627.jpg",
-      "photoUrlLocal": "/artistImages/707627.jpg"
+      "photoUrlLocal": "/venueimages/707627.jpg"
     },
     {
       "venueId": "707598",
@@ -1346,7 +1346,7 @@
     },
     {
       "venueId": "707607",
-      "venueName": "The Bar ",
+      "venueName": "Bar , The",
       "region": "",
       "address": "",
       "city": "",
@@ -1374,7 +1374,7 @@
     },
     {
       "venueId": "707616",
-      "venueName": "The Clubhouse",
+      "venueName": "Clubhouse, The",
       "region": "",
       "address": "",
       "city": "",
@@ -1402,7 +1402,7 @@
     },
     {
       "venueId": "707617",
-      "venueName": "The Courtyard",
+      "venueName": "Courtyard, The",
       "region": "",
       "address": "",
       "city": "",
@@ -1430,7 +1430,7 @@
     },
     {
       "venueId": "707646",
-      "venueName": "The Grove",
+      "venueName": "Grove, The",
       "region": "",
       "address": "",
       "city": "",
@@ -1458,7 +1458,7 @@
     },
     {
       "venueId": "707618",
-      "venueName": "The Orchard",
+      "venueName": "Orchard, The",
       "region": "",
       "address": "",
       "city": "",
@@ -1486,7 +1486,7 @@
     },
     {
       "venueId": "707652",
-      "venueName": "The Viking Room",
+      "venueName": "Viking Room, The",
       "region": "",
       "address": "",
       "city": "",
@@ -1538,7 +1538,7 @@
       "longitude": null,
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707628/original.png?1398626923",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/venueimages/707628.jpg",
-      "photoUrlLocal": "/artistImages/707628.jpg"
+      "photoUrlLocal": "/venueimages/707628.jpg"
     },
     {
       "venueId": "707637",

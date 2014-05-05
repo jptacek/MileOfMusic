@@ -3,9 +3,11 @@
 
     <div data-listnav></div>
 
-    <div id="venues" class="mom-list-item" data-ng-repeat="venue in locations.venues | orderBy:'venueName'">
+    Search:<br /><input type="text" data-ng-model="searchText" />
+
+    <div id="venues" class="mom-list-item" data-ng-repeat="venue in locations.venues | filter:searchText | orderBy:'venueName'">
         <a id="nav-{{venue.venueName | firstLetter}}" data-ng-href="#/venue/{{venue.venueId}}">
-            <div class="imageCenter"><img onerror="this.src='img/no-image-venue.jpg'" src="venueImages/{{venue.venueId}}.jpg" alt="image of {{venue.venueName}}" /></div>
+            <div class="imageCenter"><img onerror="this.src='img/no-image-venue.jpg'" src="{{venue.photoUrl}}" alt="image of {{venue.venueName}}" /></div>
             <div class="mom-list-label">
                 {{venue.venueName}}<br />
                 {{venue.address}}
