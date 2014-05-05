@@ -1,21 +1,37 @@
-mileOfMusicApp.factory('venueData', function($http, $log, $q, appHelper) {
-    var getVenues = function () {
-        $log.info('getVenues in');
-        return $http.get('data/Venues.txt');
+mileOfMusicApp.factory('venueData', function ($http, $log, $q, appHelper, commonData) {
 
-        //return venuesData;
+    //var versionUrl = "http://localhost:64618/Data/GetJson?callback=JSON_CALLBACK&filename=Venues.txt.version";
+    //var dataUrl = "http://localhost:64618/Data/GetJson?callback=JSON_CALLBACK&filename=Venues.txt";
+    var versionUrl = "http://mileofmusicmobile.azurewebsites.net/Data/GetJson?callback=JSON_CALLBACK&filename=Venues.txt.version";
+    var dataUrl = "http://mileofmusicmobile.azurewebsites.net/Data/GetJson?callback=JSON_CALLBACK&filename=Venues.txt";
+    
+    var storageKey_getVenues = "venueData-getVenues";
+    var cache_geVenue = null;
+
+    var getVenues = function () {
+        var deferred = $q.defer();
+
+        var checkForMissingImages = function (result) { return commonData.checkForMissingImages(result.venues, "venueId", "venueImages"); }
+
+        commonData.getRemoteData(storageKey_getVenues, versionUrl, dataUrl, function() { cache_geVenue = null; }, checkForMissingImages).then(function (result) {
+            deferred.resolve(result);
+        }, function () { deferred.reject(); });
+
+        return deferred.promise;
     };
 
     var getVenue = function (venueId) {
-        //var venueListIndex = appHelper.buildIndex(venuesData.venues, 'venueId');
-        //return venueListIndex[venueId];
-
         var deferred = $q.defer();
 
-        getVenues().then(function (result) {
-            var dict = appHelper.buildIndex(result.data.venues, 'venueId');
-            deferred.resolve(dict[venueId]);
-        }, function () { deferred.reject(); });
+        if (cache_geVenue == null) {
+            getVenues().then(function (result) {
+                cache_geVenue = appHelper.buildIndex(result.data.venues, "venueId");
+                deferred.resolve(cache_geVenue[venueId]);
+            }, function () { deferred.reject(); });
+        }
+        else {
+            deferred.resolve(cache_geVenue[venueId]);
+        }
 
         return deferred.promise;
     };
@@ -25,69 +41,3 @@ mileOfMusicApp.factory('venueData', function($http, $log, $q, appHelper) {
         getVenue: getVenue
     };
 });
-
-
-var venuesData = {
-    venues: [
-        {"venueId": 1,"venueName": "Frank’s Pizza Palace","region": "1","address": "college","city": "Appleton","state": "WI","zip": "54911","phone": "555-1231","url": "www.cnn.com","facebook": "www","other": "www","contactPerson": "contact","email": "email","capacity": "capactiy","washroom": true,"washroom": true,"venueType": "1","hours": "41651","description": "","yelp": "","underage": true,"underageWithAdult": true,"photo_url": ""},
-        {"venueId": 2,"venueName": "Spats","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true,"photo_url": ""},
-        {"venueId": 3,"venueName": "Emmett's","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true,"photo_url": ""},
-        {"venueId": 4,"venueName": "Appleton Beer Factory","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true,"photo_url": ""},
-        {"venueId": 5,"venueName": "Jack’s Apple Pub ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true,"photo_url": ""},
-        {"venueId": 6,"venueName": "Flanagan’s Wine Review ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": true,"underageWithAdult": true},
-        {"venueId": 7,"venueName": "Déjà Vu ","region": "1","address": "519 W. College Ave","city": "Appleton","state": "WI","zip": "54911","phone": "920 380-9904","url": "","facebook": "https://www.facebook.com/dejavumartinilounge","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "5:00PM - 2:00AM","description": "","yelp": "","underage": true,"underageWithAdult": true},
-        {"venueId": 8,"venueName": "ACOCA Coffee","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": true},
-        {"venueId": 9,"venueName": "Cozzy Corner","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 10,"venueName": "McGuinness Irish Pub","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 11,"venueName": "Fox River House","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 12,"venueName": "Fratello's","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 13,"venueName": "Atlas Coffee","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 14,"venueName": "The Bar ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 15,"venueName": "Mill Creek ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 16,"venueName": "Chadwick’s ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 17,"venueName": "CU Saloon ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 18,"venueName": "Anduzzi’s","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 19,"venueName": "Performing Arts Center","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 20,"venueName": "Luna ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 21,"venueName": "Durty Leprechaun ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 22,"venueName": "Ballroom","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 23,"venueName": "The Clubhouse","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 24,"venueName": "The Courtyard","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 25,"venueName": "The Orchard","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 26,"venueName": "Riverview Gardens","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 27,"venueName": "Jones Park","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 28,"venueName": "Copper Rock","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 29,"venueName": "Mad Hatter ","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 30,"venueName": "Cleo’s","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 31,"venueName": "University Lounge","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 32,"venueName": "Rookie's","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 33,"venueName": "Building for Kids Children’s Museum","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 34,"venueName": "Houdini Plaza","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 35,"venueName": "Trout Museum of Art","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 36,"venueName": "Bazil’s Patio","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 37,"venueName": "Olde Town Tavern","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 38,"venueName": "Outer Edge","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 39,"venueName": "Green Gecko","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 40,"venueName": "Aspen Coffee & Tea","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 41,"venueName": "Cena","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 42,"venueName": "Rock Garden Studio","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 43,"venueName": "Pullman’s","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 44,"venueName": "Union Jack’s","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 45,"venueName": "Riverside Bar","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 46,"venueName": "Skyline Comedy Club","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 47,"venueName": "Stone Cellar","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 48,"venueName": "Wooden Nickel","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 49,"venueName": "Jim’s Place","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 50,"venueName": "Harmony Café","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 51,"venueName": "Heid Music Store","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 52,"venueName": "Dr. Jeckyll’s","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 53,"venueName": "The Grove","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 54,"venueName": "History Museum Courtyard","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 55,"venueName": "Harper Hall","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 56,"venueName": "Stansbury","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 57,"venueName": "Memorial Chapel","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 58,"venueName": "Wriston Amphitheater","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false},
-        {"venueId": 59,"venueName": "The Viking Room","region": "","address": "","city": "","state": "","zip": "","phone": "","url": "","facebook": "","other": "","contactPerson": "","email": "","capacity": "","washroom": true,"washroom": true,"venueType": "","hours": "","description": "","yelp": "","underage": false,"underageWithAdult": false}
-
-    ]
-};

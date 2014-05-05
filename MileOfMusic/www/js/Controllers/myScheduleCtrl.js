@@ -7,8 +7,13 @@ mileOfMusicApp.controller('myScheduleController',
             myScheduleData.getMySchedule().then(function (result) {
                 $log.info('mySchedule list in');
                 console.log(result);
-                $scope.mySchedule = result.data;
+                $scope.mySchedule = result;
             });
+
+
+            $scope.clearSchedule = function () {
+                myScheduleData.clearSavedBookmarks();
+            };
 
         });
     });

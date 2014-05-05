@@ -1,7 +1,8 @@
-﻿body {
+body {
   margin: 70px;
   background-image: url("../img/grunge50.jpg");
   padding: 10px;
+  padding-bottom: 50px;
 }
 @media screen and (max-width: 763px) {
   body {
@@ -11,12 +12,15 @@
 #page {
   min-height: 100%;
   /* equal to footer height */
-
-  margin-bottom: -142px;
-  margin-top: 50px;
+  /*margin-bottom: -142px;*/
+  margin-top: 35px;
 }
-footer {
-  height: 142px;
+#footer nav {
+  height: 35px;
+  min-height: 35px;
+}
+#footer p {
+  padding-top: 7px;
 }
 .mainlogo {
   max-width: 100%;
@@ -35,7 +39,7 @@ footer {
 /* ========================================================================== */
 /*   TYPOGRAPHY                                                               */
 /* ========================================================================== */
-/*#region Typography */
+/*# sourceMappingURL=site.css.map */
 h1,
 .h1 {
   font-size: 36px;
@@ -81,11 +85,28 @@ p {
 .bold {
   font-weight: bold;
 }
-/*#endregion */
+/*# sourceMappingURL=site.css.map */
 /* ========================================================================== */
 /*   WRAPPERS & MISC                                                          */
 /* ========================================================================== */
-/*#region Wrappers & Misc */
+/*# sourceMappingURL=site.css.map */
+.listNav {
+  position: fixed;
+  top: 60px;
+  left: 80px;
+  z-index: 2000;
+  background-color: black;
+}
+.listNavBtn {
+  padding: 10px 0px 5px 0px;
+}
+.listNavBtn input {
+  margin: 5px 0px 5px 0px;
+  text-align: center;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+}
 .glyphicon {
   position: relative;
   top: 1px;
@@ -173,37 +194,32 @@ p {
 .divided-sections {
   border-bottom: 1px solid #666666;
 }
-.tilt {
-  -moz-transform-origin: 50% 100%;
-  -ms-transform-origin: 50% 100%;
-  -o-transform-origin: 50% 100%;
-  -webkit-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -moz-transform: perspective(300px) rotateX(15deg) skew(5deg);
-  -ms-transform: perspective(300px) rotateX(15deg) skew(5deg);
-  -o-transform: perspective(300px) rotateX(15deg) skew(5deg);
-  -webkit-transform: perspective(300px) rotateX(15deg) skew(5deg);
-  transform: perspective(300px) rotateX(15deg) skew(5deg);
-  opacity: .3;
-  -webkit-transition: all 0.5s ease-in-out;
-  /** Chrome & Safari **/
-
-  -moz-transition: all 0.5s ease-in-out;
-  /** Firefox **/
-
-  -o-transition: all 0.5s ease-in-out;
-  /** Opera **/
-
-  transition: all 0.5s ease-in-out;
-}
-/*#endregion */
+/*.tilt
+{
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -moz-transform: perspective(300px) rotateX(15deg) skew(5deg);
+    -ms-transform: perspective(300px) rotateX(15deg) skew(5deg);
+    -o-transform: perspective(300px) rotateX(15deg) skew(5deg);
+    -webkit-transform: perspective(300px) rotateX(15deg) skew(5deg);
+    transform: perspective(300px) rotateX(15deg) skew(5deg); 
+    opacity:.3;
+    -webkit-transition: all .5s ease-in-out; 
+    -moz-transition: all .5s ease-in-out; 
+    -o-transition: all .5s ease-in-out; 
+    transition: all .5s ease-in-out;
+}*/
+/*# sourceMappingURL=site.css.map */
 /* ========================================================================== */
 /*   PAGE LAYOUTS                                                               */
 /* ========================================================================== */
-/*#region Page Layouts */
-/*#region Artist List */
-/*#endregion */
-/*#region Artist Detail */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
 .artistDetail img {
   max-width: 98%;
 }
@@ -284,14 +300,14 @@ p {
   padding-left: 4px;
   padding-top: 10px;
 }
-/*#endregion */
-/*#region Home */
-/*#endregion */
-/*#region Schedule */
-/*#endregion */
-/*#region Venue List */
-/*#endregion */
-/*#region Venue Detail */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
 .venueitem {
   min-height: 60px;
   background: #ccc;
@@ -318,3 +334,4 @@ footer {
   width: 100%;
   padding: 20px;
 }
+/*# sourceMappingURL=site.css.map */

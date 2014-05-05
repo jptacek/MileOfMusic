@@ -12,4 +12,8 @@ mileOfMusicApp.controller('artistsListController',
             // how to get the count of items in the array for debugging?
             //$log.info('artist list out count: ' +artistsData.length);
         });
+
+        $scope.alphabetNavigation = function (letter) {
+            alert(letter);
+        };
     });

@@ -3,14 +3,15 @@
     {
       "artistId": "334276",
       "artistName": "Adelyn Rose",
-      "twitter": "@SkylineTweets",
-      "instagram": "https://www.instagram.com/SkylineTechnologiesInc",
-      "facebook": "https://www.facebook.com/SkylineTechnologiesInc",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
       "description": "Imported",
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334276/original.jpg?1398613081",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334276/original.jpg?1398613081",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334276.jpg",
       "photoUrlLocal": "/artistImages/334276.jpg"
     },
     {
@@ -23,7 +24,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334277/original.jpg?1398613129",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334277/original.jpg?1398613129",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334277.jpg",
       "photoUrlLocal": "/artistImages/334277.jpg"
     },
     {
@@ -36,7 +38,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334278/original.jpg?1398613158",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334278/original.jpg?1398613158",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334278.jpg",
       "photoUrlLocal": "/artistImages/334278.jpg"
     },
     {
@@ -49,7 +52,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334279/original.jpg?1398613184",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334279/original.jpg?1398613184",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334279.jpg",
       "photoUrlLocal": "/artistImages/334279.jpg"
     },
     {
@@ -62,7 +66,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334280/original.jpg?1398613207",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334280/original.jpg?1398613207",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334280.jpg",
       "photoUrlLocal": "/artistImages/334280.jpg"
     },
     {
@@ -75,7 +80,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334281/original.jpg?1398613270",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334281/original.jpg?1398613270",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334281.jpg",
       "photoUrlLocal": "/artistImages/334281.jpg"
     },
     {
@@ -88,7 +94,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334282/original.jpg?1398613398",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334282/original.jpg?1398613398",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334282.jpg",
       "photoUrlLocal": "/artistImages/334282.jpg"
     },
     {
@@ -101,7 +108,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334283/original.jpg?1398613293",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334283/original.jpg?1398613293",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334283.jpg",
       "photoUrlLocal": "/artistImages/334283.jpg"
     },
     {
@@ -114,7 +122,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334284/original.jpg?1398613339",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334284/original.jpg?1398613339",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334284.jpg",
       "photoUrlLocal": "/artistImages/334284.jpg"
     },
     {
@@ -127,7 +136,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334285/original.jpg?1398613363",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334285/original.jpg?1398613363",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334285.jpg",
       "photoUrlLocal": "/artistImages/334285.jpg"
     },
     {
@@ -140,7 +150,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334286/original.jpg?1398613481",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334286/original.jpg?1398613481",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334286.jpg",
       "photoUrlLocal": "/artistImages/334286.jpg"
     },
     {
@@ -153,7 +164,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334287/original.jpg?1398613521",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334287/original.jpg?1398613521",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334287.jpg",
       "photoUrlLocal": "/artistImages/334287.jpg"
     },
     {
@@ -166,7 +178,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334288/original.jpg?1398613538",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334288/original.jpg?1398613538",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334288.jpg",
       "photoUrlLocal": "/artistImages/334288.jpg"
     },
     {
@@ -179,7 +192,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334289/original.jpg?1398613555",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334289/original.jpg?1398613555",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334289.jpg",
       "photoUrlLocal": "/artistImages/334289.jpg"
     },
     {
@@ -192,7 +206,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334290/original.jpg?1398613569",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334290/original.jpg?1398613569",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334290.jpg",
       "photoUrlLocal": "/artistImages/334290.jpg"
     },
     {
@@ -205,7 +220,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334291/original.jpg?1398613584",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334291/original.jpg?1398613584",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334291.jpg",
       "photoUrlLocal": "/artistImages/334291.jpg"
     },
     {
@@ -218,7 +234,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334292/original.jpg?1398613607",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334292/original.jpg?1398613607",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334292.jpg",
       "photoUrlLocal": "/artistImages/334292.jpg"
     },
     {
@@ -231,7 +248,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334293/original.jpg?1398613621",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334293/original.jpg?1398613621",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334293.jpg",
       "photoUrlLocal": "/artistImages/334293.jpg"
     },
     {
@@ -244,7 +262,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334294/original.jpg?1398613635",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334294/original.jpg?1398613635",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334294.jpg",
       "photoUrlLocal": "/artistImages/334294.jpg"
     },
     {
@@ -257,7 +276,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334295/original.jpg?1398613692",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334295/original.jpg?1398613692",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334295.jpg",
       "photoUrlLocal": "/artistImages/334295.jpg"
     },
     {
@@ -270,7 +290,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334296/original.jpg?1398613704",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334296/original.jpg?1398613704",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334296.jpg",
       "photoUrlLocal": "/artistImages/334296.jpg"
     },
     {
@@ -283,7 +304,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334297/original.jpg?1398613717",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334297/original.jpg?1398613717",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334297.jpg",
       "photoUrlLocal": "/artistImages/334297.jpg"
     },
     {
@@ -296,7 +318,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334298/original.jpg?1398613730",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334298/original.jpg?1398613730",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334298.jpg",
       "photoUrlLocal": "/artistImages/334298.jpg"
     },
     {
@@ -309,7 +332,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334299/original.jpg?1398613746",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334299/original.jpg?1398613746",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334299.jpg",
       "photoUrlLocal": "/artistImages/334299.jpg"
     },
     {
@@ -322,7 +346,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334300/original.jpg?1398613765",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334300/original.jpg?1398613765",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334300.jpg",
       "photoUrlLocal": "/artistImages/334300.jpg"
     },
     {
@@ -335,7 +360,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334301/original.jpg?1398613778",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334301/original.jpg?1398613778",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334301.jpg",
       "photoUrlLocal": "/artistImages/334301.jpg"
     },
     {
@@ -348,7 +374,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334302/original.jpg?1398613793",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334302/original.jpg?1398613793",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334302.jpg",
       "photoUrlLocal": "/artistImages/334302.jpg"
     },
     {
@@ -361,7 +388,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334303/original.jpg?1398613811",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334303/original.jpg?1398613811",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334303.jpg",
       "photoUrlLocal": "/artistImages/334303.jpg"
     },
     {
@@ -374,7 +402,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334304/original.jpg?1398613871",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334304/original.jpg?1398613871",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334304.jpg",
       "photoUrlLocal": "/artistImages/334304.jpg"
     },
     {
@@ -387,7 +416,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334305/original.jpg?1398613883",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334305/original.jpg?1398613883",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334305.jpg",
       "photoUrlLocal": "/artistImages/334305.jpg"
     },
     {
@@ -400,7 +430,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334306/original.jpg?1398613895",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334306/original.jpg?1398613895",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334306.jpg",
       "photoUrlLocal": "/artistImages/334306.jpg"
     },
     {
@@ -413,7 +444,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334307/original.jpg?1398613904",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334307/original.jpg?1398613904",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334307.jpg",
       "photoUrlLocal": "/artistImages/334307.jpg"
     },
     {
@@ -421,12 +453,13 @@
       "artistName": "Greg Waters & The Broad Street Boogie",
       "twitter": "",
       "instagram": "",
-      "facebook": "",
+      "facebook": "https://www.facebook.com/BroadStreetBoogie",
       "description": "Imported",
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334308/original.jpg?1398613914",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334308/original.jpg?1398613914",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334308.jpg",
       "photoUrlLocal": "/artistImages/334308.jpg"
     },
     {
@@ -439,7 +472,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334309/original.jpg?1398613925",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334309/original.jpg?1398613925",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334309.jpg",
       "photoUrlLocal": "/artistImages/334309.jpg"
     },
     {
@@ -452,7 +486,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334310/original.jpg?1398613944",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334310/original.jpg?1398613944",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334310.jpg",
       "photoUrlLocal": "/artistImages/334310.jpg"
     },
     {
@@ -465,7 +500,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334311/original.jpg?1398613953",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334311/original.jpg?1398613953",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334311.jpg",
       "photoUrlLocal": "/artistImages/334311.jpg"
     },
     {
@@ -478,7 +514,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334312/original.jpg?1398613968",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334312/original.jpg?1398613968",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334312.jpg",
       "photoUrlLocal": "/artistImages/334312.jpg"
     },
     {
@@ -491,7 +528,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334313/original.jpg?1398613977",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334313/original.jpg?1398613977",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334313.jpg",
       "photoUrlLocal": "/artistImages/334313.jpg"
     },
     {
@@ -504,7 +542,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334314/original.jpg?1398613988",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334314/original.jpg?1398613988",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334314.jpg",
       "photoUrlLocal": "/artistImages/334314.jpg"
     },
     {
@@ -517,7 +556,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334315/original.jpg?1398614005",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334315/original.jpg?1398614005",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334315.jpg",
       "photoUrlLocal": "/artistImages/334315.jpg"
     },
     {
@@ -530,7 +570,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334316/original.jpg?1398614013",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334316/original.jpg?1398614013",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334316.jpg",
       "photoUrlLocal": "/artistImages/334316.jpg"
     },
     {
@@ -543,7 +584,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334317/original.jpg?1398614021",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334317/original.jpg?1398614021",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334317.jpg",
       "photoUrlLocal": "/artistImages/334317.jpg"
     },
     {
@@ -556,7 +598,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334318/original.jpg?1398614035",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334318/original.jpg?1398614035",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334318.jpg",
       "photoUrlLocal": "/artistImages/334318.jpg"
     },
     {
@@ -569,7 +612,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334319/original.jpg?1398614044",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334319/original.jpg?1398614044",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334319.jpg",
       "photoUrlLocal": "/artistImages/334319.jpg"
     },
     {
@@ -582,7 +626,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334320/original.jpg?1398614521",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334320/original.jpg?1398614521",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334320.jpg",
       "photoUrlLocal": "/artistImages/334320.jpg"
     },
     {
@@ -595,7 +640,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334321/original.jpg?1398614753",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334321/original.jpg?1398614753",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334321.jpg",
       "photoUrlLocal": "/artistImages/334321.jpg"
     },
     {
@@ -608,7 +654,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334322/original.jpg?1398614529",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334322/original.jpg?1398614529",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334322.jpg",
       "photoUrlLocal": "/artistImages/334322.jpg"
     },
     {
@@ -621,7 +668,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334323/original.jpg?1398614541",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334323/original.jpg?1398614541",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334323.jpg",
       "photoUrlLocal": "/artistImages/334323.jpg"
     },
     {
@@ -634,7 +682,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334324/original.jpg?1398614761",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334324/original.jpg?1398614761",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334324.jpg",
       "photoUrlLocal": "/artistImages/334324.jpg"
     },
     {
@@ -647,7 +696,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334325/original.jpg?1398614549",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334325/original.jpg?1398614549",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334325.jpg",
       "photoUrlLocal": "/artistImages/334325.jpg"
     },
     {
@@ -660,7 +710,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334326/original.jpg?1398614559",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334326/original.jpg?1398614559",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334326.jpg",
       "photoUrlLocal": "/artistImages/334326.jpg"
     },
     {
@@ -673,7 +724,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334327/original.jpg?1398614574",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334327/original.jpg?1398614574",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334327.jpg",
       "photoUrlLocal": "/artistImages/334327.jpg"
     },
     {
@@ -686,7 +738,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334328/original.jpg?1398614770",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334328/original.jpg?1398614770",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334328.jpg",
       "photoUrlLocal": "/artistImages/334328.jpg"
     },
     {
@@ -699,7 +752,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334329/original.jpg?1398614582",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334329/original.jpg?1398614582",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334329.jpg",
       "photoUrlLocal": "/artistImages/334329.jpg"
     },
     {
@@ -712,7 +766,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334330/original.jpg?1398614592",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334330/original.jpg?1398614592",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334330.jpg",
       "photoUrlLocal": "/artistImages/334330.jpg"
     },
     {
@@ -725,7 +780,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334331/original.jpg?1398614607",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334331/original.jpg?1398614607",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334331.jpg",
       "photoUrlLocal": "/artistImages/334331.jpg"
     },
     {
@@ -738,7 +794,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334332/original.jpg?1398614616",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334332/original.jpg?1398614616",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334332.jpg",
       "photoUrlLocal": "/artistImages/334332.jpg"
     },
     {
@@ -751,7 +808,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334333/original.jpg?1398614626",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334333/original.jpg?1398614626",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334333.jpg",
       "photoUrlLocal": "/artistImages/334333.jpg"
     },
     {
@@ -764,7 +822,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334334/original.jpg?1398614644",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334334/original.jpg?1398614644",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334334.jpg",
       "photoUrlLocal": "/artistImages/334334.jpg"
     },
     {
@@ -777,7 +836,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334335/original.jpg?1398614669",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334335/original.jpg?1398614669",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334335.jpg",
       "photoUrlLocal": "/artistImages/334335.jpg"
     },
     {
@@ -790,7 +850,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334336/original.jpg?1398614678",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334336/original.jpg?1398614678",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334336.jpg",
       "photoUrlLocal": "/artistImages/334336.jpg"
     },
     {
@@ -803,7 +864,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334337/original.jpg?1398614691",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334337/original.jpg?1398614691",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334337.jpg",
       "photoUrlLocal": "/artistImages/334337.jpg"
     },
     {
@@ -816,7 +878,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334338/original.jpg?1398614702",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334338/original.jpg?1398614702",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334338.jpg",
       "photoUrlLocal": "/artistImages/334338.jpg"
     },
     {
@@ -829,7 +892,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334339/original.jpg?1398614778",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334339/original.jpg?1398614778",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334339.jpg",
       "photoUrlLocal": "/artistImages/334339.jpg"
     },
     {
@@ -842,7 +906,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334340/original.jpg?1398614786",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334340/original.jpg?1398614786",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334340.jpg",
       "photoUrlLocal": "/artistImages/334340.jpg"
     },
     {
@@ -855,7 +920,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334341/original.jpg?1398614798",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334341/original.jpg?1398614798",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334341.jpg",
       "photoUrlLocal": "/artistImages/334341.jpg"
     },
     {
@@ -868,7 +934,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334342/original.jpg?1398614893",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334342/original.jpg?1398614893",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334342.jpg",
       "photoUrlLocal": "/artistImages/334342.jpg"
     },
     {
@@ -881,7 +948,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334343/original.jpg?1398614806",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334343/original.jpg?1398614806",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334343.jpg",
       "photoUrlLocal": "/artistImages/334343.jpg"
     },
     {
@@ -894,7 +962,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334344/original.jpg?1398614815",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334344/original.jpg?1398614815",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334344.jpg",
       "photoUrlLocal": "/artistImages/334344.jpg"
     },
     {
@@ -907,7 +976,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334345/original.jpg?1398614827",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334345/original.jpg?1398614827",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334345.jpg",
       "photoUrlLocal": "/artistImages/334345.jpg"
     },
     {
@@ -920,7 +990,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334346/original.jpg?1398614836",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334346/original.jpg?1398614836",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334346.jpg",
       "photoUrlLocal": "/artistImages/334346.jpg"
     },
     {
@@ -933,7 +1004,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334347/original.jpg?1398614843",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334347/original.jpg?1398614843",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334347.jpg",
       "photoUrlLocal": "/artistImages/334347.jpg"
     },
     {
@@ -946,7 +1018,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334348/original.jpg?1398614904",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334348/original.jpg?1398614904",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334348.jpg",
       "photoUrlLocal": "/artistImages/334348.jpg"
     },
     {
@@ -959,7 +1032,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334349/original.jpg?1398614913",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334349/original.jpg?1398614913",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334349.jpg",
       "photoUrlLocal": "/artistImages/334349.jpg"
     },
     {
@@ -972,7 +1046,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334350/original.jpg?1398614924",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334350/original.jpg?1398614924",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334350.jpg",
       "photoUrlLocal": "/artistImages/334350.jpg"
     },
     {
@@ -985,7 +1060,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334351/original.jpg?1398614933",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334351/original.jpg?1398614933",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334351.jpg",
       "photoUrlLocal": "/artistImages/334351.jpg"
     },
     {
@@ -998,7 +1074,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334352/original.jpg?1398614942",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334352/original.jpg?1398614942",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334352.jpg",
       "photoUrlLocal": "/artistImages/334352.jpg"
     },
     {
@@ -1011,7 +1088,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334353/original.jpg?1398614952",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334353/original.jpg?1398614952",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334353.jpg",
       "photoUrlLocal": "/artistImages/334353.jpg"
     },
     {
@@ -1024,7 +1102,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334354/original.jpg?1398614960",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334354/original.jpg?1398614960",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334354.jpg",
       "photoUrlLocal": "/artistImages/334354.jpg"
     },
     {
@@ -1037,7 +1116,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334355/original.jpg?1398614969",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334355/original.jpg?1398614969",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334355.jpg",
       "photoUrlLocal": "/artistImages/334355.jpg"
     },
     {
@@ -1050,7 +1130,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334356/original.jpg?1398615046",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334356/original.jpg?1398615046",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334356.jpg",
       "photoUrlLocal": "/artistImages/334356.jpg"
     },
     {
@@ -1063,7 +1144,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334357/original.jpg?1398615054",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334357/original.jpg?1398615054",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334357.jpg",
       "photoUrlLocal": "/artistImages/334357.jpg"
     },
     {
@@ -1076,7 +1158,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334358/original.jpg?1398615062",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334358/original.jpg?1398615062",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334358.jpg",
       "photoUrlLocal": "/artistImages/334358.jpg"
     },
     {
@@ -1089,7 +1172,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334359/original.jpg?1398615069",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334359/original.jpg?1398615069",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334359.jpg",
       "photoUrlLocal": "/artistImages/334359.jpg"
     },
     {
@@ -1102,7 +1186,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334360/original.jpg?1398615082",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334360/original.jpg?1398615082",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334360.jpg",
       "photoUrlLocal": "/artistImages/334360.jpg"
     },
     {
@@ -1115,7 +1200,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334361/original.jpg?1398615090",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334361/original.jpg?1398615090",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334361.jpg",
       "photoUrlLocal": "/artistImages/334361.jpg"
     },
     {
@@ -1128,7 +1214,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334362/original.jpg?1398615099",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334362/original.jpg?1398615099",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334362.jpg",
       "photoUrlLocal": "/artistImages/334362.jpg"
     },
     {
@@ -1141,7 +1228,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334363/original.jpg?1398615107",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334363/original.jpg?1398615107",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334363.jpg",
       "photoUrlLocal": "/artistImages/334363.jpg"
     },
     {
@@ -1154,7 +1242,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334364/original.jpg?1398615116",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334364/original.jpg?1398615116",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334364.jpg",
       "photoUrlLocal": "/artistImages/334364.jpg"
     },
     {
@@ -1167,8 +1256,23 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334365/original.jpg?1398615129",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334365/original.jpg?1398615129",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334365.jpg",
       "photoUrlLocal": "/artistImages/334365.jpg"
+    },
+    {
+      "artistId": "334381",
+      "artistName": "The Hold Steady",
+      "twitter": "theholdsteady",
+      "instagram": "theholdsteady",
+      "facebook": "http://facebook.com/theholdsteady",
+      "description": "",
+      "homebase": "",
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334381.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "334366",
@@ -1180,7 +1284,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334366/original.jpg?1398615186",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334366/original.jpg?1398615186",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334366.jpg",
       "photoUrlLocal": "/artistImages/334366.jpg"
     },
     {
@@ -1193,7 +1298,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334367/original.jpg?1398615194",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334367/original.jpg?1398615194",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334367.jpg",
       "photoUrlLocal": "/artistImages/334367.jpg"
     },
     {
@@ -1206,7 +1312,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334368/original.jpg?1398615207",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334368/original.jpg?1398615207",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334368.jpg",
       "photoUrlLocal": "/artistImages/334368.jpg"
     },
     {
@@ -1219,7 +1326,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334369/original.jpg?1398615215",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334369/original.jpg?1398615215",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334369.jpg",
       "photoUrlLocal": "/artistImages/334369.jpg"
     },
     {
@@ -1232,7 +1340,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334370/original.jpg?1398615224",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334370/original.jpg?1398615224",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334370.jpg",
       "photoUrlLocal": "/artistImages/334370.jpg"
     },
     {
@@ -1245,7 +1354,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334371/original.jpg?1398615232",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334371/original.jpg?1398615232",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334371.jpg",
       "photoUrlLocal": "/artistImages/334371.jpg"
     },
     {
@@ -1258,7 +1368,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334372/original.jpg?1398615251",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334372/original.jpg?1398615251",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334372.jpg",
       "photoUrlLocal": "/artistImages/334372.jpg"
     },
     {
@@ -1271,7 +1382,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334373/original.jpg?1398615278",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334373/original.jpg?1398615278",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334373.jpg",
       "photoUrlLocal": "/artistImages/334373.jpg"
     },
     {
@@ -1284,7 +1396,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334374/original.jpg?1398615286",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334374/original.jpg?1398615286",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334374.jpg",
       "photoUrlLocal": "/artistImages/334374.jpg"
     },
     {
@@ -1297,7 +1410,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334375/original.jpg?1398615296",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334375/original.jpg?1398615296",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334375.jpg",
       "photoUrlLocal": "/artistImages/334375.jpg"
     },
     {
@@ -1310,7 +1424,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334376/original.jpg?1398614999",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334376/original.jpg?1398614999",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334376.jpg",
       "photoUrlLocal": "/artistImages/334376.jpg"
     },
     {
@@ -1323,7 +1438,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334377/original.jpg?1398614987",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334377/original.jpg?1398614987",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334377.jpg",
       "photoUrlLocal": "/artistImages/334377.jpg"
     },
     {
@@ -1336,7 +1452,8 @@
       "homebase": "Appleton",
       "url": "",
       "genre": "Original",
-      "photoUrlRemote": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334378/original.jpg?1398614977",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334378/original.jpg?1398614977",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334378.jpg",
       "photoUrlLocal": "/artistImages/334378.jpg"
     }
   ]

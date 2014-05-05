@@ -22,7 +22,7 @@ angular.module('fsCordova', ['ngTouch'])
             }, 3000);
         }]);
 
-mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova','ngRoute']).
+mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'LocalStorageModule']).
     config(function($routeProvider) {
         $routeProvider
             .when('/artistList',

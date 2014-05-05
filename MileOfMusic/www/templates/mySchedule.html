@@ -3,7 +3,7 @@
     My Schedule
 </h3>
 
-<div class="mom-list-schedule" data-ng-repeat="concert in mySchedule.concerts | orderBy:'artistName'">
+<div class="mom-list-schedule" data-ng-repeat="concert in mySchedule | orderBy:'concert.artist.artistName'">
 
     <div class="mom-list-schedule-item">
         <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
@@ -12,5 +12,7 @@
             <p>{{concert.venue.venueName}}</p>
         </a>
     </div>
-
+    
 </div>
+
+<a data-ng-href="#/mySchedule" data-ng-click="clearSchedule();" class="btn btn-primary" data-ng-show="mySchedule.length > 0">Remove All From Schedule</a>

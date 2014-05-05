@@ -6,7 +6,7 @@
 </div>
     <a data-ng-href="#/artist/{{selectedConcert.artist.artistId}}">
     
-        <img onerror="this.src='img/logo.png'" data-ng-src="artistImages/{{selectedConcert.artist.artistId}}.jpg" alt="image of {{selectedConcert.artist.artistName}}" />                
+        <img onerror="this.src='img/logo.png'" data-ng-src="{{selectedConcert.artist.photoUrl}}" alt="image of {{selectedConcert.artist.artistName}}" />                
     </a>   
     <div class="mom-list-label">{{selectedConcert.artist.artistName}}</div>  
 </div>

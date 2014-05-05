@@ -2,6 +2,7 @@
     margin: 70px;
     background-image:url("../img/grunge50.jpg");
     padding: 10px;
+    padding-bottom: 50px;
 
     @media screen and (max-width: 763px) {
         margin:0;
@@ -11,13 +12,19 @@
 #page {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px; 
-  margin-top: 50px;
+  /*margin-bottom: -142px;*/ 
+  margin-top: 35px;
 }
 
-footer {
-  height: 142px;
+#footer nav {
+  height: 35px;
+  min-height: 35px;
 }
+
+#footer p {
+    padding-top: 7px;
+}
+
 
 .mainlogo {
       max-width: 100%;
@@ -96,6 +103,23 @@ p {
 /* ========================================================================== */
 /*#region Wrappers & Misc */
 
+.listNav {
+    position: fixed;
+    top: 60px;
+    left: 80px;
+    z-index: 2000;
+    background-color: black;
+}
+.listNavBtn {
+    padding: 10px 0px 5px 0px;
+}
+    .listNavBtn input {
+        margin: 5px 0px 5px 0px;
+        text-align:center;
+        padding: 3px;
+        width: 30px;
+        height: 30px;
+    }
 
 .glyphicon {
     position: relative;
@@ -200,7 +224,8 @@ p {
 .divided-sections {
     border-bottom: 1px solid #666666;
 }
-.tilt
+
+/*.tilt
 {
     -moz-transform-origin: 50% 100%;
     -ms-transform-origin: 50% 100%;
@@ -213,11 +238,11 @@ p {
     -webkit-transform: perspective(300px) rotateX(15deg) skew(5deg);
     transform: perspective(300px) rotateX(15deg) skew(5deg); 
     opacity:.3;
-    -webkit-transition: all .5s ease-in-out; /** Chrome & Safari **/
-    -moz-transition: all .5s ease-in-out; /** Firefox **/
-    -o-transition: all .5s ease-in-out; /** Opera **/
+    -webkit-transition: all .5s ease-in-out; 
+    -moz-transition: all .5s ease-in-out; 
+    -o-transition: all .5s ease-in-out; 
     transition: all .5s ease-in-out;
-}
+}*/
 
 /*#endregion */
 

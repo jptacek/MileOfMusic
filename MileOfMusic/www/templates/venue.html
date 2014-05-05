@@ -3,7 +3,7 @@
         <p>&nbsp;</p>
         <a href="#/venueList" ><div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div></a>
     </div>
-    <img onerror="this.src='img/no-image-venue.jpg'" data-ng-src="venueImages/{{selectedVenue.venueId}}.jpg" alt="image of {{selectedVenue.venueName}}" />
+    <img onerror="this.src='img/no-image-venue.jpg'" data-ng-src="{{selectedVenue.photoUrl}}" alt="image of {{selectedVenue.venueName}}" />
     <div class="mom-list-label">
         {{selectedVenue.venueName}}
     </div>
@@ -83,13 +83,14 @@
         </div>
         <div class="mom-list-schedule" data-ng-repeat="concert in shows | orderBy:['time']">
             <div class="mom-list-schedule-item">
-                <div class="float-left"><a class="mom-list-schedule-item-favorite" data-ng-href="">
-                    <!-- favorites -->
-                    <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
-                </a></div>
+                <div class="float-left"><a class="mom-list-schedule-item-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)">
+    <!-- favorites -->
+    <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
+</a></div>
                <div> <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                    <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
-                </a></div>
+                    <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}} - {{concert.artist.artistName}}</p>
+                    </a>
+               </div>
             </div>
         </div>
     </div>

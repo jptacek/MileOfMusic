@@ -3,12 +3,11 @@
     <a href="#/artistList">
         <div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div>
     </a>
-    <img onerror="this.src='img/logo.png'" data-ng-src="artistImages/{{selectedArtist.artistId}}.jpg" alt="image of {{selectedArtist.artistName}}" />
+    <img onerror="this.src='img/logo.png'" data-ng-src="{{selectedArtist.photoUrl}}" alt="image of {{selectedArtist.artistName}}" />
     <div class="mom-list-label">{{selectedArtist.artistName}}</div>
 </div>
 
 <div>
-    
     <ul class="nav nav-tabs">
         <li class="active"><a href="" data-toggle="tab" data-ng-click="setSelectedTab(1);">Info</a></li>
         <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(2);">Schedule</a></li>
@@ -41,53 +40,58 @@
                     <img src="img/icon-instagram.png" class="socialicons" alt="Instagram" />
                     {{selectedArtist.instagram}}
                 </a>
-        </div>
+            </div>
             <div class="divided-sections" data-ng-show="selectedArtist.url.length > 0">
                 <a data-ng-href="{{selectedArtist.url}}">
                     <img src="img/icon-home.png" class="socialicons" alt="Homepage" />
                     Band Page
                 </a>
             </div>
+        </div>
+        
+        <div data-ng-show="music.length > 0">
+            <h3>Sample Music</h3>
+            <div data-ng-repeat="item in music">
+                <div style="width: 100%; height: 110px;">
+                    <div style="float: left; position: absolute">
+                        <img data-ng-src="{{item.imageUrl}}" alt="{{item.name}}" />
+                        <div style="margin-top: 5px;" data-ng-bind-html="item.audio"></div>
+                    </div>
+                    <div style="margin-left: 80px;">
+                        <i>{{item.album}}</i><br />
+                        {{item.name}}<br />
+                    </div>
+                </div>
             </div>
         </div>
+
+    </div>
     <div data-ng-show="shouldShowTab(2)">
         <!-- This is the Schedule tab -->
         <div class="mom-list-schedule" data-ng-repeat="concert in concertListForArtist | orderBy:'artistName'">
 
             <div class="mom-list-schedule-item divided-sections">
-              <div class="float-left">  <a class="mom-list-schedule-item-favorite" data-ng-href="">
-                    <!-- favorites icon -->
-                    <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
-                </a></div>
-               <div> <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                    <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
-                    <p>{{concert.venue.venueName}}</p>
-                </a></div>
-            </div>
-
-        </div>
-    </div>
-
-    <div data-ng-show="music.length > 0">
-        <h3>Sample Music</h3>
-        <div data-ng-repeat="item in music">
-            <div style="width: 100%; height: 110px;">
-                <div style="float: left; position: absolute">
-                    <img data-ng-src="{{item.imageUrl}}" alt="{{item.name}}" /> 
-                    <div style="margin-top: 5px;" data-ng-bind-html="item.audio"></div>
+                <div class="float-left">
+                    <a class="mom-list-schedule-item-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)">
+                        <!-- favorites icon -->
+                        <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
+                    </a>
                 </div>
-                <div style="margin-left: 80px;">
-                    <i>{{item.album}}</i><br />
-                    {{item.name}}<br />
+                <div>
+                    <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
+                        <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
+                        <p>{{concert.venue.venueName}}</p>
+                    </a>
                 </div>
             </div>
+
         </div>
     </div>
 
     <div data-ng-show="shouldShowTab(2)">
         <!-- This is the Schedule tab -->
         <div>
-            
+
         </div>
     </div>
 </div>

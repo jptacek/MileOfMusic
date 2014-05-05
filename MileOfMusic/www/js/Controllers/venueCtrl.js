@@ -1,5 +1,5 @@
 mileOfMusicApp.controller('venueController',
-    function($scope,$log,$routeParams, venueData,CordovaService,concertData) {
+    function($scope,$log,$routeParams, venueData, myScheduleData, CordovaService,concertData) {
         $log.info('heop');
 
         CordovaService.ready.then(function() {
@@ -28,6 +28,11 @@ mileOfMusicApp.controller('venueController',
             };
             $scope.shouldShowTab = function (tabId) {
                 return tabId == $scope.selectedTabIndex;
+            };
+
+            $scope.saveFavorite = function (concertId) {
+                //$log.info("saveFavorite");
+                myScheduleData.saveConcertToMySchedule(concertId);
             };
         });
 

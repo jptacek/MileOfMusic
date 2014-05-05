@@ -1,9 +1,11 @@
 
     <!--<h3>Artist List</h3>-->
 
+    <div data-listnav></div>
+
     <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | orderBy:'artistName'">                  
-        <a data-ng-href="#/artist/{{artist.artistId}}">
-        <img  onerror="this.src='img/logo.png'" data-ng-src="artistImages/{{artist.artistId}}.jpg" alt="image of {{artist.artistName}}" />
+        <a id="nav-{{artist.artistName | firstLetter}}" data-ng-href="#/artist/{{artist.artistId}}">
+        <img  onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />
         </a>
         <div class="mom-list-label">{{artist.artistName}}</div>
     </div>
