@@ -1,18 +1,46 @@
 
 <h3>
-    My Schedule
+    Favorites
 </h3>
 
-<div class="mom-list-schedule" data-ng-repeat="concert in mySchedule | orderBy:'concert.artist.artistName'">
+<style>
+    .post-container {
+        overflow: auto
+    }
+    .post-thumb {
+        margin-top: 10px;
+        float: left
+    }
+    .post-thumb img {
+        display: block
+    }
+    .post-content {
+        margin-left: 55px
+    }
+</style>
+
+<div data-ng-show="mySchedule.length == 0">You have not scheduled any concerts yet.</div>
+<div data-ng-show="mySchedule.length > 0" class="mom-list-schedule" data-ng-repeat="concert in mySchedule | orderBy:'concert.artist.artistName'">
 
     <div class="mom-list-schedule-item">
-        <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-            <p class="bold">{{concert.artist.artistName}}</p>
-            <p>{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
-            <p>{{concert.venue.venueName}}</p>
-        </a>
+
+        <div class="post-container">                
+            <div data-ng-hide="checkSchedule(concert.concertId)" class="post-thumb">
+                <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)">
+                    <!-- favorites -->
+                    <img data-ng-src="img/remove-favs-icon50.png" alt="Remove from Schedule" title="Remove from Schedule" />
+                </a>
+            </div>
+            <div class="post-content">
+                <div class="mom-list-schedule-item-label">
+                    <a  style="" data-ng-href="#/artist/{{concert.artistId}}"><p class="bold">{{concert.artist.artistName}}</p></a>
+                    <a  style="" data-ng-href="#/concert/{{concert.concertId}}">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</a>
+                    <a  style="" data-ng-href="#/venue/{{concert.venueId}}"><p>{{concert.venue.venueName}}</p></a>
+                </div>
+           </div>
+        </div>
+     
     </div>
-    
 </div>
 
 <a data-ng-href="#/mySchedule" data-ng-click="clearSchedule();" class="btn btn-primary" data-ng-show="mySchedule.length > 0">Remove All From Schedule</a>

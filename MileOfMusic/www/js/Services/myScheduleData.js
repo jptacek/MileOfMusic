@@ -1,4 +1,4 @@
-mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData, localStorageService, appHelper) {
+mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData, appHelper, localStorageService) {
 
     var bookmarkStorageKey = 'bookmarkConcertList';
     var getMySchedule = function() {
@@ -8,21 +8,26 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
 
         var bookmarkList = this.getSavedBookmarkList();
 
+        var processedConcerts = [];
+
         $.each(bookmarkList, function (i, concertId) {
 
             // get the concertData for the concertId
             concertData.getConcert(concertId).then(function (result) {
                 concertList.push(result);
+                processedConcerts.push(concertId);
             }, function (data, status) {
                 $log.error(data);
+                processedConcerts.push(concertId);
             });
 
         });
 
         // note: the promise gets resolved when the length of the concertList is the same as the bookmarkList
         var interval = setInterval(function () {
-            var isAllDataLoaded = concertList.length == bookmarkList.length;
+            var isAllDataLoaded = processedConcerts.length == bookmarkList.length;
             if (isAllDataLoaded) {
+                clearInterval(interval);
                 deferred.resolve(concertList);
             }
         }, 100);
@@ -39,14 +44,29 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
             // the concert does not already exist in the list, so add it and save the list
             bookmarkList.push(concertId);
             var bookmarkListJson = JSON.stringify(bookmarkList);
-            localStorageService.add(bookmarkStorageKey, bookmarkListJson);
-        }
 
+            localStorageService.set(bookmarkStorageKey, bookmarkListJson);
+            return true;
+        }
+        return false;
+    };
+
+    // Save the specified concertId to the bookmark list, only if it does not already exist
+    var removeConcertFromMySchedule = function (concertId) {
+        var bookmarkList = this.getSavedBookmarkList();
+        var index = bookmarkList.indexOf(concertId);
+        if (index >= 0) {
+            // the concert does not already exist in the list, so add it and save the list
+            bookmarkList.splice(index, 1);
+            var bookmarkListJson = JSON.stringify(bookmarkList);
+            localStorageService.set(bookmarkStorageKey, bookmarkListJson);
+            return true;
+        }
+        return false;
     };
 
     // Answer the saved bookmark list.  If no saved list is found, return empty array
     var getSavedBookmarkList = function () {
-
         var savedBookmarkList = localStorageService.get(bookmarkStorageKey);
         if (savedBookmarkList)
             return savedBookmarkList;
@@ -56,13 +76,14 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
 
     // Clear all bookmarks from storage
     var clearSavedBookmarks = function () {
-        localStorageService.add(bookmarkStorageKey, null);
+        localStorageService.clearAll();
     }
 
     return {
         getMySchedule: getMySchedule,
         getSavedBookmarkList: getSavedBookmarkList,
         saveConcertToMySchedule: saveConcertToMySchedule,
+        removeConcertFromMySchedule: removeConcertFromMySchedule,
         clearSavedBookmarks: clearSavedBookmarks,
     };
 });

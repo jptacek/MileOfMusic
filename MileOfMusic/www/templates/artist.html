@@ -72,10 +72,17 @@
 
             <div class="mom-list-schedule-item divided-sections">
                 <div class="float-left">
-                    <a class="mom-list-schedule-item-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)">
-                        <!-- favorites icon -->
-                        <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
-                    </a>
+                    <!-- Add Favorite -->
+                    <!--<a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>-->                   
+                    
+                    <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
+                        <!-- Add favorite -->
+                        <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+                    </div>
+                    <div data-ng-hide="checkSchedule(concert.concertId)" class="float-left">
+                        <!-- Remove favorite -->
+                        <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                    </div>
                 </div>
                 <div>
                     <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">

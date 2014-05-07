@@ -1,9 +1,9 @@
 <div class="mom-list-item">
     <div>
         <p>&nbsp;</p>
-        <a href="#/venueList" ><div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div></a>
+        <a href="#/venueList"><div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div></a>
     </div>
-    <img onerror="this.src='img/no-image-venue.jpg'" data-ng-src="{{selectedVenue.photoUrl}}" alt="image of {{selectedVenue.venueName}}" />
+    <img onerror="this.src='img/no-image-venue.jpg'" src="{{selectedVenue.photoUrl}}" alt="image of {{selectedVenue.venueName}}" />
     <div class="mom-list-label">
         {{selectedVenue.venueName}}
     </div>
@@ -23,7 +23,7 @@
         </div>
         <div class="padding" data-ng-show="selectedVenue.address.length > 0">
             <a data-ng-href="http://bing.com/maps/default.aspx?where1={{selectedVenue.address}},{{selectedVenue.city}},{{selectedVenue.state}}" target="_blank">
-                {{selectedVenue.address}} 
+                {{selectedVenue.address}}
                 <br />
                 {{selectedVenue.city}}, {{selectedVenue.state}} {{selectedVenue.zip}}
             </a>
@@ -34,15 +34,15 @@
         <div data-ng-show="selectedVenue.hours.length > 0">
             {{selectedVenue.hours}}
         </div>
-         <div>
+        <div>
             Age Requirement:
-            <div data-ng-show="selectedVenue.underage" >
+            <div data-ng-show="selectedVenue.underage">
                 {{selectedVenue.venueName}} welcomes patrons of all ages
             </div>
-            <div data-ng-show="!selectedVenue.underage && selectedVenue.underageWithAdult" >
+            <div data-ng-show="!selectedVenue.underage && selectedVenue.underageWithAdult">
                 {{selectedVenue.venueName}} welcomes underage patrons when accompanied by an adult
             </div>
-            <div data-ng-show="!selectedVenue.underage && !selectedVenue.underageWithAdult" >
+            <div data-ng-show="!selectedVenue.underage && !selectedVenue.underageWithAdult">
                 {{selectedVenue.venueName}} welcomes patrons age 21 and older
             </div>
         </div>
@@ -57,15 +57,15 @@
             <div class="divided-sections" data-ng-show="selectedVenue.facebook.length > 0">
                 <a data-ng-href="{{selectedVenue.facebook}}">
                     <img src="img/icon-facebook.png" class="socialicons" alt="Facebook" />
-                   Facebook
+                    Facebook
                 </a>
             </div>
-             <div class="divided-sections" data-ng-show="selectedArtist.instagram.length > 0">
+            <div class="divided-sections" data-ng-show="selectedArtist.instagram.length > 0">
                 <a data-ng-href="https://www.instagram.com/{{selectedArtist.instagram}}">
                     <img src="img/icon-instagram.png" class="socialicons" alt="Instagram" />
                     {{selectedArtist.instagram}}
                 </a>
-        </div>
+            </div>
             <div class="divided-sections" data-ng-show="selectedVenue.url.length > 0">
                 <a data-ng-href="{{selectedVenue.url}}">
                     <img src="img/icon-home.png" class="socialicons" alt="Homepage" />
@@ -73,8 +73,8 @@
                 </a>
             </div>
         </div>
-       
-    </div>    
+
+    </div>
 
     <div data-ng-show="shouldShowTab(2)">
         <!-- This is the Schedule tab -->
@@ -83,17 +83,22 @@
         </div>
         <div class="mom-list-schedule" data-ng-repeat="concert in shows | orderBy:['time']">
             <div class="mom-list-schedule-item">
-                <div class="float-left"><a class="mom-list-schedule-item-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)">
-    <!-- favorites -->
-    <img data-ng-src="img/add-favs-icon50.png" alt="Favorites" />
-</a></div>
-               <div> <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                    <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}} - {{concert.artist.artistName}}</p>
+                <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
+                    <!-- Add favorite -->
+                    <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)" ></a>                    
+                </div>
+                <div data-ng-hide="checkSchedule(concert.concertId)" class="float-left">
+                    <!-- Remove favorite -->
+                    <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                </div>
+                <div>
+                    <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
+                        <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}} - {{concert.artist.artistName}}</p>
                     </a>
-               </div>
+                </div>
             </div>
         </div>
     </div>
 
-    
+
 </div>

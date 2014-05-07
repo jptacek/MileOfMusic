@@ -1,9 +1,11 @@
 
-    <!--<h3>Artist List</h3>-->
+<!--<h3>
+    Artists
+</h3>-->
 
     <div data-listnav></div>
 
-    Search:<br /><input type="text" data-ng-model="searchText" />
+    Search Artists: <input type="text" data-ng-model="searchText" />
 
 
     <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | filter:searchText | orderBy:'artistName'">                  
