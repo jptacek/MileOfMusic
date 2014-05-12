@@ -1,5 +1,5 @@
 ﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper) {
-    var getRemoteData = function (storageKey, versionUrl, dataUrl, newDataCallback, preStoreDataCallback) {
+    var getRemoteData = function (storageKey, versionUrl, dataUrl, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
         var deferred = $q.defer();
 
         var dataKey = storageKey;
@@ -13,7 +13,11 @@
 
         if (data != null && lastVersionCheck != null && lastVersionCheck < dateCheck) {
             $log.info("Pulled from cache - no version check");
-            var jsonData = JSON.parse(data);
+            var jsonData = null;
+            if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+            if (jsonData == null) {
+                jsonData = JSON.parse(data);
+            }
             deferred.resolve(jsonData);
         }
         else {
@@ -51,7 +55,11 @@
                     $log.info("Pulled from cache - checked version");
                     localStorage.setItem(versionDateKey, new Date().toString());
 
-                    var jsonData = JSON.parse(data);
+                    var jsonData = null;
+                    if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+                    if (jsonData == null) {
+                        jsonData = JSON.parse(data);
+                    }
                     deferred.resolve(jsonData);
                 }
             }, function () {
@@ -61,7 +69,11 @@
                 }
                 else {
                     // Version get failed, but we have a cached version so just use that
-                    var jsonData = JSON.parse(data);
+                    var jsonData = null;
+                    if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+                    if (jsonData == null) {
+                        jsonData = JSON.parse(data);
+                    }
                     deferred.resolve(jsonData);
                 }
             });

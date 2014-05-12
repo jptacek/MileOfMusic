@@ -1,19 +1,29 @@
-
-
 <div>
-    <h3>Concerts</h3>
+    <h3>Schedule</h3>
 
-    Search:<br /><input type="text" data-ng-model="searchText" />
+    <div class="input-group">
+        <div data-listnav></div>
+        <input type="text" data-ng-model="searchText" class="form-control" placeholder="Search" /> <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+    </div>
 
+    <br />
 
     <div id="concerts">
-        <div data-ng-repeat="concert in shows.concerts | filter:searchText | orderBy:['time','venue.venueId','venue.genre']">
-            <ul class="list-group">
-                <li class="list-group-item"><a data-ng-href="#/concert/{{concert.concertId}}">
-                    {{concert.timeStart|date:'medium'}} - {{concert.artist.artistName}}</a>
-                </li>
-            </ul>
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="" data-toggle="tab" data-ng-click="setSelectedTab(1);">Thursday</a></li>
+            <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(2);">Friday</a></li>
+            <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(3);">Saturday</a></li>
+            <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(4);">Sunday</a></li>
+        </ul>
+
+        <div class="mom-list-item tilt-item" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueName','venue.genre']">
+            <a data-ng-href="#/concert/{{concert.concertId}}">
+                <img onerror="this.src='img/logo.png'" data-ng-src="{{concert.artist.photoUrl}}" alt="image of {{artist.artistName}}" />
+                {{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} - {{concert.artist.artistName}} @{{concert.venue.venueName}}
+            </a>
         </div>
+
     </div>
 </div>
 

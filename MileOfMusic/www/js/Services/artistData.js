@@ -6,6 +6,8 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
     var dataUrl = "http://mileofmusicmobile.azurewebsites.net/Data/GetJson?callback=JSON_CALLBACK&filename=Artists.txt";
 
     var storageKey_getArtists = "artistData-getArtists";
+
+    var cache_artistList = null;
     var cache_getArtist = null;
 
     var getArtists = function () {
@@ -13,8 +15,10 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
 
         var checkForMissingImages = function (result) { return commonData.checkForMissingImages(result.artists, "artistId", "artstImages"); }
 
-        commonData.getRemoteData(storageKey_getArtists, versionUrl, dataUrl, function() { cache_getArtist = null; }, checkForMissingImages).then(function (result) {
-            deferred.resolve(result);
+        // if the list is not in cache, then build it
+        commonData.getRemoteData(storageKey_getArtists, versionUrl, dataUrl, function () { cache_getArtist = null; }, checkForMissingImages, function () { return cache_artistList; }).then(function (result) {
+            cache_artistList = result;
+            deferred.resolve(cache_artistList);
         }, function () { deferred.reject(); });
 
         return deferred.promise;

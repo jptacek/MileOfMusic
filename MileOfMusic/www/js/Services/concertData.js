@@ -6,42 +6,53 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
     var dataUrl = "http://mileofmusicmobile.azurewebsites.net/Data/GetJson?callback=JSON_CALLBACK&filename=Concerts.txt";
 
     var storageKey_getConcerts = "concertData-getConcerts";
-    var cache_geConcert = null;
+    var cache_concertList = null;
+    var cache_getConcert = null;
     var cache_getConcertsByVenue = null;
     var cache_getConcertsByArtist = null;
 
     var getConcerts = function () {
         var deferred = $q.defer();
 
+        // the list is not in cache, so build it
         commonData.getRemoteData(storageKey_getConcerts, versionUrl, dataUrl, function() {
-            cache_geConcert = null;
+            cache_getConcert = null;
             cache_getConcertsByVenue = null;
             cache_getConcertsByArtist = null;
-        }, null).then(function (result) {
-            $.each(result.data.concerts, function (i, concert) {
-                artistData.getArtist(concert.artistId).then(function (result) {
-                    concert.artist = result;
-                }, function () { concert.artist = null; });
-                venueData.getVenue(concert.venueId).then(function (result) {
-                    concert.venue = result;
-                }, function () { concert.venue = null; });
+        }, null, function () { return cache_concertList; }).then(function(result) {
+            $.each(result.data.concerts, function(i, concert) {
 
-                var interval = setInterval(function () {
-                    var allAssigned = true;
-                    $.each(result.data.concerts, function (i, item) {
-                        if (item.artist == undefined || item.venue == undefined) {
-                            allAssigned = false;
-                            return false;
-                        }
-                    });
-                    if (allAssigned) {
-                        clearInterval(interval);
-                        deferred.resolve();
-                    }
-                }, 100);                
+                // populate the artist into the concert
+                artistData.getArtist(concert.artistId).then(function(result) {
+                    concert.artist = result;
+                }, function() { concert.artist = null; });
+
+                // populate the venue into the concert
+                venueData.getVenue(concert.venueId).then(function(result) {
+                    concert.venue = result;
+                }, function() { concert.venue = null; });
+
             });
-            deferred.resolve(result);
+
+            var interval = setInterval(function() {
+                var allAssigned = true;
+
+                // the promise only resolves when each concert contains both an artist and venue
+                $.each(result.data.concerts, function(i, item) {
+                    if (item.artist == undefined || item.venue == undefined) {
+                        allAssigned = false;
+                        return false;
+                    }
+                });
+                if (allAssigned) {
+                    clearInterval(interval);
+                    cache_concertList = result;
+                    deferred.resolve(cache_concertList);
+                }
+            }, 100);
+
         }, function () { deferred.reject(); });
+
 
         return deferred.promise;
     };
@@ -49,14 +60,14 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
     var getConcert = function (concertId) {
         var deferred = $q.defer();
 
-        if (cache_geConcert == null) {
+        if (cache_getConcert == null) {
             getConcerts().then(function (result) {
-                cache_geConcert = appHelper.buildIndex(result.data.concerts, "concertId");
-                deferred.resolve(cache_geConcert[concertId]);
+                cache_getConcert = appHelper.buildIndex(result.data.concerts, "concertId");
+                deferred.resolve(cache_getConcert[concertId]);
             }, function () { deferred.reject(); });
         }
         else {
-            deferred.resolve(cache_geConcert[concertId]);
+            deferred.resolve(cache_getConcert[concertId]);
         }
 
         return deferred.promise;

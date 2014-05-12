@@ -34,7 +34,7 @@
         <div data-ng-show="selectedVenue.hours.length > 0">
             {{selectedVenue.hours}}
         </div>
-        <div>
+        <div><br />
             Age Requirement:
             <div data-ng-show="selectedVenue.underage">
                 {{selectedVenue.venueName}} welcomes patrons of all ages
@@ -78,11 +78,9 @@
 
     <div data-ng-show="shouldShowTab(2)">
         <!-- This is the Schedule tab -->
-        <div>
-            <b>Enjoy these concerts at {{selectedVenue.venueName}}:</b>
-        </div>
+    <!--   <p>Enjoy these concerts at {{selectedVenue.venueName}}:</p>-->
         <div class="mom-list-schedule" data-ng-repeat="concert in shows | orderBy:['time']">
-            <div class="mom-list-schedule-item">
+            <div class="mom-list-schedule-item  divided-sections">
                 <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
                     <!-- Add favorite -->
                     <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)" ></a>                    
@@ -93,7 +91,8 @@
                 </div>
                 <div>
                     <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                        <p class="bold">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}} - {{concert.artist.artistName}}</p>
+                        <p class="bold">{{concert.artist.artistName}}</p>
+                        <p>{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
                     </a>
                 </div>
             </div>

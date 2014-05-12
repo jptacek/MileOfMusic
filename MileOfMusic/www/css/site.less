@@ -2,7 +2,7 @@
     margin: 70px;
     background-image:url("../img/grunge50.jpg");
     padding: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 50px
 
     @media screen and (max-width: 763px) {
         margin:0;
@@ -13,7 +13,7 @@
   min-height: 100%;
   /* equal to footer height */
   /*margin-bottom: -142px;*/ 
-  margin-top: 45px;
+  margin-top: 55px;
 }
 
 #footer nav {
@@ -56,7 +56,7 @@ h2, .h2 {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 h3, .h3 {
@@ -105,11 +105,9 @@ p {
 
 .listNav {
     position: fixed;
-    top: 60px;
     right: 0;
     z-index: 2000;
     max-width: 30px;
-    /*background-color: #f4d000;*/
 }
 .listNavBtn {
     padding: 1px 0px 1px 0px;
@@ -117,10 +115,23 @@ p {
     .listNavBtn input {
         margin: 1px 0px 1px 0px;
         text-align:center;
-        padding: 3px;
+        padding: 1px;
         width: 30px;
-        height: 30px;
+        height: 13px;
     }
+
+.input-group {
+    max-width: 70%;
+}
+
+.input-group {
+    max-width: 70%;
+}
+
+.search {
+    position: fixed;
+}
+
 
 .glyphicon {
     position: relative;
@@ -209,10 +220,15 @@ p {
     }
 }
 
+.red {
+background-color: red;
+}
+
 .mom-callout {
     background-color: rgba(0, 53, 91, 0.9);
     width: 100%;
     color: #fff;
+    text-transform: uppercase;
     min-height: 40px;
     font-size: 30px;
     padding: 4px 15px;
@@ -222,24 +238,6 @@ p {
     border-bottom: 1px solid #666666;
 }
 
-/*.tilt
-{
-    -moz-transform-origin: 50% 100%;
-    -ms-transform-origin: 50% 100%;
-    -o-transform-origin: 50% 100%;
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-    -moz-transform: perspective(300px) rotateX(15deg) skew(5deg);
-    -ms-transform: perspective(300px) rotateX(15deg) skew(5deg);
-    -o-transform: perspective(300px) rotateX(15deg) skew(5deg);
-    -webkit-transform: perspective(300px) rotateX(15deg) skew(5deg);
-    transform: perspective(300px) rotateX(15deg) skew(5deg); 
-    opacity:.3;
-    -webkit-transition: all .5s ease-in-out; 
-    -moz-transition: all .5s ease-in-out; 
-    -o-transition: all .5s ease-in-out; 
-    transition: all .5s ease-in-out;
-}*/
 
 /*#endregion */
 
@@ -272,6 +270,9 @@ p {
         .nav-tabs > li > a {
             margin-right: 2px;
             line-height: 1.42857143;
+            color: #666666;
+            background-color: #dddddd;
+            border: 1px solid #dddddd;
             border: 1px solid transparent;
             border-radius: 4px 4px 0 0;
         }
@@ -368,12 +369,12 @@ a.mom-list-schedule-item-add-favorite {
 	height: 48px;
 	display: block;
 }
-a.mom-list-schedule-item-add-favorite:hover {
+/*a.mom-list-schedule-item-add-favorite:hover {
     background-image:url("../img/add-favs-icon50-hover.png");	
  }
 a.mom-list-schedule-item-add-favorite:active {     
     background-image:url("../img/add-favs-icon50-onclick.png");	
- }
+ }*/
 
 a.mom-list-schedule-item-remove-favorite {
     background-image:url("../img/remove-favs-icon50.png");	
@@ -381,12 +382,12 @@ a.mom-list-schedule-item-remove-favorite {
 	height: 48px;
 	display: block;
 }
-a.mom-list-schedule-item-remove-favorite:hover {
+/*a.mom-list-schedule-item-remove-favorite:hover {
     background-image:url("../img/remove-favs-icon50-hover.png");	
  }
 a.mom-list-schedule-item-remove-favorite:active {     
     background-image:url("../img/remove-favs-icon50-onclick.png");	
- }
+ }*/
 
 /*#endregion */
 

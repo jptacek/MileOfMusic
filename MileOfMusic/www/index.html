@@ -44,20 +44,18 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
 <!-- End Google Tag Manager -->
 
 <div id="page">
-    <header>
-        <div id="menu" class="navbar navbar-default navbar-fixed-top">
-            <div class="navbar-header">
-                <div id="logo2"><span class="glyphicon glyphicon-chevron-left"></span>
-                    <a href="./index.html"><img src="img/logo-small.png" width="100"  alt="Mile of music logo"/></a>
-                </div>
-            </div>
-       
-        </div>
-    </header>
-
     <section id="body">
         <section id="main">
             <div id="app" data-ng-app="mileOfMusicApp">
+                <div id="menu" class="navbar navbar-default navbar-fixed-top">
+                    <div class="navbar-header">
+                        <div id="logo2">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <a href="./index.html"><img src="img/logo-small.png" width="100" alt="Mile of music logo" /></a>
+                        </div>
+                    </div>
+
+                </div>                  
                 <data-ng-view></data-ng-view>
             </div>
             <br />
@@ -113,7 +111,7 @@ switch to AngularUI
 <script src="js/Controllers/myScheduleCtrl.js"></script>
 <script src="js/Services/myScheduleData.js"></script>
 <script src="js/Services/concertData.js"></script>
-    <script src="js/appHelper.js"></script>
+<script src="js/appHelper.js"></script>
 
 <script type="text/javascript">
     $(function () {
