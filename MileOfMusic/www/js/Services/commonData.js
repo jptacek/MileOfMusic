@@ -11,8 +11,7 @@
         var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
 
 
-        if (data != null && lastVersionCheck != null && lastVersionCheck < dateCheck) {
-            $log.info("Pulled from cache - no version check");
+        if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
             var jsonData = null;
             if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
             if (jsonData == null) {
@@ -24,11 +23,9 @@
             $http.jsonp(versionUrl).then(function (result) {
                 var myVersion = localStorage.getItem(versionKey);
                 if (data == null || myVersion == null || JSON.parse(myVersion).Version != result.Version) {
-                    $log.info("New version");
 
                     // New version, so go download new JSON
                     $http.jsonp(dataUrl).then(function (result) {
-                        $log.info("Got new version");
 
                         if (newDataCallback != null) newDataCallback();
 
@@ -52,7 +49,6 @@
                 }
                 else {
                     // Pull from cache
-                    $log.info("Pulled from cache - checked version");
                     localStorage.setItem(versionDateKey, new Date().toString());
 
                     var jsonData = null;
@@ -96,7 +92,6 @@
                 type: 'HEAD',
                 error: function () {
                     localItem[photoUrlProperty] = localItem[photoUrlRemoteProperty];
-                    console.log(localItem[photoUrlRemoteProperty]);
                     try {
                         var fileTransfer = new FileTransfer();
                         var uri = encodeURI(localItem[photoUrlRemoteProperty]);

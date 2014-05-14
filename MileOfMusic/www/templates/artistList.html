@@ -1,18 +1,17 @@
 
-<h3>
+<!--<h3>
     Artists
-</h3>
+</h3>-->
 
-   <div class="input-group"> <div data-listnav></div>
-
+<div class="input-group">
     <input type="text" data-ng-model="searchText" placeholder="Search" class="form-control" /><span class="input-group-addon"> <span class="glyphicon glyphicon-search"></span></span>
-
-    </div>
-    <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | filter:searchText | orderBy:'artistName'">                  
-        <a id="nav-{{artist.artistName | firstLetter}}" data-ng-href="#/artist/{{artist.artistId}}">
-        <img  onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />
-        </a>
+</div>
+<div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | filter:searchText | orderBy:'artistName'">
+    <a id="nav-{{artist.artistName | firstLetter}}" data-ng-href="#/artist/{{artist.artistId}}">
+        <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />
         <div class="mom-list-label">{{artist.artistName}}</div>
-    </div>
+    </a>
+
+</div>
 
 

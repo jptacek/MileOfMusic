@@ -20,12 +20,14 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
             cache_getConcertsByVenue = null;
             cache_getConcertsByArtist = null;
         }, null, function () { return cache_concertList; }).then(function(result) {
-            $.each(result.data.concerts, function(i, concert) {
-
-                // populate the artist into the concert
-                artistData.getArtist(concert.artistId).then(function(result) {
-                    concert.artist = result;
-                }, function() { concert.artist = null; });
+            $.each(result.data.concerts, function (i, concert) {
+                concert.artistData = [];
+                $.each(concert.artists, function (j, artist) {
+                    // populate the artist into the concert
+                    artistData.getArtist(artist).then(function (result) {
+                        concert.artistData.push(result);
+                    }, function () { concert.artistData.push(null); });
+                });
 
                 // populate the venue into the concert
                 venueData.getVenue(concert.venueId).then(function(result) {
@@ -39,7 +41,7 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
 
                 // the promise only resolves when each concert contains both an artist and venue
                 $.each(result.data.concerts, function(i, item) {
-                    if (item.artist == undefined || item.venue == undefined) {
+                    if (item.venue == undefined || item.artistData.length != item.artists.length) {
                         allAssigned = false;
                         return false;
                     }
@@ -52,7 +54,6 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
             }, 100);
 
         }, function () { deferred.reject(); });
-
 
         return deferred.promise;
     };
@@ -103,10 +104,12 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
             getConcerts().then(function (result) {
                 var lookup = [];
                 $.each(result.data.concerts, function (i, item) {
-                    if (lookup[item.artistId] == undefined) {
-                        lookup[item.artistId] = [];
-                    }
-                    lookup[item.artistId].push(item);
+                    $.each(item.artists, function (i, artistId) {
+                        if (lookup[artistId] == undefined) {
+                            lookup[artistId] = [];
+                        }
+                        lookup[artistId].push(item);
+                    });
                 });
                 cache_getConcertsByArtist = lookup;
                 deferred.resolve(cache_getConcertsByArtist[artistId]);

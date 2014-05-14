@@ -14,7 +14,7 @@
   /* equal to footer height */
 
   /*margin-bottom: -142px;*/
-  margin-top: 65px;
+  margin-top: 55px;
 }
 #footer nav {
   height: 35px;
@@ -105,7 +105,7 @@ p {
   text-align: center;
   padding: 1px;
   width: 30px;
-  height: 13px;
+  height: 30px;
 }
 .input-group {
   max-width: 70%;
@@ -187,6 +187,9 @@ p {
 .mom-list-item .mom-list-button a {
   color: #666666;
 }
+.red {
+  background-color: red;
+}
 .mom-callout {
   background-color: rgba(0, 53, 91, 0.9);
   width: 100%;
@@ -198,6 +201,19 @@ p {
 }
 .divided-sections {
   border-bottom: 1px solid #666666;
+}
+.post-container {
+  overflow: auto;
+}
+.post-thumb {
+  margin-top: 10px;
+  float: left;
+}
+.post-thumb img {
+  display: block;
+}
+.post-content {
+  margin-left: 55px;
 }
 /*#endregion */
 /* ========================================================================== */
@@ -289,6 +305,7 @@ p {
 .mom-list-schedule .mom-list-schedule-item {
   padding-left: 4px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .mom-list-schedule .mom-list-schedule-item .mom-list-schedule-item-add-favorite {
   cursor: pointer;
@@ -324,6 +341,9 @@ a.mom-list-schedule-item-remove-favorite:active {
 /*#region Home */
 /*#endregion */
 /*#region Schedule */
+.schedule-image {
+  max-width: 30%;
+}
 /*#endregion */
 /*#region Venue List */
 /*#endregion */
@@ -346,6 +366,10 @@ a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+.navButtons input {
+  width: 40px;
+  height: 40px;
 }
 footer {
   position: absolute;

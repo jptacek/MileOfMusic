@@ -2,7 +2,7 @@
     margin: 70px;
     background-image:url("../img/grunge50.jpg");
     padding: 10px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
 
     @media screen and (max-width: 763px) {
         margin:0;
@@ -117,7 +117,7 @@ p {
         text-align:center;
         padding: 1px;
         width: 30px;
-        height: 13px;
+        height: 30px;
     }
 
 .input-group {
@@ -238,7 +238,19 @@ background-color: red;
     border-bottom: 1px solid #666666;
 }
 
-
+.post-container {
+        overflow: auto
+}
+.post-thumb {
+        margin-top: 10px;
+        float: left
+}
+.post-thumb img {
+        display: block
+}
+.post-content {
+        margin-left: 55px
+}
 /*#endregion */
 
 /* ========================================================================== */
@@ -347,6 +359,7 @@ background-color: red;
     .mom-list-schedule-item {
         padding-left: 4px;
         padding-top: 10px;  
+        padding-bottom: 10px;
         
         .mom-list-schedule-item-add-favorite {
            cursor: pointer;
@@ -396,7 +409,9 @@ a.mom-list-schedule-item-remove-favorite:active {
 /*#endregion */
 
 /*#region Schedule */
-
+.schedule-image {
+    max-width: 30%;
+}
 /*#endregion */
 
 /*#region Venue List */
@@ -425,7 +440,12 @@ a {
         outline: 5px auto -webkit-focus-ring-color;
         outline-offset: -2px;
     }
-
+    
+.navButtons input 
+{
+    width: 40px;
+    height: 40px;
+}
 footer {
     position: absolute;
     bottom: 0;

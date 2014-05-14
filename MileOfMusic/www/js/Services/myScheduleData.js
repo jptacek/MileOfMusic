@@ -17,7 +17,6 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
                 concertList.push(result);
                 processedConcerts.push(concertId);
             }, function (data, status) {
-                $log.error(data);
                 processedConcerts.push(concertId);
             });
 
@@ -37,7 +36,6 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
    
     // Save the specified concertId to the bookmark list, only if it does not already exist
     var saveConcertToMySchedule = function (concertId) {
-        //$log.info('saveConcertToMySchedule');
 
         var bookmarkList = this.getSavedBookmarkList();
         if (bookmarkList.indexOf(concertId) == -1) {

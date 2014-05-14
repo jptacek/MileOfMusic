@@ -53,9 +53,41 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
                             <span class="glyphicon glyphicon-chevron-left"></span>
                             <a href="./index.html"><img src="img/logo-small.png" width="100" alt="Mile of music logo" /></a>
                         </div>
-                    </div>
+                        <div data-ng-controller="navController">
+                            <img data-ng-show="canSearchAZ()" data-ng-click="showSearchAZ()" id="imgSearchAZ" src="/img/searchaz.png" style="max-height: 32px; cursor: pointer; float: right; position: fixed; right: 20px; top: 10px;" alt="" />
 
-                </div>                  
+                            <div class="navButtons" style="float: right; position: fixed; right: 20px; top: 50px; background-color: black; opacity: 0.9" data-ng-show="isSearchAZShowing()">
+                                <input type="button" value="A" data-ng-click="navigate('A')" />
+                                <input type="button" value="B" data-ng-click="navigate('B')" />
+                                <input type="button" value="C" data-ng-click="navigate('C')" />
+                                <input type="button" value="D" data-ng-click="navigate('D')" />
+                                <input type="button" value="E" data-ng-click="navigate('E')" />
+                                <input type="button" value="F" data-ng-click="navigate('F')" />
+                                <input type="button" value="G" data-ng-click="navigate('G')" />
+                                <input type="button" value="H" data-ng-click="navigate('H')" />
+                                <input type="button" value="I" data-ng-click="navigate('I')" />
+                                <input type="button" value="J" data-ng-click="navigate('J')" />
+                                <input type="button" value="K" data-ng-click="navigate('K')" />
+                                <input type="button" value="L" data-ng-click="navigate('L')" />
+                                <input type="button" value="M" data-ng-click="navigate('M')" />
+                                <input type="button" value="N" data-ng-click="navigate('N')" />
+                                <input type="button" value="O" data-ng-click="navigate('O')" />
+                                <input type="button" value="P" data-ng-click="navigate('P')" />
+                                <input type="button" value="Q" data-ng-click="navigate('Q')" />
+                                <input type="button" value="R" data-ng-click="navigate('R')" />
+                                <input type="button" value="S" data-ng-click="navigate('S')" />
+                                <input type="button" value="T" data-ng-click="navigate('T')" />
+                                <input type="button" value="U" data-ng-click="navigate('U')" />
+                                <input type="button" value="V" data-ng-click="navigate('V')" />
+                                <input type="button" value="W" data-ng-click="navigate('W')" />
+                                <input type="button" value="X" data-ng-click="navigate('X')" />
+                                <input type="button" value="Y" data-ng-click="navigate('Y')" />
+                                <input type="button" value="Z" data-ng-click="navigate('Z')" />
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                              
                 <data-ng-view></data-ng-view>
             </div>
             <br />
@@ -99,6 +131,7 @@ switch to AngularUI
 <script src="js/Directives/imageFallback.js"></script>
 <script src="js/Directives/listNavigation.js"></script>
 <script src="js/Services/commonData.js"></script>
+<script src="js/Controllers/navCtrl.js"></script>
 <script src="js/Controllers/homeCtrl.js"></script>
 <script src="js/Controllers/artistCtrl.js"></script>
 <script src="js/Controllers/artistListCtrl.js"></script>

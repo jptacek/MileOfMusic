@@ -104,3 +104,42 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'Loca
             .otherwise({redirectTo: '/'});
     });
 
+
+mileOfMusicApp.factory("navFactory", function ($location, $anchorScroll) {
+    var service = {};
+
+    var canSearchAZ = false;
+    var isSearchAZShowing = false;
+
+    service.canSearchAZ = function () { return canSearchAZ; };
+    service.isSearchAZShowing = function () { return isSearchAZShowing; };
+
+    service.assignCanSearchAZ = function (val) {
+        canSearchAZ = val;
+    };
+    service.assignIsSearchAZShowing = function (val) {
+        isSearchAZShowing = val;
+    };
+
+    service.showSearchAZ = function () {
+        isSearchAZShowing = !isSearchAZShowing;
+    };
+
+    service.navigate = function (letter) {
+        while ($("[id=nav-" + letter + "]").length == 0 && letter != 'A') {
+            var val = letter.charCodeAt(0) - 1;
+            letter = String.fromCharCode(val)
+        }
+        var old = $location.hash();
+        $location.hash("nav-" + letter);
+        $anchorScroll();
+
+        //reset to old to keep any additional routing logic from kicking in
+        $location.hash(old);
+
+        isSearchAZShowing = false;
+    };
+
+    return service;
+});
+

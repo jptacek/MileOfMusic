@@ -1,24 +1,15 @@
 mileOfMusicApp.controller('concertsListController',
-    function($scope,$log, artistData, concertData,venueData,CordovaService) {
-        //$log.info('heop');
-        //if (artistData) {
-        //    $log.info('defined');
-        //}
-        //else {
-        //    $log.info('not defined');
-        //}
+    function ($scope, $log, artistData, concertData, venueData, CordovaService, navFactory, myScheduleData) {
+        navFactory.assignCanSearchAZ(true);
 
         CordovaService.ready.then(function() {
             concertData.getConcerts().then(function (result) {
-                //$log.info('concert list in');
-                console.log(result);
                 $scope.shows = result.data;
                 $scope.setSelectedTab(1);
             });
 
             // this is used to control the tabs on the Artist Detail page.
             // Each tab should work with it's own uniqye index 
-            $scope.selectedTabIndex = 1;
             $scope.setSelectedTab = function (tabId) {
                 $scope.selectedTabIndex = tabId;
 
@@ -47,7 +38,6 @@ mileOfMusicApp.controller('concertsListController',
                             }
                         });
                         $scope.currentShows = result;
-                        console.log(result)
                         break;
                     case 3:
                         // Saturday
@@ -74,8 +64,46 @@ mileOfMusicApp.controller('concertsListController',
 
                 }
             };
+
             $scope.shouldShowTab = function (tabId) {
                 return tabId == $scope.selectedTabIndex;
+            };
+
+            // Answer if the concert is part of the schedule of favorites
+            $scope.checkSchedule = function (concertId) {
+                return myScheduleData.getSavedBookmarkList().indexOf(concertId) < 0;
+            }
+
+            // Remove the concert from the favorites
+            $scope.removeFavorite = function (concertId) {
+                try {
+                    var result = myScheduleData.removeConcertFromMySchedule(concertId);
+                    if (result) {
+                        toastr["success"]("Concert has been removed to your schedule.", "Success");
+                    }
+                    else {
+                        toastr["info"]("Concert was not in your schedule.", "Already Removed");
+                    }
+                }
+                catch (err) {
+                    toastr["error"](err.message, "Error");
+                }
+            };
+
+            // Save the concert to the favorites
+            $scope.saveFavorite = function (concertId) {
+                try {
+                    var result = myScheduleData.saveConcertToMySchedule(concertId);
+                    if (result) {
+                        toastr["success"]("Concert has been added to your schedule.", "Success");
+                    }
+                    else {
+                        toastr["info"]("Concert was already in your schedule.", "Already Exists");
+                    }
+                }
+                catch (err) {
+                    toastr["error"](err.message, "Error");
+                }
             };
         });
     });

@@ -1,13 +1,11 @@
-<h3>
+<!--<h3>
     Venues
-</h3>
+</h3>-->
 
 <div class="mom-list">
-
-    <div class="input-group"><div data-listnav></div>
-
-    <input type="text" data-ng-model="searchText" class="form-control" placeholder="Search" /> <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-        </div>
+    <div class="input-group">
+        <input type="text" data-ng-model="searchText" class="form-control" placeholder="Search" /> <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+    </div>
     <div id="venues" class="mom-list-item" data-ng-repeat="venue in locations.venues | filter:searchText | orderBy:'venueName'">
         <a id="nav-{{venue.venueName | firstLetter}}" data-ng-href="#/venue/{{venue.venueId}}">
             <div class="imageCenter"><img onerror="this.src='img/no-image-venue.jpg'" src="{{venue.photoUrl}}" alt="image of {{venue.venueName}}" /></div>

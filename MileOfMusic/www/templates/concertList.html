@@ -1,8 +1,7 @@
 <div>
-    <h3>Schedule</h3>
+    <!--<h3>Schedule</h3>-->
 
     <div class="input-group">
-        <div data-listnav></div>
         <input type="text" data-ng-model="searchText" class="form-control" placeholder="Search" /> <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
     </div>
 
@@ -17,13 +16,63 @@
             <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(4);">Sunday</a></li>
         </ul>
 
-        <div class="mom-list-item tilt-item" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueName','venue.genre']">
+        <div class="" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueName','venue.genre']">
             <a data-ng-href="#/concert/{{concert.concertId}}">
-                <img onerror="this.src='img/logo.png'" data-ng-src="{{concert.artist.photoUrl}}" alt="image of {{artist.artistName}}" />
-                {{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} - {{concert.artist.artistName}} @{{concert.venue.venueName}}
+                
+                <div>
+                    <div>
+                        <div data-ng-repeat="artist in concert.artistData">
+                            <div class="mom-list-item tilt-item">
+                                <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" />
+                                <div class="mom-list-label">{{artist.artistName}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
+                                <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+                            </div>
+                            <div data-ng-hide="checkSchedule(concert.concertId)" class="float-left">
+                                <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                            </div>
+                        </div>
+                        <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} @{{concert.venue.venueName}}</p>
+                    </div>
+                </div>
+
+                
+
+                <!--<table>
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align: bottom" data-ng-repeat="artist in concert.artistData">                                
+                                <img  onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" class="schedule-image" />
+                                {{artist.artistName}}                                                                   
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="{{concert.artistData.length}}">
+                                <div>
+                                    <div>
+                                        <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
+                                            
+                                            <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+                                        </div>
+                                        <div data-ng-hide="checkSchedule(concert.concertId)" class="float-left">
+                                            
+                                            <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                                        </div>
+                                    </div>
+                                    <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} @{{concert.venue.venueName}}</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>-->
             </a>
         </div>
-
+               
     </div>
 </div>
 

@@ -4,11 +4,18 @@
     <p>&nbsp;</p>
     <a href="#/concertList" > <div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div></a>
 </div>
-    <a data-ng-href="#/artist/{{selectedConcert.artist.artistId}}">
-    
-        <img onerror="this.src='img/logo.png'" data-ng-src="{{selectedConcert.artist.photoUrl}}" alt="image of {{selectedConcert.artist.artistName}}" />                
-    </a>   
-    <div class="mom-list-label">{{selectedConcert.artist.artistName}}</div>  
+    <table>
+        <tbody>
+        <tr>
+            <td style="vertical-align: bottom" data-ng-repeat="artist in selectedConcert.artistData">
+                <a data-ng-href="#/artist/{{artist.artistId}}">
+                    <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />                
+                </a>   
+                <div class="mom-list-label">{{artist.artistName}}</div>  
+            </td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 <div>
     <div>

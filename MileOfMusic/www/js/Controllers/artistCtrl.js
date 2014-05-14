@@ -1,14 +1,10 @@
 mileOfMusicApp.controller('artistController',
     function ($scope, $log, $routeParams, $sce, artistData, concertData, myScheduleData, CordovaService) {
-        //$log.info('heop');
 
         CordovaService.ready.then(function() {
-            //$log.info('artist  in');
-            $log.info($routeParams.artistId);
 
             artistData.getArtist($routeParams.artistId).then(function (result) {
                 $scope.selectedArtist = result;
-                //$log.info('artist  out');
             });
             
             artistData.getMusic($routeParams.artistId).then(function (result) {
@@ -18,7 +14,6 @@ mileOfMusicApp.controller('artistController',
                 });
 
                 $scope.music = result;
-                //$log.info('artist  out');
             });
 
             concertData.getConcertsByArtist($routeParams.artistId).then(function (result) {
@@ -26,7 +21,6 @@ mileOfMusicApp.controller('artistController',
             });
 
             $scope.showArtistList = function() {
-                //$log.info('ShowArtistList');
                 window.location.href = "#/artistList";
             };
 
@@ -47,7 +41,6 @@ mileOfMusicApp.controller('artistController',
 
             // Remove the concert from the favorites
             $scope.removeFavorite = function (concertId) {
-                //$log.info("saveFavorite");
                 try {
                     var result = myScheduleData.removeConcertFromMySchedule(concertId);
                     if (result) {
@@ -64,7 +57,6 @@ mileOfMusicApp.controller('artistController',
 
             // Save the concert to the favorites
             $scope.saveFavorite = function (concertId) {
-                //$log.info("saveFavorite");
                 try {
                     var result = myScheduleData.saveConcertToMySchedule(concertId);
                     if (result) {
