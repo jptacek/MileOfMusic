@@ -45,7 +45,7 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
         getArtist(artistId).then(function (result) {
             var name = result.artistName.replace(/ /g, '+');
         
-            $http.jsonp("https://itunes.apple.com/search?callback=JSON_CALLBACK&term=" + name).then(function (result) {
+            $http.jsonp("https://itunes.apple.com/search?callback=JSON_CALLBACK&media=music&attribute=artistTerm&limit=10&term=" + name).then(function (result) {
                 var output = [];
 
                 if (result.data.resultCount > 0) {

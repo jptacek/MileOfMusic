@@ -16,61 +16,34 @@
             <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(4);">Sunday</a></li>
         </ul>
 
-        <div class="" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueName','venue.genre']">
+        <div class="mom-list-schedule-item divided-sections" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueName','venue.genre']">
+            <div class="post-container">
+                <div class="post-thumb">
+                            <div data-ng-show="checkSchedule(concert.concertId)">
+                                <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+                            </div>
+                            <div data-ng-hide="checkSchedule(concert.concertId)">
+                                <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                            </div>
+                        </div>
             <a data-ng-href="#/concert/{{concert.concertId}}">
                 
                 <div>
                     <div>
                         <div data-ng-repeat="artist in concert.artistData">
                             <div class="mom-list-item tilt-item">
-                                <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" />
-                                <div class="mom-list-label">{{artist.artistName}}</div>
+                               <!-- <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" />-->
+                                <p class="bold">{{artist.artistName}}</p>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div>
-                            <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
-                                <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
-                            </div>
-                            <div data-ng-hide="checkSchedule(concert.concertId)" class="float-left">
-                                <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
-                            </div>
-                        </div>
+                        
                         <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} @{{concert.venue.venueName}}</p>
                     </div>
                 </div>
-
-                
-
-                <!--<table>
-                    <tbody>
-                        <tr>
-                            <td style="vertical-align: bottom" data-ng-repeat="artist in concert.artistData">                                
-                                <img  onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" class="schedule-image" />
-                                {{artist.artistName}}                                                                   
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="{{concert.artistData.length}}">
-                                <div>
-                                    <div>
-                                        <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
-                                            
-                                            <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
-                                        </div>
-                                        <div data-ng-hide="checkSchedule(concert.concertId)" class="float-left">
-                                            
-                                            <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
-                                        </div>
-                                    </div>
-                                    <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} @{{concert.venue.venueName}}</p>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>-->
             </a>
+                </div>
         </div>
                
     </div>
