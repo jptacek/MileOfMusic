@@ -91,8 +91,12 @@
                 </div>
                 <div>
                     <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                        <p class="bold">{{concert.artist.artistName}}</p>
-                        <p>{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
+                        <div data-ng-repeat="artist in concert.artistData">
+                            <p class="bold">{{artist.artistName}}</p>
+                        </div>
+                        <div>
+                            <p>{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>                            
+                        </div>
                     </a>
                 </div>
             </div>

@@ -29,6 +29,20 @@
       "photoUrlLocal": "/artistimages/334277.jpg"
     },
     {
+      "artistId": "335584",
+      "artistName": "Adrian Krygowski",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Soul-Folk Aggressive Americana from East Nashville TN.  Old-Time Guitar with dark and harsh vocals, including accomplished fiddle, steel guitar, upright, players from Nashville, Michigan, and DC.",
+      "homebase": "",
+      "url": "http://www.adriankrygowski.com",
+      "genre": "Soul-Folk Agressive Americana",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335584/original.jpg?1400089701",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335584.jpg",
+      "photoUrlLocal": "/artistimages/335584.jpg"
+    },
+    {
       "artistId": "334278",
       "artistName": "Adriel Denae",
       "twitter": "",
@@ -41,6 +55,34 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334278/original.jpg?1398613158",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334278.jpg",
       "photoUrlLocal": "/artistimages/334278.jpg"
+    },
+    {
+      "artistId": "335542",
+      "artistName": "Andrew Combs",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Andrew Combs is a Nashville-based songwriter, guitarist and singer originally from Texas. His 2012 debut album, Worried Man, was named one of American Songwriter’s Top 50 Albums of the year. He has toured with Jason Isbell, Shovels & Rope, Caitlin Rose and Houndmouth.",
+      "homebase": "",
+      "url": "http://www.andrewcombs.net",
+      "genre": "Americana",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335542/original.jpg?1400041278",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335542.jpg",
+      "photoUrlLocal": "/artistimages/335542.jpg"
+    },
+    {
+      "artistId": "335583",
+      "artistName": "Anna Laube",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Anna Laube is a folk singer-songwriter from Madison,WI. Todd Lavoie of the SF Bay Guardian writes, “Fans of Sarah Harmer's easygoing indie folk or the Be Good Tanyas' front-porch-and-a-beer tribute to old-timey sounds will find much to love in Laube's material, as it shares many similarities with those artists.” ",
+      "homebase": "",
+      "url": "http://www.annalaube.com",
+      "genre": "Indie Folk",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335583/original.jpg?1400088897",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335583.jpg",
+      "photoUrlLocal": "/artistimages/335583.jpg"
     },
     {
       "artistId": "334279",
@@ -69,6 +111,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334280/original.jpg?1398613207",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334280.jpg",
       "photoUrlLocal": "/artistimages/334280.jpg"
+    },
+    {
+      "artistId": "335581",
+      "artistName": "BBGun",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "BBGUN leans towards a sunny, poppy, alt-country vibe -- weaving lyrics both contemplative and playful and harmonies both sophisticated and singable. Complemented by Jeremy Hanson's expert, easy drumming, Neal Perbix and Al Church's rock 'n' roll tunes sound best coming from the speakers of a pickup truck.",
+      "homebase": "",
+      "url": "http://www.bbgunband.com",
+      "genre": "Rock 'n Roll",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335581/original.JPG?1400088544",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335581.jpg",
+      "photoUrlLocal": "/artistimages/335581.jpg"
     },
     {
       "artistId": "334281",
@@ -111,6 +167,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334283/original.jpg?1398613293",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334283.jpg",
       "photoUrlLocal": "/artistimages/334283.jpg"
+    },
+    {
+      "artistId": "335558",
+      "artistName": "Brett Newski",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "American Folk Armageddon. ",
+      "homebase": "",
+      "url": "http://www.brettnewski.com",
+      "genre": "Folk/Punk",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335558/original.jpg?1400071649",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335558.jpg",
+      "photoUrlLocal": "/artistimages/335558.jpg"
     },
     {
       "artistId": "334284",
@@ -169,6 +239,20 @@
       "photoUrlLocal": "/artistimages/334287.jpg"
     },
     {
+      "artistId": "335529",
+      "artistName": "Caroline Smith",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Merging '90s R&B and neo-soul with her indie-rock roots, Caroline Smith's new album, Half About Being a Woman, is a record about self-acceptance and growing into your own. With soaring vocals and catchy melodies at the heart of her songs, Caroline has gone back to the roots of 'feel-good' music.",
+      "homebase": "",
+      "url": "http://www.carolinesmithcarolinesmith.com",
+      "genre": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335529/original.jpg?1400017412",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335529.jpg",
+      "photoUrlLocal": ""
+    },
+    {
       "artistId": "334288",
       "artistName": "Caroline Smith",
       "twitter": "",
@@ -195,6 +279,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334289/original.jpg?1398613555",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334289.jpg",
       "photoUrlLocal": "/artistimages/334289.jpg"
+    },
+    {
+      "artistId": "335502",
+      "artistName": "Charlie Parr",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Charlie Parr has failed at nearly everything he's tried. Music has been the only thing keeping him from a life of dodging the law and has also rendered him completely unemployable. Folks have been kind to Parr and his folk music, in spite of his best efforts to dissuade them.",
+      "homebase": "",
+      "url": "",
+      "genre": "Folk",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335502.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "334290",
@@ -603,6 +701,20 @@
       "photoUrlLocal": "/artistimages/334318.jpg"
     },
     {
+      "artistId": "335524",
+      "artistName": "Jaik Willis",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Jaik Willis is a wild fire-breathing freakshow, pummeling a flying V acoustic guitar that crashes like cymbals and booms like a bass; howling & scatting impossible vocal turns while simultaneously beat-boxing. ",
+      "homebase": "",
+      "url": "http://jaikwillis.com",
+      "genre": "all of the above",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335524/original.jpg?1400016124",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335524.jpg",
+      "photoUrlLocal": "/artistimages/335524.jpg"
+    },
+    {
       "artistId": "334319",
       "artistName": "Jana Nyberg Group",
       "twitter": "",
@@ -615,6 +727,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334319/original.jpg?1398614044",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334319.jpg",
       "photoUrlLocal": "/artistimages/334319.jpg"
+    },
+    {
+      "artistId": "335539",
+      "artistName": "Joey Ryan & The Inks",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "For ordinary guys, Joey Ryan & The Inks have a habit of making extraordinary music. Featured on local & regional airwaves & stages they have provided consistently catchy pop tunes with 60s sunshine beats, with slivers of doo-wop on top of smart instrumental progression, topped by Ryan’s crystal-clear, bittersweet vocals.",
+      "homebase": "",
+      "url": "http://www.joeyryanandtheinks.com ",
+      "genre": "Indie Pop",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335539/original.jpg?1400034449",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335539.jpg",
+      "photoUrlLocal": "/artistimages/335539.jpg"
     },
     {
       "artistId": "334320",
@@ -741,6 +867,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334328/original.jpg?1398614770",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334328.jpg",
       "photoUrlLocal": "/artistimages/334328.jpg"
+    },
+    {
+      "artistId": "335520",
+      "artistName": "Logan Venderlic",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Sprung from the hills of rural West Virginia, Logan Venderlic plays a mix of folk rock, southern roots, soul pop, and new wave. Venderlic's music has been featured in The Wall Street Journal, The Huffington Post, Relix, and more, and he played NPR's Mountain Stage. ",
+      "homebase": "",
+      "url": "http://www.loganvenderlic.com",
+      "genre": "Folk Rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335520/original.jpg?1400014029",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335520.jpg",
+      "photoUrlLocal": "/artistimages/335520.jpg"
     },
     {
       "artistId": "334329",
@@ -911,6 +1051,20 @@
       "photoUrlLocal": "/artistimages/334340.jpg"
     },
     {
+      "artistId": "335571",
+      "artistName": "North by North",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Their sound has been meticulously crafted to feature the juxtaposition of infectious melodies, haunting lyrics and bombastic live instrumentation. Their live sound and stage presence has been likened to Queens of the Stone Age and Wolfmother, while Girard's vocals have garnered comparisons to Jack White, Nathan Willet, and Gaz Coombes.",
+      "homebase": "",
+      "url": "https://www.facebook.com/northbynorthchicago",
+      "genre": "Indie blues garage rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335571/original.jpg?1400082050",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335571.jpg",
+      "photoUrlLocal": "/artistimages/335571.jpg"
+    },
+    {
       "artistId": "334341",
       "artistName": "Orange Iguanas",
       "twitter": "",
@@ -939,6 +1093,20 @@
       "photoUrlLocal": "/artistimages/334342.jpg"
     },
     {
+      "artistId": "335501",
+      "artistName": "Patrick Sweany",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "21st Century Blues - Fans of new-school blues rockers like Derek Trucks, Susan Tedeschi and JJ Grey should get to know Patrick Sweany. He expertly balances his love for classic blues and modern rock. \" - Rhapsody.com",
+      "homebase": "",
+      "url": "http://www.patricksweany.com",
+      "genre": "Blues, Vintage Soul, Rock and Roll",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335501/original.jpg?1400006185",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335501.jpg",
+      "photoUrlLocal": "/artistimages/335501.jpg"
+    },
+    {
       "artistId": "334343",
       "artistName": "Pete Schwantes",
       "twitter": "",
@@ -965,6 +1133,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334344/original.jpg?1398614815",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334344.jpg",
       "photoUrlLocal": "/artistimages/334344.jpg"
+    },
+    {
+      "artistId": "335523",
+      "artistName": "Raquel Rodriguez",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Los Angeles singer Raquel Rodriguez and her band play soul how it was always meant to be played. Their full-length album Miss Me boasts a collection of impassioned, invigorating, and irresistible songs that are as fresh as they are fiery.",
+      "homebase": "",
+      "url": "http://rqlrod.com",
+      "genre": "Soul",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335523/original.jpg?1400014674",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335523.jpg",
+      "photoUrlLocal": "/artistimages/335523.jpg"
     },
     {
       "artistId": "334345",
@@ -1051,6 +1233,20 @@
       "photoUrlLocal": "/artistimages/334350.jpg"
     },
     {
+      "artistId": "335499",
+      "artistName": "Ruben",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Ruben's rock 'n soul sound harkens back to the pop music of the 1960's with close 4 part harmonies soaring over warm horns and rock n' roll guitars.",
+      "homebase": "",
+      "url": "http://www.rubentheband.com",
+      "genre": "Rock n' Soul",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335499/original.jpg?1400004894",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335499.jpg",
+      "photoUrlLocal": "/artistimages/335499.jpg"
+    },
+    {
       "artistId": "334351",
       "artistName": "Sam Winch",
       "twitter": "",
@@ -1063,6 +1259,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334351/original.jpg?1398614933",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334351.jpg",
       "photoUrlLocal": "/artistimages/334351.jpg"
+    },
+    {
+      "artistId": "335537",
+      "artistName": "Simon Balto",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Drawing comparisons to Dylan, Prine, and an array of other songwriting legends, Simon Balto crafts lyrics-forward stories set against backdrops of finger-picked dobro and steel-string guitar. Quietly reserved on record, Balto's live performances surge with dynamic changes and vocal release, bringing his song's stories to life in powerful, bracing ways.",
+      "homebase": "",
+      "url": "http://www.simonbaltomusic.com",
+      "genre": "Folk, Alt-folk, Alt-country",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335537/original.jpg?1400024850",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335537.jpg",
+      "photoUrlLocal": "/artistimages/335537.jpg"
     },
     {
       "artistId": "334352",
@@ -1107,6 +1317,20 @@
       "photoUrlLocal": "/artistimages/334354.jpg"
     },
     {
+      "artistId": "335496",
+      "artistName": "Stephen Kellogg",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Growing up, Stephen Kellogg's musical interests were divided between his father's collection of singer/songwriters and his sister's dominated by hair metal acts. Kellogg's music represents them both, with songs that delve deep personally, but make room for fun.  His music is full of passion and electricity. ",
+      "homebase": "",
+      "url": "http://www.stephenkellogg.com",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335496.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "334355",
       "artistName": "T.U.G.G.",
       "twitter": "",
@@ -1149,6 +1373,20 @@
       "photoUrlLocal": "/artistimages/334357.jpg"
     },
     {
+      "artistId": "335592",
+      "artistName": "4onthefloor, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "4onthefloor was born in the bottom of a bourbon bottle with the idea that it’s time to have some fun and make amazing music as well. The music is inspired by the gutsy stomp of the Delta Blues and the hoe-downs from America’s past and present.",
+      "homebase": "",
+      "url": "http://4otf.com",
+      "genre": "Stompin' Blues",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335592/original.jpg?1400092584",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335592.jpg",
+      "photoUrlLocal": "/artistimages/335592.jpg"
+    },
+    {
       "artistId": "334358",
       "artistName": "Blakes, The",
       "twitter": "",
@@ -1177,6 +1415,20 @@
       "photoUrlLocal": "/artistimages/334359.jpg"
     },
     {
+      "artistId": "335514",
+      "artistName": "Cool Waters Band, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "CWB’s original sound reclaims the best of vintage rock and roll with a modern twist. Their music knows no color or boundaries. The band has been critically acclaimed by all walks of the music business as the “must see” act in throughout the Midwest.",
+      "homebase": "",
+      "url": "http://coolwatersband.com/",
+      "genre": "Roots Rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335514/original.jpg?1400010104",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335514.jpg",
+      "photoUrlLocal": "/artistimages/335514.jpg"
+    },
+    {
       "artistId": "334360",
       "artistName": "Delta Routine, The",
       "twitter": "",
@@ -1203,6 +1455,20 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334361/original.jpg?1398615090",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334361.jpg",
       "photoUrlLocal": "/artistimages/334361.jpg"
+    },
+    {
+      "artistId": "335589",
+      "artistName": "Farewell Circuit, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "The Farewell Circuit is an indie rock band based out of the Twin Cities. TFC has seen many members come and go, but after a decade of distilling their sound and refining their craft, their driving guitars and flowing melodies come to an apex with 2013's 'We Were Wolves'.",
+      "homebase": "",
+      "url": "http://thefarewellcircuit.com",
+      "genre": "Indie Rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335589/original.jpg?1400091209",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335589.jpg",
+      "photoUrlLocal": "/artistimages/335589.jpg"
     },
     {
       "artistId": "334362",
@@ -1303,6 +1569,20 @@
       "photoUrlLocal": "/artistimages/334367.jpg"
     },
     {
+      "artistId": "335510",
+      "artistName": "Noise FM, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "The Noise FM plays melodic, beat-driven indie-rock. Sometimes the tunes get really loud with fuzzed out synthesizers and gnarly riffs. Other times, it gets quieter -- all grooves and sexy vibes. Regardless of the volume, people tend to dance.",
+      "homebase": "",
+      "url": "http://www.thenoisefm.net",
+      "genre": "indie-rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335510/original.jpg?1400008341",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335510.jpg",
+      "photoUrlLocal": "/artistimages/335510.jpg"
+    },
+    {
       "artistId": "334368",
       "artistName": "Pernicious Bean, The",
       "twitter": "",
@@ -1401,6 +1681,20 @@
       "photoUrlLocal": "/artistimages/334374.jpg"
     },
     {
+      "artistId": "335599",
+      "artistName": "Thomas Lee",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Korean-American pianist Thomas J. Lee, from the studio of Anthony Padilla, attends the Lawrence University Conservatory of Music in Appleton, WI as a candidate for a Bachelor of Music Degree in Piano Performance with an Emphasis in Pedagogy.",
+      "homebase": "",
+      "url": "http://www.thomasleepiano.com",
+      "genre": "Classical",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335599/original.jpg?1400097229",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335599.jpg",
+      "photoUrlLocal": "/artistimages/335599.jpg"
+    },
+    {
       "artistId": "334375",
       "artistName": "Those Darlins",
       "twitter": "",
@@ -1441,6 +1735,34 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/334377/original.jpg?1398614987",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/334377.jpg",
       "photoUrlLocal": "/artistimages/334377.jpg"
+    },
+    {
+      "artistId": "335572",
+      "artistName": "Water Liars",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "If you haven't listened to Water Liars, let the music be your introduction. These songs are the hugeness of rain, the heaviness of breath, the strangeness of cities. Light a cigarette and close your eyes – let these songs brighten your blood, let them be endless in the night.",
+      "homebase": "",
+      "url": "http://www.waterliarsmusic.com",
+      "genre": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335572/original.jpg?1400083087",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335572.jpg",
+      "photoUrlLocal": "/artistimages/335572.jpg"
+    },
+    {
+      "artistId": "335538",
+      "artistName": "Wild Adriatic",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "Three friends seeking to carry forth the torch of timeless rock n roll infused with tons of soul, captivating guitar work, and an impressive live show. \n\"Flawlessly tight with infectious melodies &tons of soul.\" - Relix \"Full of rocking blues,soul,and depth.\" - HuffPost \"An act to get behind.\" - USAToday",
+      "homebase": "",
+      "url": "http://www.wildadriatic.com",
+      "genre": "Rock & Roll",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335538.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "334378",

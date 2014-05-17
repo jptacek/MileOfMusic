@@ -77,7 +77,7 @@
       "description": "We have an obvious and delicious priority – beer. Our goal is to put top-notch brew in your glass while putting you in a friendly and fun atmosphere. Appleton Beer Factory beers are crafted to deliver what is so often missing from many beers on the market today – balance. This balance was struck from passionate experimentation by knowledgeable brewers who have focused on respecting the ingredients they use and the people they serve.  Check out our beers here:  http://www.appletonbeerfactory.com/beer-menu/",
       "yelp": "",
       "underage": false,
-      "underageWithAdult": true,
+      "underageWithAdult": false,
       "latitude": "44.262074",
       "longitude": "-88.414196",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/venues_files/photos/707597/original.png?1398623668",

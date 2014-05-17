@@ -9,6 +9,10 @@
     margin: 0;
   }
 }
+.main-logo {
+  max-width: 35%;
+  padding: 5px;
+}
 #page {
   min-height: 100%;
   /* equal to footer height */
@@ -32,6 +36,7 @@
   position: fixed;
   right: 0;
   left: 0;
+  padding-top: 10px;
   z-index: 1030;
 }
 .padding {
@@ -368,8 +373,8 @@ a:focus {
   outline-offset: -2px;
 }
 .navButtons input {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 20px;
 }
 footer {
   position: absolute;
