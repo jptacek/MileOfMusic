@@ -1,4 +1,4 @@
-﻿body {
+body {
   margin: 70px;
   background-image: url("../img/grunge50.jpg");
   padding: 10px;
@@ -16,7 +16,6 @@
 #page {
   min-height: 100%;
   /* equal to footer height */
-
   /*margin-bottom: -142px;*/
   margin-top: 55px;
 }
@@ -45,7 +44,7 @@
 /* ========================================================================== */
 /*   TYPOGRAPHY                                                               */
 /* ========================================================================== */
-/*#region Typography */
+/*# sourceMappingURL=site.css.map */
 h1,
 .h1 {
   font-size: 36px;
@@ -91,11 +90,11 @@ p {
 .bold {
   font-weight: bold;
 }
-/*#endregion */
+/*# sourceMappingURL=site.css.map */
 /* ========================================================================== */
 /*   WRAPPERS & MISC                                                          */
 /* ========================================================================== */
-/*#region Wrappers & Misc */
+/*# sourceMappingURL=site.css.map */
 .listNav {
   position: fixed;
   right: 0;
@@ -220,14 +219,14 @@ p {
 .post-content {
   margin-left: 55px;
 }
-/*#endregion */
+/*# sourceMappingURL=site.css.map */
 /* ========================================================================== */
 /*   PAGE LAYOUTS                                                               */
 /* ========================================================================== */
-/*#region Page Layouts */
-/*#region Artist List */
-/*#endregion */
-/*#region Artist Detail */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
 .artistDetail img {
   max-width: 98%;
 }
@@ -342,17 +341,17 @@ a.mom-list-schedule-item-remove-favorite {
 a.mom-list-schedule-item-remove-favorite:active {     
     background-image:url("../img/remove-favs-icon50-onclick.png");	
  }*/
-/*#endregion */
-/*#region Home */
-/*#endregion */
-/*#region Schedule */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
 .schedule-image {
   max-width: 30%;
 }
-/*#endregion */
-/*#region Venue List */
-/*#endregion */
-/*#region Venue Detail */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */
 .venueitem {
   min-height: 60px;
   background: #ccc;
@@ -373,8 +372,8 @@ a:focus {
   outline-offset: -2px;
 }
 .navButtons input {
-  width: 25px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 footer {
   position: absolute;
@@ -383,7 +382,7 @@ footer {
   width: 100%;
   padding: 20px;
 }
-/*#region Sponsor Page */
+/*# sourceMappingURL=site.css.map */
 .sponsor-table {
   background-color: #ffffff;
   text-align: center;
@@ -397,4 +396,5 @@ footer {
   border: 1px solid #fff;
   max-width: 98%;
 }
-/*#endregion */
+/*# sourceMappingURL=site.css.map */
+/*# sourceMappingURL=site.css.map */

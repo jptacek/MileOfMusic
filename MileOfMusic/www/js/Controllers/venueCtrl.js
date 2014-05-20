@@ -7,9 +7,11 @@ mileOfMusicApp.controller('venueController',
                 $scope.selectedVenue = result;
             });
 
+            $scope.isLoading = true;
             concertData.getConcertsByVenue($routeParams.venueId).then(function (result) {
-                $scope.shows = result;
-            });
+                $scope.shows = result;                
+                $scope.isLoading = true;
+            }, function () { $scope.isLoading = false; });
 
             $scope.showVenueList = function(){
                 window.location.href = "#venueList";

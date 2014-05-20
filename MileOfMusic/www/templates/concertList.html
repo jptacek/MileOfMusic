@@ -1,5 +1,6 @@
 <div>
     <!--<h3>Schedule</h3>-->
+<div data-ng-show="isLoading" style="float: right;  right: 20px" ><img src="/img/spinner.gif" alt="Loading..." /></div>
 
     <div class="input-group">
         <input type="text" data-ng-model="searchText" class="form-control" placeholder="Search" /> <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
@@ -16,7 +17,7 @@
             <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(4);">SUN<br />8/10</a></li>
         </ul>
 
-        <div class="mom-list-schedule-item divided-sections" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueName','venue.genre']">
+        <div class="mom-list-schedule-item divided-sections" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueNameSort','venue.genre']">
             <div class="post-container">
                 <div class="post-thumb">
                             <div data-ng-show="checkSchedule(concert.concertId)">
@@ -29,16 +30,13 @@
             <a data-ng-href="#/concert/{{concert.concertId}}">
                 
                 <div>
-                    <div>
+                    <div class="bold">
                         <div data-ng-repeat="artist in concert.artistData">
-                            <div class="mom-list-item tilt-item">
-                               <!-- <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" />-->
-                                <p class="bold">{{artist.artistName}}</p>
-                            </div>
+                            <!-- <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" />-->
+                            {{artist.artistName}}<br />
                         </div>
                     </div>
                     <div>
-                        
                         <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} @{{concert.venue.venueName}}</p>
                     </div>
                 </div>

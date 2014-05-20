@@ -3,11 +3,13 @@ mileOfMusicApp.controller('venueListController',
 
         navFactory.assignCanSearchAZ(true);
 
-        CordovaService.ready.then(function() {
+        CordovaService.ready.then(function () {
 
+            $scope.isLoading = true;
             venueData.getVenues().then(function (result) {
                 $scope.locations = result.data;
-            });
+                $scope.isLoading = false;
+            }, function () { $scope.isLoading = false; });
 
         });
     });

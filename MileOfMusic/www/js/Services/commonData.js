@@ -8,8 +8,8 @@
 
         var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
         var data = localStorage.getItem(dataKey);
-        var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
-
+        //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
+        var dateCheck = new Date(new Date().getTime() - (5 * 60 * 1000)); // Check every 5 minutes
 
         if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
             var jsonData = null;
@@ -25,15 +25,15 @@
                 if (data == null || myVersion == null || JSON.parse(myVersion).Version != result.Version) {
 
                     // New version, so go download new JSON
-                    $http.jsonp(dataUrl).then(function (result) {
+                    $http.jsonp(dataUrl).then(function (dataResult) {
 
                         if (newDataCallback != null) newDataCallback();
 
                         function finalizeData() {
                             localStorage.setItem(versionKey, JSON.stringify(result));
                             localStorage.setItem(versionDateKey, new Date().toString());
-                            localStorage.setItem(dataKey, JSON.stringify(result));
-                            deferred.resolve(result);
+                            localStorage.setItem(dataKey, JSON.stringify(dataResult));
+                            deferred.resolve(dataResult);
                         }
 
                         if (preStoreDataCallback == null) {
@@ -41,7 +41,7 @@
                         }
                         else {
                             // preStoreDataCallback MUST be a promise
-                            preStoreDataCallback(result.data).then(function () {
+                            preStoreDataCallback(dataResult.data).then(function () {
                                 finalizeData();
                             }, function (e) { deferred.reject(); });
                         }
@@ -117,6 +117,7 @@
             });
         });
 
+        var attempts = 0;
         var interval = setInterval(function () {
             var allAssigned = true;
             $.each(data, function (i, item) {
@@ -125,7 +126,8 @@
                     return false;
                 }
             });
-            if (allAssigned) {
+            attempts++;
+            if (allAssigned || attempts >= 50) {
                 clearInterval(interval);
                 deferred.resolve();
             }

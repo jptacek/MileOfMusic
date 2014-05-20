@@ -19,6 +19,7 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
             cache_getConcert = null;
             cache_getConcertsByVenue = null;
             cache_getConcertsByArtist = null;
+            cache_concertList = null;
         }, null, function () { return cache_concertList; }).then(function(result) {
             $.each(result.data.concerts, function (i, concert) {
                 concert.artistData = [];
@@ -36,7 +37,8 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
 
             });
 
-            var interval = setInterval(function() {
+            var attempts = 0;
+            var interval = setInterval(function () {
                 var allAssigned = true;
 
                 // the promise only resolves when each concert contains both an artist and venue
@@ -46,7 +48,9 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
                         return false;
                     }
                 });
-                if (allAssigned) {
+
+                attempts++;
+                if (allAssigned || attempts >= 50) {
                     clearInterval(interval);
                     cache_concertList = result;
                     deferred.resolve(cache_concertList);

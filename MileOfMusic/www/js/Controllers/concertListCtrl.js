@@ -2,11 +2,13 @@ mileOfMusicApp.controller('concertsListController',
     function ($scope, $log, artistData, concertData, venueData, CordovaService, navFactory, myScheduleData) {
         navFactory.assignCanSearchAZ(true);
 
-        CordovaService.ready.then(function() {
+        CordovaService.ready.then(function () {
+            $scope.isLoading = true;
             concertData.getConcerts().then(function (result) {
                 $scope.shows = result.data;
                 $scope.setSelectedTab(1);
-            });
+                $scope.isLoading = false;
+            }, function () { $scope.isLoading = false; });
 
             // this is used to control the tabs on the Artist Detail page.
             // Each tab should work with it's own uniqye index 
@@ -15,53 +17,53 @@ mileOfMusicApp.controller('concertsListController',
 
                 var currentDate = new Date();
 
-                switch(tabId)
-                {
-                    case 1:
-                        // Thursday
-                        var result = [];
-                        $.each($scope.shows.concerts, function (i, item) {
-                            var date = new Date(item.timeStart);
-                            if (date > currentDate && date.getDay() == 4) { // Thursay
-                                result.push(item);
-                            }
-                        });
-                        $scope.currentShows = result;
-                        break;
-                    case 2:
-                        // Friday
-                        var result = [];
-                        $.each($scope.shows.concerts, function (i, item) {
-                            var date = new Date(item.timeStart);
-                            if (date > currentDate && date.getDay() == 5) { // Friday
-                                result.push(item);
-                            }
-                        });
-                        $scope.currentShows = result;
-                        break;
-                    case 3:
-                        // Saturday
-                        var result = [];
-                        $.each($scope.shows.concerts, function (i, item) {
-                            var date = new Date(item.timeStart);
-                            if (date > currentDate && date.getDay() == 6) { // Saturday
-                                result.push(item);
-                            }
-                        });
-                        $scope.currentShows = result;
-                        break;
-                    case 4:
-                        // Sunday
-                        var result = [];
-                        $.each($scope.shows.concerts, function (i, item) {
-                            var date = new Date(item.timeStart);
-                            if (date > currentDate && date.getDay() == 0) { // Sunday
-                                result.push(item);
-                            }
-                        });
-                        $scope.currentShows = result;
-                        break;
-
+                if ($scope.shows != undefined) {
+                    switch (tabId) {
+                        case 1:
+                            // Thursday
+                            var result = [];
+                            $.each($scope.shows.concerts, function (i, item) {
+                                var date = new Date(item.timeStart);
+                                if (date > currentDate && date.getDay() == 4) { // Thursay
+                                    result.push(item);
+                                }
+                            });
+                            $scope.currentShows = result;
+                            break;
+                        case 2:
+                            // Friday
+                            var result = [];
+                            $.each($scope.shows.concerts, function (i, item) {
+                                var date = new Date(item.timeStart);
+                                if (date > currentDate && date.getDay() == 5) { // Friday
+                                    result.push(item);
+                                }
+                            });
+                            $scope.currentShows = result;
+                            break;
+                        case 3:
+                            // Saturday
+                            var result = [];
+                            $.each($scope.shows.concerts, function (i, item) {
+                                var date = new Date(item.timeStart);
+                                if (date > currentDate && date.getDay() == 6) { // Saturday
+                                    result.push(item);
+                                }
+                            });
+                            $scope.currentShows = result;
+                            break;
+                        case 4:
+                            // Sunday
+                            var result = [];
+                            $.each($scope.shows.concerts, function (i, item) {
+                                var date = new Date(item.timeStart);
+                                if (date > currentDate && date.getDay() == 0) { // Sunday
+                                    result.push(item);
+                                }
+                            });
+                            $scope.currentShows = result;
+                            break;
+                    }
                 }
             };
 

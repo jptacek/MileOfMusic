@@ -4,7 +4,7 @@
 </h3>
 
 <div data-ng-show="mySchedule.length == 0">You have not scheduled any concerts yet.</div>
-<div data-ng-show="mySchedule.length > 0" class="mom-list-schedule" data-ng-repeat="concert in mySchedule | orderBy:'concert.artist.artistName'">
+<div data-ng-show="mySchedule.length > 0" class="mom-list-schedule" data-ng-repeat="concert in mySchedule | orderBy:'concert.artist.artistNameSort'">
 
     <div class="mom-list-schedule-item divided-sections">
 
