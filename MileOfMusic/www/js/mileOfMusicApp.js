@@ -1,4 +1,4 @@
-angular.module('fsCordova', ['ngTouch'])
+angular.module('fsCordova', ['ngTouch', 'ngResource'])
     .service('CordovaService', ['$document', '$q',
         function($document, $q) {
 
@@ -101,9 +101,55 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'Loca
                 templateUrl: 'templates/myschedule.html',
                 controller: 'myScheduleController'
             })
+            .when('/error', {
+                title: 'Unexpected Error',
+                templateUrl: 'templates/error.html'
+            })
             .otherwise({redirectTo: '/'});
     });
 
+
+mileOfMusicApp.factory("$exceptionHandler", [ '$injector', function ( $injector) {
+    var url = 'api/error';
+
+    return function (exception, cause) {
+        var resource = $injector.get('$resource'),
+            errorStack = new Error(),
+            error = exception + ' ' + (errorStack.stack == undefined ? '' : errorStack.stack),
+            errorResource = resource(url);
+
+       alert('error: ' + error + ' ' + url);
+            var $location = $injector.get('$location');
+            $location.path('/error');
+        //errorResource.save(url, angular.toJson(error)).$promise.then(function () {
+        //    var $location = $injector.get('$location');
+        //    $location.path('/error');
+        //});
+    };
+}]);
+
+mileOfMusicApp.factory('HttpResponseInterceptor', [ '$q', '$location', '$injector', function ( $q, $location, $injector) {
+    return {
+        response: function (response) {
+            return response || $q.when(response);
+        },
+        responseError: function (rejection) {
+            var url = 'api/error',
+                resource = $injector.get('$resource'),
+                errorResource = resource(url);
+            alert('HttpResponseInterceptor: ');
+                $location.path('/error');
+                return $q.reject(rejection);
+            //errorResource.save(url, angular.toJson(rejection)).$promise.then(function () {
+            //    $location.path('/error');
+            //    return $q.reject(rejection);
+            //});
+        }
+    }
+}])
+.config(['$httpProvider', function ($httpProvider) {
+    $httpProvider.interceptors.push('HttpResponseInterceptor');
+}]);
 
 mileOfMusicApp.factory("navFactory", function ($location, $anchorScroll) {
     var service = {};

@@ -11,6 +11,7 @@ body {
 }
 .main-logo {
   max-width: 35%;
+  max-height: 50px;
   padding: 5px;
 }
 #page {
@@ -20,11 +21,11 @@ body {
   margin-top: 55px;
 }
 #footer nav {
-  height: 35px;
-  min-height: 35px;
+  height: 45px;
+  min-height: 45px;
 }
 #footer p {
-  padding-top: 7px;
+  padding-top: 3px;
 }
 .mainlogo {
   max-width: 100%;
@@ -40,6 +41,11 @@ body {
 }
 .padding {
   margin-top: 20px;
+}
+input {
+  -webkit-appearance: none;
+  border-radius: 6px;
+  background-color: rgba(238, 238, 238, 0.9);
 }
 /* ========================================================================== */
 /*   TYPOGRAPHY                                                               */
@@ -253,8 +259,8 @@ p {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #666666;
-  background-color: #f4d000;
-  border: 1px solid #f4d000;
+  background-color: #000000;
+  border: 1px solid #000000;
   border-bottom-color: transparent;
   cursor: default;
 }
