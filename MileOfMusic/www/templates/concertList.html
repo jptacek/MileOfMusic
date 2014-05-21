@@ -16,7 +16,7 @@
             <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(3);">SAT<br />8/9</a></li>
             <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(4);">SUN<br />8/10</a></li>
         </ul>
-
+<div class="mom-list-schedule">
         <div class="mom-list-schedule-item divided-sections" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueNameSort','venue.genre']">
             <div class="post-container">
                 <div class="post-thumb">
@@ -29,7 +29,7 @@
                         </div>
             <a data-ng-href="#/concert/{{concert.concertId}}">
                 
-                <div>
+                <div class="post-content">
                     <div class="bold">
                         <div data-ng-repeat="artist in concert.artistData">
                             <!-- <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" />-->
@@ -37,13 +37,13 @@
                         </div>
                     </div>
                     <div>
-                        <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} @{{concert.venue.venueName}}</p>
+                        <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} <br />@{{concert.venue.venueName}}</p>
                     </div>
                 </div>
             </a>
                 </div>
         </div>
-               
+       </div>        
     </div>
 </div>
 

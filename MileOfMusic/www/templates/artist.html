@@ -71,21 +71,23 @@
         <div class="mom-list-schedule" data-ng-repeat="concert in concertListForArtist | orderBy:'artistNameSort'">
 
             <div class="mom-list-schedule-item divided-sections">
-                <div class="float-left">
-                    <div data-ng-show="checkSchedule(concert.concertId)" class="float-left">
+               <div class="post-container">
+                 <div class="post-thumb">
+                    <div data-ng-show="checkSchedule(concert.concertId)">
                         <!-- Add favorite -->
                         <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
                     </div>
-                    <div data-ng-hide="checkSchedule(concert.concertId)" class="float-left">
+                    <div data-ng-hide="checkSchedule(concert.concertId)">
                         <!-- Remove favorite -->
                         <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
                     </div>
                 </div>
-                <div>
+                <div class="post-content">
                     <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                        <p class="bold">{{concert.venue.venueName}}</p>
-                        <p>{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
+                        <p class="bold">@{{concert.venue.venueName}}</p>
+                        <p>{{concert.timeStart|date:'EEE M/d/yy'}}<br />{{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
                     </a>
+                </div>
                 </div>
             </div>
 

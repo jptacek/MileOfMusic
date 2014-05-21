@@ -20,8 +20,8 @@
                     <span data-ng-repeat="artist in concert.artistData">
                         <a  style="" data-ng-href="#/artist/{{artist.artistId}}"><p class="bold">{{artist.artistName}}</p></a>
                     </span>
-                    <a  style="" data-ng-href="#/concert/{{concert.concertId}}">{{concert.timeStart|date:'EEE M/d/yy'}} - {{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</a>
-                    <a  style="" data-ng-href="#/venue/{{concert.venueId}}"><p>{{concert.venue.venueName}}</p></a>
+                    <a  style="" data-ng-href="#/concert/{{concert.concertId}}">{{concert.timeStart|date:'EEE M/d/yy'}}<br />{{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</a>
+                    <a  style="" data-ng-href="#/venue/{{concert.venueId}}"><p>@{{concert.venue.venueName}}</p></a>
                 </div>
            </div>
         </div>
