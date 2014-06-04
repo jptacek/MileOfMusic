@@ -215,10 +215,11 @@ p {
         background-color: rgba(255, 255, 255, 0.9);
         width: 100px;
         color: #666666;
-        top: 50px;
+        /*top: 50px;*/
         min-height: 30px;
         font-size: 16px;
         padding: 4px 15px;
+        margin-bottom: 15px;
 
         .glyphicon
         {
@@ -301,9 +302,15 @@ background-color: red;
             border-radius: 4px 4px 0 0;
         }
 
-            /*.nav-tabs > li > a:hover {
-                border-color: #eeeeee #eeeeee #dddddd;
-            }*/
+            .nav-tabs > li > a:hover {
+            margin-right: 2px;
+            line-height: 1.42857143;
+            color: #666666;
+            background-color: #dddddd;
+            border: 1px solid #dddddd;
+            border: 1px solid transparent;
+            border-radius: 4px 4px 0 0;
+            }
 
         .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
             color: #666666;

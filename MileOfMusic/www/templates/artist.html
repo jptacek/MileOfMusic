@@ -1,6 +1,6 @@
 
 <div class="mom-list-item">
-    <a href="#/artistList">
+    <a href="javascript:window.history.back();">
         <div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div>
     </a>
     <img onerror="this.src='img/logo.png'" data-ng-src="{{selectedArtist.photoUrl}}" alt="image of {{selectedArtist.artistName}}" />
@@ -68,6 +68,14 @@
     </div>
     <div data-ng-show="shouldShowTab(2)">
         <!-- This is the Schedule tab -->
+        <div data-ng-show="concertListForArtist == null">
+            <p>
+                <br />
+                There are currently no concerts scheduled for this artist
+                <br />
+                Please check back later
+            </p>
+        </div>
         <div class="mom-list-schedule" data-ng-repeat="concert in concertListForArtist | orderBy:'artistNameSort'">
 
             <div class="mom-list-schedule-item divided-sections">
@@ -94,10 +102,4 @@
         </div>
     </div>
 
-    <div data-ng-show="shouldShowTab(2)">
-        <!-- This is the Schedule tab -->
-        <div>
-
-        </div>
-    </div>
 </div>

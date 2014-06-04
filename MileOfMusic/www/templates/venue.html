@@ -1,7 +1,11 @@
 <div class="mom-list-item">
     <div>
         <p>&nbsp;</p>
-        <a href="#/venueList"><div class="mom-list-button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back</div></a>
+        <a href="javascript:window.history.back();">
+            <div class="mom-list-button">
+                <span class="glyphicon glyphicon-chevron-left"></span>&nbsp;Back
+            </div>
+        </a>
     </div>
     <img onerror="this.src='img/no-image-venue.jpg'" src="{{selectedVenue.photoUrl}}" alt="image of {{selectedVenue.venueName}}" />
     <div class="mom-list-label">
@@ -34,7 +38,8 @@
         <div data-ng-show="selectedVenue.hours.length > 0">
             {{selectedVenue.hours}}
         </div>
-        <div><br />
+        <div>
+            <br />
             Age Requirement:
             <div data-ng-show="selectedVenue.underage">
                 {{selectedVenue.venueName}} welcomes patrons of all ages
@@ -78,31 +83,39 @@
 
     <div data-ng-show="shouldShowTab(2)">
         <!-- This is the Schedule tab -->
-    <!--   <p>Enjoy these concerts at {{selectedVenue.venueName}}:</p>-->
-        <div class="mom-list-schedule" data-ng-repeat="concert in shows | orderBy:['time']">
+        <!--   <p>Enjoy these concerts at {{selectedVenue.venueName}}:</p>-->
+        <div data-ng-show="shows == null">
+            <p>
+                <br />
+                There are currently no concerts scheduled for this venue
+                <br />
+                Please check back later
+            </p>
+        </div>
+        <div class="mom-list-schedule" data-ng-repeat="concert in shows | orderBy:['time']" data-ng-show="shows.length > 0">
             <div class="mom-list-schedule-item  divided-sections">
                 <div class="post-container">
                     <div class="post-thumb">
-                    <div data-ng-show="checkSchedule(concert.concertId)">
-                    <!-- Add favorite -->
-                    <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)" ></a>                    
-                </div>
-                <div data-ng-hide="checkSchedule(concert.concertId)">
-                    <!-- Remove favorite -->
-                    <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
-                </div>
+                        <div data-ng-show="checkSchedule(concert.concertId)">
+                            <!-- Add favorite -->
+                            <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
                         </div>
-                <div class="post-content">
-                    <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                        <div data-ng-repeat="artist in concert.artistData">
-                            <p class="bold">{{artist.artistName}}</p>
+                        <div data-ng-hide="checkSchedule(concert.concertId)">
+                            <!-- Remove favorite -->
+                            <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
                         </div>
-                        <div>
-                            <p>{{concert.timeStart|date:'EEE M/d/yy'}}<br />{{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>                            
-                        </div>
-                    </a>
+                    </div>
+                    <div class="post-content">
+                        <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
+                            <div data-ng-repeat="artist in concert.artistData">
+                                <p class="bold">{{artist.artistName}}</p>
+                            </div>
+                            <div>
+                                <p>{{concert.timeStart|date:'EEE M/d/yy'}}<br />{{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-               </div>
             </div>
         </div>
     </div>
