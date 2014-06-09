@@ -3,17 +3,19 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
     var bookmarkStorageKey = 'bookmarkConcertList';
     var getMySchedule = function() {
         var deferred = $q.defer();
-
+        alert('gettign schedule');
         var concertList = [];
 
         var bookmarkList = this.getSavedBookmarkList();
 
         var processedConcerts = [];
+        alert('processing schedule ');
 
         $.each(bookmarkList, function (i, concertId) {
 
             // get the concertData for the concertId
             concertData.getConcert(concertId).then(function (result) {
+                alert('buio;dogm ;ost');
                 concertList.push(result);
                 processedConcerts.push(concertId);
             }, function (data, status) {
