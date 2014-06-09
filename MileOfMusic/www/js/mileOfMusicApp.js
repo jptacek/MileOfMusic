@@ -137,7 +137,7 @@ mileOfMusicApp.factory('HttpResponseInterceptor', [ '$q', '$location', '$injecto
             var url = 'api/error',
                 resource = $injector.get('$resource'),
                 errorResource = resource(url);
-            alert('HttpResponseInterceptor: ');
+            alert('HttpResponseInterceptor: ' + errorResource);
                 $location.path('/error');
                 return $q.reject(rejection);
             //errorResource.save(url, angular.toJson(rejection)).$promise.then(function () {
