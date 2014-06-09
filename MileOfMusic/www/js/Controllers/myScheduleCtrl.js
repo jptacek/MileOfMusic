@@ -1,8 +1,10 @@
 mileOfMusicApp.controller('myScheduleController',
     function ($scope, $log, $routeParams, myScheduleData, CordovaService) {
 
-        CordovaService.ready.then(function() {
+        CordovaService.ready.then(function () {
+            alert('getting data');
             myScheduleData.getMySchedule().then(function (result) {
+                alert('received data');
                 $scope.mySchedule = result;
             });
 
