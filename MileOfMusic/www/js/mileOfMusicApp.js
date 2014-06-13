@@ -98,7 +98,7 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'Loca
             })
             .when('/mySchedule',
             {
-                templateUrl: 'templates/myschedule.html',
+                templateUrl: 'templates/mySchedule.html',
                 controller: 'myScheduleController'
             })
             .when('/error', {
