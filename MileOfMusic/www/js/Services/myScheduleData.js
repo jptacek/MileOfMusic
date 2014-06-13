@@ -26,7 +26,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
 
         // note: the promise gets resolved when the length of the concertList is the same as the bookmarkList
         var interval = setInterval(function () {
-            var isAllDataLoaded = processedConcerts.length == bookmarkList.length;
+            var isAllDataLoaded = processedConcerts.length === bookmarkList.length;
             if (isAllDataLoaded) {
                 clearInterval(interval);
                 deferred.resolve(concertList);
@@ -40,7 +40,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
     var saveConcertToMySchedule = function (concertId) {
 
         var bookmarkList = this.getSavedBookmarkList();
-        if (bookmarkList.indexOf(concertId) == -1) {
+        if (bookmarkList.indexOf(concertId) === -1) {
             // the concert does not already exist in the list, so add it and save the list
             bookmarkList.push(concertId);
             var bookmarkListJson = JSON.stringify(bookmarkList);
@@ -84,7 +84,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
         getSavedBookmarkList: getSavedBookmarkList,
         saveConcertToMySchedule: saveConcertToMySchedule,
         removeConcertFromMySchedule: removeConcertFromMySchedule,
-        clearSavedBookmarks: clearSavedBookmarks,
+        clearSavedBookmarks: clearSavedBookmarks
     };
 });
 
