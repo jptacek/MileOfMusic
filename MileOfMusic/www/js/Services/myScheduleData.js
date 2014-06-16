@@ -3,19 +3,17 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
     var bookmarkStorageKey = 'bookmarkConcertList';
     var getMySchedule = function() {
         var deferred = $q.defer();
-        alert('gettign schedule');
+
         var concertList = [];
 
         var bookmarkList = this.getSavedBookmarkList();
 
         var processedConcerts = [];
-        alert('processing schedule ');
 
         $.each(bookmarkList, function (i, concertId) {
 
             // get the concertData for the concertId
             concertData.getConcert(concertId).then(function (result) {
-                alert('buio;dogm ;ost');
                 concertList.push(result);
                 processedConcerts.push(concertId);
             }, function (data, status) {
@@ -26,7 +24,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
 
         // note: the promise gets resolved when the length of the concertList is the same as the bookmarkList
         var interval = setInterval(function () {
-            var isAllDataLoaded = processedConcerts.length === bookmarkList.length;
+            var isAllDataLoaded = processedConcerts.length == bookmarkList.length;
             if (isAllDataLoaded) {
                 clearInterval(interval);
                 deferred.resolve(concertList);
@@ -40,7 +38,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
     var saveConcertToMySchedule = function (concertId) {
 
         var bookmarkList = this.getSavedBookmarkList();
-        if (bookmarkList.indexOf(concertId) === -1) {
+        if (bookmarkList.indexOf(concertId) == -1) {
             // the concert does not already exist in the list, so add it and save the list
             bookmarkList.push(concertId);
             var bookmarkListJson = JSON.stringify(bookmarkList);
@@ -84,7 +82,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
         getSavedBookmarkList: getSavedBookmarkList,
         saveConcertToMySchedule: saveConcertToMySchedule,
         removeConcertFromMySchedule: removeConcertFromMySchedule,
-        clearSavedBookmarks: clearSavedBookmarks
+        clearSavedBookmarks: clearSavedBookmarks,
     };
 });
 
