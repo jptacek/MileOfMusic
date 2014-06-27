@@ -1,1 +1,20 @@
-{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{},"installed_plugins":{"org.apache.cordova.file-transfer":{"PACKAGE_NAME":"Mile Of Music"}},"dependent_plugins":{"org.apache.cordova.file":{"PACKAGE_NAME":"Mile Of Music"}}}
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {},
+    "installed_plugins": {
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "Mile Of Music"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "Mile Of Music"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "Mile Of Music"
+        }
+    }
+}
