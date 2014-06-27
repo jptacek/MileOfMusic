@@ -27,6 +27,17 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/site.css"/>
     <link rel="stylesheet" type="text/css" href="css/toastr.css"/>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="cordova_filesystem.js"></script>
+    <script type="text/javascript">
+        function openURL(url) {
+            if (device.platform === 'Android') {
+                navigator.app.loadUrl(url, { openExternal: true });
+            } else {
+                window.open(url, '_system');
+            }
+        }
+    </script>
     <title>Mile Of Music</title>
 </head>
 <body>
@@ -34,12 +45,12 @@
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5GXFBD"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function (w, d, s, l, i) {
-w[l] = w[l] || []; w[l].push({
-'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-}); var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
 })(window, document, 'script', 'dataLayer', 'GTM-5GXFBD');</script>
 <!-- End Google Tag Manager -->
 
@@ -105,8 +116,6 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
     </nav>
 </div>
     
-<script type="text/javascript" src="cordova.js"></script>
-<script src="cordova_filesystem.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
     app.initialize();
@@ -147,31 +156,32 @@ switch to AngularUI
 <script src="js/Services/concertData.js"></script>
 <script src="js/appHelper.js"></script>
 
-<script type="text/javascript">
-    $(function () {
-        var position = $(window).scrollTop();
+    <script type="text/javascript">
+     
+        $(function () {
+            var position = $(window).scrollTop();
 
-        $(window).bind("scroll", function (e) {
-            var scroll = $(window).scrollTop();
+            $(window).bind("scroll", function (e) {
+                var scroll = $(window).scrollTop();
 
-            $(".tilt-item").each(function () {
-                var $this = $(this);
+                $(".tilt-item").each(function () {
+                    var $this = $(this);
 
-                if (scroll > position) {
-                    if ($this.offset().top + 10 < scroll) {
-                        $this.addClass("tilt");
+                    if (scroll > position) {
+                        if ($this.offset().top + 10 < scroll) {
+                            $this.addClass("tilt");
+                        }
+                    } else {
+                        if ($this.offset().top + 10 >= scroll) {
+                            $this.removeClass("tilt");
+                        }
+
                     }
-                } else {
-                    if ($this.offset().top + 10 >= scroll) {
-                        $this.removeClass("tilt");
-                    }
-
-                }
+                });
+                position = scroll;
             });
-            position = scroll;
         });
-    });
-</script>
+    </script>
 
 </body>
 </html>
