@@ -32,13 +32,10 @@
     <script type="text/javascript">
         function openURL(url) {
             alert('url: ' + url);
-            if (device.platform === 'Android') {
-                alert('Anodroid');
-                navigator.app.loadUrl(url, { openExternal: true });
-            } else {
+
                 alert('Not Anodroid');
                 window.open(url, '_system');
-            }
+
         }
     </script>
     <title>Mile Of Music</title>
