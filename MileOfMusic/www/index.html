@@ -31,10 +31,11 @@
     <script src="cordova_filesystem.js"></script>
     <script type="text/javascript">
         function openURL(url) {
-            alert('url: ' + url);
+            var myURL = encodeURI(urlString);
+            alert('url: ' + myURL);
 
                 alert('Not Anodroid');
-                window.open(url, '_system');
+                window.open(myURL, '_system');
 
         }
     </script>
