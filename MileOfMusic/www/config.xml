@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.SkylineTechnologies.Mile" version="0.0.24" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.SkylineTechnologies.Mile" version="0.0.25" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Mile Of Music</name>
     <description>
         The Mile Of Music app. Come check out the festival in Appleton, WI from Aug 7-10, 2014
