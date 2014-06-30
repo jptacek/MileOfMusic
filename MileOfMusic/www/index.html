@@ -30,14 +30,45 @@
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" src="phonegap.js"></script>
     <script src="cordova_filesystem.js"></script>
-    <script type="text/javascript">
+    <script type="text/javascript" charset="utf-8">
+
+        // Wait for Cordova to load
+        //
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        // Global InAppBrowser reference
+        var iabRef = null;
+
+        function iabLoadStart(event) {
+            alert(event.type + ' - ' + event.url);
+        }
+
+        function iabLoadStop(event) {
+            alert(event.type + ' - ' + event.url);
+        }
+
+        function iabClose(event) {
+            alert(event.type);
+            iabRef.removeEventListener('loadstart', iabLoadStart);
+            iabRef.removeEventListener('loadstop', iabLoadStop);
+            iabRef.removeEventListener('exit', iabClose);
+        }
+
+        // Cordova is ready
+        //
+        function onDeviceReady() {
+            alert('Device is ready!');
+            //iabRef = window.open('http://apache.org', '_blank', 'location=yes');
+            //iabRef.addEventListener('loadstart', iabLoadStart);
+            //iabRef.addEventListener('loadstop', iabLoadStop);
+            //iabRef.addEventListener('exit', iabClose);
+        }
+
         function openURL(url) {
             alert('url: ' + url);
-
-                alert('Not Anodroid');
-                window.open(url, '_system','location=yes');
-
+                window.open(url, ,'_system','location=yes');
         }
+
     </script>
     <title>Mile Of Music</title>
 </head>
