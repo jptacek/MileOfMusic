@@ -24,7 +24,7 @@
         <div class="social-section ">
             <!-- This is the SocialSection -->
             <div class="divided-sections" data-ng-show="selectedArtist.twitter.length > 0">
-                <a data-ng-href="http://www.twitter.com/{{selectedArtist.twitter}}">
+                <a href="#" ngCick="openURL('http://www.twitter.com/{{selectedArtist.twitter}}');" >
                     <img src="img/icon-twitter.png" class="socialicons" alt="Twitter" />
                     {{selectedArtist.twitter}}
                 </a>

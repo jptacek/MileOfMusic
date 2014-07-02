@@ -27,46 +27,13 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/site.css"/>
     <link rel="stylesheet" type="text/css" href="css/toastr.css"/>
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" src="phonegap.js"></script>
+    
+    <script type="text/javascript" src="cordova.js"></script>
     <script src="cordova_filesystem.js"></script>
-    <script type="text/javascript" charset="utf-8">
 
-        // Wait for Cordova to load
-        //
-        document.addEventListener("deviceready", onDeviceReady, false);
-
-        // Global InAppBrowser reference
-        var iabRef = null;
-
-        function iabLoadStart(event) {
-            alert(event.type + ' - ' + event.url);
-        }
-
-        function iabLoadStop(event) {
-            alert(event.type + ' - ' + event.url);
-        }
-
-        function iabClose(event) {
-            alert(event.type);
-            iabRef.removeEventListener('loadstart', iabLoadStart);
-            iabRef.removeEventListener('loadstop', iabLoadStop);
-            iabRef.removeEventListener('exit', iabClose);
-        }
-
-        // Cordova is ready
-        //
-        function onDeviceReady() {
-            alert('Device is ready!');
-            //iabRef = window.open('http://apache.org', '_blank', 'location=yes');
-            //iabRef.addEventListener('loadstart', iabLoadStart);
-            //iabRef.addEventListener('loadstop', iabLoadStop);
-            //iabRef.addEventListener('exit', iabClose);
-        }
-
+    <script>
         function openURL(url) {
-            alert('url: ' + url);
-                window.open(url ,'_system','location=yes');
+            window.open(url, '_system', 'location=yes');
         }
 
     </script>
@@ -143,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="footer" class="container">
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="navbar-inner navbar-content-center">
-            <a href="http://www.skylinetechnologies.com/" title="Skyline Technologies" target="_blank"><img style="float:left;" src="img/skyline-logo.png" alt="Mile of music logo"/><p>by Skyline Technologies</p></a>
+            <a href="#" onclick="openURL('http://www.skylinetechnologies.com/');" title="Skyline Technologies" target="_blank"><img style="float:left;" src="img/skyline-logo.png" alt="Mile of music logo" /><p>by Skyline Technologies</p></a>
         </div>
     </nav>
 </div>
@@ -188,32 +155,31 @@ switch to AngularUI
 <script src="js/Services/concertData.js"></script>
 <script src="js/appHelper.js"></script>
 
-    <script type="text/javascript">
-     
-        $(function () {
-            var position = $(window).scrollTop();
+<script type="text/javascript">
+    $(function () {
+        var position = $(window).scrollTop();
 
-            $(window).bind("scroll", function (e) {
-                var scroll = $(window).scrollTop();
+        $(window).bind("scroll", function (e) {
+            var scroll = $(window).scrollTop();
 
-                $(".tilt-item").each(function () {
-                    var $this = $(this);
+            $(".tilt-item").each(function () {
+                var $this = $(this);
 
-                    if (scroll > position) {
-                        if ($this.offset().top + 10 < scroll) {
-                            $this.addClass("tilt");
-                        }
-                    } else {
-                        if ($this.offset().top + 10 >= scroll) {
-                            $this.removeClass("tilt");
-                        }
-
+                if (scroll > position) {
+                    if ($this.offset().top + 10 < scroll) {
+                        $this.addClass("tilt");
                     }
-                });
-                position = scroll;
+                } else {
+                    if ($this.offset().top + 10 >= scroll) {
+                        $this.removeClass("tilt");
+                    }
+
+                }
             });
+            position = scroll;
         });
-    </script>
+    });
+</script>
 
 </body>
 </html>

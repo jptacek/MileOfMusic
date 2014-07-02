@@ -2,29 +2,29 @@
 <widget id="com.SkylineTechnologies.Mile"
         xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        version="0.0.35"
+        version="0.0.36"
     >
-    <name>Mile Of Music</name>
+  <name>Mile Of Music</name>
 
-    <description>
-        The Mile Of Music app. Come check out the festival in Appleton, WI from Aug 7-10, 2014
-    </description>
+  <description>
+    The Mile Of Music app. Come check out the festival in Appleton, WI from Aug 7-10, 2014
+  </description>
 
-    <author email="jptacek@skylinetechnologies.com" href="http://www.skylinetechnologies.com">
-        The Skyline Team
-    </author>
+  <author email="jptacek@skylinetechnologies.com" href="http://www.skylinetechnologies.com">
+    The Skyline Team
+  </author>
 
-    <content src="index.html" />
+  <content src="index.html" />
 
-    <preference name="phonegap-version" value="3.3.0" />
+  <preference name="phonegap-version" value="3.3.0" />
 
-    <access origin="*" />
+  <access origin="*" />
 
-    <!-- Core plugins -->
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
-    <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
-    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
+  <!-- Core plugins -->
+  <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+  <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
+  <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
 
-    <icon src="icon.png" />
+  <icon src="icon.png" />
 
 </widget>

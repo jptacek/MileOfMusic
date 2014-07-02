@@ -27,10 +27,12 @@
 }
 .homesign img {
   width: 100%;
-  height: auto;
+  /*height: auto;*/
+
   float: left;
   clear: both;
   display: block;
+  overflow-x: auto;
 }
 #page {
   min-height: 100%;
