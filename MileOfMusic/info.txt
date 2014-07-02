@@ -2,28 +2,40 @@ Useful Information For Submitting Bug Reports and Getting Help
 
 Current Node Version
 
-    v0.10.24
+    v0.10.28
 
 
 Current Cordova CLI Version
 
-    3.4.0-0.1.3
+    3.3.1-0.1.2
 
 Current Config.xml
 
     <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.SkylineTechnologies.Mile" version="0.0.16" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.SkylineTechnologies.Mile"
+        xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        version="0.0.33"
+    >
     <name>Mile Of Music</name>
+
     <description>
         The Mile Of Music app. Come check out the festival in Appleton, WI from Aug 7-10, 2014
     </description>
+
     <author email="jptacek@skylinetechnologies.com" href="http://www.skylinetechnologies.com">
         The Skyline Team
     </author>
+
     <content src="index.html" />
-    <access origin="http://127.0.0.1*" />
+
+    <access origin="*" />
+
+    <!-- Core plugins -->
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
 
     <icon src="icon.png" />
+
 </widget>
 
 
