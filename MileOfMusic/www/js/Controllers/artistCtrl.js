@@ -5,6 +5,7 @@ mileOfMusicApp.controller('artistController',
 
             artistData.getArtist($routeParams.artistId).then(function (result) {
                 $scope.selectedArtist = result;
+
             });
             
             artistData.getMusic($routeParams.artistId).then(function (result) {
@@ -33,6 +34,21 @@ mileOfMusicApp.controller('artistController',
             $scope.shouldShowTab = function (tabId) {
                 return tabId == $scope.selectedTabIndex;
             };
+
+            $scope.openTwitterURL = function() {
+                openURL('http://www.twitter.com/' + $scope.selectedArtist.twitter);
+            }
+
+            $scope.openFacebookURL = function() {
+                openURL( $scope.selectedArtist.facebook);
+            }
+
+            $scope.openInstagramURL = function() {
+                openURL('http://www.instagram.com/' + $scope.selectedArtist.instagram);
+            }
+            $scope.openBandURL = function() {
+                openURL($scope.selectedArtist.url);
+            }
 
             // Answer if the concert is part of the schedule of favorites
             $scope.checkSchedule = function (concertId) {
