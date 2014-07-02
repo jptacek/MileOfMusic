@@ -1,13 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.SkylineTechnologies.Mile" version="0.0.32" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.SkylineTechnologies.Mile"
+        xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        version="0.0.32"
+    >
     <name>Mile Of Music</name>
+
     <description>
         The Mile Of Music app. Come check out the festival in Appleton, WI from Aug 7-10, 2014
     </description>
+
     <author email="jptacek@skylinetechnologies.com" href="http://www.skylinetechnologies.com">
         The Skyline Team
     </author>
+
     <content src="index.html" />
+
     <access origin="*" />
 
     <!-- Core plugins -->
