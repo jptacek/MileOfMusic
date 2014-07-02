@@ -10,7 +10,9 @@
     <content src="index.html" />
     <access origin="*" />
 
+    <!-- Core plugins -->
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+
     <icon src="icon.png" />
 
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
 </widget>
