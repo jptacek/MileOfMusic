@@ -19,7 +19,7 @@
     <access origin="*" />
 
     <!-- Core plugins -->
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.2.4" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
 
     <icon src="icon.png" />
 
