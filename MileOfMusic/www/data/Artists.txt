@@ -26,7 +26,7 @@
       "homebase": "Eau Claire, WI",
       "url": "http://www.adelynrose.bandcamp.com",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338193/original.jpg?1403647479",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338193/original.jpg?1404234162",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338193.jpg",
       "photoUrlLocal": "/artistimages/338193.jpg"
     },
@@ -146,9 +146,24 @@
       "homebase": "Nashville, TN",
       "url": "http://www.benjaminolson.com",
       "genre": "Singer/Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338153/original.jpg?1403629229",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338153/original.jpg?1404405484",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338153.jpg",
       "photoUrlLocal": "/artistimages/338153.jpg"
+    },
+    {
+      "artistId": "338325",
+      "artistName": "Blueheels",
+      "artistNameSort": "Blueheels",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/pages/Blueheels/28322541001",
+      "description": "Blueheels is an independent rock band based in Madison, Milwaukee, and Appleton WI that is widely known for their energetic live shows, genre defying sound, and solid musicianship.",
+      "homebase": "Madison WI",
+      "url": "http://www.blueheels.net",
+      "genre": "Progressive Pop/Rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338325/original.jpg?1403830523",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338325.jpg",
+      "photoUrlLocal": "/artistimages/338325.jpg"
     },
     {
       "artistId": "337019",
@@ -179,6 +194,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337949/original.jpg?1403225323",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337949.jpg",
       "photoUrlLocal": "/artistimages/337949.jpg"
+    },
+    {
+      "artistId": "339336",
+      "artistName": "Brandon Beebe",
+      "artistNameSort": "Brandon Beebe",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/brandonbeebemusic",
+      "description": "Madison's Brandon Beebe is a uniquely evocative singer/songwriter whose talents have brought him to festivals like South by Southwest and allowed him to share the stage with renowned artists including Darius Rucker, Meshell Ndegeocello, Tennis, Valerie June, Zoe Keating, PHOX, Dessa, and many more.",
+      "homebase": "Madison, WI",
+      "url": "http://brandonbeebe.com",
+      "genre": "Folk/Singer-Songwriter/World",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/339336/original.jpg?1404688740",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/339336.jpg",
+      "photoUrlLocal": "/artistimages/339336.jpg"
     },
     {
       "artistId": "335558",
@@ -256,6 +286,21 @@
       "photoUrlLocal": "/artistimages/337279.jpg"
     },
     {
+      "artistId": "338565",
+      "artistName": "Buffalo Gospel with Christopher Porterfield",
+      "artistNameSort": "Buffalo Gospel with Christopher Porterfield",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/buffalogospel",
+      "description": "Building on a solid foundation of heartfelt and heartbreaking Country/Western and Americana arrangements, and featuring a stellar cast of local and national musicians, Milwaukee-based band Buffalo Gospel delivers wholly original material that manages to feel utterly timeless.",
+      "homebase": "Milwaukee, WI",
+      "url": "http://www.buffalogospel.com",
+      "genre": "Country / Western / Americana",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338565/original.jpg?1404139699",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338565.jpg",
+      "photoUrlLocal": "/artistimages/338565.jpg"
+    },
+    {
       "artistId": "335529",
       "artistName": "Caroline Smith",
       "artistNameSort": "Caroline Smith",
@@ -265,7 +310,7 @@
       "description": "Merging '90s R&B and neo-soul with her indie-rock roots, Caroline Smith's new album, Half About Being a Woman, is a record about self-acceptance and growing into your own. With soaring vocals and catchy melodies at the heart of her songs, Caroline has gone back to the roots of 'feel-good' music.",
       "homebase": "Minneapolis, MN",
       "url": "http://www.carolinesmithcarolinesmith.com",
-      "genre": "",
+      "genre": "Brooklyn Soul",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335529/original.png?1403721057",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335529.jpg",
       "photoUrlLocal": "/artistimages/335529.jpg"
@@ -295,7 +340,7 @@
       "description": "Cedarwell’s darkly twisted, folk-pop songs seem to ride nature’s very rhythm. Crisp clarity and addicting genuineness hibernate Neave’s voice somewhere in the back of your memory, somewhere where it can stay for a long, long time, constantly reminding you that this is Wisconsin, and winter never really ends.",
       "homebase": "Sheboygan, WI/Annapolis, MD/Brooklyn, NY",
       "url": "http://www.cedarwell.co",
-      "genre": "rock no rules",
+      "genre": "Rock No Rules",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336084/original.JPG?1400778642",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336084.jpg",
       "photoUrlLocal": "/artistimages/336084.jpg"
@@ -326,9 +371,9 @@
       "homebase": "Duluth, MN",
       "url": "",
       "genre": "Folk",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335502/original.JPG?1403902449",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335502.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "/artistimages/335502.jpg"
     },
     {
       "artistId": "335711",
@@ -361,6 +406,21 @@
       "photoUrlLocal": "/artistimages/335744.jpg"
     },
     {
+      "artistId": "338736",
+      "artistName": "Colee James",
+      "artistNameSort": "Colee James",
+      "twitter": "http://instagram.com/coleejames",
+      "instagram": "http://instagram.com/coleejames",
+      "facebook": "https://www.facebook.com/pages/Colee-James/159996317396828?ref=hl",
+      "description": "Colee James is a Brooklyn based Indie Folk artist, originally from Green Bay, Wisconsin. Her ethereal vocals are the emphasis over a subtle guitar, but sincere lyrics about fleeting cowboys and desires to run free are the highlight of her performances. Vintage Folk with Country influence best describes her style.\n",
+      "homebase": "Brooklyn, NY",
+      "url": "http://www.coleejamesmusic.com",
+      "genre": "Indie Folk",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338736/original.jpg?1404341980",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338736.jpg",
+      "photoUrlLocal": "/artistimages/338736.jpg"
+    },
+    {
       "artistId": "335738",
       "artistName": "Corey Hart",
       "artistNameSort": "Corey Hart",
@@ -385,10 +445,25 @@
       "description": "Count This Penny is a country-folk band fronted by a songwriting duo from Madison, Wisconsin.",
       "homebase": null,
       "url": "http://countthispenny.com",
-      "genre": "Country-folk",
+      "genre": "Country-Folk",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335966/original.jpg?1400622221",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335966.jpg",
       "photoUrlLocal": "/artistimages/335966.jpg"
+    },
+    {
+      "artistId": "338645",
+      "artistName": "Dan Rodriguez",
+      "artistNameSort": "Dan Rodriguez",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/pages/Dan-Rodriguez/163871216662?ref=ts&fref=ts",
+      "description": "Dan Rodriguez, an artist based out of Minneapolis, MN, is creating quite a buzz in the Midwest. The groove-based, bluesy over-toned sound of his music, mixed with his powerful, yet seductive voice creates an atmosphere different from other music. It's refreshing, tantalizing, and pure.",
+      "homebase": "Minneapolis, MN",
+      "url": "http://www.danrodriguezmusic.com",
+      "genre": "Blues",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338645/original.jpg?1404240744",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338645.jpg",
+      "photoUrlLocal": "/artistimages/338645.jpg"
     },
     {
       "artistId": "337929",
@@ -451,6 +526,21 @@
       "photoUrlLocal": "/artistimages/336379.jpg"
     },
     {
+      "artistId": "338317",
+      "artistName": "Eric Lives Here",
+      "artistNameSort": "Eric Lives Here",
+      "twitter": "ericliveshere",
+      "instagram": "ericliveshere",
+      "facebook": "http://www.facebook.com/ericliveshere",
+      "description": "Eric Lives Here lights up crowds with their intense, interactive live shows.\n\nThe five-piece rock band gained notoriety when their anthems “Night is Young,” “Cool Girls in Hot Pants” and “Rock River” hit mainstream radio and have emerged as one of Wisconsin’s newest big-time festival bands.\n",
+      "homebase": "Appleton, WI",
+      "url": "http://www.ericliveshere.com",
+      "genre": "Rock/Pop",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338317/original.jpg?1403823162",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338317.jpg",
+      "photoUrlLocal": "/artistimages/338317.jpg"
+    },
+    {
       "artistId": "338196",
       "artistName": "Farewell Milwaukee",
       "artistNameSort": "Farewell Milwaukee",
@@ -458,7 +548,7 @@
       "instagram": "farewellmilwaukee",
       "facebook": "http://www.facebook.com/farewellmilwaukee",
       "description": "Swift and inventive, Farewell Milwaukee’s sound is informed by artists from the 60s and 70s but never beholden to them. Instead FM bend those influences into new shapes and sounds. FM has been mainstays on the Minneapolis scene since 2008, with four albums and countless live shows under their belts",
-      "homebase": "Albuquerque, NM (manager home base / that is contact info below. Band is based in Minneapolis, MN",
+      "homebase": "Minneapolis, MN",
       "url": "http://www.farewellmilwaukee.com",
       "genre": "Americana, Rock",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338196/original.jpg?1403652676",
@@ -601,6 +691,21 @@
       "photoUrlLocal": "/artistimages/336655.jpg"
     },
     {
+      "artistId": "337821",
+      "artistName": "Hayward Williams",
+      "artistNameSort": "Hayward Williams",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "www.facebook.com/haywardmusic",
+      "description": "Hayward Williams’ music stops time. He lays his guitar across his lap; his defining tenor rises from nowhere, and whether it’s the wood-paneled bars of the Midwest, or small clubs across Europe, the result is always the same. The room halts. Noises recede. Clocks slow. People forget where they are",
+      "homebase": "Milwaukee",
+      "url": "http://www.haywardwilliams.com",
+      "genre": "Americana",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337821/original.jpg?1403028225",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337821.jpg",
+      "photoUrlLocal": "/artistimages/337821.jpg"
+    },
+    {
       "artistId": "335941",
       "artistName": "Hillary Reynolds Band",
       "artistNameSort": "Hillary Reynolds Band",
@@ -626,9 +731,9 @@
       "homebase": "Oshkosh, WI",
       "url": "http://doubleplusgoodrecords.com",
       "genre": "lo-fi singer/songwriter punk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336591/original.jpg?1401404743",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336591/original.jpg?1404412695",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336591.jpg",
-      "photoUrlLocal": ""
+      "photoUrlLocal": "/artistimages/336591.jpg"
     },
     {
       "artistId": "337324",
@@ -691,6 +796,21 @@
       "photoUrlLocal": "/artistimages/335602.jpg"
     },
     {
+      "artistId": "338305",
+      "artistName": "Involuntary String Band",
+      "artistNameSort": "Involuntary String Band",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "facebook.com/involuntarystringband",
+      "description": "ISB is a contemporary string band that fuses aspects of many genres including Bluegrass, Old-Time, and Jazz, creating dynamic and exciting music that is simultaneously familiar and unique. ",
+      "homebase": "Appleton, WI",
+      "url": "http://involuntarystringband.bandcamp.com",
+      "genre": "Contemporary Bluegrass/Old-Time",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338305/original.jpg?1403807794",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338305.jpg",
+      "photoUrlLocal": "/artistimages/338305.jpg"
+    },
+    {
       "artistId": "335524",
       "artistName": "Jaik Willis",
       "artistNameSort": "Jaik Willis",
@@ -698,9 +818,9 @@
       "instagram": "twitter.com/jaikwillis",
       "facebook": "http://facebook.com/jaikwillismusic",
       "description": "Jaik Willis is a wild fire-breathing freakshow, pummeling a flying V acoustic guitar that crashes like cymbals and booms like a bass; howling & scatting impossible vocal turns while simultaneously beat-boxing. ",
-      "homebase": null,
+      "homebase": "Chicago, IL",
       "url": "http://jaikwillis.com",
-      "genre": "all of the above",
+      "genre": "",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335524/original.jpg?1400016124",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335524.jpg",
       "photoUrlLocal": "/artistimages/335524.jpg"
@@ -790,7 +910,7 @@
       "description": "Jordin Baas brings a fresh clear-toned voice to songs of sadness, wistful hope, and wry social commentary, accompanied by languid acoustic guitar and raucous harmonica.",
       "homebase": "Milwaukee, WI",
       "url": "http://www.jordinbaas.com",
-      "genre": "singer/songwriter",
+      "genre": "Singer/Songwriter",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335731/original.jpg?1400198376",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335731.jpg",
       "photoUrlLocal": "/artistimages/335731.jpg"
@@ -827,8 +947,8 @@
     },
     {
       "artistId": "336575",
-      "artistName": "Kyle Megna",
-      "artistNameSort": "Kyle Megna",
+      "artistName": "Kyle Megna and Dave LeBlanc",
+      "artistNameSort": "Kyle Megna and Dave LeBlanc",
       "twitter": "",
       "instagram": "",
       "facebook": "facebook.com/kylemegnamusic",
@@ -899,6 +1019,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335520/original.jpg?1400014029",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335520.jpg",
       "photoUrlLocal": "/artistimages/335520.jpg"
+    },
+    {
+      "artistId": "338785",
+      "artistName": "Lucas Cates",
+      "artistNameSort": "Lucas Cates",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/pages/Lucas-Cates/158273467616",
+      "description": "Lucas is an original acoustic singer/songwriter from Madison, WI. His music includes many genres; rock, pop, folk, jazz, funk, & r&b. His five original albums are available at Itunes, CD Baby, Amazon, Spotify, and Pandora. Lucas has opened up for acts like Gabe Dixon, The Gin Blossoms, and Marc Broussard.",
+      "homebase": "Madison, WI",
+      "url": "http://www.lucascates.com/",
+      "genre": "Pop/Rock/Folk/Reggae",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338785/original.jpg?1404402794",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338785.jpg",
+      "photoUrlLocal": "/artistimages/338785.jpg"
     },
     {
       "artistId": "335801",
@@ -1226,9 +1361,9 @@
       "homebase": null,
       "url": "http://www.youtube.com/watch?v=s_7z2prnTAQ",
       "genre": "Singer/Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335832/original.jpeg?1404319857",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335832.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "/artistimages/335832.jpg"
     },
     {
       "artistId": "335732",
@@ -1501,6 +1636,21 @@
       "photoUrlLocal": "/artistimages/336096.jpg"
     },
     {
+      "artistId": "338538",
+      "artistName": "Surgeons In Heat",
+      "artistNameSort": "Surgeons In Heat",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/surgeonsinheat",
+      "description": "\"Surgeons In Heat effortlessly weave together hints of R&B and catchy indie rock.\" -NPR",
+      "homebase": "Milwaukee/Madison, WI",
+      "url": "http://surgeonsinheat.bandcamp.com/",
+      "genre": "Pop",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338538/original.jpg?1404072529",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338538.jpg",
+      "photoUrlLocal": "/artistimages/338538.jpg"
+    },
+    {
       "artistId": "335867",
       "artistName": "Susan Howe",
       "artistNameSort": "Susan Howe",
@@ -1529,6 +1679,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336989/original.jpg?1403711347",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336989.jpg",
       "photoUrlLocal": "/artistimages/336989.jpg"
+    },
+    {
+      "artistId": "338396",
+      "artistName": "Tall Walker",
+      "artistNameSort": "Tall Walker",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/tallwalkermusic",
+      "description": "Tall Walker, a rising rock faction from Chicago, was founded on relationships. After a meeting in 2011 between Nick Bays and Chris Hershman, the two quickly became friends. Bays and Hershman would spend long nights sitting in gas station parking lots dreaming up the idea that became Tall Walker.",
+      "homebase": "Chicago, IL",
+      "url": "http://tallwalkermusic.com/",
+      "genre": "Rock/Pop",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338396/original.jpg?1403897296",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338396.jpg",
+      "photoUrlLocal": "/artistimages/338396.jpg"
     },
     {
       "artistId": "335592",
@@ -1696,6 +1861,21 @@
       "photoUrlLocal": "/artistimages/336435.jpg"
     },
     {
+      "artistId": "338291",
+      "artistName": "The Midwestern Charm",
+      "artistNameSort": "Midwestern Charm, The",
+      "twitter": "themidwesterncharm",
+      "instagram": "themidwesterncharm",
+      "facebook": "www.facebook.com/themidwesterncharmwi",
+      "description": "Sharp, lovable pop tunes at loud volumes; sounds like someone threw keys into a blender and realized the buzz was in the same key as Sam Cooke's Bring It On Home To Me. ",
+      "homebase": "Milwaukee, WI",
+      "url": "http://www.facebook.com/themidwesterncharmwi",
+      "genre": "Basement Pop ",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338291/original.jpg?1404233700",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338291.jpg",
+      "photoUrlLocal": "/artistimages/338291.jpg"
+    },
+    {
       "artistId": "338033",
       "artistName": "The Noble Thiefs",
       "artistNameSort": "Noble Thiefs, The",
@@ -1861,6 +2041,21 @@
       "photoUrlLocal": "/artistimages/337924.jpg"
     },
     {
+      "artistId": "338302",
+      "artistName": "Tony Anders & The Radiolites",
+      "artistNameSort": "Tony Anders & The Radiolites",
+      "twitter": "tonyandersrock",
+      "instagram": "tonyandersrock",
+      "facebook": "https://www.facebook.com/tony.anders.7545",
+      "description": "After over 12 years of playing with Verona Grove Tony began pursuing a solo career by way of \"Tony Anders & The Radiolites.\" A full length album is due for release in summer 2014 and the project has been kick started with the release of \"Unforgiven\", available on iTunes.",
+      "homebase": "Appleton, WI",
+      "url": "http://www.tonyanders.com",
+      "genre": "indie/pop rock with a twang",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338302/original.jpg?1403804088",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338302.jpg",
+      "photoUrlLocal": "/artistimages/338302.jpg"
+    },
+    {
       "artistId": "338238",
       "artistName": "Turbo Fruits",
       "artistNameSort": "Turbo Fruits",
@@ -1871,7 +2066,7 @@
       "homebase": "Nashville",
       "url": "http://turbofruits.com/",
       "genre": "Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338238/original.jpeg?1403717893",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338238/original.jpg?1404228635",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338238.jpg",
       "photoUrlLocal": "/artistimages/338238.jpg"
     },
@@ -1973,7 +2168,7 @@
       "instagram": "",
       "facebook": "https://www.facebook.com/xoewisemusic",
       "description": "Originally from a small town on the ocean in North Carolina, at age 19 Wise moved to Chicago to record her first collection of songs. She released her third EP, \"Breakfast\", on July 16th, 2013, featuring alto speak/sing, grumbling bass notes, electric guitar, and minimal beats.",
-      "homebase": "Chicago IL",
+      "homebase": "Chicago, IL",
       "url": "http://www.xoewise.com/",
       "genre": "Electronic/Pop/Indie",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336665/original.jpg?1401671850",

@@ -2,7 +2,7 @@
 <widget id="com.SkylineTechnologies.Mile"
         xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        version="0.0.37"
+        version="0.0.40"
     >
   <name>Mile Of Music</name>
 
@@ -25,6 +25,6 @@
   <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
   <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
 
-  <icon src="icon.png" />
+  <icon src="buildAssets/icon.png" />
 
 </widget>

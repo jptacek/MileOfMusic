@@ -1,13 +1,13 @@
 mileOfMusicApp.controller('artistController',
     function ($scope, $log, $routeParams, $sce, artistData, concertData, myScheduleData, CordovaService) {
 
-        CordovaService.ready.then(function() {
+        CordovaService.ready.then(function () {
 
             artistData.getArtist($routeParams.artistId).then(function (result) {
                 $scope.selectedArtist = result;
 
             });
-            
+
             artistData.getMusic($routeParams.artistId).then(function (result) {
 
                 $.each(result, function (i, item) {
@@ -21,7 +21,7 @@ mileOfMusicApp.controller('artistController',
                 $scope.concertListForArtist = result;
             });
 
-            $scope.showArtistList = function() {
+            $scope.showArtistList = function () {
                 window.location.href = "#/artistList";
             };
 
@@ -35,18 +35,18 @@ mileOfMusicApp.controller('artistController',
                 return tabId == $scope.selectedTabIndex;
             };
 
-            $scope.openTwitterURL = function() {
+            $scope.openTwitterURL = function () {
                 openURL('http://www.twitter.com/' + $scope.selectedArtist.twitter);
             }
 
-            $scope.openFacebookURL = function() {
-                openURL( $scope.selectedArtist.facebook);
+            $scope.openFacebookURL = function () {
+                openURL($scope.selectedArtist.facebook);
             }
 
-            $scope.openInstagramURL = function() {
+            $scope.openInstagramURL = function () {
                 openURL('http://www.instagram.com/' + $scope.selectedArtist.instagram);
             }
-            $scope.openBandURL = function() {
+            $scope.openBandURL = function () {
                 openURL($scope.selectedArtist.url);
             }
 
