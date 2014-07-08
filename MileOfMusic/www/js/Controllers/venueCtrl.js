@@ -17,6 +17,25 @@ mileOfMusicApp.controller('venueController',
                 window.location.href = "#venueList";
             }
 
+            $scope.openTwitterURL = function () {
+                openURL('http://www.twitter.com/' + $scope.selectedVenue.twitter);
+            }
+
+            $scope.openFacebookURL = function () {
+                openURL($scope.selectedVenue.facebook);
+            }
+
+            $scope.openInstagramURL = function () {
+                openURL('http://www.instagram.com/' + $scope.selectedArtist.instagram);
+            }
+            $scope.openVenueURL = function () {
+                openURL($scope.selectedVenue.url);
+            }
+
+            $scope.openMapsURL = function () {
+                openURL('http://bing.com/maps/default.aspx?where1=' + $scope.selectedVenue.address + ',' + $scope.selectedVenue.city + ',' + $scope.selectedVenue.state);
+            }
+
             $scope.checkSchedule = function (concertId) {
                 return myScheduleData.getSavedBookmarkList().indexOf(concertId) < 0;
             }
