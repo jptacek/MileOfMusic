@@ -35,9 +35,6 @@ mileOfMusicApp.controller('artistController',
                 return tabId == $scope.selectedTabIndex;
             };
 
-            $scope.twitterURL2 = function() {
-                'http://www.twitter.com/' + $scope.selectedArtist.twitter;
-            }
             $scope.openTwitterURL = function() {
                 openURL('http://www.twitter.com/' + $scope.selectedArtist.twitter);
             }
