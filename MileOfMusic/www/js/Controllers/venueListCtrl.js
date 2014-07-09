@@ -1,5 +1,5 @@
 mileOfMusicApp.controller('venueListController',
-    function ($scope, $log, venueData, CordovaService, navFactory) {
+    function ($scope, $log, venueData, CordovaService, navFactory,$location, $anchorScroll) {
 
         navFactory.assignCanSearchAZ(true);
 
@@ -12,4 +12,12 @@ mileOfMusicApp.controller('venueListController',
             }, function () { $scope.isLoading = false; });
 
         });
+        $scope.gotoTop = function () {
+            // set the location.hash to the id of
+            // the element you wish to scroll to.
+            $location.hash('top');
+
+            // call $anchorScroll()
+            $anchorScroll();
+        };
     });

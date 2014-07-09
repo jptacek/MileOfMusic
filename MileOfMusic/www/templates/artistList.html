@@ -3,14 +3,15 @@
     Artists
 </h3>-->
 <div data-ng-show="isLoading" style="float: right;  right: 20px" ><img src="img/spinner.gif" alt="Loading..." /></div>
+<a id="top"></a>
 <div class="input-group">
     <input type="text" data-ng-model="searchText" placeholder="Search" class="form-control" /><span class="input-group-addon"> <span class="glyphicon glyphicon-search"></span></span>
 </div>
-<a name="top">This is the top</a>
+<a id="top"></a>
 <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | filter:searchText | orderBy:'artistNameSort'">
     <a id="nav-{{artist.artistName | firstLetter}}" data-ng-href="#/artist/{{artist.artistId}}">
-        <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />
+        <img onerror="this.src='img/no-image-artist.jpg'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />
         <div class="mom-list-label">{{artist.artistName}}</div>
     </a>
 </div>
-<div><a href="#top"><img src="img/Backtotop-button.png" style="max-height: 37px; max-width: 25%; float: right; position: fixed; right: 0; bottom: 65px; z-index:1200;"/></a></div>
+<div><a ng-click="gotoTop()"><img src="img/Backtotop-button.png" style="max-height: 37px; max-width: 25%; float: right; position: fixed; right: 0; bottom: 65px; z-index:1200;"/></a></div>
