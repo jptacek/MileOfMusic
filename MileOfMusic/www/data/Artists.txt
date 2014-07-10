@@ -61,6 +61,36 @@
       "photoUrlLocal": "/artistimages/335584.jpg"
     },
     {
+      "artistId": "340709",
+      "artistName": "Adriel Denae",
+      "artistNameSort": "Adriel Denae",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340709.jpg",
+      "photoUrlLocal": null
+    },
+    {
+      "artistId": "340701",
+      "artistName": "Ami Moss and the Unfortunate",
+      "artistNameSort": "Ami Moss and the Unfortunate",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340701.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "335583",
       "artistName": "Anna Laube",
       "artistNameSort": "Anna Laube",
@@ -104,6 +134,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338203/original.jpg?1403663595",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338203.jpg",
       "photoUrlLocal": "/artistimages/338203.jpg"
+    },
+    {
+      "artistId": "340748",
+      "artistName": "Bascom Hill",
+      "artistNameSort": "Bascom Hill",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/bascomhill",
+      "description": "Bascom Hill is pop/rock band from Madison, WI. Winners of multiple Wisconsin Area Music Industry (WAMI) Awards, the band has shared the stage with major artists like Bob Schneider, Dawes, The Fray, Hanson, Lifehouse and many more. Their songs have been heard on various television shows, including “America’s Next Top Model” and MTV’s “Real World.”",
+      "homebase": "Milwaukee, Madison",
+      "url": "http://www.bascomhillband.com",
+      "genre": "Pop/Rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/340748/original.jpg?1405015604",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340748.jpg",
+      "photoUrlLocal": "/artistimages/340748.jpg"
     },
     {
       "artistId": "335581",
@@ -421,6 +466,21 @@
       "photoUrlLocal": "/artistimages/338736.jpg"
     },
     {
+      "artistId": "340344",
+      "artistName": "Connor LeMue",
+      "artistNameSort": "Connor LeMue",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340344.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "335738",
       "artistName": "Corey Hart",
       "artistNameSort": "Corey Hart",
@@ -434,6 +494,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335738/original.JPG?1400205580",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335738.jpg",
       "photoUrlLocal": "/artistimages/335738.jpg"
+    },
+    {
+      "artistId": "338253",
+      "artistName": "Cory Chisel",
+      "artistNameSort": "Cory Chisel",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338253.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "335966",
@@ -466,6 +541,21 @@
       "photoUrlLocal": "/artistimages/338645.jpg"
     },
     {
+      "artistId": "340347",
+      "artistName": "Dan Snodgrass (of Bonesetters)",
+      "artistNameSort": "Dan Snodgrass (of Bonesetters)",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340347.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "337929",
       "artistName": "Daniel Ellsworth & The Great Lakes",
       "artistNameSort": "Daniel Ellsworth & The Great Lakes",
@@ -479,6 +569,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337929/original.jpg?1403196569",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337929.jpg",
       "photoUrlLocal": "/artistimages/337929.jpg"
+    },
+    {
+      "artistId": "340573",
+      "artistName": "David McMillin",
+      "artistNameSort": "David McMillin",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340573.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "336715",
@@ -511,6 +616,36 @@
       "photoUrlLocal": "/artistimages/336963.jpg"
     },
     {
+      "artistId": "338712",
+      "artistName": "Dietrich Gosser",
+      "artistNameSort": "Dietrich Gosser",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338712.jpg",
+      "photoUrlLocal": null
+    },
+    {
+      "artistId": "340708",
+      "artistName": "Earl Burrows",
+      "artistNameSort": "Earl Burrows",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340708.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "336379",
       "artistName": "Eric Krueger",
       "artistNameSort": "Eric Krueger",
@@ -539,6 +674,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338317/original.jpg?1403823162",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338317.jpg",
       "photoUrlLocal": "/artistimages/338317.jpg"
+    },
+    {
+      "artistId": "340705",
+      "artistName": "Eva Jade",
+      "artistNameSort": "Eva Jade",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340705.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "338196",
@@ -629,6 +779,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336651/original.jpg?1403711097",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336651.jpg",
       "photoUrlLocal": "/artistimages/336651.jpg"
+    },
+    {
+      "artistId": "340692",
+      "artistName": "Freddie Haas and Tate Simpson",
+      "artistNameSort": "Freddie Haas and Tate Simpson",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340692.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "338079",
@@ -751,6 +916,21 @@
       "photoUrlLocal": "/artistimages/337324.jpg"
     },
     {
+      "artistId": "338705",
+      "artistName": "Hugh Robert Masterson",
+      "artistNameSort": "Hugh Robert Masterson",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338705.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "335747",
       "artistName": "I'm Not A Pilot",
       "artistNameSort": "I'm Not A Pilot",
@@ -809,6 +989,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338305/original.jpg?1403807794",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338305.jpg",
       "photoUrlLocal": "/artistimages/338305.jpg"
+    },
+    {
+      "artistId": "340683",
+      "artistName": "Jacob Fannin",
+      "artistNameSort": "Jacob Fannin",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340683.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "335524",
@@ -899,6 +1094,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335539/original.jpg?1400034449",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335539.jpg",
       "photoUrlLocal": "/artistimages/335539.jpg"
+    },
+    {
+      "artistId": "340345",
+      "artistName": "John Paul Roney (Of Boom Forest)",
+      "artistNameSort": "John Paul Roney (Of Boom Forest)",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340345.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "335731",
@@ -1021,6 +1231,21 @@
       "photoUrlLocal": "/artistimages/335520.jpg"
     },
     {
+      "artistId": "337360",
+      "artistName": "Los Colognes",
+      "artistNameSort": "Los Colognes",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "Rock",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337360.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "338785",
       "artistName": "Lucas Cates",
       "artistNameSort": "Lucas Cates",
@@ -1049,6 +1274,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335801/original.jpg?1400265026",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335801.jpg",
       "photoUrlLocal": "/artistimages/335801.jpg"
+    },
+    {
+      "artistId": "338647",
+      "artistName": "Mark Steven Hillstrom",
+      "artistNameSort": "Mark Steven Hillstrom",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338647.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "337941",
@@ -1156,6 +1396,21 @@
       "photoUrlLocal": "/artistimages/335780.jpg"
     },
     {
+      "artistId": "338728",
+      "artistName": "Mike Mamoine",
+      "artistNameSort": "Mike Mamoine",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338728.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "335919",
       "artistName": "Mike Munson",
       "artistNameSort": "Mike Munson",
@@ -1214,6 +1469,51 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335737/original.jpg?1400205479",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335737.jpg",
       "photoUrlLocal": "/artistimages/335737.jpg"
+    },
+    {
+      "artistId": "338176",
+      "artistName": "Nathan Dengel",
+      "artistNameSort": "Nathan Dengel",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338176.jpg",
+      "photoUrlLocal": null
+    },
+    {
+      "artistId": "338721",
+      "artistName": "Nicolas Stuart Zeimann",
+      "artistNameSort": "Nicolas Stuart Zeimann",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338721.jpg",
+      "photoUrlLocal": null
+    },
+    {
+      "artistId": "338252",
+      "artistName": "Nikki Lane",
+      "artistNameSort": "Nikki Lane",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338252.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "336429",
@@ -1306,6 +1606,21 @@
       "photoUrlLocal": "/artistimages/337928.jpg"
     },
     {
+      "artistId": "340362",
+      "artistName": "Porky's Groove Machine",
+      "artistNameSort": "Porky's Groove Machine",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/porkysgroovemachine",
+      "description": "Porky's Groove Machine has been crafting funky grooves and getting audiences shaking everything they've got for three years now. The recent release of our debut full-length, all-original album, Magic Brunch, and accompanying live in-studio music videos has been very exciting and has reinvigorated our need to get down and get everyone to do the same.",
+      "homebase": "Fox Cities, WI",
+      "url": "http://porkysgroovemachine.com/",
+      "genre": "Nerd Funk",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/340362/original.jpg?1404770033",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340362.jpg",
+      "photoUrlLocal": "/artistimages/340362.jpg"
+    },
+    {
       "artistId": "335523",
       "artistName": "Raquel Rodriguez",
       "artistNameSort": "Raquel Rodriguez",
@@ -1381,6 +1696,36 @@
       "photoUrlLocal": "/artistimages/335732.jpg"
     },
     {
+      "artistId": "337889",
+      "artistName": "Robert Ellis",
+      "artistNameSort": "Robert Ellis",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337889.jpg",
+      "photoUrlLocal": null
+    },
+    {
+      "artistId": "340694",
+      "artistName": "Roger Jokela",
+      "artistNameSort": "Roger Jokela",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340694.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "336947",
       "artistName": "Rory Sullivan",
       "artistNameSort": "Rory Sullivan",
@@ -1409,6 +1754,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336440/original.jpg?1401261059",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336440.jpg",
       "photoUrlLocal": "/artistimages/336440.jpg"
+    },
+    {
+      "artistId": "338711",
+      "artistName": "Ross Catterton",
+      "artistNameSort": "Ross Catterton",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338711.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "335499",
@@ -1666,6 +2026,21 @@
       "photoUrlLocal": "/artistimages/335867.jpg"
     },
     {
+      "artistId": "337886",
+      "artistName": "Swear and Shake",
+      "artistNameSort": "Swear and Shake",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337886.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "336989",
       "artistName": "Taj Raj",
       "artistNameSort": "Taj Raj",
@@ -1709,6 +2084,36 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335592/original.jpg?1400092584",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335592.jpg",
       "photoUrlLocal": "/artistimages/335592.jpg"
+    },
+    {
+      "artistId": "340710",
+      "artistName": "The Autumn Defense",
+      "artistNameSort": "Autumn Defense, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340710.jpg",
+      "photoUrlLocal": null
+    },
+    {
+      "artistId": "337904",
+      "artistName": "The Baseball Project",
+      "artistNameSort": "Baseball Project, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337904.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "336148",
@@ -1756,6 +2161,36 @@
       "photoUrlLocal": "/artistimages/337749.jpg"
     },
     {
+      "artistId": "338262",
+      "artistName": "The Delta Routine",
+      "artistNameSort": "Delta Routine, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338262.jpg",
+      "photoUrlLocal": null
+    },
+    {
+      "artistId": "337890",
+      "artistName": "The Emperor's of Wyoming",
+      "artistNameSort": "Emperor's of Wyoming, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337890.jpg",
+      "photoUrlLocal": null
+    },
+    {
       "artistId": "335601",
       "artistName": "The Family Business",
       "artistNameSort": "Family Business, The",
@@ -1784,6 +2219,21 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335589/original.jpg?1400091209",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335589.jpg",
       "photoUrlLocal": "/artistimages/335589.jpg"
+    },
+    {
+      "artistId": "338799",
+      "artistName": "The Fatty Acids",
+      "artistNameSort": "Fatty Acids, The",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": null,
+      "url": "",
+      "genre": "",
+      "photoUrlOriginal": "",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338799.jpg",
+      "photoUrlLocal": null
     },
     {
       "artistId": "335908",
