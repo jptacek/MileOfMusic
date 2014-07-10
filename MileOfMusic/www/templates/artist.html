@@ -52,7 +52,7 @@
         <div data-ng-show="music.length > 0">
             <h3>Sample Music</h3>
             <div data-ng-repeat="item in music">
-                <div style="width: 100%; height: 110px;">
+                <div style="width: 100%; height: 110px;" class="divided-sections-music">
                     <div style="float: left; position: absolute">
                         <img data-ng-src="{{item.imageUrl}}" alt="{{item.name}}" />
                         <div style="margin-top: 5px;" data-ng-bind-html="item.audio"></div>
