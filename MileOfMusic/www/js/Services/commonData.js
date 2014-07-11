@@ -95,17 +95,31 @@
                     try {
                         var fileTransfer = new FileTransfer();
                         var uri = encodeURI(localItem[photoUrlRemoteProperty]);
-
-                        fileTransfer.download(
-                            uri,
-                            targetDirectory + "/" + localItem[idProperty] + ".jpg",
-                            function (entry) {
-                                localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
-                            },
-                            function (error) {
-                                $log.error(error);
-                            }
-                        );
+                        
+                        try
+                        {
+                            fileTransfer.download(
+                                uri,
+                                "cdvfile://localhost/" + targetDirectory + "/" + localItem[idProperty] + ".jpg",
+                                function (entry) {
+                                    localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
+                                },
+                                function (error) {
+                                    $log.error(error);
+                                    fileTransfer.download(
+                                       uri,
+                                       targetDirectory + "/" + localItem[idProperty] + ".jpg",
+                                       function (entry) {
+                                           localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
+                                       },
+                                       function (error) {
+                                           $log.error(error);
+                                       }
+                                   );
+                                }
+                            );
+                        }
+                        catch (err) { }
                     }
                     catch (err) { $log.error(err); }
                 },
