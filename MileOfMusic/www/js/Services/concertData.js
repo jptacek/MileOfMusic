@@ -37,6 +37,7 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
 
             });
 
+
             var attempts = 0;
             var interval = setInterval(function () {
                 var allAssigned = true;
