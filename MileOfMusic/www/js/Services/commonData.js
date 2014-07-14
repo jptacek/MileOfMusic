@@ -9,7 +9,7 @@
         var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
         var data = localStorage.getItem(dataKey);
         //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
-        var dateCheck = new Date(new Date().getTime() - (5 * 60 * 1000)); // Check every 5 minutes
+        var dateCheck = new Date(new Date().getTime() - (30 * 60 * 1000)); // Check every 30 minutes
 
         if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
             var jsonData = null;
@@ -22,7 +22,7 @@
         else {
             $http.jsonp(versionUrl).then(function (result) {
                 var myVersion = localStorage.getItem(versionKey);
-                if (data == null || myVersion == null || JSON.parse(myVersion).Version != result.Version) {
+                if (data == null || myVersion == null || JSON.parse(myVersion).Version != result.data.Version) {
 
                     // New version, so go download new JSON
                     $http.jsonp(dataUrl).then(function (dataResult) {
@@ -30,7 +30,7 @@
                         if (newDataCallback != null) newDataCallback();
 
                         function finalizeData() {
-                            localStorage.setItem(versionKey, JSON.stringify(result));
+                            localStorage.setItem(versionKey, JSON.stringify(result.data));
                             localStorage.setItem(versionDateKey, new Date().toString());
                             localStorage.setItem(dataKey, JSON.stringify(dataResult));
                             deferred.resolve(dataResult);
@@ -105,6 +105,7 @@
                                     localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
                                 },
                                 function (error) {
+                                    alert('error downloading new image');
                                     $log.error(error);
                                     fileTransfer.download(
                                        uri,

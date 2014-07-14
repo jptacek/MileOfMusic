@@ -10,7 +10,7 @@
 <a id="top"></a>
 <div class="mom-list-item tilt-item" data-ng-repeat="artist in performers.artists | filter:searchText | orderBy:'artistNameSort'">
     <a id="nav-{{artist.artistName | firstLetter}}" data-ng-href="#/artist/{{artist.artistId}}">
-        <img onerror="this.src='img/no-image-artist.jpg'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />
+        <img src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" onerror="this.src='img/no-image-artist.jpg'" />
         <div class="mom-list-label">{{artist.artistName}}</div>
     </a>
 </div>

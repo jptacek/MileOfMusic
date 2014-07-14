@@ -26,10 +26,10 @@ mileOfMusicApp.controller('venueController',
             }
 
             $scope.openInstagramURL = function () {
-                openURL('http://www.instagram.com/' + $scope.selectedArtist.instagram);
+                openURL('http://www.instagram.com/' + $scope.selectedVenue.instagram);
             }
             $scope.openVenueURL = function () {
-                openURL($scope.selectedVenue.url);
+                openURL('http://'+$scope.selectedVenue.url);
             }
 
             $scope.openMapsURL = function () {

@@ -13,10 +13,13 @@ mileOfMusicApp.factory('venueData', function ($http, $log, $q, appHelper, common
     var getVenues = function () {
         var deferred = $q.defer();
         
-        var checkForMissingImages = function (result) { return commonData.checkForMissingImages(result.venues, "venueId", "venueImages"); }
+        var checkForMissingImages = function(result) {
+             return commonData.checkForMissingImages(result.venues, "venueId", "venueImages");
+        }
 
         // if the list is not in the cache, then build it
-        commonData.getRemoteData(storageKey_getVenues, versionUrl, dataUrl, function () { cache_getVenue = null; }, checkForMissingImages, function () { return cache_venueList; }).then(function (result) {
+        commonData.getRemoteData(storageKey_getVenues, versionUrl, dataUrl, function () { cache_getVenue = null; }, checkForMissingImages,
+            function () { return cache_venueList; }).then(function (result) {
             cache_venueList = result;
             cache_getVenue = appHelper.buildIndex(result.data.venues, "venueId");
             deferred.resolve(cache_venueList);
