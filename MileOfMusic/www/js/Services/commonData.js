@@ -100,12 +100,11 @@
                         {
                             fileTransfer.download(
                                 uri,
-                                "cdvfile://localhost/" + targetDirectory + "/" + localItem[idProperty] + ".jpg",
+                                "cdvfile://localhost/persistent" + targetDirectory + "/" + localItem[idProperty] + ".jpg",
                                 function (entry) {
                                     localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
                                 },
                                 function (error) {
-                                    alert('error downloading new image');
                                     $log.error(error);
                                     fileTransfer.download(
                                        uri,

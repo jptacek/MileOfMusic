@@ -11,7 +11,7 @@
         <tr>
             <td style="vertical-align: bottom" data-ng-repeat="artist in selectedConcert.artistData">
                 <a data-ng-href="#/artist/{{artist.artistId}}">
-                    <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />                
+                    <img onerror="this.src='img/logo.png'" src="{{artist.photoUrl}}" alt="image of {{artist.artistName}}" />                
                 </a>   
                 <div class="mom-list-label">{{artist.artistName}}</div>  
             </td>
@@ -29,5 +29,16 @@
     Venue: <a data-ng-href="#/venue/{{selectedConcert.venue.venueId}}">{{selectedConcert.venue.venueName}}</a><br />
     Address: {{selectedConcert.venue.address}}<br />
     Genre:{{selectedConcert.artist.genre}}<br />      
+</div>
+<div>
+    <div class="post-thumb">
+        <div data-ng-show="checkSchedule(selectedConcert.concertId)">
+            <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(selectedConcert.concertId)"></a>
+        </div>
+        <div data-ng-hide="checkSchedule(selectedConcert.concertId)">
+            <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(selectedConcert.concertId)"></a>
+        </div>
+    </div>
+
 </div>
 
