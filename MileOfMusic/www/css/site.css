@@ -284,15 +284,7 @@ p {
   float: left;
   margin-bottom: -1px;
 }
-.nav-tabs > li > a {
-  margin-right: 2px;
-  line-height: 1.42857143;
-  color: #666666;
-  background-color: #dddddd;
-  border: 1px solid #dddddd;
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
-}
+.nav-tabs > li > a,
 .nav-tabs > li > a:hover {
   margin-right: 2px;
   line-height: 1.42857143;
@@ -301,6 +293,7 @@ p {
   border: 1px solid #dddddd;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
+  display: block;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,

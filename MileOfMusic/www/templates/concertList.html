@@ -12,9 +12,9 @@
 
         <ul class="nav nav-tabs">
             <li class="active"><a data-toggle="tab" data-ng-click="setSelectedTab(1);">THU<br />8/7</a></li>
-            <li><a  data-toggle="tab" data-ng-click="setSelectedTab(2);">FRI<br />8/8</a></li>
-            <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(3);">SAT<br />8/9</a></li>
-            <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(4);">SUN<br />8/10</a></li>
+            <li><a data-toggle="tab" data-ng-click="setSelectedTab(2);">FRI<br />8/8</a></li>
+            <li><a data-toggle="tab" data-ng-click="setSelectedTab(3);">SAT<br />8/9</a></li>
+            <li><a data-toggle="tab" data-ng-click="setSelectedTab(4);">SUN<br />8/10</a></li>
         </ul>
 <div class="mom-list-schedule">
         <div class="mom-list-schedule-item divided-sections" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueNameSort','venue.genre']">
@@ -32,7 +32,6 @@
                 <div class="post-content">
                     <div class="bold">
                         <div data-ng-repeat="artist in concert.artistData">
-                            <!-- <img onerror="this.src='img/logo.png'" data-ng-src="{{artist.photoUrl}}" alt="Image of {{artist.artistName}}" title="{{artist.artistName}}" />-->
                             {{artist.artistName}}<br />
                         </div>
                     </div>

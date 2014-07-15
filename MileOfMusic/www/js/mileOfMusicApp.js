@@ -22,7 +22,9 @@ angular.module('fsCordova', ['ngTouch', 'ngResource'])
             }, 3000);
         }]);
 
-mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'LocalStorageModule']).
+mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'LocalStorageModule']).run(function() {
+    FastClick.attach(document.body);
+}).
     config(function($routeProvider) {
         $routeProvider
             .when('/artistList',
@@ -91,6 +93,10 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'Loca
             {
                 templateUrl: 'templates/map.html'
             })
+            .when('/theMile',
+            {
+                templateUrl: 'templates/theMile.html'
+            })
             .when('/',
             {
                 templateUrl:'templates/home.html',
@@ -110,21 +116,16 @@ mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'Loca
 
 
 mileOfMusicApp.factory("$exceptionHandler", [ '$injector', function ( $injector) {
-    var url = 'api/error';
 
     return function (exception, cause) {
         var resource = $injector.get('$resource'),
-            errorStack = new Error(),
-            error = exception + ' ' + (errorStack.stack == undefined ? '' : errorStack.stack),
-            errorResource = resource(url);
+            //errorStack = new Error(),
+            error = exception;//+ ' ' + (errorStack.stack == undefined ? '' : errorStack.stack),
 
-       alert('error: ' + error + ' ' + url);
+       alert('error: ' + error );
             var $location = $injector.get('$location');
             $location.path('/error');
-        //errorResource.save(url, angular.toJson(error)).$promise.then(function () {
-        //    var $location = $injector.get('$location');
-        //    $location.path('/error');
-        //});
+        
     };
 }]);
 
@@ -170,12 +171,13 @@ mileOfMusicApp.factory("navFactory", function ($location, $anchorScroll) {
     service.showSearchAZ = function () {
         isSearchAZShowing = !isSearchAZShowing;
     };
-
+    
     service.navigate = function (letter) {
-        while ($("[id=nav-" + letter + "]").length == 0 && letter != 'A') {
-            var val = letter.charCodeAt(0) - 1;
-            letter = String.fromCharCode(val)
-        }
+      
+        //while ($("[id=nav-" + letter + "]").length == 0 && letter != 'A') {
+        //    var val = letter.charCodeAt(0) - 1;
+        //    letter = String.fromCharCode(val);
+        //}
         var old = $location.hash();
         $location.hash("nav-" + letter);
         $anchorScroll();
