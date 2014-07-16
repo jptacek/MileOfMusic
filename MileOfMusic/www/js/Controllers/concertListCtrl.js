@@ -1,5 +1,5 @@
 mileOfMusicApp.controller('concertsListController',
-    function ($scope, $log, artistData, concertData, venueData, CordovaService, navFactory, myScheduleData) {
+    function ($scope, $log, artistData, concertData, venueData, notificationFactory,CordovaService, navFactory, myScheduleData) {
         navFactory.assignCanSearchAZ(true);
 
         CordovaService.ready.then(function () {
@@ -73,6 +73,20 @@ mileOfMusicApp.controller('concertsListController',
 
             // Answer if the concert is part of the schedule of favorites
             $scope.checkSchedule = function (concertId) {
+                return myScheduleData.checkSchedule(concertId);
+            }
+
+            // Remove the concert from the favorites
+            $scope.removeFavorite = function (concertId) {
+                myScheduleData.removeFavorite(concertId);
+            };
+
+            // Save the concert to the favorites
+            $scope.saveFavorite = function (concertId) {
+                myScheduleData.saveFavorite(concertId);
+            };
+            // Answer if the concert is part of the schedule of favorites
+            $scope.checkSchedule = function (concertId) {
                 return myScheduleData.getSavedBookmarkList().indexOf(concertId) < 0;
             }
 
@@ -81,14 +95,14 @@ mileOfMusicApp.controller('concertsListController',
                 try {
                     var result = myScheduleData.removeConcertFromMySchedule(concertId);
                     if (result) {
-                        toastr["success"]("Concert has been removed to your schedule.", "Success");
+                        notificationFactory.success("Concert has been removed from your schedule.");
                     }
                     else {
-                        toastr["info"]("Concert was not in your schedule.", "Already Removed");
+                        notificationFactory.info("Concert was not in your schedule.");
                     }
                 }
                 catch (err) {
-                    toastr["error"](err.message, "Error");
+                    notificationFactory.error(err.message);
                 }
             };
 
@@ -97,14 +111,14 @@ mileOfMusicApp.controller('concertsListController',
                 try {
                     var result = myScheduleData.saveConcertToMySchedule(concertId);
                     if (result) {
-                        toastr["success"]("Concert has been added to your schedule.", "Success");
+                        notificationFactory.success("Concert has been added to your schedule.");
                     }
                     else {
-                        toastr["info"]("Concert was already in your schedule.", "Already Exists");
+                        notificationFactory.info("Concert was already in your schedule.");
                     }
                 }
                 catch (err) {
-                    toastr["error"](err.message, "Error");
+                    notificationFactory.error(err.message);
                 }
             };
         });

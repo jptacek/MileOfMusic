@@ -1,10 +1,12 @@
 mileOfMusicApp.controller('artistController',
-    function ($scope, $log, $routeParams, $sce, artistData, concertData, myScheduleData, CordovaService) {
+    function ($scope, $log, $routeParams, $sce,$location, $anchorScroll, artistData, concertData, myScheduleData, appHelper, CordovaService) {
 
         CordovaService.ready.then(function () {
+            window.scrollTo(0, 0);
 
             artistData.getArtist($routeParams.artistId).then(function (result) {
                 $scope.selectedArtist = result;
+
 
             });
 
@@ -35,56 +37,35 @@ mileOfMusicApp.controller('artistController',
                 return tabId == $scope.selectedTabIndex;
             };
 
+
             $scope.openTwitterURL = function () {
-                openURL('http://www.twitter.com/' + $scope.selectedArtist.twitter);
+                appHelper.openTwitterSite($scope.selectedArtist.twitter);
             }
 
             $scope.openFacebookURL = function () {
-                openURL($scope.selectedArtist.facebook);
+                appHelper.openFacebookSite($scope.selectedArtist.facebook);
             }
 
             $scope.openInstagramURL = function () {
-                openURL('http://www.instagram.com/' + $scope.selectedArtist.instagram);
+                appHelper.openInstagramSite($scope.selectedArtist.instagram);
             }
             $scope.openBandURL = function () {
-                openURL($scope.selectedArtist.url);
+                appHelper.openWebsiteUrl($scope.selectedArtist.url);
             }
 
             // Answer if the concert is part of the schedule of favorites
             $scope.checkSchedule = function (concertId) {
-                return myScheduleData.getSavedBookmarkList().indexOf(concertId) < 0;
+                return myScheduleData.checkSchedule(concertId);
             }
 
             // Remove the concert from the favorites
             $scope.removeFavorite = function (concertId) {
-                try {
-                    var result = myScheduleData.removeConcertFromMySchedule(concertId);
-                    if (result) {
-                        toastr["success"]("Concert has been removed to your schedule.", "Success");
-                    }
-                    else {
-                        toastr["info"]("Concert was not in your schedule.", "Already Removed");
-                    }
-                }
-                catch (err) {
-                    toastr["error"](err.message, "Error");
-                }
+                myScheduleData.removeFavorite(concertId);
             };
 
             // Save the concert to the favorites
             $scope.saveFavorite = function (concertId) {
-                try {
-                    var result = myScheduleData.saveConcertToMySchedule(concertId);
-                    if (result) {
-                        toastr["success"]("Concert has been added to your schedule.", "Success");
-                    }
-                    else {
-                        toastr["info"]("Concert was already in your schedule.", "Already Exists");
-                    }
-                }
-                catch (err) {
-                    toastr["error"](err.message, "Error");
-                }
+                myScheduleData.saveFavorite(concertId);
             };
         });
     });

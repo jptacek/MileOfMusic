@@ -1,4 +1,4 @@
-mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData, appHelper, localStorageService) {
+mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,notificationFactory, appHelper, localStorageService) {
 
     var bookmarkStorageKey = 'bookmarkConcertList';
     var getMySchedule = function() {
@@ -6,7 +6,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
 
         var concertList = [];
 
-        var bookmarkList = this.getSavedBookmarkList();
+        var bookmarkList = getSavedBookmarkList();
 
         var processedConcerts = [];
 
@@ -37,7 +37,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
     // Save the specified concertId to the bookmark list, only if it does not already exist
     var saveConcertToMySchedule = function (concertId) {
 
-        var bookmarkList = this.getSavedBookmarkList();
+        var bookmarkList = getSavedBookmarkList();
         if (bookmarkList.indexOf(concertId) == -1) {
             // the concert does not already exist in the list, so add it and save the list
             bookmarkList.push(concertId);
@@ -51,7 +51,7 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
 
     // Save the specified concertId to the bookmark list, only if it does not already exist
     var removeConcertFromMySchedule = function (concertId) {
-        var bookmarkList = this.getSavedBookmarkList();
+        var bookmarkList = getSavedBookmarkList();
         var index = bookmarkList.indexOf(concertId);
         if (index >= 0) {
             // the concert does not already exist in the list, so add it and save the list
@@ -77,12 +77,54 @@ mileOfMusicApp.factory('myScheduleData', function ($http, $log, $q, concertData,
         localStorageService.clearAll();
     }
 
+    // Answer if the concert is part of the schedule of favorites
+    var checkSchedule = function (concertId) {
+        return getSavedBookmarkList().indexOf(concertId) < 0;
+    }
+
+    // Remove the concert from the favorites
+    var removeFavorite = function (concertId) {
+        try {
+            var result = removeConcertFromMySchedule(concertId);
+            if (result) {
+                notificationFactory.success("Concert has been removed from your schedule.");
+            }
+            else {
+                notificationFactory.info("Concert was not in your schedule.");
+
+            }
+        }
+        catch (err) {
+            notificationFactory.error(err.message);
+        }
+    };
+
+    // Save the concert to the favorites
+    var saveFavorite = function (concertId) {
+        try {
+            var result = saveConcertToMySchedule(concertId);
+            if (result) {
+                notificationFactory.success("Concert has been added to your schedule.");
+
+            }
+            else {
+                notificationFactory.info("Concert was already in your schedule.");
+            }
+        }
+        catch (err) {
+            notificationFactory.error(err.message);
+        }
+    };
+
     return {
         getMySchedule: getMySchedule,
         getSavedBookmarkList: getSavedBookmarkList,
         saveConcertToMySchedule: saveConcertToMySchedule,
         removeConcertFromMySchedule: removeConcertFromMySchedule,
         clearSavedBookmarks: clearSavedBookmarks,
+        checkSchedule: checkSchedule,
+        removeFavorite: removeFavorite,
+        saveFavorite: saveFavorite,
     };
 });
 

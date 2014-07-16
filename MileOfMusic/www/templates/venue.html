@@ -19,7 +19,7 @@
             {{selectedVenue.description}}
         </div>
         <div class="padding" data-ng-show="selectedVenue.address.length > 0">
-            <a href="#" ng-click="openMapsURL()">
+            <a ng-click="openMapsURL()">
                 {{selectedVenue.address}}
                 <br />
                 {{selectedVenue.city}}, {{selectedVenue.state}} {{selectedVenue.zip}}
@@ -53,19 +53,19 @@
                 </a>
             </div>
             <div class="divided-sections" data-ng-show="selectedVenue.facebook.length > 0">
-                <a href="#" ng-click="openFacebookURL()">
+                <a  ng-click="openFacebookURL()">
                     <img src="img/icon-facebook.png" class="socialicons" alt="Facebook" />
                     Facebook
                 </a>
             </div>
             <div class="divided-sections" data-ng-show="selectedVenue.instagram.length > 0">
-                <a href="#" ng-click="openInstagramURL()">
+                <a ng-click="openInstagramURL()">
                     <img src="img/icon-instagram.png" class="socialicons" alt="Instagram" />
                     {{selectedVenue.instagram}}
                 </a>
             </div>
             <div class="divided-sections" data-ng-show="selectedVenue.url.length > 0">
-                <a href="#" ng-click="openVenueURL()">
+                <a ng-click="openVenueURL()">
                     <img src="img/icon-home.png" class="socialicons" alt="Homepage" />
                     Venue Page
                 </a>

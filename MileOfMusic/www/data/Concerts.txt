@@ -7,8 +7,8 @@
       ],
       "venueId": "707643",
       "description": null,
-      "timeStart": "2014-08-07T17:00:00Z",
-      "timeEnd": "2014-08-07T17:50:00Z",
+      "timeStart": "2014-08-07T12:00:00Z",
+      "timeEnd": "2014-08-07T12:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -18,8 +18,8 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-07T17:00:00Z",
-      "timeEnd": "2014-08-07T17:50:00Z",
+      "timeStart": "2014-08-07T12:00:00Z",
+      "timeEnd": "2014-08-07T12:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -29,8 +29,8 @@
       ],
       "venueId": "707595",
       "description": null,
-      "timeStart": "2014-08-07T17:45:00Z",
-      "timeEnd": "2014-08-07T18:35:00Z",
+      "timeStart": "2014-08-07T12:45:00Z",
+      "timeEnd": "2014-08-07T13:35:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -40,8 +40,8 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-07T18:00:00Z",
-      "timeEnd": "2014-08-07T18:50:00Z",
+      "timeStart": "2014-08-07T13:00:00Z",
+      "timeEnd": "2014-08-07T13:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -51,8 +51,8 @@
       ],
       "venueId": "707643",
       "description": null,
-      "timeStart": "2014-08-07T18:05:00Z",
-      "timeEnd": "2014-08-07T18:55:00Z",
+      "timeStart": "2014-08-07T13:05:00Z",
+      "timeEnd": "2014-08-07T13:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -62,8 +62,8 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-07T18:05:00Z",
-      "timeEnd": "2014-08-07T18:55:00Z",
+      "timeStart": "2014-08-07T13:05:00Z",
+      "timeEnd": "2014-08-07T13:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -73,8 +73,8 @@
       ],
       "venueId": "707595",
       "description": null,
-      "timeStart": "2014-08-07T18:50:00Z",
-      "timeEnd": "2014-08-07T19:40:00Z",
+      "timeStart": "2014-08-07T13:50:00Z",
+      "timeEnd": "2014-08-07T14:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -84,8 +84,8 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-07T19:00:00Z",
-      "timeEnd": "2014-08-07T19:50:00Z",
+      "timeStart": "2014-08-07T14:00:00Z",
+      "timeEnd": "2014-08-07T14:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -95,8 +95,8 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-07T19:00:00Z",
-      "timeEnd": "2014-08-07T19:50:00Z",
+      "timeStart": "2014-08-07T14:00:00Z",
+      "timeEnd": "2014-08-07T14:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -106,8 +106,8 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-07T19:05:00Z",
-      "timeEnd": "2014-08-07T19:55:00Z",
+      "timeStart": "2014-08-07T14:05:00Z",
+      "timeEnd": "2014-08-07T14:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -117,8 +117,8 @@
       ],
       "venueId": "707643",
       "description": null,
-      "timeStart": "2014-08-07T19:10:00Z",
-      "timeEnd": "2014-08-07T20:00:00Z",
+      "timeStart": "2014-08-07T14:10:00Z",
+      "timeEnd": "2014-08-07T15:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -128,8 +128,8 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-07T19:10:00Z",
-      "timeEnd": "2014-08-07T20:00:00Z",
+      "timeStart": "2014-08-07T14:10:00Z",
+      "timeEnd": "2014-08-07T15:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -139,8 +139,8 @@
       ],
       "venueId": "707595",
       "description": null,
-      "timeStart": "2014-08-07T19:55:00Z",
-      "timeEnd": "2014-08-07T20:45:00Z",
+      "timeStart": "2014-08-07T14:55:00Z",
+      "timeEnd": "2014-08-07T15:45:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -150,8 +150,8 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-07T20:05:00Z",
-      "timeEnd": "2014-08-07T20:55:00Z",
+      "timeStart": "2014-08-07T15:05:00Z",
+      "timeEnd": "2014-08-07T15:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -161,8 +161,8 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-07T20:05:00Z",
-      "timeEnd": "2014-08-07T20:55:00Z",
+      "timeStart": "2014-08-07T15:05:00Z",
+      "timeEnd": "2014-08-07T15:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -172,8 +172,8 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-07T20:10:00Z",
-      "timeEnd": "2014-08-07T21:00:00Z",
+      "timeStart": "2014-08-07T15:10:00Z",
+      "timeEnd": "2014-08-07T16:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -183,8 +183,8 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-07T21:10:00Z",
-      "timeEnd": "2014-08-07T22:00:00Z",
+      "timeStart": "2014-08-07T16:10:00Z",
+      "timeEnd": "2014-08-07T17:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -194,8 +194,8 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-07T21:10:00Z",
-      "timeEnd": "2014-08-07T22:00:00Z",
+      "timeStart": "2014-08-07T16:10:00Z",
+      "timeEnd": "2014-08-07T17:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -205,8 +205,8 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-07T22:15:00Z",
-      "timeEnd": "2014-08-07T23:05:00Z",
+      "timeStart": "2014-08-07T17:15:00Z",
+      "timeEnd": "2014-08-07T18:05:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -216,31 +216,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-07T22:30:00Z",
-      "timeEnd": "2014-08-07T23:20:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
-    },
-    {
-      "concertId": "261404",
-      "artists": [
-        "337360"
-      ],
-      "venueId": "707627",
-      "description": null,
-      "timeStart": "2014-08-07T23:40:00Z",
-      "timeEnd": "2014-08-08T00:30:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
-    },
-    {
-      "concertId": "261405",
-      "artists": [
-        "336008"
-      ],
-      "venueId": "707627",
-      "description": null,
-      "timeStart": "2014-08-08T00:50:00Z",
-      "timeEnd": "2014-08-08T01:40:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
+      "timeStart": "2014-08-07T17:30:00Z",
+      "timeEnd": "2014-08-07T18:20:00Z",
+      "timeDoor": "2014-08-07T00:00:00Z"
     },
     {
       "concertId": "264969",
@@ -249,8 +227,19 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-07T22:30:00Z",
-      "timeEnd": "2014-08-07T23:20:00Z",
+      "timeStart": "2014-08-07T17:30:00Z",
+      "timeEnd": "2014-08-07T18:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "264976",
+      "artists": [
+        "341477"
+      ],
+      "venueId": "707603",
+      "description": null,
+      "timeStart": "2014-08-07T18:20:00Z",
+      "timeEnd": "2014-08-07T19:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -260,8 +249,19 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-07T23:35:00Z",
-      "timeEnd": "2014-08-08T00:25:00Z",
+      "timeStart": "2014-08-07T18:35:00Z",
+      "timeEnd": "2014-08-07T19:25:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "265682",
+      "artists": [
+        "337360"
+      ],
+      "venueId": "707627",
+      "description": null,
+      "timeStart": "2014-08-07T18:40:00Z",
+      "timeEnd": "2014-08-07T19:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -271,8 +271,8 @@
       ],
       "venueId": "707599",
       "description": null,
-      "timeStart": "2014-08-08T00:00:00Z",
-      "timeEnd": "2014-08-08T00:50:00Z",
+      "timeStart": "2014-08-07T19:00:00Z",
+      "timeEnd": "2014-08-07T19:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -282,9 +282,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T00:20:00Z",
-      "timeEnd": "2014-08-08T01:10:00Z",
-      "timeDoor": "2014-08-08T03:50:00Z"
+      "timeStart": "2014-08-07T19:20:00Z",
+      "timeEnd": "2014-08-07T20:10:00Z",
+      "timeDoor": "2014-08-07T22:50:00Z"
     },
     {
       "concertId": "264978",
@@ -293,8 +293,8 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-08T00:25:00Z",
-      "timeEnd": "2014-08-08T01:15:00Z",
+      "timeStart": "2014-08-07T19:25:00Z",
+      "timeEnd": "2014-08-07T20:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -304,8 +304,8 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-08T00:40:00Z",
-      "timeEnd": "2014-08-08T01:30:00Z",
+      "timeStart": "2014-08-07T19:40:00Z",
+      "timeEnd": "2014-08-07T20:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -315,8 +315,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T00:45:00Z",
-      "timeEnd": "2014-08-08T01:35:00Z",
+      "timeStart": "2014-08-07T19:45:00Z",
+      "timeEnd": "2014-08-07T20:35:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -326,9 +326,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T00:50:00Z",
-      "timeEnd": "2014-08-08T01:40:00Z",
-      "timeDoor": "2014-08-08T04:40:00Z"
+      "timeStart": "2014-08-07T19:50:00Z",
+      "timeEnd": "2014-08-07T20:40:00Z",
+      "timeDoor": "2014-08-07T23:40:00Z"
     },
     {
       "concertId": "262345",
@@ -337,8 +337,19 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-08T00:50:00Z",
-      "timeEnd": "2014-08-08T01:40:00Z",
+      "timeStart": "2014-08-07T19:50:00Z",
+      "timeEnd": "2014-08-07T20:40:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "265683",
+      "artists": [
+        "336008"
+      ],
+      "venueId": "707627",
+      "description": null,
+      "timeStart": "2014-08-07T19:50:00Z",
+      "timeEnd": "2014-08-07T20:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -348,8 +359,8 @@
       ],
       "venueId": "707630",
       "description": null,
-      "timeStart": "2014-08-08T01:00:00Z",
-      "timeEnd": "2014-08-08T01:50:00Z",
+      "timeStart": "2014-08-07T20:00:00Z",
+      "timeEnd": "2014-08-07T20:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -359,8 +370,8 @@
       ],
       "venueId": "707599",
       "description": null,
-      "timeStart": "2014-08-08T01:06:00Z",
-      "timeEnd": "2014-08-08T01:56:00Z",
+      "timeStart": "2014-08-07T20:06:00Z",
+      "timeEnd": "2014-08-07T20:56:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -370,8 +381,8 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T01:10:00Z",
-      "timeEnd": "2014-08-08T02:00:00Z",
+      "timeStart": "2014-08-07T20:10:00Z",
+      "timeEnd": "2014-08-07T21:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -381,9 +392,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T01:15:00Z",
-      "timeEnd": "2014-08-08T02:05:00Z",
-      "timeDoor": "2014-08-08T02:05:00Z"
+      "timeStart": "2014-08-07T20:15:00Z",
+      "timeEnd": "2014-08-07T21:05:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262380",
@@ -392,8 +403,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T01:20:00Z",
-      "timeEnd": "2014-08-08T02:10:00Z",
+      "timeStart": "2014-08-07T20:20:00Z",
+      "timeEnd": "2014-08-07T21:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -403,8 +414,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T01:30:00Z",
-      "timeEnd": "2014-08-08T02:20:00Z",
+      "timeStart": "2014-08-07T20:30:00Z",
+      "timeEnd": "2014-08-07T21:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -414,9 +425,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T01:30:00Z",
-      "timeEnd": "2014-08-08T02:20:00Z",
-      "timeDoor": "2014-08-07T06:10:00Z"
+      "timeStart": "2014-08-07T20:30:00Z",
+      "timeEnd": "2014-08-07T21:20:00Z",
+      "timeDoor": "2014-08-07T01:10:00Z"
     },
     {
       "concertId": "262372",
@@ -425,8 +436,8 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-08T01:30:00Z",
-      "timeEnd": "2014-08-08T02:20:00Z",
+      "timeStart": "2014-08-07T20:30:00Z",
+      "timeEnd": "2014-08-07T21:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -436,9 +447,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T01:30:00Z",
-      "timeEnd": "2014-08-08T02:20:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
+      "timeStart": "2014-08-07T20:30:00Z",
+      "timeEnd": "2014-08-07T21:20:00Z",
+      "timeDoor": "2014-08-07T00:00:00Z"
     },
     {
       "concertId": "264982",
@@ -447,19 +458,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T01:30:00Z",
-      "timeEnd": "2014-08-08T02:20:00Z",
-      "timeDoor": "0001-01-01T00:00:00"
-    },
-    {
-      "concertId": "264980",
-      "artists": [
-        "341283"
-      ],
-      "venueId": "707642",
-      "description": null,
-      "timeStart": "2014-08-08T01:45:00Z",
-      "timeEnd": "2014-08-08T02:35:00Z",
+      "timeStart": "2014-08-07T20:30:00Z",
+      "timeEnd": "2014-08-07T21:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -469,8 +469,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T01:50:00Z",
-      "timeEnd": "2014-08-08T02:40:00Z",
+      "timeStart": "2014-08-07T20:50:00Z",
+      "timeEnd": "2014-08-07T21:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -480,9 +480,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-08T02:00:00Z",
-      "timeEnd": "2014-08-08T02:50:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
+      "timeStart": "2014-08-07T21:00:00Z",
+      "timeEnd": "2014-08-07T21:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261965",
@@ -491,9 +491,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T02:00:00Z",
-      "timeEnd": "2014-08-08T02:50:00Z",
-      "timeDoor": "2014-08-08T04:30:00Z"
+      "timeStart": "2014-08-07T21:00:00Z",
+      "timeEnd": "2014-08-07T21:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261977",
@@ -502,9 +502,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T02:00:00Z",
-      "timeEnd": "2014-08-08T02:50:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
+      "timeStart": "2014-08-07T21:00:00Z",
+      "timeEnd": "2014-08-07T21:50:00Z",
+      "timeDoor": "2014-08-07T00:00:00Z"
     },
     {
       "concertId": "265033",
@@ -513,8 +513,8 @@
       ],
       "venueId": "707630",
       "description": null,
-      "timeStart": "2014-08-08T02:05:00Z",
-      "timeEnd": "2014-08-08T02:55:00Z",
+      "timeStart": "2014-08-07T21:05:00Z",
+      "timeEnd": "2014-08-07T21:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -524,9 +524,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T02:10:00Z",
-      "timeEnd": "2014-08-08T03:00:00Z",
-      "timeDoor": "2014-08-08T04:40:00Z"
+      "timeStart": "2014-08-07T21:10:00Z",
+      "timeEnd": "2014-08-07T22:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "264958",
@@ -535,8 +535,8 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T02:15:00Z",
-      "timeEnd": "2014-08-08T03:05:00Z",
+      "timeStart": "2014-08-07T21:15:00Z",
+      "timeEnd": "2014-08-07T22:05:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -546,9 +546,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T02:25:00Z",
-      "timeEnd": "2014-08-08T03:15:00Z",
-      "timeDoor": "2014-08-08T04:25:00Z"
+      "timeStart": "2014-08-07T21:25:00Z",
+      "timeEnd": "2014-08-07T22:15:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261988",
@@ -557,9 +557,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T02:30:00Z",
-      "timeEnd": "2014-08-08T03:20:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
+      "timeStart": "2014-08-07T21:30:00Z",
+      "timeEnd": "2014-08-07T22:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262371",
@@ -568,8 +568,8 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-08T02:35:00Z",
-      "timeEnd": "2014-08-08T03:25:00Z",
+      "timeStart": "2014-08-07T21:35:00Z",
+      "timeEnd": "2014-08-07T22:25:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -579,8 +579,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T02:35:00Z",
-      "timeEnd": "2014-08-08T03:25:00Z",
+      "timeStart": "2014-08-07T21:35:00Z",
+      "timeEnd": "2014-08-07T22:25:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -590,8 +590,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T02:40:00Z",
-      "timeEnd": "2014-08-08T03:30:00Z",
+      "timeStart": "2014-08-07T21:40:00Z",
+      "timeEnd": "2014-08-07T22:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -601,9 +601,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T02:40:00Z",
-      "timeEnd": "2014-08-08T03:30:00Z",
-      "timeDoor": "2014-08-07T06:10:00Z"
+      "timeStart": "2014-08-07T21:40:00Z",
+      "timeEnd": "2014-08-07T22:30:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262355",
@@ -612,8 +612,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T02:40:00Z",
-      "timeEnd": "2014-08-08T03:30:00Z",
+      "timeStart": "2014-08-07T21:40:00Z",
+      "timeEnd": "2014-08-07T22:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -623,9 +623,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T03:00:00Z",
-      "timeEnd": "2014-08-08T03:50:00Z",
-      "timeDoor": "2014-08-07T07:15:00Z"
+      "timeStart": "2014-08-07T22:00:00Z",
+      "timeEnd": "2014-08-07T22:50:00Z",
+      "timeDoor": "2014-08-07T02:15:00Z"
     },
     {
       "concertId": "262375",
@@ -634,9 +634,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T03:10:00Z",
-      "timeEnd": "2014-08-08T04:00:00Z",
-      "timeDoor": "2014-08-07T05:00:00Z"
+      "timeStart": "2014-08-07T22:10:00Z",
+      "timeEnd": "2014-08-07T23:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262344",
@@ -645,8 +645,8 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-08T03:10:00Z",
-      "timeEnd": "2014-08-08T04:00:00Z",
+      "timeStart": "2014-08-07T22:10:00Z",
+      "timeEnd": "2014-08-07T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -656,8 +656,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T03:10:00Z",
-      "timeEnd": "2014-08-08T04:00:00Z",
+      "timeStart": "2014-08-07T22:10:00Z",
+      "timeEnd": "2014-08-07T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -667,8 +667,8 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T03:20:00Z",
-      "timeEnd": "2014-08-08T04:10:00Z",
+      "timeStart": "2014-08-07T22:20:00Z",
+      "timeEnd": "2014-08-07T23:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -678,9 +678,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T03:20:00Z",
-      "timeEnd": "2014-08-08T04:10:00Z",
-      "timeDoor": "2014-08-08T04:40:00Z"
+      "timeStart": "2014-08-07T22:20:00Z",
+      "timeEnd": "2014-08-07T23:10:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262521",
@@ -689,9 +689,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T03:35:00Z",
-      "timeEnd": "2014-08-08T04:25:00Z",
-      "timeDoor": "2014-08-07T07:35:00Z"
+      "timeStart": "2014-08-07T22:35:00Z",
+      "timeEnd": "2014-08-07T23:25:00Z",
+      "timeDoor": "2014-08-07T02:35:00Z"
     },
     {
       "concertId": "262373",
@@ -700,8 +700,8 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-08T03:40:00Z",
-      "timeEnd": "2014-08-08T04:30:00Z",
+      "timeStart": "2014-08-07T22:40:00Z",
+      "timeEnd": "2014-08-07T23:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -711,8 +711,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T03:40:00Z",
-      "timeEnd": "2014-08-08T04:30:00Z",
+      "timeStart": "2014-08-07T22:40:00Z",
+      "timeEnd": "2014-08-07T23:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -722,8 +722,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T03:40:00Z",
-      "timeEnd": "2014-08-08T04:30:00Z",
+      "timeStart": "2014-08-07T22:40:00Z",
+      "timeEnd": "2014-08-07T23:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -733,8 +733,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T03:50:00Z",
-      "timeEnd": "2014-08-08T04:40:00Z",
+      "timeStart": "2014-08-07T22:50:00Z",
+      "timeEnd": "2014-08-07T23:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -744,9 +744,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T03:50:00Z",
-      "timeEnd": "2014-08-08T04:40:00Z",
-      "timeDoor": "2014-08-07T05:10:00Z"
+      "timeStart": "2014-08-07T22:50:00Z",
+      "timeEnd": "2014-08-07T23:40:00Z",
+      "timeDoor": "2014-08-07T00:10:00Z"
     },
     {
       "concertId": "264981",
@@ -755,8 +755,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-08T03:55:00Z",
-      "timeEnd": "2014-08-08T04:45:00Z",
+      "timeStart": "2014-08-07T22:55:00Z",
+      "timeEnd": "2014-08-07T23:45:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -766,8 +766,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T04:20:00Z",
-      "timeEnd": "2014-08-08T05:10:00Z",
+      "timeStart": "2014-08-07T23:20:00Z",
+      "timeEnd": "2014-08-08T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -777,9 +777,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T04:30:00Z",
-      "timeEnd": "2014-08-08T05:20:00Z",
-      "timeDoor": "2014-08-07T05:50:00Z"
+      "timeStart": "2014-08-07T23:30:00Z",
+      "timeEnd": "2014-08-08T00:20:00Z",
+      "timeDoor": "2014-08-07T00:50:00Z"
     },
     {
       "concertId": "262395",
@@ -788,9 +788,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T16:30:00Z",
-      "timeEnd": "2014-08-08T17:20:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T11:30:00Z",
+      "timeEnd": "2014-08-08T12:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261418",
@@ -799,9 +799,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T16:30:00Z",
-      "timeEnd": "2014-08-08T17:20:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T11:30:00Z",
+      "timeEnd": "2014-08-08T12:20:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "261757",
@@ -810,9 +810,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T16:30:00Z",
-      "timeEnd": "2014-08-08T17:20:00Z",
-      "timeDoor": "2014-08-09T04:30:00Z"
+      "timeStart": "2014-08-08T11:30:00Z",
+      "timeEnd": "2014-08-08T12:20:00Z",
+      "timeDoor": "2014-08-08T23:30:00Z"
     },
     {
       "concertId": "261794",
@@ -821,9 +821,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T17:00:00Z",
-      "timeEnd": "2014-08-08T17:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T12:00:00Z",
+      "timeEnd": "2014-08-08T12:50:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "262877",
@@ -832,9 +832,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-08T17:00:00Z",
-      "timeEnd": "2014-08-08T17:50:00Z",
-      "timeDoor": "2014-08-08T05:15:00Z"
+      "timeStart": "2014-08-08T12:00:00Z",
+      "timeEnd": "2014-08-08T12:50:00Z",
+      "timeDoor": "2014-08-08T00:15:00Z"
     },
     {
       "concertId": "263337",
@@ -843,8 +843,8 @@
       ],
       "venueId": "707643",
       "description": null,
-      "timeStart": "2014-08-08T17:00:00Z",
-      "timeEnd": "2014-08-08T17:50:00Z",
+      "timeStart": "2014-08-08T12:00:00Z",
+      "timeEnd": "2014-08-08T12:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -854,9 +854,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-08T17:00:00Z",
-      "timeEnd": "2014-08-08T17:50:00Z",
-      "timeDoor": "2014-08-09T04:00:00Z"
+      "timeStart": "2014-08-08T12:00:00Z",
+      "timeEnd": "2014-08-08T12:50:00Z",
+      "timeDoor": "2014-08-08T23:00:00Z"
     },
     {
       "concertId": "261957",
@@ -865,9 +865,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T17:00:00Z",
-      "timeEnd": "2014-08-08T17:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T12:00:00Z",
+      "timeEnd": "2014-08-08T12:50:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263449",
@@ -876,9 +876,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-08T17:15:00Z",
-      "timeEnd": "2014-08-08T18:05:00Z",
-      "timeDoor": "2014-08-08T05:15:00Z"
+      "timeStart": "2014-08-08T12:15:00Z",
+      "timeEnd": "2014-08-08T13:05:00Z",
+      "timeDoor": "2014-08-08T00:15:00Z"
     },
     {
       "concertId": "261771",
@@ -887,9 +887,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T17:20:00Z",
-      "timeEnd": "2014-08-08T18:10:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T12:20:00Z",
+      "timeEnd": "2014-08-08T13:10:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "261926",
@@ -898,9 +898,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-08T17:30:00Z",
-      "timeEnd": "2014-08-08T18:20:00Z",
-      "timeDoor": "2014-08-09T04:00:00Z"
+      "timeStart": "2014-08-08T12:30:00Z",
+      "timeEnd": "2014-08-08T13:20:00Z",
+      "timeDoor": "2014-08-08T23:00:00Z"
     },
     {
       "concertId": "263511",
@@ -909,8 +909,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T17:30:00Z",
-      "timeEnd": "2014-08-08T18:20:00Z",
+      "timeStart": "2014-08-08T12:30:00Z",
+      "timeEnd": "2014-08-08T13:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -920,9 +920,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T17:30:00Z",
-      "timeEnd": "2014-08-08T18:20:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T12:30:00Z",
+      "timeEnd": "2014-08-08T13:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262853",
@@ -931,8 +931,8 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T17:30:00Z",
-      "timeEnd": "2014-08-08T18:20:00Z",
+      "timeStart": "2014-08-08T12:30:00Z",
+      "timeEnd": "2014-08-08T13:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -942,9 +942,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T17:30:00Z",
-      "timeEnd": "2014-08-08T18:20:00Z",
-      "timeDoor": "2014-08-09T04:30:00Z"
+      "timeStart": "2014-08-08T12:30:00Z",
+      "timeEnd": "2014-08-08T13:20:00Z",
+      "timeDoor": "2014-08-08T23:30:00Z"
     },
     {
       "concertId": "262593",
@@ -953,8 +953,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T17:30:00Z",
-      "timeEnd": "2014-08-08T18:20:00Z",
+      "timeStart": "2014-08-08T12:30:00Z",
+      "timeEnd": "2014-08-08T13:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -964,8 +964,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T17:40:00Z",
-      "timeEnd": "2014-08-08T18:30:00Z",
+      "timeStart": "2014-08-08T12:40:00Z",
+      "timeEnd": "2014-08-08T13:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -975,8 +975,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T17:40:00Z",
-      "timeEnd": "2014-08-08T18:30:00Z",
+      "timeStart": "2014-08-08T12:40:00Z",
+      "timeEnd": "2014-08-08T13:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -986,8 +986,8 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T17:40:00Z",
-      "timeEnd": "2014-08-08T18:30:00Z",
+      "timeStart": "2014-08-08T12:40:00Z",
+      "timeEnd": "2014-08-08T13:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -997,8 +997,8 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-08T18:00:00Z",
-      "timeEnd": "2014-08-08T18:50:00Z",
+      "timeStart": "2014-08-08T13:00:00Z",
+      "timeEnd": "2014-08-08T13:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1008,8 +1008,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-08T18:00:00Z",
-      "timeEnd": "2014-08-08T18:50:00Z",
+      "timeStart": "2014-08-08T13:00:00Z",
+      "timeEnd": "2014-08-08T13:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1019,8 +1019,19 @@
       ],
       "venueId": "707595",
       "description": null,
-      "timeStart": "2014-08-08T18:00:00Z",
-      "timeEnd": "2014-08-08T18:50:00Z",
+      "timeStart": "2014-08-08T13:00:00Z",
+      "timeEnd": "2014-08-08T13:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "262448",
+      "artists": [
+        "336565"
+      ],
+      "venueId": "707596",
+      "description": null,
+      "timeStart": "2014-08-08T13:00:00Z",
+      "timeEnd": "2014-08-08T13:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1030,8 +1041,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T18:10:00Z",
-      "timeEnd": "2014-08-08T19:00:00Z",
+      "timeStart": "2014-08-08T13:10:00Z",
+      "timeEnd": "2014-08-08T14:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1041,9 +1052,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-08T18:10:00Z",
-      "timeEnd": "2014-08-08T19:00:00Z",
-      "timeDoor": "2014-08-09T04:30:00Z"
+      "timeStart": "2014-08-08T13:10:00Z",
+      "timeEnd": "2014-08-08T14:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262879",
@@ -1052,9 +1063,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-08T18:10:00Z",
-      "timeEnd": "2014-08-08T19:00:00Z",
-      "timeDoor": "2014-08-08T05:40:00Z"
+      "timeStart": "2014-08-08T13:10:00Z",
+      "timeEnd": "2014-08-08T14:00:00Z",
+      "timeDoor": "2014-08-08T00:40:00Z"
     },
     {
       "concertId": "262576",
@@ -1063,8 +1074,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T18:10:00Z",
-      "timeEnd": "2014-08-08T19:00:00Z",
+      "timeStart": "2014-08-08T13:10:00Z",
+      "timeEnd": "2014-08-08T14:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1074,8 +1085,8 @@
       ],
       "venueId": "707643",
       "description": null,
-      "timeStart": "2014-08-08T18:10:00Z",
-      "timeEnd": "2014-08-08T19:00:00Z",
+      "timeStart": "2014-08-08T13:10:00Z",
+      "timeEnd": "2014-08-08T14:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1085,9 +1096,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-08T18:25:00Z",
-      "timeEnd": "2014-08-08T19:15:00Z",
-      "timeDoor": "2014-08-08T05:15:00Z"
+      "timeStart": "2014-08-08T13:25:00Z",
+      "timeEnd": "2014-08-08T14:15:00Z",
+      "timeDoor": "2014-08-08T00:15:00Z"
     },
     {
       "concertId": "262570",
@@ -1096,9 +1107,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T18:30:00Z",
-      "timeEnd": "2014-08-08T19:20:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T13:30:00Z",
+      "timeEnd": "2014-08-08T14:20:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263336",
@@ -1107,8 +1118,8 @@
       ],
       "venueId": "707633",
       "description": null,
-      "timeStart": "2014-08-08T18:30:00Z",
-      "timeEnd": "2014-08-08T19:20:00Z",
+      "timeStart": "2014-08-08T13:30:00Z",
+      "timeEnd": "2014-08-08T14:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1118,8 +1129,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T18:30:00Z",
-      "timeEnd": "2014-08-08T19:20:00Z",
+      "timeStart": "2014-08-08T13:30:00Z",
+      "timeEnd": "2014-08-08T14:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1129,9 +1140,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-08T18:35:00Z",
-      "timeEnd": "2014-08-08T19:25:00Z",
-      "timeDoor": "2014-08-09T04:35:00Z"
+      "timeStart": "2014-08-08T13:35:00Z",
+      "timeEnd": "2014-08-08T14:25:00Z",
+      "timeDoor": "2014-08-08T23:35:00Z"
     },
     {
       "concertId": "261945",
@@ -1140,9 +1151,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T18:40:00Z",
-      "timeEnd": "2014-08-08T19:30:00Z",
-      "timeDoor": "2014-08-08T06:40:00Z"
+      "timeStart": "2014-08-08T13:40:00Z",
+      "timeEnd": "2014-08-08T14:30:00Z",
+      "timeDoor": "2014-08-08T01:40:00Z"
     },
     {
       "concertId": "263512",
@@ -1151,8 +1162,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T18:40:00Z",
-      "timeEnd": "2014-08-08T19:30:00Z",
+      "timeStart": "2014-08-08T13:40:00Z",
+      "timeEnd": "2014-08-08T14:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1162,9 +1173,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T18:40:00Z",
-      "timeEnd": "2014-08-08T19:30:00Z",
-      "timeDoor": "2014-08-08T05:10:00Z"
+      "timeStart": "2014-08-08T13:40:00Z",
+      "timeEnd": "2014-08-08T14:30:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262614",
@@ -1173,9 +1184,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-08T18:40:00Z",
-      "timeEnd": "2014-08-08T19:30:00Z",
-      "timeDoor": "2014-08-09T04:20:00Z"
+      "timeStart": "2014-08-08T13:40:00Z",
+      "timeEnd": "2014-08-08T14:30:00Z",
+      "timeDoor": "2014-08-08T23:20:00Z"
     },
     {
       "concertId": "262399",
@@ -1184,8 +1195,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T18:50:00Z",
-      "timeEnd": "2014-08-08T19:40:00Z",
+      "timeStart": "2014-08-08T13:50:00Z",
+      "timeEnd": "2014-08-08T14:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1195,8 +1206,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T18:50:00Z",
-      "timeEnd": "2014-08-08T19:40:00Z",
+      "timeStart": "2014-08-08T13:50:00Z",
+      "timeEnd": "2014-08-08T14:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1206,9 +1217,9 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-08T19:05:00Z",
-      "timeEnd": "2014-08-08T19:55:00Z",
-      "timeDoor": "2014-08-08T05:05:00Z"
+      "timeStart": "2014-08-08T14:05:00Z",
+      "timeEnd": "2014-08-08T14:55:00Z",
+      "timeDoor": "2014-08-08T00:05:00Z"
     },
     {
       "concertId": "263465",
@@ -1217,9 +1228,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-08T19:10:00Z",
-      "timeEnd": "2014-08-08T20:00:00Z",
-      "timeDoor": "2014-08-09T04:55:00Z"
+      "timeStart": "2014-08-08T14:10:00Z",
+      "timeEnd": "2014-08-08T15:00:00Z",
+      "timeDoor": "2014-08-08T23:55:00Z"
     },
     {
       "concertId": "263495",
@@ -1228,8 +1239,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-08T19:10:00Z",
-      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeStart": "2014-08-08T14:10:00Z",
+      "timeEnd": "2014-08-08T15:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1239,8 +1250,8 @@
       ],
       "venueId": "707595",
       "description": null,
-      "timeStart": "2014-08-08T19:10:00Z",
-      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeStart": "2014-08-08T14:10:00Z",
+      "timeEnd": "2014-08-08T15:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1250,9 +1261,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-08T19:10:00Z",
-      "timeEnd": "2014-08-08T20:00:00Z",
-      "timeDoor": "2014-08-08T06:10:00Z"
+      "timeStart": "2014-08-08T14:10:00Z",
+      "timeEnd": "2014-08-08T15:00:00Z",
+      "timeDoor": "2014-08-08T01:10:00Z"
     },
     {
       "concertId": "262826",
@@ -1261,9 +1272,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-08T19:10:00Z",
-      "timeEnd": "2014-08-08T20:00:00Z",
-      "timeDoor": "2014-08-08T06:10:00Z"
+      "timeStart": "2014-08-08T14:10:00Z",
+      "timeEnd": "2014-08-08T15:00:00Z",
+      "timeDoor": "2014-08-08T01:10:00Z"
     },
     {
       "concertId": "264275",
@@ -1272,8 +1283,8 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-08T19:10:00Z",
-      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeStart": "2014-08-08T14:10:00Z",
+      "timeEnd": "2014-08-08T15:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1283,9 +1294,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T19:20:00Z",
-      "timeEnd": "2014-08-08T20:10:00Z",
-      "timeDoor": "2014-08-09T02:35:00Z"
+      "timeStart": "2014-08-08T14:20:00Z",
+      "timeEnd": "2014-08-08T15:10:00Z",
+      "timeDoor": "2014-08-08T21:35:00Z"
     },
     {
       "concertId": "262627",
@@ -1294,20 +1305,20 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T19:30:00Z",
-      "timeEnd": "2014-08-08T20:20:00Z",
+      "timeStart": "2014-08-08T14:30:00Z",
+      "timeEnd": "2014-08-08T15:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261753",
       "artists": [
-        "336102"
+        "335741"
       ],
       "venueId": "707617",
       "description": null,
-      "timeStart": "2014-08-08T19:30:00Z",
-      "timeEnd": "2014-08-08T20:20:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T14:30:00Z",
+      "timeEnd": "2014-08-08T15:20:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263798",
@@ -1316,9 +1327,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-08T19:40:00Z",
-      "timeEnd": "2014-08-08T20:30:00Z",
-      "timeDoor": "2014-08-09T03:10:00Z"
+      "timeStart": "2014-08-08T14:40:00Z",
+      "timeEnd": "2014-08-08T15:30:00Z",
+      "timeDoor": "2014-08-08T22:10:00Z"
     },
     {
       "concertId": "262571",
@@ -1327,8 +1338,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T19:40:00Z",
-      "timeEnd": "2014-08-08T20:30:00Z",
+      "timeStart": "2014-08-08T14:40:00Z",
+      "timeEnd": "2014-08-08T15:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1338,9 +1349,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T19:40:00Z",
-      "timeEnd": "2014-08-08T20:30:00Z",
-      "timeDoor": "2014-08-09T03:10:00Z"
+      "timeStart": "2014-08-08T14:40:00Z",
+      "timeEnd": "2014-08-08T15:30:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261764",
@@ -1349,9 +1360,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T19:45:00Z",
-      "timeEnd": "2014-08-08T20:35:00Z",
-      "timeDoor": "2014-08-09T04:15:00Z"
+      "timeStart": "2014-08-08T14:45:00Z",
+      "timeEnd": "2014-08-08T15:35:00Z",
+      "timeDoor": "2014-08-08T23:15:00Z"
     },
     {
       "concertId": "262594",
@@ -1360,9 +1371,20 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T19:50:00Z",
-      "timeEnd": "2014-08-08T20:40:00Z",
-      "timeDoor": "2014-08-09T04:50:00Z"
+      "timeStart": "2014-08-08T14:50:00Z",
+      "timeEnd": "2014-08-08T15:40:00Z",
+      "timeDoor": "2014-08-08T23:50:00Z"
+    },
+    {
+      "concertId": "265647",
+      "artists": [
+        "335750"
+      ],
+      "venueId": "707628",
+      "description": null,
+      "timeStart": "2014-08-08T15:00:00Z",
+      "timeEnd": "2014-08-08T15:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263537",
@@ -1371,8 +1393,8 @@
       ],
       "venueId": "707599",
       "description": null,
-      "timeStart": "2014-08-08T20:00:00Z",
-      "timeEnd": "2014-08-08T20:50:00Z",
+      "timeStart": "2014-08-08T15:00:00Z",
+      "timeEnd": "2014-08-08T15:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1382,9 +1404,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-08T20:00:00Z",
-      "timeEnd": "2014-08-08T20:50:00Z",
-      "timeDoor": "2014-08-08T05:15:00Z"
+      "timeStart": "2014-08-08T15:00:00Z",
+      "timeEnd": "2014-08-08T15:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261960",
@@ -1393,9 +1415,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T20:00:00Z",
-      "timeEnd": "2014-08-08T20:50:00Z",
-      "timeDoor": "2014-08-09T03:40:00Z"
+      "timeStart": "2014-08-08T15:00:00Z",
+      "timeEnd": "2014-08-08T15:50:00Z",
+      "timeDoor": "2014-08-08T22:40:00Z"
     },
     {
       "concertId": "263536",
@@ -1404,9 +1426,9 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-08T20:10:00Z",
-      "timeEnd": "2014-08-08T21:00:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T15:10:00Z",
+      "timeEnd": "2014-08-08T16:00:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263452",
@@ -1415,9 +1437,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-08T20:15:00Z",
-      "timeEnd": "2014-08-08T21:05:00Z",
-      "timeDoor": "2014-08-08T05:15:00Z"
+      "timeStart": "2014-08-08T15:15:00Z",
+      "timeEnd": "2014-08-08T16:05:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263533",
@@ -1426,8 +1448,8 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-08T20:15:00Z",
-      "timeEnd": "2014-08-08T21:05:00Z",
+      "timeStart": "2014-08-08T15:15:00Z",
+      "timeEnd": "2014-08-08T16:05:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1437,8 +1459,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T20:30:00Z",
-      "timeEnd": "2014-08-08T21:20:00Z",
+      "timeStart": "2014-08-08T15:30:00Z",
+      "timeEnd": "2014-08-08T16:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1448,9 +1470,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T20:30:00Z",
-      "timeEnd": "2014-08-08T21:20:00Z",
-      "timeDoor": "2014-08-08T05:45:00Z"
+      "timeStart": "2014-08-08T15:30:00Z",
+      "timeEnd": "2014-08-08T16:20:00Z",
+      "timeDoor": "2014-08-08T00:45:00Z"
     },
     {
       "concertId": "262590",
@@ -1459,9 +1481,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T20:40:00Z",
-      "timeEnd": "2014-08-08T21:30:00Z",
-      "timeDoor": "2014-08-09T03:50:00Z"
+      "timeStart": "2014-08-08T15:40:00Z",
+      "timeEnd": "2014-08-08T16:30:00Z",
+      "timeDoor": "2014-08-08T22:50:00Z"
     },
     {
       "concertId": "262625",
@@ -1470,31 +1492,31 @@
       ],
       "venueId": "707617",
       "description": null,
-      "timeStart": "2014-08-08T20:40:00Z",
-      "timeEnd": "2014-08-08T21:30:00Z",
+      "timeStart": "2014-08-08T15:40:00Z",
+      "timeEnd": "2014-08-08T16:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262624",
       "artists": [
-        "335747"
+        "335601"
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T20:55:00Z",
-      "timeEnd": "2014-08-08T21:45:00Z",
+      "timeStart": "2014-08-08T15:55:00Z",
+      "timeEnd": "2014-08-08T16:45:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
-      "concertId": "263466",
+      "concertId": "263469",
       "artists": [
-        "335750"
+        "336947"
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-08T21:00:00Z",
-      "timeEnd": "2014-08-08T21:50:00Z",
-      "timeDoor": "2014-08-08T05:45:00Z"
+      "timeStart": "2014-08-08T16:00:00Z",
+      "timeEnd": "2014-08-08T16:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263497",
@@ -1503,8 +1525,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-08T21:00:00Z",
-      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeStart": "2014-08-08T16:00:00Z",
+      "timeEnd": "2014-08-08T16:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1514,9 +1536,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T21:00:00Z",
-      "timeEnd": "2014-08-08T21:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T16:00:00Z",
+      "timeEnd": "2014-08-08T16:50:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "262828",
@@ -1525,9 +1547,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-08T21:00:00Z",
-      "timeEnd": "2014-08-08T21:50:00Z",
-      "timeDoor": "2014-08-08T06:10:00Z"
+      "timeStart": "2014-08-08T16:00:00Z",
+      "timeEnd": "2014-08-08T16:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263715",
@@ -1536,8 +1558,8 @@
       ],
       "venueId": "707628",
       "description": null,
-      "timeStart": "2014-08-08T21:05:00Z",
-      "timeEnd": "2014-08-08T21:55:00Z",
+      "timeStart": "2014-08-08T16:05:00Z",
+      "timeEnd": "2014-08-08T16:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1547,8 +1569,8 @@
       ],
       "venueId": "707599",
       "description": null,
-      "timeStart": "2014-08-08T21:10:00Z",
-      "timeEnd": "2014-08-08T22:00:00Z",
+      "timeStart": "2014-08-08T16:10:00Z",
+      "timeEnd": "2014-08-08T17:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1558,9 +1580,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-08T21:10:00Z",
-      "timeEnd": "2014-08-08T22:00:00Z",
-      "timeDoor": "2014-08-09T04:10:00Z"
+      "timeStart": "2014-08-08T16:10:00Z",
+      "timeEnd": "2014-08-08T17:00:00Z",
+      "timeDoor": "2014-08-08T23:10:00Z"
     },
     {
       "concertId": "262577",
@@ -1569,8 +1591,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T21:10:00Z",
-      "timeEnd": "2014-08-08T22:00:00Z",
+      "timeStart": "2014-08-08T16:10:00Z",
+      "timeEnd": "2014-08-08T17:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1580,9 +1602,9 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-08T21:15:00Z",
-      "timeEnd": "2014-08-08T22:05:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T16:15:00Z",
+      "timeEnd": "2014-08-08T17:05:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263534",
@@ -1591,8 +1613,8 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-08T21:20:00Z",
-      "timeEnd": "2014-08-08T22:10:00Z",
+      "timeStart": "2014-08-08T16:20:00Z",
+      "timeEnd": "2014-08-08T17:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1602,9 +1624,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-08T21:25:00Z",
-      "timeEnd": "2014-08-08T22:15:00Z",
-      "timeDoor": "2014-08-08T05:15:00Z"
+      "timeStart": "2014-08-08T16:25:00Z",
+      "timeEnd": "2014-08-08T17:15:00Z",
+      "timeDoor": "2014-08-08T00:15:00Z"
     },
     {
       "concertId": "261925",
@@ -1613,9 +1635,20 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-08T21:30:00Z",
-      "timeEnd": "2014-08-08T22:20:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T16:30:00Z",
+      "timeEnd": "2014-08-08T17:20:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
+    },
+    {
+      "concertId": "261932",
+      "artists": [
+        "341487"
+      ],
+      "venueId": "707596",
+      "description": null,
+      "timeStart": "2014-08-08T16:30:00Z",
+      "timeEnd": "2014-08-08T17:20:00Z",
+      "timeDoor": "2014-08-08T19:30:00Z"
     },
     {
       "concertId": "261950",
@@ -1624,9 +1657,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T21:30:00Z",
-      "timeEnd": "2014-08-08T22:20:00Z",
-      "timeDoor": "2014-08-08T06:00:00Z"
+      "timeStart": "2014-08-08T16:30:00Z",
+      "timeEnd": "2014-08-08T17:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261796",
@@ -1635,9 +1668,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T21:30:00Z",
-      "timeEnd": "2014-08-08T22:20:00Z",
-      "timeDoor": "2014-08-08T06:30:00Z"
+      "timeStart": "2014-08-08T16:30:00Z",
+      "timeEnd": "2014-08-08T17:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263797",
@@ -1646,9 +1679,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-08T21:35:00Z",
-      "timeEnd": "2014-08-08T22:25:00Z",
-      "timeDoor": "2014-08-08T07:05:00Z"
+      "timeStart": "2014-08-08T16:35:00Z",
+      "timeEnd": "2014-08-08T17:25:00Z",
+      "timeDoor": "2014-08-08T02:05:00Z"
     },
     {
       "concertId": "261948",
@@ -1657,9 +1690,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T21:40:00Z",
-      "timeEnd": "2014-08-08T22:30:00Z",
-      "timeDoor": "2014-08-09T04:50:00Z"
+      "timeStart": "2014-08-08T16:40:00Z",
+      "timeEnd": "2014-08-08T17:30:00Z",
+      "timeDoor": "2014-08-08T23:50:00Z"
     },
     {
       "concertId": "263514",
@@ -1668,8 +1701,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T21:40:00Z",
-      "timeEnd": "2014-08-08T22:30:00Z",
+      "timeStart": "2014-08-08T16:40:00Z",
+      "timeEnd": "2014-08-08T17:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1679,9 +1712,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T21:40:00Z",
-      "timeEnd": "2014-08-08T22:30:00Z",
-      "timeDoor": "2014-08-08T05:40:00Z"
+      "timeStart": "2014-08-08T16:40:00Z",
+      "timeEnd": "2014-08-08T17:30:00Z",
+      "timeDoor": "2014-08-08T00:40:00Z"
     },
     {
       "concertId": "261787",
@@ -1690,9 +1723,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T21:45:00Z",
-      "timeEnd": "2014-08-08T22:35:00Z",
-      "timeDoor": "2014-08-09T04:45:00Z"
+      "timeStart": "2014-08-08T16:45:00Z",
+      "timeEnd": "2014-08-08T17:35:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "264992",
@@ -1701,9 +1734,9 @@
       ],
       "venueId": "707602",
       "description": null,
-      "timeStart": "2014-08-08T21:45:00Z",
-      "timeEnd": "2014-08-08T22:35:00Z",
-      "timeDoor": "2014-08-09T04:45:00Z"
+      "timeStart": "2014-08-08T16:45:00Z",
+      "timeEnd": "2014-08-08T17:35:00Z",
+      "timeDoor": "2014-08-08T23:45:00Z"
     },
     {
       "concertId": "261412",
@@ -1712,9 +1745,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T21:50:00Z",
-      "timeEnd": "2014-08-08T22:40:00Z",
-      "timeDoor": "2014-08-08T06:10:00Z"
+      "timeStart": "2014-08-08T16:50:00Z",
+      "timeEnd": "2014-08-08T17:40:00Z",
+      "timeDoor": "2014-08-08T01:10:00Z"
     },
     {
       "concertId": "263526",
@@ -1723,8 +1756,8 @@
       ],
       "venueId": "707630",
       "description": null,
-      "timeStart": "2014-08-08T21:50:00Z",
-      "timeEnd": "2014-08-08T22:40:00Z",
+      "timeStart": "2014-08-08T16:50:00Z",
+      "timeEnd": "2014-08-08T17:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1734,9 +1767,9 @@
       ],
       "venueId": "707617",
       "description": null,
-      "timeStart": "2014-08-08T21:50:00Z",
-      "timeEnd": "2014-08-08T22:40:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T16:50:00Z",
+      "timeEnd": "2014-08-08T17:40:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261774",
@@ -1745,20 +1778,20 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T22:00:00Z",
-      "timeEnd": "2014-08-08T22:50:00Z",
-      "timeDoor": "2014-08-08T05:30:00Z"
+      "timeStart": "2014-08-08T17:00:00Z",
+      "timeEnd": "2014-08-08T17:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
-      "concertId": "263469",
+      "concertId": "263466",
       "artists": [
-        "336947"
+        "335750"
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-08T22:10:00Z",
-      "timeEnd": "2014-08-08T23:00:00Z",
-      "timeDoor": "2014-08-09T04:40:00Z"
+      "timeStart": "2014-08-08T17:05:00Z",
+      "timeEnd": "2014-08-08T17:55:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263499",
@@ -1767,8 +1800,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-08T22:10:00Z",
-      "timeEnd": "2014-08-08T23:00:00Z",
+      "timeStart": "2014-08-08T17:10:00Z",
+      "timeEnd": "2014-08-08T18:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1778,9 +1811,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-08T22:10:00Z",
-      "timeEnd": "2014-08-08T23:00:00Z",
-      "timeDoor": "2014-08-08T06:10:00Z"
+      "timeStart": "2014-08-08T17:10:00Z",
+      "timeEnd": "2014-08-08T18:00:00Z",
+      "timeDoor": "2014-08-08T01:10:00Z"
     },
     {
       "concertId": "262617",
@@ -1789,9 +1822,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-08T22:10:00Z",
-      "timeEnd": "2014-08-08T23:00:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T17:10:00Z",
+      "timeEnd": "2014-08-08T18:00:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "261792",
@@ -1800,9 +1833,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-08T22:15:00Z",
-      "timeEnd": "2014-08-08T23:05:00Z",
-      "timeDoor": "2014-08-08T06:15:00Z"
+      "timeStart": "2014-08-08T17:15:00Z",
+      "timeEnd": "2014-08-08T18:05:00Z",
+      "timeDoor": "2014-08-08T01:15:00Z"
     },
     {
       "concertId": "265353",
@@ -1811,8 +1844,8 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-08T22:40:00Z",
-      "timeEnd": "2014-08-08T23:30:00Z",
+      "timeStart": "2014-08-08T17:40:00Z",
+      "timeEnd": "2014-08-08T18:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1822,8 +1855,8 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-08T22:40:00Z",
-      "timeEnd": "2014-08-08T23:30:00Z",
+      "timeStart": "2014-08-08T17:40:00Z",
+      "timeEnd": "2014-08-08T18:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1833,9 +1866,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T22:40:00Z",
-      "timeEnd": "2014-08-08T23:30:00Z",
-      "timeDoor": "2014-08-09T04:40:00Z"
+      "timeStart": "2014-08-08T17:40:00Z",
+      "timeEnd": "2014-08-08T18:30:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262563",
@@ -1844,9 +1877,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-08T22:40:00Z",
-      "timeEnd": "2014-08-08T23:30:00Z",
-      "timeDoor": "2014-08-08T05:05:00Z"
+      "timeStart": "2014-08-08T17:40:00Z",
+      "timeEnd": "2014-08-08T18:30:00Z",
+      "timeDoor": "2014-08-08T00:05:00Z"
     },
     {
       "concertId": "262610",
@@ -1855,8 +1888,8 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T22:40:00Z",
-      "timeEnd": "2014-08-08T23:30:00Z",
+      "timeStart": "2014-08-08T17:40:00Z",
+      "timeEnd": "2014-08-08T18:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1866,20 +1899,20 @@
       ],
       "venueId": "707602",
       "description": null,
-      "timeStart": "2014-08-08T22:50:00Z",
-      "timeEnd": "2014-08-08T23:40:00Z",
-      "timeDoor": "2014-08-09T04:40:00Z"
+      "timeStart": "2014-08-08T17:50:00Z",
+      "timeEnd": "2014-08-08T18:40:00Z",
+      "timeDoor": "2014-08-08T23:40:00Z"
     },
     {
       "concertId": "263794",
       "artists": [
-        "338799"
+        "341526"
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-08T22:50:00Z",
-      "timeEnd": "2014-08-08T23:40:00Z",
-      "timeDoor": "2014-08-09T04:10:00Z"
+      "timeStart": "2014-08-08T17:50:00Z",
+      "timeEnd": "2014-08-08T18:40:00Z",
+      "timeDoor": "2014-08-08T23:10:00Z"
     },
     {
       "concertId": "262400",
@@ -1888,8 +1921,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-08T22:55:00Z",
-      "timeEnd": "2014-08-08T23:45:00Z",
+      "timeStart": "2014-08-08T17:55:00Z",
+      "timeEnd": "2014-08-08T18:45:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1899,8 +1932,8 @@
       ],
       "venueId": "707630",
       "description": null,
-      "timeStart": "2014-08-08T23:00:00Z",
-      "timeEnd": "2014-08-08T23:50:00Z",
+      "timeStart": "2014-08-08T18:00:00Z",
+      "timeEnd": "2014-08-08T18:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1910,8 +1943,8 @@
       ],
       "venueId": "707652",
       "description": null,
-      "timeStart": "2014-08-08T23:00:00Z",
-      "timeEnd": "2014-08-08T23:50:00Z",
+      "timeStart": "2014-08-08T18:00:00Z",
+      "timeEnd": "2014-08-08T18:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1921,9 +1954,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-08T23:00:00Z",
-      "timeEnd": "2014-08-08T23:50:00Z",
-      "timeDoor": "2014-08-09T04:30:00Z"
+      "timeStart": "2014-08-08T18:00:00Z",
+      "timeEnd": "2014-08-08T18:50:00Z",
+      "timeDoor": "2014-08-08T23:30:00Z"
     },
     {
       "concertId": "262578",
@@ -1932,9 +1965,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-08T23:00:00Z",
-      "timeEnd": "2014-08-08T23:50:00Z",
-      "timeDoor": "2014-08-09T03:50:00Z"
+      "timeStart": "2014-08-08T18:00:00Z",
+      "timeEnd": "2014-08-08T18:50:00Z",
+      "timeDoor": "2014-08-08T22:50:00Z"
     },
     {
       "concertId": "262591",
@@ -1943,8 +1976,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-08T23:00:00Z",
-      "timeEnd": "2014-08-08T23:50:00Z",
+      "timeStart": "2014-08-08T18:00:00Z",
+      "timeEnd": "2014-08-08T18:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1954,8 +1987,8 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-08T23:00:00Z",
-      "timeEnd": "2014-08-08T23:50:00Z",
+      "timeStart": "2014-08-08T18:00:00Z",
+      "timeEnd": "2014-08-08T18:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1965,8 +1998,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-08T23:10:00Z",
-      "timeEnd": "2014-08-09T00:00:00Z",
+      "timeStart": "2014-08-08T18:10:00Z",
+      "timeEnd": "2014-08-08T19:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -1976,9 +2009,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-08T23:15:00Z",
-      "timeEnd": "2014-08-09T00:05:00Z",
-      "timeDoor": "2014-08-08T05:15:00Z"
+      "timeStart": "2014-08-08T18:15:00Z",
+      "timeEnd": "2014-08-08T19:05:00Z",
+      "timeDoor": "2014-08-08T00:15:00Z"
     },
     {
       "concertId": "262452",
@@ -1987,9 +2020,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-08T23:25:00Z",
-      "timeEnd": "2014-08-09T00:15:00Z",
-      "timeDoor": "2014-08-08T06:45:00Z"
+      "timeStart": "2014-08-08T18:25:00Z",
+      "timeEnd": "2014-08-08T19:15:00Z",
+      "timeDoor": "2014-08-08T01:45:00Z"
     },
     {
       "concertId": "263517",
@@ -1998,8 +2031,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-08T23:30:00Z",
-      "timeEnd": "2014-08-09T00:20:00Z",
+      "timeStart": "2014-08-08T18:30:00Z",
+      "timeEnd": "2014-08-08T19:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2009,9 +2042,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-08T23:30:00Z",
-      "timeEnd": "2014-08-09T00:20:00Z",
-      "timeDoor": "2014-08-08T05:30:00Z"
+      "timeStart": "2014-08-08T18:30:00Z",
+      "timeEnd": "2014-08-08T19:20:00Z",
+      "timeDoor": "2014-08-08T00:30:00Z"
     },
     {
       "concertId": "262391",
@@ -2020,9 +2053,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-08T23:50:00Z",
-      "timeEnd": "2014-08-09T00:40:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T18:50:00Z",
+      "timeEnd": "2014-08-08T19:40:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "261799",
@@ -2031,9 +2064,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-08T23:50:00Z",
-      "timeEnd": "2014-08-09T00:40:00Z",
-      "timeDoor": "2014-08-09T04:40:00Z"
+      "timeStart": "2014-08-08T18:50:00Z",
+      "timeEnd": "2014-08-08T19:40:00Z",
+      "timeDoor": "2014-08-08T23:40:00Z"
     },
     {
       "concertId": "262566",
@@ -2042,9 +2075,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-08T23:50:00Z",
-      "timeEnd": "2014-08-09T00:40:00Z",
-      "timeDoor": "2014-08-08T05:05:00Z"
+      "timeStart": "2014-08-08T18:50:00Z",
+      "timeEnd": "2014-08-08T19:40:00Z",
+      "timeDoor": "2014-08-08T00:05:00Z"
     },
     {
       "concertId": "262611",
@@ -2053,8 +2086,8 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-08T23:50:00Z",
-      "timeEnd": "2014-08-09T00:40:00Z",
+      "timeStart": "2014-08-08T18:50:00Z",
+      "timeEnd": "2014-08-08T19:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2064,8 +2097,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T00:00:00Z",
-      "timeEnd": "2014-08-09T00:50:00Z",
+      "timeStart": "2014-08-08T19:00:00Z",
+      "timeEnd": "2014-08-08T19:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2075,8 +2108,8 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T00:00:00Z",
-      "timeEnd": "2014-08-09T00:50:00Z",
+      "timeStart": "2014-08-08T19:00:00Z",
+      "timeEnd": "2014-08-08T19:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2086,8 +2119,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T00:00:00Z",
-      "timeEnd": "2014-08-09T00:50:00Z",
+      "timeStart": "2014-08-08T19:00:00Z",
+      "timeEnd": "2014-08-08T19:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2097,9 +2130,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-09T00:00:00Z",
-      "timeEnd": "2014-08-09T00:50:00Z",
-      "timeDoor": "2014-08-08T06:30:00Z"
+      "timeStart": "2014-08-08T19:00:00Z",
+      "timeEnd": "2014-08-08T19:50:00Z",
+      "timeDoor": "2014-08-08T01:30:00Z"
     },
     {
       "concertId": "262401",
@@ -2108,8 +2141,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T00:05:00Z",
-      "timeEnd": "2014-08-09T00:55:00Z",
+      "timeStart": "2014-08-08T19:05:00Z",
+      "timeEnd": "2014-08-08T19:55:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2119,9 +2152,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T00:10:00Z",
-      "timeEnd": "2014-08-09T01:00:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T19:10:00Z",
+      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "262887",
@@ -2130,9 +2163,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-09T00:10:00Z",
-      "timeEnd": "2014-08-09T01:00:00Z",
-      "timeDoor": "2014-08-09T04:10:00Z"
+      "timeStart": "2014-08-08T19:10:00Z",
+      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeDoor": "2014-08-08T23:10:00Z"
     },
     {
       "concertId": "261767",
@@ -2141,9 +2174,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T00:10:00Z",
-      "timeEnd": "2014-08-09T01:00:00Z",
-      "timeDoor": "2014-08-09T04:30:00Z"
+      "timeStart": "2014-08-08T19:10:00Z",
+      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "261941",
@@ -2152,9 +2185,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T00:10:00Z",
-      "timeEnd": "2014-08-09T01:00:00Z",
-      "timeDoor": "2014-08-09T03:10:00Z"
+      "timeStart": "2014-08-08T19:10:00Z",
+      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeDoor": "2014-08-08T22:10:00Z"
     },
     {
       "concertId": "262573",
@@ -2163,8 +2196,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T00:20:00Z",
-      "timeEnd": "2014-08-09T01:10:00Z",
+      "timeStart": "2014-08-08T19:20:00Z",
+      "timeEnd": "2014-08-08T20:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2174,8 +2207,8 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T00:25:00Z",
-      "timeEnd": "2014-08-09T01:15:00Z",
+      "timeStart": "2014-08-08T19:25:00Z",
+      "timeEnd": "2014-08-08T20:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2185,9 +2218,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-09T00:35:00Z",
-      "timeEnd": "2014-08-09T01:25:00Z",
-      "timeDoor": "2014-08-08T05:05:00Z"
+      "timeStart": "2014-08-08T19:35:00Z",
+      "timeEnd": "2014-08-08T20:25:00Z",
+      "timeDoor": "2014-08-08T00:05:00Z"
     },
     {
       "concertId": "262453",
@@ -2196,9 +2229,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-09T00:35:00Z",
-      "timeEnd": "2014-08-09T01:25:00Z",
-      "timeDoor": "2014-08-08T06:45:00Z"
+      "timeStart": "2014-08-08T19:35:00Z",
+      "timeEnd": "2014-08-08T20:25:00Z",
+      "timeDoor": "2014-08-08T01:45:00Z"
     },
     {
       "concertId": "263518",
@@ -2207,8 +2240,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T00:40:00Z",
-      "timeEnd": "2014-08-09T01:30:00Z",
+      "timeStart": "2014-08-08T19:40:00Z",
+      "timeEnd": "2014-08-08T20:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2218,9 +2251,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-09T00:40:00Z",
-      "timeEnd": "2014-08-09T01:30:00Z",
-      "timeDoor": "2014-08-08T05:40:00Z"
+      "timeStart": "2014-08-08T19:40:00Z",
+      "timeEnd": "2014-08-08T20:30:00Z",
+      "timeDoor": "2014-08-08T00:40:00Z"
     },
     {
       "concertId": "262579",
@@ -2229,8 +2262,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T00:40:00Z",
-      "timeEnd": "2014-08-09T01:30:00Z",
+      "timeStart": "2014-08-08T19:40:00Z",
+      "timeEnd": "2014-08-08T20:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2240,9 +2273,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T01:10:00Z",
-      "timeEnd": "2014-08-09T02:00:00Z",
-      "timeDoor": "2014-08-09T04:55:00Z"
+      "timeStart": "2014-08-08T20:10:00Z",
+      "timeEnd": "2014-08-08T21:00:00Z",
+      "timeDoor": "2014-08-08T23:55:00Z"
     },
     {
       "concertId": "263530",
@@ -2251,8 +2284,8 @@
       ],
       "venueId": "707625",
       "description": null,
-      "timeStart": "2014-08-09T01:10:00Z",
-      "timeEnd": "2014-08-09T02:00:00Z",
+      "timeStart": "2014-08-08T20:10:00Z",
+      "timeEnd": "2014-08-08T21:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2262,9 +2295,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-09T01:10:00Z",
-      "timeEnd": "2014-08-09T02:00:00Z",
-      "timeDoor": "2014-08-08T06:40:00Z"
+      "timeStart": "2014-08-08T20:10:00Z",
+      "timeEnd": "2014-08-08T21:00:00Z",
+      "timeDoor": "2014-08-08T01:40:00Z"
     },
     {
       "concertId": "263506",
@@ -2273,8 +2306,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T01:15:00Z",
-      "timeEnd": "2014-08-09T02:05:00Z",
+      "timeStart": "2014-08-08T20:15:00Z",
+      "timeEnd": "2014-08-08T21:05:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2284,9 +2317,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T01:20:00Z",
-      "timeEnd": "2014-08-09T02:10:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T20:20:00Z",
+      "timeEnd": "2014-08-08T21:10:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263801",
@@ -2295,9 +2328,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-09T01:40:00Z",
-      "timeEnd": "2014-08-09T02:30:00Z",
-      "timeDoor": "2014-08-08T05:10:00Z"
+      "timeStart": "2014-08-08T20:40:00Z",
+      "timeEnd": "2014-08-08T21:30:00Z",
+      "timeDoor": "2014-08-08T00:10:00Z"
     },
     {
       "concertId": "261415",
@@ -2306,9 +2339,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T01:50:00Z",
-      "timeEnd": "2014-08-09T02:40:00Z",
-      "timeDoor": "2014-08-08T06:10:00Z"
+      "timeStart": "2014-08-08T20:50:00Z",
+      "timeEnd": "2014-08-08T21:40:00Z",
+      "timeDoor": "2014-08-08T01:10:00Z"
     },
     {
       "concertId": "261928",
@@ -2317,9 +2350,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "262134",
@@ -2328,9 +2361,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-08T08:00:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "2014-08-08T03:00:00Z"
     },
     {
       "concertId": "262686",
@@ -2339,9 +2372,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-08T09:30:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "2014-08-08T04:30:00Z"
     },
     {
       "concertId": "261800",
@@ -2350,9 +2383,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "261954",
@@ -2361,9 +2394,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262892",
@@ -2372,9 +2405,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-09T03:15:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "2014-08-08T22:15:00Z"
     },
     {
       "concertId": "261780",
@@ -2383,9 +2416,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "262621",
@@ -2394,9 +2427,20 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T02:00:00Z",
-      "timeEnd": "2014-08-09T02:50:00Z",
-      "timeDoor": "2014-08-09T04:30:00Z"
+      "timeStart": "2014-08-08T21:00:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "2014-08-08T23:30:00Z"
+    },
+    {
+      "concertId": "265593",
+      "artists": [
+        "335744"
+      ],
+      "venueId": "707650",
+      "description": null,
+      "timeStart": "2014-08-08T21:05:00Z",
+      "timeEnd": "2014-08-08T21:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263460",
@@ -2405,8 +2449,8 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T02:15:00Z",
-      "timeEnd": "2014-08-09T03:05:00Z",
+      "timeStart": "2014-08-08T21:15:00Z",
+      "timeEnd": "2014-08-08T22:05:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2416,9 +2460,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T02:15:00Z",
-      "timeEnd": "2014-08-09T03:05:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T21:15:00Z",
+      "timeEnd": "2014-08-08T22:05:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263519",
@@ -2427,8 +2471,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T02:30:00Z",
-      "timeEnd": "2014-08-09T03:20:00Z",
+      "timeStart": "2014-08-08T21:30:00Z",
+      "timeEnd": "2014-08-08T22:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2438,8 +2482,8 @@
       ],
       "venueId": "707652",
       "description": null,
-      "timeStart": "2014-08-09T02:30:00Z",
-      "timeEnd": "2014-08-09T03:20:00Z",
+      "timeStart": "2014-08-08T21:30:00Z",
+      "timeEnd": "2014-08-08T22:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2449,9 +2493,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-09T02:30:00Z",
-      "timeEnd": "2014-08-09T03:20:00Z",
-      "timeDoor": "2014-08-08T05:45:00Z"
+      "timeStart": "2014-08-08T21:30:00Z",
+      "timeEnd": "2014-08-08T22:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262619",
@@ -2460,8 +2504,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T02:30:00Z",
-      "timeEnd": "2014-08-09T03:20:00Z",
+      "timeStart": "2014-08-08T21:30:00Z",
+      "timeEnd": "2014-08-08T22:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2471,9 +2515,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T03:00:00Z",
-      "timeEnd": "2014-08-09T03:50:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T22:00:00Z",
+      "timeEnd": "2014-08-08T22:50:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "263508",
@@ -2482,8 +2526,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T03:00:00Z",
-      "timeEnd": "2014-08-09T03:50:00Z",
+      "timeStart": "2014-08-08T22:00:00Z",
+      "timeEnd": "2014-08-08T22:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2493,9 +2537,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-09T03:00:00Z",
-      "timeEnd": "2014-08-09T03:50:00Z",
-      "timeDoor": "2014-08-08T06:45:00Z"
+      "timeStart": "2014-08-08T22:00:00Z",
+      "timeEnd": "2014-08-08T22:50:00Z",
+      "timeDoor": "2014-08-08T01:45:00Z"
     },
     {
       "concertId": "262890",
@@ -2504,9 +2548,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-09T03:00:00Z",
-      "timeEnd": "2014-08-09T03:50:00Z",
-      "timeDoor": "2014-08-08T05:45:00Z"
+      "timeStart": "2014-08-08T22:00:00Z",
+      "timeEnd": "2014-08-08T22:50:00Z",
+      "timeDoor": "2014-08-08T00:45:00Z"
     },
     {
       "concertId": "262580",
@@ -2515,8 +2559,19 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T03:00:00Z",
-      "timeEnd": "2014-08-09T03:50:00Z",
+      "timeStart": "2014-08-08T22:00:00Z",
+      "timeEnd": "2014-08-08T22:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "265594",
+      "artists": [
+        "341447"
+      ],
+      "venueId": "707650",
+      "description": null,
+      "timeStart": "2014-08-08T22:05:00Z",
+      "timeEnd": "2014-08-08T23:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2526,9 +2581,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-09T03:10:00Z",
-      "timeEnd": "2014-08-09T04:00:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T22:10:00Z",
+      "timeEnd": "2014-08-08T23:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262581",
@@ -2537,8 +2592,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T03:10:00Z",
-      "timeEnd": "2014-08-09T04:00:00Z",
+      "timeStart": "2014-08-08T22:10:00Z",
+      "timeEnd": "2014-08-08T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2548,8 +2603,8 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T03:10:00Z",
-      "timeEnd": "2014-08-09T04:00:00Z",
+      "timeStart": "2014-08-08T22:10:00Z",
+      "timeEnd": "2014-08-08T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2559,8 +2614,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T03:10:00Z",
-      "timeEnd": "2014-08-09T04:00:00Z",
+      "timeStart": "2014-08-08T22:10:00Z",
+      "timeEnd": "2014-08-08T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2570,8 +2625,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T03:10:00Z",
-      "timeEnd": "2014-08-09T04:00:00Z",
+      "timeStart": "2014-08-08T22:10:00Z",
+      "timeEnd": "2014-08-08T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2581,9 +2636,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T03:10:00Z",
-      "timeEnd": "2014-08-09T04:00:00Z",
-      "timeDoor": "2014-08-08T05:00:00Z"
+      "timeStart": "2014-08-08T22:10:00Z",
+      "timeEnd": "2014-08-08T23:00:00Z",
+      "timeDoor": "2014-08-08T00:00:00Z"
     },
     {
       "concertId": "262620",
@@ -2592,8 +2647,8 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T03:10:00Z",
-      "timeEnd": "2014-08-09T04:00:00Z",
+      "timeStart": "2014-08-08T22:10:00Z",
+      "timeEnd": "2014-08-08T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2603,8 +2658,8 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T03:25:00Z",
-      "timeEnd": "2014-08-09T04:15:00Z",
+      "timeStart": "2014-08-08T22:25:00Z",
+      "timeEnd": "2014-08-08T23:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2614,8 +2669,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T03:25:00Z",
-      "timeEnd": "2014-08-09T04:15:00Z",
+      "timeStart": "2014-08-08T22:25:00Z",
+      "timeEnd": "2014-08-08T23:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2625,8 +2680,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T03:40:00Z",
-      "timeEnd": "2014-08-09T04:30:00Z",
+      "timeStart": "2014-08-08T22:40:00Z",
+      "timeEnd": "2014-08-08T23:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2636,9 +2691,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-09T03:40:00Z",
-      "timeEnd": "2014-08-09T04:30:00Z",
-      "timeDoor": "2014-08-08T05:55:00Z"
+      "timeStart": "2014-08-08T22:40:00Z",
+      "timeEnd": "2014-08-08T23:30:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "263493",
@@ -2647,8 +2702,8 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T04:10:00Z",
-      "timeEnd": "2014-08-09T05:00:00Z",
+      "timeStart": "2014-08-08T23:10:00Z",
+      "timeEnd": "2014-08-09T00:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2658,8 +2713,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T04:10:00Z",
-      "timeEnd": "2014-08-09T05:00:00Z",
+      "timeStart": "2014-08-08T23:10:00Z",
+      "timeEnd": "2014-08-09T00:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2669,9 +2724,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-09T04:10:00Z",
-      "timeEnd": "2014-08-09T05:00:00Z",
-      "timeDoor": "2014-08-08T05:55:00Z"
+      "timeStart": "2014-08-08T23:10:00Z",
+      "timeEnd": "2014-08-09T00:00:00Z",
+      "timeDoor": "2014-08-08T00:55:00Z"
     },
     {
       "concertId": "262407",
@@ -2680,8 +2735,8 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-09T04:20:00Z",
-      "timeEnd": "2014-08-09T05:10:00Z",
+      "timeStart": "2014-08-08T23:20:00Z",
+      "timeEnd": "2014-08-09T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2691,8 +2746,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T04:20:00Z",
-      "timeEnd": "2014-08-09T05:10:00Z",
+      "timeStart": "2014-08-08T23:20:00Z",
+      "timeEnd": "2014-08-09T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2702,8 +2757,8 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T04:20:00Z",
-      "timeEnd": "2014-08-09T05:10:00Z",
+      "timeStart": "2014-08-08T23:20:00Z",
+      "timeEnd": "2014-08-09T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2713,8 +2768,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T04:20:00Z",
-      "timeEnd": "2014-08-09T05:10:00Z",
+      "timeStart": "2014-08-08T23:20:00Z",
+      "timeEnd": "2014-08-09T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2724,8 +2779,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T04:20:00Z",
-      "timeEnd": "2014-08-09T05:10:00Z",
+      "timeStart": "2014-08-08T23:20:00Z",
+      "timeEnd": "2014-08-09T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2735,9 +2790,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T04:20:00Z",
-      "timeEnd": "2014-08-09T05:10:00Z",
-      "timeDoor": "2014-08-09T04:50:00Z"
+      "timeStart": "2014-08-08T23:20:00Z",
+      "timeEnd": "2014-08-09T00:10:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262575",
@@ -2746,8 +2801,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T04:35:00Z",
-      "timeEnd": "2014-08-09T05:25:00Z",
+      "timeStart": "2014-08-08T23:35:00Z",
+      "timeEnd": "2014-08-09T00:25:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2757,8 +2812,8 @@
       ],
       "venueId": "707606",
       "description": null,
-      "timeStart": "2014-08-09T16:30:00Z",
-      "timeEnd": "2014-08-09T17:20:00Z",
+      "timeStart": "2014-08-09T11:30:00Z",
+      "timeEnd": "2014-08-09T12:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2768,9 +2823,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T16:30:00Z",
-      "timeEnd": "2014-08-09T17:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T11:30:00Z",
+      "timeEnd": "2014-08-09T12:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263655",
@@ -2779,8 +2834,8 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T16:30:00Z",
-      "timeEnd": "2014-08-09T17:20:00Z",
+      "timeStart": "2014-08-09T11:30:00Z",
+      "timeEnd": "2014-08-09T12:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2790,8 +2845,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T17:00:00Z",
-      "timeEnd": "2014-08-09T17:50:00Z",
+      "timeStart": "2014-08-09T12:00:00Z",
+      "timeEnd": "2014-08-09T12:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2801,9 +2856,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T17:00:00Z",
-      "timeEnd": "2014-08-09T17:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T12:00:00Z",
+      "timeEnd": "2014-08-09T12:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "265049",
@@ -2812,9 +2867,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T17:00:00Z",
-      "timeEnd": "2014-08-09T17:50:00Z",
-      "timeDoor": "2014-08-10T02:45:00Z"
+      "timeStart": "2014-08-09T12:00:00Z",
+      "timeEnd": "2014-08-09T12:50:00Z",
+      "timeDoor": "2014-08-09T21:45:00Z"
     },
     {
       "concertId": "263637",
@@ -2823,9 +2878,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-09T17:00:00Z",
-      "timeEnd": "2014-08-09T17:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T12:00:00Z",
+      "timeEnd": "2014-08-09T12:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "261806",
@@ -2834,20 +2889,20 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T17:00:00Z",
-      "timeEnd": "2014-08-09T17:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T12:00:00Z",
+      "timeEnd": "2014-08-09T12:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263647",
       "artists": [
-        "339336"
+        "336161"
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T17:00:00Z",
-      "timeEnd": "2014-08-09T17:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T12:00:00Z",
+      "timeEnd": "2014-08-09T12:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262193",
@@ -2856,9 +2911,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T17:15:00Z",
-      "timeEnd": "2014-08-09T18:05:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T12:15:00Z",
+      "timeEnd": "2014-08-09T13:05:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262207",
@@ -2867,9 +2922,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T17:30:00Z",
-      "timeEnd": "2014-08-09T18:20:00Z",
-      "timeDoor": "2014-08-09T05:30:00Z"
+      "timeStart": "2014-08-09T12:30:00Z",
+      "timeEnd": "2014-08-09T13:20:00Z",
+      "timeDoor": "2014-08-09T00:30:00Z"
     },
     {
       "concertId": "263699",
@@ -2878,8 +2933,8 @@
       ],
       "venueId": "707601",
       "description": null,
-      "timeStart": "2014-08-09T17:30:00Z",
-      "timeEnd": "2014-08-09T18:20:00Z",
+      "timeStart": "2014-08-09T12:30:00Z",
+      "timeEnd": "2014-08-09T13:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2889,9 +2944,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T17:30:00Z",
-      "timeEnd": "2014-08-09T18:20:00Z",
-      "timeDoor": "2014-08-09T05:30:00Z"
+      "timeStart": "2014-08-09T12:30:00Z",
+      "timeEnd": "2014-08-09T13:20:00Z",
+      "timeDoor": "2014-08-09T00:30:00Z"
     },
     {
       "concertId": "261920",
@@ -2900,9 +2955,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-09T17:30:00Z",
-      "timeEnd": "2014-08-09T18:20:00Z",
-      "timeDoor": "2014-08-10T03:45:00Z"
+      "timeStart": "2014-08-09T12:30:00Z",
+      "timeEnd": "2014-08-09T13:20:00Z",
+      "timeDoor": "2014-08-09T22:45:00Z"
     },
     {
       "concertId": "265058",
@@ -2911,9 +2966,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T17:30:00Z",
-      "timeEnd": "2014-08-09T18:20:00Z",
-      "timeDoor": "2014-08-10T02:30:00Z"
+      "timeStart": "2014-08-09T12:30:00Z",
+      "timeEnd": "2014-08-09T13:20:00Z",
+      "timeDoor": "2014-08-09T21:30:00Z"
     },
     {
       "concertId": "262403",
@@ -2922,9 +2977,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T17:40:00Z",
-      "timeEnd": "2014-08-09T18:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T12:40:00Z",
+      "timeEnd": "2014-08-09T13:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "265060",
@@ -2933,9 +2988,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T17:40:00Z",
-      "timeEnd": "2014-08-09T18:30:00Z",
-      "timeDoor": "2014-08-10T03:30:00Z"
+      "timeStart": "2014-08-09T12:40:00Z",
+      "timeEnd": "2014-08-09T13:30:00Z",
+      "timeDoor": "2014-08-09T22:30:00Z"
     },
     {
       "concertId": "263656",
@@ -2944,9 +2999,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T17:40:00Z",
-      "timeEnd": "2014-08-09T18:30:00Z",
-      "timeDoor": "2014-08-10T04:55:00Z"
+      "timeStart": "2014-08-09T12:40:00Z",
+      "timeEnd": "2014-08-09T13:30:00Z",
+      "timeDoor": "2014-08-09T23:55:00Z"
     },
     {
       "concertId": "263620",
@@ -2955,9 +3010,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-09T18:00:00Z",
-      "timeEnd": "2014-08-09T18:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T13:00:00Z",
+      "timeEnd": "2014-08-09T13:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263644",
@@ -2966,8 +3021,8 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-09T18:00:00Z",
-      "timeEnd": "2014-08-09T18:50:00Z",
+      "timeStart": "2014-08-09T13:00:00Z",
+      "timeEnd": "2014-08-09T13:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2977,8 +3032,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T18:00:00Z",
-      "timeEnd": "2014-08-09T18:50:00Z",
+      "timeStart": "2014-08-09T13:00:00Z",
+      "timeEnd": "2014-08-09T13:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -2988,9 +3043,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T18:10:00Z",
-      "timeEnd": "2014-08-09T19:00:00Z",
-      "timeDoor": "2014-08-09T05:10:00Z"
+      "timeStart": "2014-08-09T13:10:00Z",
+      "timeEnd": "2014-08-09T14:00:00Z",
+      "timeDoor": "2014-08-09T00:10:00Z"
     },
     {
       "concertId": "262431",
@@ -2999,8 +3054,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T18:10:00Z",
-      "timeEnd": "2014-08-09T19:00:00Z",
+      "timeStart": "2014-08-09T13:10:00Z",
+      "timeEnd": "2014-08-09T14:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3010,9 +3065,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-09T18:10:00Z",
-      "timeEnd": "2014-08-09T19:00:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T13:10:00Z",
+      "timeEnd": "2014-08-09T14:00:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "261808",
@@ -3021,9 +3076,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T18:10:00Z",
-      "timeEnd": "2014-08-09T19:00:00Z",
-      "timeDoor": "2014-08-10T01:50:00Z"
+      "timeStart": "2014-08-09T13:10:00Z",
+      "timeEnd": "2014-08-09T14:00:00Z",
+      "timeDoor": "2014-08-09T20:50:00Z"
     },
     {
       "concertId": "263648",
@@ -3032,9 +3087,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T18:10:00Z",
-      "timeEnd": "2014-08-09T19:00:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T13:10:00Z",
+      "timeEnd": "2014-08-09T14:00:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263670",
@@ -3043,8 +3098,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T18:10:00Z",
-      "timeEnd": "2014-08-09T19:00:00Z",
+      "timeStart": "2014-08-09T13:10:00Z",
+      "timeEnd": "2014-08-09T14:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3054,8 +3109,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T18:25:00Z",
-      "timeEnd": "2014-08-09T19:15:00Z",
+      "timeStart": "2014-08-09T13:25:00Z",
+      "timeEnd": "2014-08-09T14:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3065,9 +3120,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-09T18:30:00Z",
-      "timeEnd": "2014-08-09T19:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T13:30:00Z",
+      "timeEnd": "2014-08-09T14:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263700",
@@ -3076,8 +3131,8 @@
       ],
       "venueId": "707601",
       "description": null,
-      "timeStart": "2014-08-09T18:40:00Z",
-      "timeEnd": "2014-08-09T19:30:00Z",
+      "timeStart": "2014-08-09T13:40:00Z",
+      "timeEnd": "2014-08-09T14:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3087,9 +3142,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-09T18:40:00Z",
-      "timeEnd": "2014-08-09T19:30:00Z",
-      "timeDoor": "2014-08-10T03:45:00Z"
+      "timeStart": "2014-08-09T13:40:00Z",
+      "timeEnd": "2014-08-09T14:30:00Z",
+      "timeDoor": "2014-08-09T22:45:00Z"
     },
     {
       "concertId": "262433",
@@ -3098,8 +3153,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T18:40:00Z",
-      "timeEnd": "2014-08-09T19:30:00Z",
+      "timeStart": "2014-08-09T13:40:00Z",
+      "timeEnd": "2014-08-09T14:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3109,9 +3164,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T18:40:00Z",
-      "timeEnd": "2014-08-09T19:30:00Z",
-      "timeDoor": "2014-08-10T04:40:00Z"
+      "timeStart": "2014-08-09T13:40:00Z",
+      "timeEnd": "2014-08-09T14:30:00Z",
+      "timeDoor": "2014-08-09T23:40:00Z"
     },
     {
       "concertId": "262630",
@@ -3120,9 +3175,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T18:40:00Z",
-      "timeEnd": "2014-08-09T19:30:00Z",
-      "timeDoor": "2014-08-10T04:55:00Z"
+      "timeStart": "2014-08-09T13:40:00Z",
+      "timeEnd": "2014-08-09T14:30:00Z",
+      "timeDoor": "2014-08-09T23:55:00Z"
     },
     {
       "concertId": "265462",
@@ -3131,9 +3186,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T18:50:00Z",
-      "timeEnd": "2014-08-09T19:40:00Z",
-      "timeDoor": "2014-08-09T05:50:00Z"
+      "timeStart": "2014-08-09T13:50:00Z",
+      "timeEnd": "2014-08-09T14:40:00Z",
+      "timeDoor": "2014-08-09T00:50:00Z"
     },
     {
       "concertId": "262404",
@@ -3142,8 +3197,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T18:50:00Z",
-      "timeEnd": "2014-08-09T19:40:00Z",
+      "timeStart": "2014-08-09T13:50:00Z",
+      "timeEnd": "2014-08-09T14:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3153,9 +3208,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-09T19:00:00Z",
-      "timeEnd": "2014-08-09T19:50:00Z",
-      "timeDoor": "2014-08-09T05:50:00Z"
+      "timeStart": "2014-08-09T14:00:00Z",
+      "timeEnd": "2014-08-09T14:50:00Z",
+      "timeDoor": "2014-08-09T00:50:00Z"
     },
     {
       "concertId": "263679",
@@ -3164,8 +3219,19 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-09T19:10:00Z",
-      "timeEnd": "2014-08-09T20:00:00Z",
+      "timeStart": "2014-08-09T14:10:00Z",
+      "timeEnd": "2014-08-09T15:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "265589",
+      "artists": [
+        "336561"
+      ],
+      "venueId": "707629",
+      "description": null,
+      "timeStart": "2014-08-09T14:10:00Z",
+      "timeEnd": "2014-08-09T15:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3175,9 +3241,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-09T19:10:00Z",
-      "timeEnd": "2014-08-09T20:00:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T14:10:00Z",
+      "timeEnd": "2014-08-09T15:00:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263663",
@@ -3186,8 +3252,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T19:10:00Z",
-      "timeEnd": "2014-08-09T20:00:00Z",
+      "timeStart": "2014-08-09T14:10:00Z",
+      "timeEnd": "2014-08-09T15:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3197,8 +3263,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T19:20:00Z",
-      "timeEnd": "2014-08-09T20:10:00Z",
+      "timeStart": "2014-08-09T14:20:00Z",
+      "timeEnd": "2014-08-09T15:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3208,9 +3274,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T19:20:00Z",
-      "timeEnd": "2014-08-09T20:10:00Z",
-      "timeDoor": "2014-08-10T01:35:00Z"
+      "timeStart": "2014-08-09T14:20:00Z",
+      "timeEnd": "2014-08-09T15:10:00Z",
+      "timeDoor": "2014-08-09T20:35:00Z"
     },
     {
       "concertId": "265335",
@@ -3219,8 +3285,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T19:20:00Z",
-      "timeEnd": "2014-08-09T20:10:00Z",
+      "timeStart": "2014-08-09T14:20:00Z",
+      "timeEnd": "2014-08-09T15:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3230,8 +3296,8 @@
       ],
       "venueId": "707650",
       "description": null,
-      "timeStart": "2014-08-09T19:30:00Z",
-      "timeEnd": "2014-08-09T20:20:00Z",
+      "timeStart": "2014-08-09T14:30:00Z",
+      "timeEnd": "2014-08-09T15:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3241,9 +3307,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T19:30:00Z",
-      "timeEnd": "2014-08-09T20:20:00Z",
-      "timeDoor": "2014-08-09T05:15:00Z"
+      "timeStart": "2014-08-09T14:30:00Z",
+      "timeEnd": "2014-08-09T15:20:00Z",
+      "timeDoor": "2014-08-09T00:15:00Z"
     },
     {
       "concertId": "262421",
@@ -3252,9 +3318,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T19:35:00Z",
-      "timeEnd": "2014-08-09T20:25:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T14:35:00Z",
+      "timeEnd": "2014-08-09T15:25:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263629",
@@ -3263,9 +3329,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-09T19:40:00Z",
-      "timeEnd": "2014-08-09T20:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T14:40:00Z",
+      "timeEnd": "2014-08-09T15:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "265043",
@@ -3274,9 +3340,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T19:50:00Z",
-      "timeEnd": "2014-08-09T20:40:00Z",
-      "timeDoor": "2014-08-09T06:50:00Z"
+      "timeStart": "2014-08-09T14:50:00Z",
+      "timeEnd": "2014-08-09T15:40:00Z",
+      "timeDoor": "2014-08-09T01:50:00Z"
     },
     {
       "concertId": "262425",
@@ -3285,9 +3351,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-09T19:50:00Z",
-      "timeEnd": "2014-08-09T20:40:00Z",
-      "timeDoor": "2014-08-10T03:45:00Z"
+      "timeStart": "2014-08-09T14:50:00Z",
+      "timeEnd": "2014-08-09T15:40:00Z",
+      "timeDoor": "2014-08-09T22:45:00Z"
     },
     {
       "concertId": "264998",
@@ -3296,9 +3362,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T19:50:00Z",
-      "timeEnd": "2014-08-09T20:40:00Z",
-      "timeDoor": "2014-08-09T05:20:00Z"
+      "timeStart": "2014-08-09T14:50:00Z",
+      "timeEnd": "2014-08-09T15:40:00Z",
+      "timeDoor": "2014-08-09T00:20:00Z"
     },
     {
       "concertId": "263672",
@@ -3307,8 +3373,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T20:00:00Z",
-      "timeEnd": "2014-08-09T20:50:00Z",
+      "timeStart": "2014-08-09T15:00:00Z",
+      "timeEnd": "2014-08-09T15:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3318,9 +3384,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T20:00:00Z",
-      "timeEnd": "2014-08-09T20:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T15:00:00Z",
+      "timeEnd": "2014-08-09T15:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263729",
@@ -3329,9 +3395,9 @@
       ],
       "venueId": "710805",
       "description": null,
-      "timeStart": "2014-08-09T20:00:00Z",
-      "timeEnd": "2014-08-09T20:50:00Z",
-      "timeDoor": "2014-08-10T00:00:00Z"
+      "timeStart": "2014-08-09T15:00:00Z",
+      "timeEnd": "2014-08-09T15:50:00Z",
+      "timeDoor": "2014-08-09T19:00:00Z"
     },
     {
       "concertId": "265463",
@@ -3340,8 +3406,8 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T20:00:00Z",
-      "timeEnd": "2014-08-09T20:50:00Z",
+      "timeStart": "2014-08-09T15:00:00Z",
+      "timeEnd": "2014-08-09T15:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3351,9 +3417,9 @@
       ],
       "venueId": "707634",
       "description": null,
-      "timeStart": "2014-08-09T20:10:00Z",
-      "timeEnd": "2014-08-09T21:00:00Z",
-      "timeDoor": "2014-08-09T06:10:00Z"
+      "timeStart": "2014-08-09T15:10:00Z",
+      "timeEnd": "2014-08-09T16:00:00Z",
+      "timeDoor": "2014-08-09T01:10:00Z"
     },
     {
       "concertId": "262430",
@@ -3362,9 +3428,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-09T20:10:00Z",
-      "timeEnd": "2014-08-09T21:00:00Z",
-      "timeDoor": "2014-08-09T05:50:00Z"
+      "timeStart": "2014-08-09T15:10:00Z",
+      "timeEnd": "2014-08-09T16:00:00Z",
+      "timeDoor": "2014-08-09T00:50:00Z"
     },
     {
       "concertId": "262410",
@@ -3373,9 +3439,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T20:30:00Z",
-      "timeEnd": "2014-08-09T21:20:00Z",
-      "timeDoor": "2014-08-10T03:50:00Z"
+      "timeStart": "2014-08-09T15:30:00Z",
+      "timeEnd": "2014-08-09T16:20:00Z",
+      "timeDoor": "2014-08-09T22:50:00Z"
     },
     {
       "concertId": "263639",
@@ -3384,9 +3450,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-09T20:30:00Z",
-      "timeEnd": "2014-08-09T21:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T15:30:00Z",
+      "timeEnd": "2014-08-09T16:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263645",
@@ -3395,9 +3461,9 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-09T20:30:00Z",
-      "timeEnd": "2014-08-09T21:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T15:30:00Z",
+      "timeEnd": "2014-08-09T16:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263650",
@@ -3406,9 +3472,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T20:30:00Z",
-      "timeEnd": "2014-08-09T21:20:00Z",
-      "timeDoor": "2014-08-10T04:45:00Z"
+      "timeStart": "2014-08-09T15:30:00Z",
+      "timeEnd": "2014-08-09T16:20:00Z",
+      "timeDoor": "2014-08-09T23:45:00Z"
     },
     {
       "concertId": "264995",
@@ -3417,8 +3483,8 @@
       ],
       "venueId": "707650",
       "description": null,
-      "timeStart": "2014-08-09T20:10:00Z",
-      "timeEnd": "2014-08-09T21:00:00Z",
+      "timeStart": "2014-08-09T15:10:00Z",
+      "timeEnd": "2014-08-09T16:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3428,9 +3494,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T20:40:00Z",
-      "timeEnd": "2014-08-09T21:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T15:40:00Z",
+      "timeEnd": "2014-08-09T16:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263658",
@@ -3439,9 +3505,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T20:40:00Z",
-      "timeEnd": "2014-08-09T21:30:00Z",
-      "timeDoor": "2014-08-09T05:25:00Z"
+      "timeStart": "2014-08-09T15:40:00Z",
+      "timeEnd": "2014-08-09T16:30:00Z",
+      "timeDoor": "2014-08-09T00:25:00Z"
     },
     {
       "concertId": "263680",
@@ -3450,9 +3516,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-09T21:00:00Z",
-      "timeEnd": "2014-08-09T21:50:00Z",
-      "timeDoor": "2014-08-09T06:00:00Z"
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-09T16:50:00Z",
+      "timeDoor": "2014-08-09T01:00:00Z"
     },
     {
       "concertId": "263695",
@@ -3461,8 +3527,8 @@
       ],
       "venueId": "707623",
       "description": null,
-      "timeStart": "2014-08-09T21:00:00Z",
-      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-09T16:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3472,20 +3538,9 @@
       ],
       "venueId": "707643",
       "description": null,
-      "timeStart": "2014-08-09T21:00:00Z",
-      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-09T16:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
-    },
-    {
-      "concertId": "263622",
-      "artists": [
-        "341283"
-      ],
-      "venueId": "707610",
-      "description": null,
-      "timeStart": "2014-08-09T21:00:00Z",
-      "timeEnd": "2014-08-09T21:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
     },
     {
       "concertId": "263664",
@@ -3494,8 +3549,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T21:00:00Z",
-      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeStart": "2014-08-09T16:00:00Z",
+      "timeEnd": "2014-08-09T16:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3505,8 +3560,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T21:10:00Z",
-      "timeEnd": "2014-08-09T22:00:00Z",
+      "timeStart": "2014-08-09T16:10:00Z",
+      "timeEnd": "2014-08-09T17:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3516,8 +3571,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T21:10:00Z",
-      "timeEnd": "2014-08-09T22:00:00Z",
+      "timeStart": "2014-08-09T16:10:00Z",
+      "timeEnd": "2014-08-09T17:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3527,8 +3582,8 @@
       ],
       "venueId": "707629",
       "description": null,
-      "timeStart": "2014-08-09T21:15:00Z",
-      "timeEnd": "2014-08-09T22:05:00Z",
+      "timeStart": "2014-08-09T16:15:00Z",
+      "timeEnd": "2014-08-09T17:05:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3538,9 +3593,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-09T21:20:00Z",
-      "timeEnd": "2014-08-09T22:10:00Z",
-      "timeDoor": "2014-08-10T04:30:00Z"
+      "timeStart": "2014-08-09T16:20:00Z",
+      "timeEnd": "2014-08-09T17:10:00Z",
+      "timeDoor": "2014-08-09T23:30:00Z"
     },
     {
       "concertId": "262603",
@@ -3549,9 +3604,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T21:20:00Z",
-      "timeEnd": "2014-08-09T22:10:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T16:20:00Z",
+      "timeEnd": "2014-08-09T17:10:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262411",
@@ -3560,9 +3615,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T21:30:00Z",
-      "timeEnd": "2014-08-09T22:20:00Z",
-      "timeDoor": "2014-08-10T03:50:00Z"
+      "timeStart": "2014-08-09T16:30:00Z",
+      "timeEnd": "2014-08-09T17:20:00Z",
+      "timeDoor": "2014-08-09T22:50:00Z"
     },
     {
       "concertId": "262700",
@@ -3571,9 +3626,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T21:30:00Z",
-      "timeEnd": "2014-08-09T22:20:00Z",
-      "timeDoor": "2014-08-10T04:05:00Z"
+      "timeStart": "2014-08-09T16:30:00Z",
+      "timeEnd": "2014-08-09T17:20:00Z",
+      "timeDoor": "2014-08-09T23:05:00Z"
     },
     {
       "concertId": "263630",
@@ -3582,9 +3637,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-09T21:30:00Z",
-      "timeEnd": "2014-08-09T22:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T16:30:00Z",
+      "timeEnd": "2014-08-09T17:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263646",
@@ -3593,9 +3648,9 @@
       ],
       "venueId": "707632",
       "description": null,
-      "timeStart": "2014-08-09T21:35:00Z",
-      "timeEnd": "2014-08-09T22:25:00Z",
-      "timeDoor": "2014-08-09T05:05:00Z"
+      "timeStart": "2014-08-09T16:35:00Z",
+      "timeEnd": "2014-08-09T17:25:00Z",
+      "timeDoor": "2014-08-09T00:05:00Z"
     },
     {
       "concertId": "262213",
@@ -3604,9 +3659,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T21:40:00Z",
-      "timeEnd": "2014-08-09T22:30:00Z",
-      "timeDoor": "2014-08-09T06:10:00Z"
+      "timeStart": "2014-08-09T16:40:00Z",
+      "timeEnd": "2014-08-09T17:30:00Z",
+      "timeDoor": "2014-08-09T01:10:00Z"
     },
     {
       "concertId": "262204",
@@ -3615,9 +3670,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T21:40:00Z",
-      "timeEnd": "2014-08-09T22:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T16:40:00Z",
+      "timeEnd": "2014-08-09T17:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263640",
@@ -3626,9 +3681,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-09T21:40:00Z",
-      "timeEnd": "2014-08-09T22:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T16:40:00Z",
+      "timeEnd": "2014-08-09T17:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262210",
@@ -3637,9 +3692,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T21:45:00Z",
-      "timeEnd": "2014-08-09T22:35:00Z",
-      "timeDoor": "2014-08-10T04:15:00Z"
+      "timeStart": "2014-08-09T16:45:00Z",
+      "timeEnd": "2014-08-09T17:35:00Z",
+      "timeDoor": "2014-08-09T23:15:00Z"
     },
     {
       "concertId": "262415",
@@ -3648,9 +3703,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T21:50:00Z",
-      "timeEnd": "2014-08-09T22:40:00Z",
-      "timeDoor": "2014-08-10T03:00:00Z"
+      "timeStart": "2014-08-09T16:50:00Z",
+      "timeEnd": "2014-08-09T17:40:00Z",
+      "timeDoor": "2014-08-09T22:00:00Z"
     },
     {
       "concertId": "262434",
@@ -3659,9 +3714,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T21:50:00Z",
-      "timeEnd": "2014-08-09T22:40:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T16:50:00Z",
+      "timeEnd": "2014-08-09T17:40:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263687",
@@ -3670,8 +3725,8 @@
       ],
       "venueId": "707622",
       "description": null,
-      "timeStart": "2014-08-09T22:00:00Z",
-      "timeEnd": "2014-08-09T22:50:00Z",
+      "timeStart": "2014-08-09T17:00:00Z",
+      "timeEnd": "2014-08-09T17:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3681,8 +3736,8 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-09T22:10:00Z",
-      "timeEnd": "2014-08-09T23:00:00Z",
+      "timeStart": "2014-08-09T17:10:00Z",
+      "timeEnd": "2014-08-09T18:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3692,8 +3747,8 @@
       ],
       "venueId": "707623",
       "description": null,
-      "timeStart": "2014-08-09T22:10:00Z",
-      "timeEnd": "2014-08-09T23:00:00Z",
+      "timeStart": "2014-08-09T17:10:00Z",
+      "timeEnd": "2014-08-09T18:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3703,9 +3758,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-09T22:10:00Z",
-      "timeEnd": "2014-08-09T23:00:00Z",
-      "timeDoor": "2014-08-10T00:10:00Z"
+      "timeStart": "2014-08-09T17:10:00Z",
+      "timeEnd": "2014-08-09T18:00:00Z",
+      "timeDoor": "2014-08-09T19:10:00Z"
     },
     {
       "concertId": "263665",
@@ -3714,9 +3769,9 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-09T22:10:00Z",
-      "timeEnd": "2014-08-09T23:00:00Z",
-      "timeDoor": "2014-08-10T04:55:00Z"
+      "timeStart": "2014-08-09T17:10:00Z",
+      "timeEnd": "2014-08-09T18:00:00Z",
+      "timeDoor": "2014-08-09T23:55:00Z"
     },
     {
       "concertId": "261905",
@@ -3725,9 +3780,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-09T22:15:00Z",
-      "timeEnd": "2014-08-09T23:05:00Z",
-      "timeDoor": "2014-08-09T06:00:00Z"
+      "timeStart": "2014-08-09T17:15:00Z",
+      "timeEnd": "2014-08-09T18:05:00Z",
+      "timeDoor": "2014-08-09T01:00:00Z"
     },
     {
       "concertId": "261919",
@@ -3736,9 +3791,9 @@
       ],
       "venueId": "707617",
       "description": null,
-      "timeStart": "2014-08-09T22:15:00Z",
-      "timeEnd": "2014-08-09T23:05:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T17:15:00Z",
+      "timeEnd": "2014-08-09T18:05:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262422",
@@ -3747,8 +3802,8 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-09T22:30:00Z",
-      "timeEnd": "2014-08-09T23:20:00Z",
+      "timeStart": "2014-08-09T17:30:00Z",
+      "timeEnd": "2014-08-09T18:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3758,9 +3813,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-09T22:30:00Z",
-      "timeEnd": "2014-08-09T23:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T17:30:00Z",
+      "timeEnd": "2014-08-09T18:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263649",
@@ -3769,9 +3824,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T22:30:00Z",
-      "timeEnd": "2014-08-09T23:20:00Z",
-      "timeDoor": "2014-08-09T07:45:00Z"
+      "timeStart": "2014-08-09T17:30:00Z",
+      "timeEnd": "2014-08-09T18:20:00Z",
+      "timeDoor": "2014-08-09T02:45:00Z"
     },
     {
       "concertId": "263659",
@@ -3780,9 +3835,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T22:30:00Z",
-      "timeEnd": "2014-08-09T23:20:00Z",
-      "timeDoor": "2014-08-09T05:45:00Z"
+      "timeStart": "2014-08-09T17:30:00Z",
+      "timeEnd": "2014-08-09T18:20:00Z",
+      "timeDoor": "2014-08-09T00:45:00Z"
     },
     {
       "concertId": "261908",
@@ -3791,9 +3846,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T22:40:00Z",
-      "timeEnd": "2014-08-09T23:30:00Z",
-      "timeDoor": "2014-08-09T06:10:00Z"
+      "timeStart": "2014-08-09T17:40:00Z",
+      "timeEnd": "2014-08-09T18:30:00Z",
+      "timeDoor": "2014-08-09T01:10:00Z"
     },
     {
       "concertId": "262008",
@@ -3802,9 +3857,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T22:40:00Z",
-      "timeEnd": "2014-08-09T23:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T17:40:00Z",
+      "timeEnd": "2014-08-09T18:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263632",
@@ -3813,9 +3868,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-09T22:40:00Z",
-      "timeEnd": "2014-08-09T23:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T17:40:00Z",
+      "timeEnd": "2014-08-09T18:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262446",
@@ -3824,8 +3879,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-09T22:50:00Z",
-      "timeEnd": "2014-08-09T23:40:00Z",
+      "timeStart": "2014-08-09T17:50:00Z",
+      "timeEnd": "2014-08-09T18:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3835,9 +3890,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-09T22:55:00Z",
-      "timeEnd": "2014-08-09T23:45:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T17:55:00Z",
+      "timeEnd": "2014-08-09T18:45:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263674",
@@ -3846,9 +3901,9 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-09T23:00:00Z",
-      "timeEnd": "2014-08-09T23:50:00Z",
-      "timeDoor": "2014-08-09T05:30:00Z"
+      "timeStart": "2014-08-09T18:00:00Z",
+      "timeEnd": "2014-08-09T18:50:00Z",
+      "timeDoor": "2014-08-09T00:30:00Z"
     },
     {
       "concertId": "261897",
@@ -3857,9 +3912,20 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-09T23:00:00Z",
-      "timeEnd": "2014-08-09T23:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T18:00:00Z",
+      "timeEnd": "2014-08-09T18:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
+    },
+    {
+      "concertId": "263691",
+      "artists": [
+        "340362"
+      ],
+      "venueId": "707652",
+      "description": null,
+      "timeStart": "2014-08-09T18:00:00Z",
+      "timeEnd": "2014-08-09T18:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
     },
     {
       "concertId": "262413",
@@ -3868,9 +3934,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-09T23:00:00Z",
-      "timeEnd": "2014-08-09T23:50:00Z",
-      "timeDoor": "2014-08-09T07:00:00Z"
+      "timeStart": "2014-08-09T18:00:00Z",
+      "timeEnd": "2014-08-09T18:50:00Z",
+      "timeDoor": "2014-08-09T02:00:00Z"
     },
     {
       "concertId": "261994",
@@ -3879,9 +3945,9 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-09T23:00:00Z",
-      "timeEnd": "2014-08-09T23:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T18:00:00Z",
+      "timeEnd": "2014-08-09T18:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262435",
@@ -3890,8 +3956,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-09T23:00:00Z",
-      "timeEnd": "2014-08-09T23:50:00Z",
+      "timeStart": "2014-08-09T18:00:00Z",
+      "timeEnd": "2014-08-09T18:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3901,8 +3967,8 @@
       ],
       "venueId": "707622",
       "description": null,
-      "timeStart": "2014-08-09T23:10:00Z",
-      "timeEnd": "2014-08-10T00:00:00Z",
+      "timeStart": "2014-08-09T18:10:00Z",
+      "timeEnd": "2014-08-09T19:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3912,9 +3978,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-09T23:25:00Z",
-      "timeEnd": "2014-08-10T00:15:00Z",
-      "timeDoor": "2014-08-10T04:50:00Z"
+      "timeStart": "2014-08-09T18:25:00Z",
+      "timeEnd": "2014-08-09T19:15:00Z",
+      "timeDoor": "2014-08-09T23:50:00Z"
     },
     {
       "concertId": "262607",
@@ -3923,9 +3989,9 @@
       ],
       "venueId": "707617",
       "description": null,
-      "timeStart": "2014-08-09T23:25:00Z",
-      "timeEnd": "2014-08-10T00:15:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T18:25:00Z",
+      "timeEnd": "2014-08-09T19:15:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262925",
@@ -3934,9 +4000,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-09T23:30:00Z",
-      "timeEnd": "2014-08-10T00:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T18:30:00Z",
+      "timeEnd": "2014-08-09T19:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263728",
@@ -3945,8 +4011,8 @@
       ],
       "venueId": "710805",
       "description": null,
-      "timeStart": "2014-08-09T23:30:00Z",
-      "timeEnd": "2014-08-10T00:20:00Z",
+      "timeStart": "2014-08-09T18:30:00Z",
+      "timeEnd": "2014-08-09T19:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3956,8 +4022,8 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-09T23:40:00Z",
-      "timeEnd": "2014-08-10T00:30:00Z",
+      "timeStart": "2014-08-09T18:40:00Z",
+      "timeEnd": "2014-08-09T19:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3967,9 +4033,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-09T23:40:00Z",
-      "timeEnd": "2014-08-10T00:30:00Z",
-      "timeDoor": "2014-08-10T04:55:00Z"
+      "timeStart": "2014-08-09T18:40:00Z",
+      "timeEnd": "2014-08-09T19:30:00Z",
+      "timeDoor": "2014-08-09T23:55:00Z"
     },
     {
       "concertId": "262412",
@@ -3978,8 +4044,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-09T23:50:00Z",
-      "timeEnd": "2014-08-10T00:40:00Z",
+      "timeStart": "2014-08-09T18:50:00Z",
+      "timeEnd": "2014-08-09T19:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -3989,8 +4055,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-09T23:50:00Z",
-      "timeEnd": "2014-08-10T00:40:00Z",
+      "timeStart": "2014-08-09T18:50:00Z",
+      "timeEnd": "2014-08-09T19:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4000,9 +4066,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-09T23:50:00Z",
-      "timeEnd": "2014-08-10T00:40:00Z",
-      "timeDoor": "2014-08-10T03:05:00Z"
+      "timeStart": "2014-08-09T18:50:00Z",
+      "timeEnd": "2014-08-09T19:40:00Z",
+      "timeDoor": "2014-08-09T22:05:00Z"
     },
     {
       "concertId": "263682",
@@ -4011,9 +4077,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-10T00:00:00Z",
-      "timeEnd": "2014-08-10T00:50:00Z",
-      "timeDoor": "2014-08-09T05:15:00Z"
+      "timeStart": "2014-08-09T19:00:00Z",
+      "timeEnd": "2014-08-09T19:50:00Z",
+      "timeDoor": "2014-08-09T00:15:00Z"
     },
     {
       "concertId": "263693",
@@ -4022,8 +4088,8 @@
       ],
       "venueId": "707641",
       "description": null,
-      "timeStart": "2014-08-10T00:00:00Z",
-      "timeEnd": "2014-08-10T00:50:00Z",
+      "timeStart": "2014-08-09T19:00:00Z",
+      "timeEnd": "2014-08-09T19:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4033,9 +4099,9 @@
       ],
       "venueId": "707598",
       "description": null,
-      "timeStart": "2014-08-10T00:00:00Z",
-      "timeEnd": "2014-08-10T00:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T19:00:00Z",
+      "timeEnd": "2014-08-09T19:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262628",
@@ -4044,9 +4110,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-10T00:00:00Z",
-      "timeEnd": "2014-08-10T00:50:00Z",
-      "timeDoor": "2014-08-09T05:50:00Z"
+      "timeStart": "2014-08-09T19:00:00Z",
+      "timeEnd": "2014-08-09T19:50:00Z",
+      "timeDoor": "2014-08-09T00:50:00Z"
     },
     {
       "concertId": "263624",
@@ -4055,9 +4121,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-10T00:00:00Z",
-      "timeEnd": "2014-08-10T00:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T19:00:00Z",
+      "timeEnd": "2014-08-09T19:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263641",
@@ -4066,9 +4132,9 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-10T00:00:00Z",
-      "timeEnd": "2014-08-10T00:50:00Z",
-      "timeDoor": "2014-08-09T05:30:00Z"
+      "timeStart": "2014-08-09T19:00:00Z",
+      "timeEnd": "2014-08-09T19:50:00Z",
+      "timeDoor": "2014-08-09T00:30:00Z"
     },
     {
       "concertId": "263666",
@@ -4077,8 +4143,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-10T00:00:00Z",
-      "timeEnd": "2014-08-10T00:50:00Z",
+      "timeStart": "2014-08-09T19:00:00Z",
+      "timeEnd": "2014-08-09T19:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4088,9 +4154,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-10T00:05:00Z",
-      "timeEnd": "2014-08-10T00:55:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T19:05:00Z",
+      "timeEnd": "2014-08-09T19:55:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263675",
@@ -4099,8 +4165,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-10T00:10:00Z",
-      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeStart": "2014-08-09T19:10:00Z",
+      "timeEnd": "2014-08-09T20:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4110,8 +4176,8 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-10T00:10:00Z",
-      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeStart": "2014-08-09T19:10:00Z",
+      "timeEnd": "2014-08-09T20:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4121,8 +4187,8 @@
       ],
       "venueId": "707620",
       "description": null,
-      "timeStart": "2014-08-10T00:10:00Z",
-      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeStart": "2014-08-09T19:10:00Z",
+      "timeEnd": "2014-08-09T20:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4132,8 +4198,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-10T00:10:00Z",
-      "timeEnd": "2014-08-10T01:00:00Z",
+      "timeStart": "2014-08-09T19:10:00Z",
+      "timeEnd": "2014-08-09T20:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4143,9 +4209,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-10T00:30:00Z",
-      "timeEnd": "2014-08-10T01:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T19:30:00Z",
+      "timeEnd": "2014-08-09T20:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "261811",
@@ -4154,9 +4220,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-10T00:30:00Z",
-      "timeEnd": "2014-08-10T01:20:00Z",
-      "timeDoor": "2014-08-10T04:40:00Z"
+      "timeStart": "2014-08-09T19:30:00Z",
+      "timeEnd": "2014-08-09T20:20:00Z",
+      "timeDoor": "2014-08-09T23:40:00Z"
     },
     {
       "concertId": "262426",
@@ -4165,9 +4231,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-10T00:35:00Z",
-      "timeEnd": "2014-08-10T01:25:00Z",
-      "timeDoor": "2014-08-09T07:10:00Z"
+      "timeStart": "2014-08-09T19:35:00Z",
+      "timeEnd": "2014-08-09T20:25:00Z",
+      "timeDoor": "2014-08-09T02:10:00Z"
     },
     {
       "concertId": "262608",
@@ -4176,8 +4242,8 @@
       ],
       "venueId": "707617",
       "description": null,
-      "timeStart": "2014-08-10T00:35:00Z",
-      "timeEnd": "2014-08-10T01:25:00Z",
+      "timeStart": "2014-08-09T19:35:00Z",
+      "timeEnd": "2014-08-09T20:25:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4187,9 +4253,9 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-10T00:40:00Z",
-      "timeEnd": "2014-08-10T01:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T19:40:00Z",
+      "timeEnd": "2014-08-09T20:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262718",
@@ -4198,9 +4264,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-10T00:40:00Z",
-      "timeEnd": "2014-08-10T01:30:00Z",
-      "timeDoor": "2014-08-09T05:10:00Z"
+      "timeStart": "2014-08-09T19:40:00Z",
+      "timeEnd": "2014-08-09T20:30:00Z",
+      "timeDoor": "2014-08-09T00:10:00Z"
     },
     {
       "concertId": "263791",
@@ -4209,9 +4275,9 @@
       ],
       "venueId": "707624",
       "description": null,
-      "timeStart": "2014-08-10T00:45:00Z",
-      "timeEnd": "2014-08-10T01:35:00Z",
-      "timeDoor": "2014-08-09T06:15:00Z"
+      "timeStart": "2014-08-09T19:45:00Z",
+      "timeEnd": "2014-08-09T20:35:00Z",
+      "timeDoor": "2014-08-09T01:15:00Z"
     },
     {
       "concertId": "263652",
@@ -4220,9 +4286,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-10T00:55:00Z",
-      "timeEnd": "2014-08-10T01:45:00Z",
-      "timeDoor": "2014-08-09T06:10:00Z"
+      "timeStart": "2014-08-09T19:55:00Z",
+      "timeEnd": "2014-08-09T20:45:00Z",
+      "timeDoor": "2014-08-09T01:10:00Z"
     },
     {
       "concertId": "263726",
@@ -4231,9 +4297,9 @@
       ],
       "venueId": "707638",
       "description": null,
-      "timeStart": "2014-08-10T01:00:00Z",
-      "timeEnd": "2014-08-10T01:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T20:00:00Z",
+      "timeEnd": "2014-08-09T20:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263683",
@@ -4242,8 +4308,8 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-10T01:10:00Z",
-      "timeEnd": "2014-08-10T02:00:00Z",
+      "timeStart": "2014-08-09T20:10:00Z",
+      "timeEnd": "2014-08-09T21:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4253,8 +4319,8 @@
       ],
       "venueId": "707641",
       "description": null,
-      "timeStart": "2014-08-10T01:10:00Z",
-      "timeEnd": "2014-08-10T02:00:00Z",
+      "timeStart": "2014-08-09T20:10:00Z",
+      "timeEnd": "2014-08-09T21:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4264,8 +4330,8 @@
       ],
       "venueId": "707598",
       "description": null,
-      "timeStart": "2014-08-10T01:10:00Z",
-      "timeEnd": "2014-08-10T02:00:00Z",
+      "timeStart": "2014-08-09T20:10:00Z",
+      "timeEnd": "2014-08-09T21:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4275,20 +4341,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-10T01:10:00Z",
-      "timeEnd": "2014-08-10T02:00:00Z",
-      "timeDoor": "2014-08-09T08:00:00Z"
-    },
-    {
-      "concertId": "263642",
-      "artists": [
-        "341283"
-      ],
-      "venueId": "707640",
-      "description": null,
-      "timeStart": "2014-08-10T01:10:00Z",
-      "timeEnd": "2014-08-10T02:00:00Z",
-      "timeDoor": "2014-08-09T05:25:00Z"
+      "timeStart": "2014-08-09T20:10:00Z",
+      "timeEnd": "2014-08-09T21:00:00Z",
+      "timeDoor": "2014-08-09T03:00:00Z"
     },
     {
       "concertId": "263667",
@@ -4297,8 +4352,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-10T01:10:00Z",
-      "timeEnd": "2014-08-10T02:00:00Z",
+      "timeStart": "2014-08-09T20:10:00Z",
+      "timeEnd": "2014-08-09T21:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4308,8 +4363,8 @@
       ],
       "venueId": "707650",
       "description": null,
-      "timeStart": "2014-08-10T01:30:00Z",
-      "timeEnd": "2014-08-10T02:20:00Z",
+      "timeStart": "2014-08-09T20:30:00Z",
+      "timeEnd": "2014-08-09T21:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4319,9 +4374,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-10T01:30:00Z",
-      "timeEnd": "2014-08-10T02:20:00Z",
-      "timeDoor": "2014-08-09T05:30:00Z"
+      "timeStart": "2014-08-09T20:30:00Z",
+      "timeEnd": "2014-08-09T21:20:00Z",
+      "timeDoor": "2014-08-09T00:30:00Z"
     },
     {
       "concertId": "263634",
@@ -4330,9 +4385,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-10T01:40:00Z",
-      "timeEnd": "2014-08-10T02:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T20:40:00Z",
+      "timeEnd": "2014-08-09T21:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262202",
@@ -4341,9 +4396,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-10T01:40:00Z",
-      "timeEnd": "2014-08-10T02:30:00Z",
-      "timeDoor": "2014-08-10T04:10:00Z"
+      "timeStart": "2014-08-09T20:40:00Z",
+      "timeEnd": "2014-08-09T21:30:00Z",
+      "timeDoor": "2014-08-09T23:10:00Z"
     },
     {
       "concertId": "262605",
@@ -4352,8 +4407,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-10T01:40:00Z",
-      "timeEnd": "2014-08-10T02:30:00Z",
+      "timeStart": "2014-08-09T20:40:00Z",
+      "timeEnd": "2014-08-09T21:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4363,8 +4418,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-10T01:50:00Z",
-      "timeEnd": "2014-08-10T02:40:00Z",
+      "timeStart": "2014-08-09T20:50:00Z",
+      "timeEnd": "2014-08-09T21:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4374,9 +4429,9 @@
       ],
       "venueId": "707624",
       "description": null,
-      "timeStart": "2014-08-10T01:55:00Z",
-      "timeEnd": "2014-08-10T02:45:00Z",
-      "timeDoor": "2014-08-09T06:15:00Z"
+      "timeStart": "2014-08-09T20:55:00Z",
+      "timeEnd": "2014-08-09T21:45:00Z",
+      "timeDoor": "2014-08-09T01:15:00Z"
     },
     {
       "concertId": "263676",
@@ -4385,8 +4440,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-10T02:00:00Z",
-      "timeEnd": "2014-08-10T02:50:00Z",
+      "timeStart": "2014-08-09T21:00:00Z",
+      "timeEnd": "2014-08-09T21:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4396,9 +4451,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-10T02:00:00Z",
-      "timeEnd": "2014-08-10T02:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T21:00:00Z",
+      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262192",
@@ -4407,9 +4462,9 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-10T02:00:00Z",
-      "timeEnd": "2014-08-10T02:50:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T21:00:00Z",
+      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262416",
@@ -4418,9 +4473,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-10T02:00:00Z",
-      "timeEnd": "2014-08-10T02:50:00Z",
-      "timeDoor": "2014-08-10T03:50:00Z"
+      "timeStart": "2014-08-09T21:00:00Z",
+      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeDoor": "2014-08-09T22:50:00Z"
     },
     {
       "concertId": "262440",
@@ -4429,9 +4484,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-10T02:00:00Z",
-      "timeEnd": "2014-08-10T02:50:00Z",
-      "timeDoor": "2014-08-10T03:50:00Z"
+      "timeStart": "2014-08-09T21:00:00Z",
+      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeDoor": "2014-08-09T22:50:00Z"
     },
     {
       "concertId": "263654",
@@ -4440,9 +4495,9 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-10T02:00:00Z",
-      "timeEnd": "2014-08-10T02:50:00Z",
-      "timeDoor": "2014-08-10T03:50:00Z"
+      "timeStart": "2014-08-09T21:00:00Z",
+      "timeEnd": "2014-08-09T21:50:00Z",
+      "timeDoor": "2014-08-09T22:50:00Z"
     },
     {
       "concertId": "261911",
@@ -4451,9 +4506,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-10T02:15:00Z",
-      "timeEnd": "2014-08-10T03:05:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T21:15:00Z",
+      "timeEnd": "2014-08-09T22:05:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262001",
@@ -4462,9 +4517,9 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-10T02:15:00Z",
-      "timeEnd": "2014-08-10T03:05:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T21:15:00Z",
+      "timeEnd": "2014-08-09T22:05:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263692",
@@ -4473,8 +4528,8 @@
       ],
       "venueId": "707652",
       "description": null,
-      "timeStart": "2014-08-10T02:30:00Z",
-      "timeEnd": "2014-08-10T03:20:00Z",
+      "timeStart": "2014-08-09T21:30:00Z",
+      "timeEnd": "2014-08-09T22:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4484,9 +4539,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-10T02:30:00Z",
-      "timeEnd": "2014-08-10T03:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T21:30:00Z",
+      "timeEnd": "2014-08-09T22:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "264997",
@@ -4495,8 +4550,8 @@
       ],
       "venueId": "707650",
       "description": null,
-      "timeStart": "2014-08-10T02:40:00Z",
-      "timeEnd": "2014-08-10T03:30:00Z",
+      "timeStart": "2014-08-09T21:40:00Z",
+      "timeEnd": "2014-08-09T22:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4506,9 +4561,9 @@
       ],
       "venueId": "707603",
       "description": null,
-      "timeStart": "2014-08-10T02:40:00Z",
-      "timeEnd": "2014-08-10T03:30:00Z",
-      "timeDoor": "2014-08-10T04:55:00Z"
+      "timeStart": "2014-08-09T21:40:00Z",
+      "timeEnd": "2014-08-09T22:30:00Z",
+      "timeDoor": "2014-08-09T23:55:00Z"
     },
     {
       "concertId": "262606",
@@ -4517,8 +4572,8 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-10T02:50:00Z",
-      "timeEnd": "2014-08-10T03:40:00Z",
+      "timeStart": "2014-08-09T21:50:00Z",
+      "timeEnd": "2014-08-09T22:40:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4528,9 +4583,9 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-10T02:50:00Z",
-      "timeEnd": "2014-08-10T03:40:00Z",
-      "timeDoor": "2014-08-10T04:10:00Z"
+      "timeStart": "2014-08-09T21:50:00Z",
+      "timeEnd": "2014-08-09T22:40:00Z",
+      "timeDoor": "2014-08-09T23:10:00Z"
     },
     {
       "concertId": "263684",
@@ -4539,9 +4594,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-10T03:00:00Z",
-      "timeEnd": "2014-08-10T03:50:00Z",
-      "timeDoor": "2014-08-09T05:15:00Z"
+      "timeStart": "2014-08-09T22:00:00Z",
+      "timeEnd": "2014-08-09T22:50:00Z",
+      "timeDoor": "2014-08-09T00:15:00Z"
     },
     {
       "concertId": "262443",
@@ -4550,8 +4605,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-10T03:00:00Z",
-      "timeEnd": "2014-08-10T03:50:00Z",
+      "timeStart": "2014-08-09T22:00:00Z",
+      "timeEnd": "2014-08-09T22:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4561,9 +4616,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-10T03:00:00Z",
-      "timeEnd": "2014-08-10T03:50:00Z",
-      "timeDoor": "2014-08-09T06:50:00Z"
+      "timeStart": "2014-08-09T22:00:00Z",
+      "timeEnd": "2014-08-09T22:50:00Z",
+      "timeDoor": "2014-08-09T01:50:00Z"
     },
     {
       "concertId": "263668",
@@ -4572,9 +4627,9 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-10T03:00:00Z",
-      "timeEnd": "2014-08-10T03:50:00Z",
-      "timeDoor": "2014-08-09T06:00:00Z"
+      "timeStart": "2014-08-09T22:00:00Z",
+      "timeEnd": "2014-08-09T22:50:00Z",
+      "timeDoor": "2014-08-09T01:00:00Z"
     },
     {
       "concertId": "263677",
@@ -4583,8 +4638,8 @@
       ],
       "venueId": "707645",
       "description": null,
-      "timeStart": "2014-08-10T03:10:00Z",
-      "timeEnd": "2014-08-10T04:00:00Z",
+      "timeStart": "2014-08-09T22:10:00Z",
+      "timeEnd": "2014-08-09T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4594,9 +4649,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-10T03:10:00Z",
-      "timeEnd": "2014-08-10T04:00:00Z",
-      "timeDoor": "2014-08-09T06:10:00Z"
+      "timeStart": "2014-08-09T22:10:00Z",
+      "timeEnd": "2014-08-09T23:00:00Z",
+      "timeDoor": "2014-08-09T01:10:00Z"
     },
     {
       "concertId": "261916",
@@ -4605,9 +4660,9 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-10T03:10:00Z",
-      "timeEnd": "2014-08-10T04:00:00Z",
-      "timeDoor": "2014-08-09T06:10:00Z"
+      "timeStart": "2014-08-09T22:10:00Z",
+      "timeEnd": "2014-08-09T23:00:00Z",
+      "timeDoor": "2014-08-09T01:10:00Z"
     },
     {
       "concertId": "262408",
@@ -4616,8 +4671,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-10T03:10:00Z",
-      "timeEnd": "2014-08-10T04:00:00Z",
+      "timeStart": "2014-08-09T22:10:00Z",
+      "timeEnd": "2014-08-09T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4627,8 +4682,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-10T03:10:00Z",
-      "timeEnd": "2014-08-10T04:00:00Z",
+      "timeStart": "2014-08-09T22:10:00Z",
+      "timeEnd": "2014-08-09T23:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4638,9 +4693,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-10T03:25:00Z",
-      "timeEnd": "2014-08-10T04:15:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T22:25:00Z",
+      "timeEnd": "2014-08-09T23:15:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262438",
@@ -4649,8 +4704,8 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-10T03:25:00Z",
-      "timeEnd": "2014-08-10T04:15:00Z",
+      "timeStart": "2014-08-09T22:25:00Z",
+      "timeEnd": "2014-08-09T23:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4660,9 +4715,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-10T03:30:00Z",
-      "timeEnd": "2014-08-10T04:20:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T22:30:00Z",
+      "timeEnd": "2014-08-09T23:20:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262629",
@@ -4671,9 +4726,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-10T03:40:00Z",
-      "timeEnd": "2014-08-10T04:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T22:40:00Z",
+      "timeEnd": "2014-08-09T23:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262423",
@@ -4682,8 +4737,8 @@
       ],
       "venueId": "707596",
       "description": null,
-      "timeStart": "2014-08-10T04:00:00Z",
-      "timeEnd": "2014-08-10T04:50:00Z",
+      "timeStart": "2014-08-09T23:00:00Z",
+      "timeEnd": "2014-08-09T23:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4693,9 +4748,9 @@
       ],
       "venueId": "707597",
       "description": null,
-      "timeStart": "2014-08-10T04:10:00Z",
-      "timeEnd": "2014-08-10T05:00:00Z",
-      "timeDoor": "2014-08-10T04:55:00Z"
+      "timeStart": "2014-08-09T23:10:00Z",
+      "timeEnd": "2014-08-10T00:00:00Z",
+      "timeDoor": "2014-08-09T23:55:00Z"
     },
     {
       "concertId": "263627",
@@ -4704,9 +4759,9 @@
       ],
       "venueId": "707610",
       "description": null,
-      "timeStart": "2014-08-10T04:10:00Z",
-      "timeEnd": "2014-08-10T05:00:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T23:10:00Z",
+      "timeEnd": "2014-08-10T00:00:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "263669",
@@ -4715,8 +4770,8 @@
       ],
       "venueId": "707642",
       "description": null,
-      "timeStart": "2014-08-10T04:10:00Z",
-      "timeEnd": "2014-08-10T05:00:00Z",
+      "timeStart": "2014-08-09T23:10:00Z",
+      "timeEnd": "2014-08-10T00:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4726,8 +4781,8 @@
       ],
       "venueId": "707639",
       "description": null,
-      "timeStart": "2014-08-10T04:20:00Z",
-      "timeEnd": "2014-08-10T05:10:00Z",
+      "timeStart": "2014-08-09T23:20:00Z",
+      "timeEnd": "2014-08-10T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4737,9 +4792,9 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-10T04:20:00Z",
-      "timeEnd": "2014-08-10T05:10:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T23:20:00Z",
+      "timeEnd": "2014-08-10T00:10:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "262437",
@@ -4748,8 +4803,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-10T04:20:00Z",
-      "timeEnd": "2014-08-10T05:10:00Z",
+      "timeStart": "2014-08-09T23:20:00Z",
+      "timeEnd": "2014-08-10T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4759,8 +4814,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-10T04:20:00Z",
-      "timeEnd": "2014-08-10T05:10:00Z",
+      "timeStart": "2014-08-09T23:20:00Z",
+      "timeEnd": "2014-08-10T00:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4770,9 +4825,9 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-10T04:35:00Z",
-      "timeEnd": "2014-08-10T05:25:00Z",
-      "timeDoor": "2014-08-09T05:05:00Z"
+      "timeStart": "2014-08-09T23:35:00Z",
+      "timeEnd": "2014-08-10T00:25:00Z",
+      "timeDoor": "2014-08-09T00:05:00Z"
     },
     {
       "concertId": "262439",
@@ -4781,8 +4836,8 @@
       ],
       "venueId": "707613",
       "description": null,
-      "timeStart": "2014-08-10T04:35:00Z",
-      "timeEnd": "2014-08-10T05:25:00Z",
+      "timeStart": "2014-08-09T23:35:00Z",
+      "timeEnd": "2014-08-10T00:25:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4792,9 +4847,9 @@
       ],
       "venueId": "707614",
       "description": null,
-      "timeStart": "2014-08-10T04:40:00Z",
-      "timeEnd": "2014-08-10T05:30:00Z",
-      "timeDoor": "2014-08-09T05:00:00Z"
+      "timeStart": "2014-08-09T23:40:00Z",
+      "timeEnd": "2014-08-10T00:30:00Z",
+      "timeDoor": "2014-08-09T00:00:00Z"
     },
     {
       "concertId": "265044",
@@ -4803,9 +4858,9 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-10T04:50:00Z",
-      "timeEnd": "2014-08-10T05:40:00Z",
-      "timeDoor": "2014-08-10T04:55:00Z"
+      "timeStart": "2014-08-09T23:50:00Z",
+      "timeEnd": "2014-08-10T00:40:00Z",
+      "timeDoor": "2014-08-09T23:55:00Z"
     },
     {
       "concertId": "265479",
@@ -4814,8 +4869,8 @@
       ],
       "venueId": "707621",
       "description": null,
-      "timeStart": "2014-08-10T17:00:00Z",
-      "timeEnd": "2014-08-10T17:50:00Z",
+      "timeStart": "2014-08-10T12:00:00Z",
+      "timeEnd": "2014-08-10T12:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4825,8 +4880,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-10T17:00:00Z",
-      "timeEnd": "2014-08-10T17:50:00Z",
+      "timeStart": "2014-08-10T12:00:00Z",
+      "timeEnd": "2014-08-10T12:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4836,8 +4891,19 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-10T17:30:00Z",
-      "timeEnd": "2014-08-10T18:20:00Z",
+      "timeStart": "2014-08-10T12:30:00Z",
+      "timeEnd": "2014-08-10T13:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "265582",
+      "artists": [
+        "335741"
+      ],
+      "venueId": "707642",
+      "description": null,
+      "timeStart": "2014-08-10T13:00:00Z",
+      "timeEnd": "2014-08-10T13:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4847,8 +4913,8 @@
       ],
       "venueId": "707604",
       "description": null,
-      "timeStart": "2014-08-10T18:10:00Z",
-      "timeEnd": "2014-08-10T19:00:00Z",
+      "timeStart": "2014-08-10T13:10:00Z",
+      "timeEnd": "2014-08-10T14:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4858,9 +4924,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-10T18:30:00Z",
-      "timeEnd": "2014-08-10T19:20:00Z",
-      "timeDoor": "2014-08-10T05:00:00Z"
+      "timeStart": "2014-08-10T13:30:00Z",
+      "timeEnd": "2014-08-10T14:20:00Z",
+      "timeDoor": "2014-08-10T00:00:00Z"
     },
     {
       "concertId": "262531",
@@ -4869,9 +4935,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-10T18:30:00Z",
-      "timeEnd": "2014-08-10T19:20:00Z",
-      "timeDoor": "2014-08-11T03:45:00Z"
+      "timeStart": "2014-08-10T13:30:00Z",
+      "timeEnd": "2014-08-10T14:20:00Z",
+      "timeDoor": "2014-08-10T22:45:00Z"
     },
     {
       "concertId": "265351",
@@ -4880,8 +4946,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-10T18:30:00Z",
-      "timeEnd": "2014-08-10T19:20:00Z",
+      "timeStart": "2014-08-10T13:30:00Z",
+      "timeEnd": "2014-08-10T14:20:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4891,8 +4957,8 @@
       ],
       "venueId": "707640",
       "description": null,
-      "timeStart": "2014-08-10T18:40:00Z",
-      "timeEnd": "2014-08-10T19:30:00Z",
+      "timeStart": "2014-08-10T13:40:00Z",
+      "timeEnd": "2014-08-10T14:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4902,8 +4968,8 @@
       ],
       "venueId": "707600",
       "description": null,
-      "timeStart": "2014-08-10T18:45:00Z",
-      "timeEnd": "2014-08-10T19:35:00Z",
+      "timeStart": "2014-08-10T13:45:00Z",
+      "timeEnd": "2014-08-10T14:35:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4913,8 +4979,8 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-10T19:00:00Z",
-      "timeEnd": "2014-08-10T19:50:00Z",
+      "timeStart": "2014-08-10T14:00:00Z",
+      "timeEnd": "2014-08-10T14:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4924,8 +4990,8 @@
       ],
       "venueId": "707608",
       "description": null,
-      "timeStart": "2014-08-10T19:00:00Z",
-      "timeEnd": "2014-08-10T19:50:00Z",
+      "timeStart": "2014-08-10T14:00:00Z",
+      "timeEnd": "2014-08-10T14:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4935,9 +5001,9 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-10T19:15:00Z",
-      "timeEnd": "2014-08-10T20:05:00Z",
-      "timeDoor": "2014-08-10T05:00:00Z"
+      "timeStart": "2014-08-10T14:15:00Z",
+      "timeEnd": "2014-08-10T15:05:00Z",
+      "timeDoor": "2014-08-10T00:00:00Z"
     },
     {
       "concertId": "262529",
@@ -4946,9 +5012,9 @@
       ],
       "venueId": "707611",
       "description": null,
-      "timeStart": "2014-08-10T19:40:00Z",
-      "timeEnd": "2014-08-10T20:30:00Z",
-      "timeDoor": "2014-08-10T05:10:00Z"
+      "timeStart": "2014-08-10T14:40:00Z",
+      "timeEnd": "2014-08-10T15:30:00Z",
+      "timeDoor": "2014-08-10T00:10:00Z"
     },
     {
       "concertId": "262532",
@@ -4957,9 +5023,9 @@
       ],
       "venueId": "707627",
       "description": null,
-      "timeStart": "2014-08-10T19:40:00Z",
-      "timeEnd": "2014-08-10T20:30:00Z",
-      "timeDoor": "2014-08-11T03:55:00Z"
+      "timeStart": "2014-08-10T14:40:00Z",
+      "timeEnd": "2014-08-10T15:30:00Z",
+      "timeDoor": "2014-08-10T22:55:00Z"
     },
     {
       "concertId": "265313",
@@ -4968,8 +5034,8 @@
       ],
       "venueId": "709932",
       "description": null,
-      "timeStart": "2014-08-10T19:40:00Z",
-      "timeEnd": "2014-08-10T20:30:00Z",
+      "timeStart": "2014-08-10T14:40:00Z",
+      "timeEnd": "2014-08-10T15:30:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4979,8 +5045,8 @@
       ],
       "venueId": "707607",
       "description": null,
-      "timeStart": "2014-08-10T20:10:00Z",
-      "timeEnd": "2014-08-10T21:00:00Z",
+      "timeStart": "2014-08-10T15:10:00Z",
+      "timeEnd": "2014-08-10T16:00:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -4990,8 +5056,8 @@
       ],
       "venueId": "707609",
       "description": null,
-      "timeStart": "2014-08-10T20:25:00Z",
-      "timeEnd": "2014-08-10T21:15:00Z",
+      "timeStart": "2014-08-10T15:25:00Z",
+      "timeEnd": "2014-08-10T16:15:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     }
   ]

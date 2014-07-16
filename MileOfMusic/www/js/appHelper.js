@@ -26,8 +26,62 @@ mileOfMusicApp.factory('appHelper', function () {
         return value;
     };
 
+    var openMapsUrl = function (address, city, state)
+    {
+        openUrlInNewWindow('https://www.google.com/maps/place/' + address + ',' + city + ',' + state);
+    }
+    var openWebsiteUrl = function (url) {
+        url = checkWebSiteUrl(url);
+        openUrlInNewWindow(url);
+    }
+    var openTwitterSite = function (twitterHandle) {
+        var url = 'http://www.twitter.com/' + twitterHandle;
+        openUrlInNewWindow(url);
+    }
+    var openInstagramSite = function (instagramHandle) {
+        var url = 'http://www.instagram.com/' + instagramHandle;
+        openUrlInNewWindow(url);
+    }
+
+    var openFacebookSite = function (faceBook) {
+        var url = checkWebSiteUrl(faceBook);
+        openUrlInNewWindow(url);
+    }
+
+    var openUrlInNewWindow = function(url)
+    {
+        openURL(url);
+    }
+
+    var checkWebSiteUrl = function(urlToCheck) {
+        if (urlToCheck.toLowerCase().indexOf('http://') == -1) {
+
+            if (urlToCheck.toLowerCase().indexOf('https://') == -1) {
+                urlToCheck = 'http://' + urlToCheck;
+            }
+        }
+
+        return urlToCheck;
+    }
     return {
         buildIndex: buildIndex,
-        lookup: lookup
+        lookup: lookup,
+        openWebsiteUrl: openWebsiteUrl,
+        openTwitterSite: openTwitterSite,
+        openInstagramSite: openInstagramSite,
+        openFacebookSite: openFacebookSite,
+        openMapsUrl: openMapsUrl
+    };
+}).factory('notificationFactory', function () {
+    return {
+        success: function (text) {
+            toastr.success(text, "Success");
+        },
+        info: function (text) {
+            toastr.info(text, "Info");
+        },
+        error: function (text) {
+            toastr.error(text, "Error");
+        }
     };
 });

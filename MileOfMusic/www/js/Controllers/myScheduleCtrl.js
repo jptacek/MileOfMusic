@@ -8,21 +8,7 @@ mileOfMusicApp.controller('myScheduleController',
 
 
             $scope.removeFavorite = function (concertId) {
-                try {
-                    var result = myScheduleData.removeConcertFromMySchedule(concertId);
-                    if (result) {
-                        toastr["success"]("Concert has been removed to your schedule.", "Success");
-                        myScheduleData.getMySchedule().then(function (result) {
-                            $scope.mySchedule = result;
-                        });
-                    }
-                    else {
-                        toastr["info"]("Concert was not in your schedule.", "Already Removed");
-                    }
-                }
-                catch (err) {
-                    toastr["error"](err.message, "Error");
-                }
+                myScheduleData.removeFavorite(concertId);
             };
             
             $scope.clearSchedule = function () {
