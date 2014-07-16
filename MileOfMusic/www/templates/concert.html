@@ -27,8 +27,8 @@
 </div> 
 <div>       
     Venue: <a data-ng-href="#/venue/{{selectedConcert.venue.venueId}}">{{selectedConcert.venue.venueName}}</a><br />
-    Address: {{selectedConcert.venue.address}}<br />
-    Genre:{{selectedConcert.artist.genre}}<br />      
+    Address: <a ng-click="openMapsURL()">{{selectedConcert.venue.address}}</a><br />
+    Genre:{{selectedConcert.artist.genre}}<br />
 </div>
 <div>
     <div class="post-thumb">

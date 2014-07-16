@@ -1,5 +1,5 @@
 mileOfMusicApp.controller('concertController',
-    function ($scope, $log, $routeParams, concertData, artistData, venueData, myScheduleData,CordovaService) {
+    function ($scope, $log, $routeParams, concertData, artistData, venueData, appHelper,myScheduleData,CordovaService) {
 
         CordovaService.ready.then(function() {
 
@@ -25,6 +25,11 @@ mileOfMusicApp.controller('concertController',
             $scope.saveFavorite = function (concertId) {
                 myScheduleData.saveFavorite(concertId);
             };
+
+            $scope.openMapsURL = function () {
+                appHelper.openMapsUrl($scope.selectedConcert.venue.address, $scope.selectedConcert.venue.city, $scope.selectedConcert.venue.state);
+            }
+
         });
 
     });
