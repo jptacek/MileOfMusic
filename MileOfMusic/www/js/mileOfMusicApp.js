@@ -23,7 +23,7 @@ angular.module('fsCordova', ['ngTouch', 'ngResource'])
         }]);
 
 mileOfMusicApp = angular.module('mileOfMusicApp', ['fsCordova', 'ngRoute', 'LocalStorageModule']).run(function() {
-    FastClick.attach(document.body);
+    //FastClick.attach(document.body);
 }).
     config(function($routeProvider) {
         $routeProvider

@@ -8,99 +8,103 @@
 </div>
 
 <div>
-    <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" data-ng-click="setSelectedTab(1);">Info</a></li>
-        <li><a data-toggle="tab" data-ng-click="setSelectedTab(2);">Schedule</a></li>
-    </ul>
+    <tabset>
+        <tab heading="Info">Static content</tab>
+        <tab heading="Schedule">Schedule</tab>
+     </tabset>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" data-ng-click="setSelectedTab(1);">Info</a></li>
+            <li><a data-toggle="tab" data-ng-click="setSelectedTab(2);">Schedule</a></li>
+        </ul>
 
-    <div data-ng-show="shouldShowTab(1)">
-        <!-- This is the INFO tab -->
-        <h3>
-            {{selectedArtist.homebase}}  //  {{selectedArtist.genre}}
-        </h3>
-        <div>
-            {{selectedArtist.description}}
-        </div>
-        <div class="social-section ">
-            <!-- This is the SocialSection -->
-            <div class="divided-sections" data-ng-show="selectedArtist.twitter.length > 0">
-                <a href="#" ng-click="openTwitterURL()">
-                    <img src="img/icon-twitter.png" class="socialicons" alt="Twitter" />
-                    {{selectedArtist.twitter}}
-                </a>
+        <div data-ng-show="shouldShowTab(1)">
+            <!-- This is the INFO tab -->
+            <h3>
+                {{selectedArtist.homebase}}  //  {{selectedArtist.genre}}
+            </h3>
+            <div>
+                {{selectedArtist.description}}
             </div>
-            <div class="divided-sections" data-ng-show="selectedArtist.facebook.length > 0">
-                <a href="#" ng-click="openFacebookURL()">
-                    <img src="img/icon-facebook.png" class="socialicons" alt="Facebook" />
-                    Facebook
-                </a>
-            </div>
-            <div class="divided-sections" data-ng-show="selectedArtist.instagram.length > 0">
-                <a href="#" ng-click="openInstagramURL()">
-                    <img src="img/icon-instagram.png" class="socialicons" alt="Instagram" />
-                    {{selectedArtist.instagram}}
-                </a>
-            </div>
-            <div class="divided-sections" data-ng-show="selectedArtist.url.length > 0">
-                <a href="#" ng-click="openBandURL()">
-                    <img src="img/icon-home.png" class="socialicons" alt="Homepage" />
-                    Band Page
-                </a>
-            </div>
-        </div>
-
-        <div data-ng-show="music.length > 0">
-            <h3>Sample Music</h3>
-            <div data-ng-repeat="item in music">
-                <div style="width: 100%; height: 110px;" class="divided-sections-music">
-                    <div style="float: left; position: absolute">
-                        <img data-ng-src="{{item.imageUrl}}" alt="{{item.name}}" />
-                        <div style="margin-top: 5px;" data-ng-bind-html="item.audio"></div>
-                    </div>
-                    <div style="margin-left: 80px;">
-                        <i>{{item.album}}</i><br />
-                        {{item.name}}<br />
-                    </div>
+            <div class="social-section ">
+                <!-- This is the SocialSection -->
+                <div class="divided-sections" data-ng-show="selectedArtist.twitter.length > 0">
+                    <a href="#" ng-click="openTwitterURL()">
+                        <img src="img/icon-twitter.png" class="socialicons" alt="Twitter" />
+                        {{selectedArtist.twitter}}
+                    </a>
+                </div>
+                <div class="divided-sections" data-ng-show="selectedArtist.facebook.length > 0">
+                    <a href="#" ng-click="openFacebookURL()">
+                        <img src="img/icon-facebook.png" class="socialicons" alt="Facebook" />
+                        Facebook
+                    </a>
+                </div>
+                <div class="divided-sections" data-ng-show="selectedArtist.instagram.length > 0">
+                    <a href="#" ng-click="openInstagramURL()">
+                        <img src="img/icon-instagram.png" class="socialicons" alt="Instagram" />
+                        {{selectedArtist.instagram}}
+                    </a>
+                </div>
+                <div class="divided-sections" data-ng-show="selectedArtist.url.length > 0">
+                    <a href="#" ng-click="openBandURL()">
+                        <img src="img/icon-home.png" class="socialicons" alt="Homepage" />
+                        Band Page
+                    </a>
                 </div>
             </div>
-        </div>
 
-    </div>
-    
-    <div data-ng-show="shouldShowTab(2)">
-        <!-- This is the Schedule tab -->
-        <div data-ng-show="concertListForArtist == null">
-            <p>
-                <br />
-                There are currently no concerts scheduled for this artist
-                <br />
-                Please check back later
-            </p>
-        </div>
-        <div class="mom-list-schedule" data-ng-repeat="concert in concertListForArtist | orderBy:'artistNameSort'">
-
-            <div class="mom-list-schedule-item divided-sections">
-                <div class="post-container">
-                    <div class="post-thumb">
-                        <div data-ng-show="checkSchedule(concert.concertId)">
-                            <!-- Add favorite -->
-                            <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+            <div data-ng-show="music.length > 0">
+                <h3>Sample Music</h3>
+                <div data-ng-repeat="item in music">
+                    <div style="width: 100%; height: 110px;" class="divided-sections-music">
+                        <div style="float: left; position: absolute">
+                            <img data-ng-src="{{item.imageUrl}}" alt="{{item.name}}" />
+                            <div style="margin-top: 5px;" data-ng-bind-html="item.audio"></div>
                         </div>
-                        <div data-ng-hide="checkSchedule(concert.concertId)">
-                            <!-- Remove favorite -->
-                            <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                        <div style="margin-left: 80px;">
+                            <i>{{item.album}}</i><br />
+                            {{item.name}}<br />
                         </div>
-                    </div>
-                    <div class="post-content">
-                        <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
-                            <p class="bold">@{{concert.venue.venueName}}</p>
-                            <p>{{concert.timeStart|date:'EEE M/d/yy'}}<br />{{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
-                        </a>
                     </div>
                 </div>
             </div>
 
         </div>
-    </div>
+
+        <div data-ng-show="shouldShowTab(2)">
+            <!-- This is the Schedule tab -->
+            <div data-ng-show="concertListForArtist == null">
+                <p>
+                    <br />
+                    There are currently no concerts scheduled for this artist
+                    <br />
+                    Please check back later
+                </p>
+            </div>
+            <div class="mom-list-schedule" data-ng-repeat="concert in concertListForArtist | orderBy:'artistNameSort'">
+
+                <div class="mom-list-schedule-item divided-sections">
+                    <div class="post-container">
+                        <div class="post-thumb">
+                            <div data-ng-show="checkSchedule(concert.concertId)">
+                                <!-- Add favorite -->
+                                <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+                            </div>
+                            <div data-ng-hide="checkSchedule(concert.concertId)">
+                                <!-- Remove favorite -->
+                                <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <a class="mom-list-schedule-item-label" data-ng-href="#/concert/{{concert.concertId}}">
+                                <p class="bold">@{{concert.venue.venueName}}</p>
+                                <p>{{concert.timeStart|date:'EEE M/d/yy'}}<br />{{concert.timeStart|date:'h:mm a'}} - {{concert.timeEnd|date:'h:mm a'}}</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 </div>
