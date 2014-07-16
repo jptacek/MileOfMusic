@@ -33,8 +33,7 @@ mileOfMusicApp.controller('venueController',
             }
 
             $scope.openMapsURL = function () {
-                appHelper.openMapsURL($scope.selectedVenue.address, $scope.selectedVenue.city, $scope.selectedVenue.state);
-                //openURL('https://www.google.com/maps/place/' + $scope.selectedVenue.address + ',' + $scope.selectedVenue.city + ',' + $scope.selectedVenue.state);
+                appHelper.openMapsUrl($scope.selectedVenue.address, $scope.selectedVenue.city, $scope.selectedVenue.state);
             }
 
 
