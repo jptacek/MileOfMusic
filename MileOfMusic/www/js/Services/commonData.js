@@ -100,7 +100,7 @@
                         {
                             fileTransfer.download(
                                 uri,
-                                "cdvfile://localhost/persistent" + targetDirectory + "/" + localItem[idProperty] + ".jpg",
+                                "cdvfile://localhost/persistent/" + targetDirectory + "/" + localItem[idProperty] + ".jpg",
                                 function (entry) {
                                     localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
                                 },
