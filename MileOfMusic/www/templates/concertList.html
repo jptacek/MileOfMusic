@@ -1,48 +1,62 @@
 <div>
     <!--<h3>Schedule</h3>-->
-<div data-ng-show="isLoading" style="float: right;  right: 20px" ><img src="img/spinner.gif" alt="Loading..." /></div>
+    <div data-ng-show="isLoading" style="float: right;  right: 20px"><img src="img/spinner.gif" alt="Loading..." /></div>
 
     <div class="input-group">
         <input type="text" data-ng-model="searchText" class="form-control" placeholder="Search" /> <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
     </div>
 
     <br />
+    <tabset>
+        <tab heading="THU (8/7)">
+            kitth
+        </tab>
+        <tab heading="Fri (8/8)">
+            cats
+        </tab>
+        <tab heading="Sat (8/9)">
+            white
+        </tab>
+        <tab heading="Sun (8/10)">
+            sox
+        </tab>
+    </tabset>
 
-    <div id="concerts">
+            <div id="concerts">
 
-        <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" data-ng-click="setSelectedTab(1);">THU<br />8/7</a></li>
-            <li><a data-toggle="tab" data-ng-click="setSelectedTab(2);">FRI<br />8/8</a></li>
-            <li><a data-toggle="tab" data-ng-click="setSelectedTab(3);">SAT<br />8/9</a></li>
-            <li><a data-toggle="tab" data-ng-click="setSelectedTab(4);">SUN<br />8/10</a></li>
-        </ul>
-<div class="mom-list-schedule">
-        <div class="mom-list-schedule-item divided-sections" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueNameSort','venue.genre']">
-            <div class="post-container">
-                <div class="post-thumb">
-                            <div data-ng-show="checkSchedule(concert.concertId)">
-                                <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" data-ng-click="setSelectedTab(1);">THU<br />8/7</a></li>
+                    <li><a data-toggle="tab" data-ng-click="setSelectedTab(2);">FRI<br />8/8</a></li>
+                    <li><a data-toggle="tab" data-ng-click="setSelectedTab(3);">SAT<br />8/9</a></li>
+                    <li><a data-toggle="tab" data-ng-click="setSelectedTab(4);">SUN<br />8/10</a></li>
+                </ul>
+                <div class="mom-list-schedule">
+                    <div class="mom-list-schedule-item divided-sections" data-ng-repeat="concert in currentShows | filter:searchText | orderBy:['timeStart','venue.venueNameSort','venue.genre']">
+                        <div class="post-container">
+                            <div class="post-thumb">
+                                <div data-ng-show="checkSchedule(concert.concertId)">
+                                    <a class="mom-list-schedule-item-add-favorite" data-ng-href="" data-ng-click="saveFavorite(concert.concertId)"></a>
+                                </div>
+                                <div data-ng-hide="checkSchedule(concert.concertId)">
+                                    <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
+                                </div>
                             </div>
-                            <div data-ng-hide="checkSchedule(concert.concertId)">
-                                <a class="mom-list-schedule-item-remove-favorite" data-ng-href="" data-ng-click="removeFavorite(concert.concertId)"></a>
-                            </div>
-                        </div>
-            <a data-ng-href="#/concert/{{concert.concertId}}">
-                
-                <div class="post-content">
-                    <div class="bold">
-                        <div data-ng-repeat="artist in concert.artistData">
-                            {{artist.artistName}}<br />
+                            <a data-ng-href="#/concert/{{concert.concertId}}">
+
+                                <div class="post-content">
+                                    <div class="bold">
+                                        <div data-ng-repeat="artist in concert.artistData">
+                                            {{artist.artistName}}<br />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} <br />@{{concert.venue.venueName}}</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                    <div>
-                        <p>{{concert.timeStart|date:'mediumDate'}} {{concert.timeStart|date:'shortTime'}} <br />@{{concert.venue.venueName}}</p>
-                    </div>
                 </div>
-            </a>
-                </div>
-        </div>
-       </div>        
-    </div>
+            </div>
 </div>
 

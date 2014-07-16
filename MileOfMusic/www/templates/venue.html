@@ -12,26 +12,19 @@
         {{selectedVenue.venueName}}
     </div>
 </div>
-
-<div>
-
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="" data-toggle="tab" data-ng-click="setSelectedTab(1);">Info</a></li>
-        <li><a href="" data-toggle="tab" data-ng-click="setSelectedTab(2);">Schedule</a></li>
-    </ul>
-
-    <div data-ng-show="shouldShowTab(1)">
+<tabset>
+    <tab heading="Info">
         <!-- This is the INFO tab -->
         <div class="padding" data-ng-show="selectedVenue.description.length > 0">
             {{selectedVenue.description}}
         </div>
         <div class="padding" data-ng-show="selectedVenue.address.length > 0">
             <a href="#" ng-click="openMapsURL()">
-                    {{selectedVenue.address}}
-                    <br />
-                    {{selectedVenue.city}}, {{selectedVenue.state}} {{selectedVenue.zip}}
-                </a>
-</div>
+                {{selectedVenue.address}}
+                <br />
+                {{selectedVenue.city}}, {{selectedVenue.state}} {{selectedVenue.zip}}
+            </a>
+        </div>
         <div data-ng-show="selectedVenue.phone.length > 0">
             <a data-ng-href="tel:{{selectedVenue.phone}}">{{selectedVenue.phone}}</a>
         </div>
@@ -79,9 +72,8 @@
             </div>
         </div>
 
-    </div>
-
-    <div data-ng-show="shouldShowTab(2)">
+    </tab>
+    <tab heading="Schedule">
         <!-- This is the Schedule tab -->
         <!--   <p>Enjoy these concerts at {{selectedVenue.venueName}}:</p>-->
         <div data-ng-show="shows == null">
@@ -118,7 +110,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </tab>
+</tabset>
 
-
-</div>

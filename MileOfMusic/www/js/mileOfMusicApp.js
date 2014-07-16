@@ -1,4 +1,4 @@
-angular.module('fsCordova', ['ngTouch', 'ngResource'])
+angular.module('fsCordova', ['ngTouch', 'ngResource', 'ui.bootstrap'])
     .service('CordovaService', ['$document', '$q',
         function($document, $q) {
 
