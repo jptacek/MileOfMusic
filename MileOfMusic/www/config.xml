@@ -2,7 +2,7 @@
 <widget id="com.SkylineTechnologies.Mile"
         xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        version="0.9.02"
+        version="1.0.1"
     >
   <name>Mile Of Music</name>
 
