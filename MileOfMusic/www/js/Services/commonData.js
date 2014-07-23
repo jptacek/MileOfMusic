@@ -23,6 +23,7 @@
             $http.jsonp(versionUrl).then(function (result) {
                 var myVersion = localStorage.getItem(versionKey);
                 if (data == null || myVersion == null || JSON.parse(myVersion).Version != result.data.Version) {
+
                     // New version, so go download new JSON
                     $http.jsonp(dataUrl).then(function (dataResult) {
 
@@ -79,7 +80,7 @@
 
     var checkForMissingImages = function (data, idProperty, targetDirectory, photoUrlLocalProperty, photoUrlRemoteProperty, photoUrlProperty) {
         var deferred = $q.defer();
-        $log.info('checking for new image');
+
         photoUrlLocalProperty = photoUrlLocalProperty == null ? "photoUrlLocal" : photoUrlLocalProperty;
         photoUrlRemoteProperty = photoUrlRemoteProperty == null ? "photoUrlRemote" : photoUrlRemoteProperty;
         photoUrlProperty = photoUrlProperty == null ? "photoUrl" : photoUrlProperty;
@@ -90,39 +91,39 @@
                 url: localItem[photoUrlLocalProperty],
                 type: 'HEAD',
                 error: function () {
-                    localItem[photoUrlProperty] = localItem[photoUrlRemoteProperty];
-                    try {
-                        var fileTransfer = new FileTransfer();
-                        var uri = encodeURI(localItem[photoUrlRemoteProperty]);
+                    localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
+                    
+                    //localItem[photoUrlProperty] = localItem[photoUrlRemoteProperty];
+                    //try {
+                    //    var fileTransfer = new FileTransfer();
+                    //    var uri = encodeURI(localItem[photoUrlRemoteProperty]);
                         
-                        try
-                        {
-                            fileTransfer.download(
-                                uri,
-                                "cdvfile://localhost/persistent/" + targetDirectory + "/" + localItem[idProperty] + ".jpg",
-                                function (entry) {
-                                    $log.info('getting new image');
-
-                                    localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
-                                },
-                                function (error) {
-                                    $log.error(error);
-                                    fileTransfer.download(
-                                       uri,
-                                       targetDirectory + "/" + localItem[idProperty] + ".jpg",
-                                       function (entry) {
-                                           localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
-                                       },
-                                       function (error) {
-                                           $log.error(error);
-                                       }
-                                   );
-                                }
-                            );
-                        }
-                        catch (err) { }
-                    }
-                    catch (err) { $log.error(err); }
+                    //    try
+                    //    {
+                    //        fileTransfer.download(
+                    //            uri,
+                    //            "cdvfile://localhost/persistent/" + targetDirectory + "/" + localItem[idProperty] + ".jpg",
+                    //            function (entry) {
+                    //                localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
+                    //            },
+                    //            function (error) {
+                    //                $log.error(error);
+                    //                fileTransfer.download(
+                    //                   uri,
+                    //                   targetDirectory + "/" + localItem[idProperty] + ".jpg",
+                    //                   function (entry) {
+                    //                       localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
+                    //                   },
+                    //                   function (error) {
+                    //                       $log.error(error);
+                    //                   }
+                    //               );
+                    //            }
+                    //        );
+                    //    }
+                    //    catch (err) { }
+                    //}
+                    //catch (err) { $log.error(err); }
                 },
                 success: function () {
                     localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
