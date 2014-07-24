@@ -1112,6 +1112,17 @@
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
+      "concertId": "262879",
+      "artists": [
+        "340838"
+      ],
+      "venueId": "707597",
+      "description": null,
+      "timeStart": "2014-08-08T18:10:00Z",
+      "timeEnd": "2014-08-08T19:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
       "concertId": "262576",
       "artists": [
         "336989"
@@ -1321,6 +1332,17 @@
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
+      "concertId": "266456",
+      "artists": [
+        "341433"
+      ],
+      "venueId": "707632",
+      "description": null,
+      "timeStart": "2014-08-08T19:10:00Z",
+      "timeEnd": "2014-08-08T20:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
       "concertId": "262826",
       "artists": [
         "335731"
@@ -1348,6 +1370,17 @@
         "338033"
       ],
       "venueId": "707613",
+      "description": null,
+      "timeStart": "2014-08-08T19:30:00Z",
+      "timeEnd": "2014-08-08T20:20:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "266450",
+      "artists": [
+        "341432"
+      ],
+      "venueId": "707617",
       "description": null,
       "timeStart": "2014-08-08T19:30:00Z",
       "timeEnd": "2014-08-08T20:20:00Z",
@@ -5270,6 +5303,18 @@
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
+      "concertId": "266451",
+      "artists": [
+        "340709",
+        "338253"
+      ],
+      "venueId": "707619",
+      "description": null,
+      "timeStart": "2014-08-10T18:00:00Z",
+      "timeEnd": "2014-08-10T18:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
       "concertId": "265582",
       "artists": [
         "335741"
@@ -5421,6 +5466,17 @@
       "description": null,
       "timeStart": "2014-08-10T18:45:00Z",
       "timeEnd": "2014-08-10T19:35:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "266452",
+      "artists": [
+        "341465"
+      ],
+      "venueId": "707619",
+      "description": null,
+      "timeStart": "2014-08-10T19:00:00Z",
+      "timeEnd": "2014-08-10T19:50:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
