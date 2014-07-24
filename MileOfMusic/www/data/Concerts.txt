@@ -375,9 +375,9 @@
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
-      "concertId": "262380",
+      "concertId": "262377",
       "artists": [
-        "338176"
+        "338302"
       ],
       "venueId": "707639",
       "description": null,
@@ -716,9 +716,9 @@
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
-      "concertId": "262377",
+      "concertId": "262380",
       "artists": [
-        "338302"
+        "338176"
       ],
       "venueId": "707639",
       "description": null,
@@ -1131,6 +1131,17 @@
       "description": null,
       "timeStart": "2014-08-08T18:10:00Z",
       "timeEnd": "2014-08-08T19:00:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "266449",
+      "artists": [
+        "342162"
+      ],
+      "venueId": "707617",
+      "description": null,
+      "timeStart": "2014-08-08T18:20:00Z",
+      "timeEnd": "2014-08-08T19:10:00Z",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {
@@ -5223,6 +5234,17 @@
       "description": null,
       "timeStart": "2014-08-10T17:00:00Z",
       "timeEnd": "2014-08-10T17:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "266221",
+      "artists": [
+        "342286"
+      ],
+      "venueId": "707628",
+      "description": null,
+      "timeStart": "2014-08-10T17:00:00Z",
+      "timeEnd": "0001-01-01T00:00:00",
       "timeDoor": "0001-01-01T00:00:00"
     },
     {

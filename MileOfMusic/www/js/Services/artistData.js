@@ -13,7 +13,7 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
     var getArtists = function () {
         var deferred = $q.defer();
 
-        var checkForMissingImages = function (result) { return commonData.checkForMissingImages(result.artists, "artistId", "artstImages"); }
+        var checkForMissingImages = function (result) { return commonData.checkForMissingImages(result.artists, "artistId", "artistImages"); }
 
         // if the list is not in cache, then build it
         commonData.getRemoteData(storageKey_getArtists, versionUrl, dataUrl, function () { cache_getArtist = null; }, checkForMissingImages, function () { return cache_artistList; }).then(function (result) {
