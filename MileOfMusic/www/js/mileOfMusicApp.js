@@ -122,7 +122,7 @@ mileOfMusicApp.factory("$exceptionHandler", [ '$injector', function ( $injector)
             //errorStack = new Error(),
             error = exception;//+ ' ' + (errorStack.stack == undefined ? '' : errorStack.stack),
 
-       alert('error: ' + error );
+       //alert('error: ' + error );
             var $location = $injector.get('$location');
             $location.path('/error');
         
@@ -138,7 +138,7 @@ mileOfMusicApp.factory('HttpResponseInterceptor', [ '$q', '$location', '$injecto
             var url = 'api/error',
                 resource = $injector.get('$resource'),
                 errorResource = resource(url);
-            alert('HttpResponseInterceptor: ');
+            //alert('HttpResponseInterceptor: ');
                 $location.path('/error');
                 return $q.reject(rejection);
             //errorResource.save(url, angular.toJson(rejection)).$promise.then(function () {
