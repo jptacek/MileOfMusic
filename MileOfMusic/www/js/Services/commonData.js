@@ -4,11 +4,19 @@
         if (navigator != null && navigator.network != null && navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
         //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
             alert('no netowrk');
+            alert('navigator == null ' + (navigator != null).toString() );
+            alert('navigator.network != null ' + (navigator.network != null ));
+            alert('navigator.network.connection != null  ' + (navigator.network.connection != null ));
+            alert('navigator.network.connection.type  ' + navigator.network.connection.type);
             notificationFactory.error("No network connection detected. Cannot display page without a connection.");
             deferred.reject();
         }
         else {
             alert(' netowrk');
+            alert('navigator == null ' + (navigator != null).toString() );
+            alert('navigator.network != null ' + (navigator.network != null ));
+            alert('navigator.network.connection != null  ' + (navigator.network.connection != null ));
+            alert('navigator.network.connection.type  ' + navigator.network.connection.type);
 
             var dataKey = storageKey;
             var versionKey = storageKey + "-version";
