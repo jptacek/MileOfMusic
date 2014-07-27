@@ -9,7 +9,15 @@
             alert('navigator.network.connection != null  ' + (navigator.network.connection !== undefined ));
             alert('navigator.network.connection.type  ' + navigator.network.connection.type);
             notificationFactory.error("No network connection detected. Cannot display page without a connection.");
-            deferred.reject();
+            // Pull from cache
+            localStorage.setItem(versionDateKey, new Date().toString());
+
+            var jsonData = null;
+            if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+            if (jsonData == null) {
+                jsonData = JSON.parse(data);
+            }
+            deferred.resolve(jsonData);
         }
         else {
             alert(' netowrk');
