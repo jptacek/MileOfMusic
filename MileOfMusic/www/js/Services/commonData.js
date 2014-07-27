@@ -1,7 +1,7 @@
 ﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper, notificationFactory) {
     var getRemoteData = function (storageKey, versionUrl, dataUrl, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
         var deferred = $q.defer();
-        if (navigator != null && navigator.network != null && navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
+        if (navigator !== null && navigator.network !== null && navigator.network.connection !== null && navigator.network.connection.type == Connection.NONE) {
         //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
             alert('no netowrk');
             alert('navigator == null ' + (navigator != null).toString() );
