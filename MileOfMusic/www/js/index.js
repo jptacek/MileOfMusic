@@ -33,6 +33,9 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // Jennifer Wagman Hagerfunction, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+        var conn = checkConnection();
+        alert("Connection:"+conn);
+
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
@@ -46,3 +49,14 @@ var app = {
 
     }
 };
+function checkConnection(){
+    var networkState;
+    var test = cordova.exec(
+        function(winParam) {networkState = winParam;},
+        function(error) {alert("Network Manager error: "+error);},
+        "NetworkStatus",
+        "getConnectionInfo",
+        []
+    );
+    return networkState;
+}
