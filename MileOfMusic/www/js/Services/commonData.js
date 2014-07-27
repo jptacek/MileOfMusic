@@ -3,10 +3,12 @@
         var deferred = $q.defer();
         if (navigator != null && navigator.network != null && navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
         //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
+            alert('no netowrk');
             notificationFactory.error("No network connection detected. Cannot display page without a connection.");
             deferred.reject();
         }
         else {
+            alert(' netowrk');
 
             var dataKey = storageKey;
             var versionKey = storageKey + "-version";
