@@ -1,21 +1,21 @@
 ﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper, notificationFactory) {
     var getRemoteData = function (storageKey, versionUrl, dataUrl, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
         var deferred = $q.defer();
-        if (navigator !== null && navigator.network !== null && navigator.network.connection !== null && navigator.network.connection.type == Connection.NONE) {
+        if (navigator !== undefined && navigator.network !== undefined && navigator.network.connection !== undefined && navigator.network.connection.type == Connection.NONE) {
         //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
             alert('no netowrk');
-            alert('navigator == null ' + (navigator != null).toString() );
-            alert('navigator.network != null ' + (navigator.network != null ));
-            alert('navigator.network.connection != null  ' + (navigator.network.connection != null ));
+            alert('navigator != null ' + (navigator !== undefined).toString() );
+            alert('navigator.network != null ' + (navigator.network !== undefined ));
+            alert('navigator.network.connection != null  ' + (navigator.network.connection !== undefined ));
             alert('navigator.network.connection.type  ' + navigator.network.connection.type);
             notificationFactory.error("No network connection detected. Cannot display page without a connection.");
             deferred.reject();
         }
         else {
             alert(' netowrk');
-            alert('navigator == null ' + (navigator != null).toString() );
-            alert('navigator.network != null ' + (navigator.network != null ));
-            alert('navigator.network.connection != null  ' + (navigator.network.connection != null ));
+            alert('navigator != null ' + (navigator !== undefined).toString() );
+            alert('navigator.network != null ' + (navigator.network !== undefined ));
+            alert('navigator.network.connection != null  ' + (navigator.network.connection !== undefined ));
             alert('navigator.network.connection.type  ' + navigator.network.connection.type);
 
             var dataKey = storageKey;
