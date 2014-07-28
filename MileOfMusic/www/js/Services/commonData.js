@@ -31,8 +31,14 @@
             var jsonData = null;
             if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
             if (jsonData == null) {
+                alert('data null, trying parse');
                 jsonData = JSON.parse(data);
             }
+            else {
+                alert('data NOT null, trying parse');
+
+            }
+            alert(jsonData.length.toString());
             deferred.resolve(jsonData);
         }
         else {
