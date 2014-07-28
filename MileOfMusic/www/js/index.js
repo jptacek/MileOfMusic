@@ -47,11 +47,9 @@ var app = {
         app.receivedEvent('resume');
     },
     onOnline: function () {
-        alert('online: ' + navigator.network.connection.type);
         app.receivedEvent('online');
     },
     onOffline: function () {
-        alert('offline: ' + navigator.network.connection.type);
         app.receivedEvent('offline');
     },
     // Update DOM on a Received Event
