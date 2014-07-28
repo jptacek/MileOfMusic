@@ -12,10 +12,13 @@ mileOfMusicApp.controller('artistController',
 
             artistData.getMusic($routeParams.artistId).then(function (result) {
 
-                $.each(result, function (i, item) {
-                    item.audio = $sce.trustAsHtml("<audio controls='controls' preload='none'><source src='" + item.musicUrl + "' /></audio>");
-                });
+                if (navigator != null && navigator.network != null &&
+                    navigator.network.connection != null && navigator.network.connection.type != Connection.NONE) {
 
+                    $.each(result, function(i, item) {
+                        item.audio = $sce.trustAsHtml("<audio controls='controls' preload='none'><source src='" + item.musicUrl + "' /></audio>");
+                    });
+                }
                 $scope.music = result;
             });
 

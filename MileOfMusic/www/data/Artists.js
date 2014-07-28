@@ -11,7 +11,7 @@
       "homebase": "East Nashville, TN",
       "url": "http://www.aaronleetasjan.com",
       "genre": "Folk music where it sounds like everything is breaking at the end",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336561/original.jpg?1401375821",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336561/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336561.jpg",
       "photoUrlLocal": "artistimages/336561.jpg"
     },
@@ -26,7 +26,7 @@
       "homebase": "Eau Claire, WI",
       "url": "http://www.adelynrose.bandcamp.com",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338193/original.jpg?1404234162",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338193/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338193.jpg",
       "photoUrlLocal": "artistimages/338193.jpg"
     },
@@ -41,7 +41,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.adriaramos.com",
       "genre": "Alternative",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336128/original.png?1405696789",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336128/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336128.jpg",
       "photoUrlLocal": "artistimages/336128.jpg"
     },
@@ -56,7 +56,7 @@
       "homebase": "Nashville, TN",
       "url": "http://www.adriankrygowski.com",
       "genre": "Soul-Folk Aggressive Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335584/original.jpg?1400089701",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335584/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335584.jpg",
       "photoUrlLocal": "artistimages/335584.jpg"
     },
@@ -71,9 +71,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340709/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340709.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340709.jpg"
     },
     {
       "artistId": "340701",
@@ -86,9 +86,9 @@
       "homebase": "Chicago, IL",
       "url": "",
       "genre": "Jazz/Folk/Soul Quartet",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340701/original.JPG",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340701.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340701.jpg"
     },
     {
       "artistId": "341892",
@@ -101,9 +101,9 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341892/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341892.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341892.jpg"
     },
     {
       "artistId": "335583",
@@ -116,7 +116,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.annalaube.com",
       "genre": "Indie Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335583/original.jpg?1400088897",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335583/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335583.jpg",
       "photoUrlLocal": "artistimages/335583.jpg"
     },
@@ -131,7 +131,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.theanna.com",
       "genre": "Americana/Folk/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335787/original.jpg?1400258555",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335787/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335787.jpg",
       "photoUrlLocal": "artistimages/335787.jpg"
     },
@@ -146,7 +146,7 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Folk/Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/340838/original.JPG?1405094624",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340838/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340838.jpg",
       "photoUrlLocal": "artistimages/340838.jpg"
     },
@@ -161,7 +161,7 @@
       "homebase": "Oshkosh, WI",
       "url": "http://sweetspotauralai.bandcamp.com",
       "genre": "Indie/Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338203/original.jpg?1403663595",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338203/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338203.jpg",
       "photoUrlLocal": "artistimages/338203.jpg"
     },
@@ -176,7 +176,7 @@
       "homebase": "Milwaukee/Madison, WI",
       "url": "http://www.bascomhillband.com",
       "genre": "Pop/Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/340748/original.jpg?1405015604",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340748/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340748.jpg",
       "photoUrlLocal": "artistimages/340748.jpg"
     },
@@ -191,7 +191,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://www.bbgunband.com",
       "genre": "Rock 'n Roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335581/original.JPG?1400088544",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335581/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335581.jpg",
       "photoUrlLocal": "artistimages/335581.jpg"
     },
@@ -206,7 +206,7 @@
       "homebase": "Muscle Shoals, AL",
       "url": "http://belleadairmusic.com/",
       "genre": "Americana / Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336462/original.jpg?1401294219",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336462/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336462.jpg",
       "photoUrlLocal": "artistimages/336462.jpg"
     },
@@ -221,7 +221,7 @@
       "homebase": "Nashville, TN",
       "url": "http://www.benjaminolson.com",
       "genre": "Singer/Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338153/original.jpg?1404405484",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338153/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338153.jpg",
       "photoUrlLocal": "artistimages/338153.jpg"
     },
@@ -236,7 +236,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.blueheels.net",
       "genre": "Progressive Pop/Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338325/original.jpg?1403830523",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338325/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338325.jpg",
       "photoUrlLocal": "artistimages/338325.jpg"
     },
@@ -251,7 +251,7 @@
       "homebase": "Indianapolis, IN",
       "url": "http://bonesetters.bandcamp.com",
       "genre": "Surf Pop/Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337019/original.jpg?1402081417",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337019/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337019.jpg",
       "photoUrlLocal": "artistimages/337019.jpg"
     },
@@ -266,7 +266,7 @@
       "homebase": "Nashville, TN",
       "url": "http://boomforest.com",
       "genre": "Folk Metal",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337949/original.jpg?1403225323",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337949/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337949.jpg",
       "photoUrlLocal": "artistimages/337949.jpg"
     },
@@ -281,7 +281,7 @@
       "homebase": "Madison, WI",
       "url": "http://brandonbeebe.com",
       "genre": "Folk/Singer-Songwriter/World",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/339336/original.jpg?1404688740",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/339336/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/339336.jpg",
       "photoUrlLocal": "artistimages/339336.jpg"
     },
@@ -296,7 +296,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.brettnewski.com",
       "genre": "Folk/Punk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335558/original.jpg?1400071649",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335558/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335558.jpg",
       "photoUrlLocal": "artistimages/335558.jpg"
     },
@@ -311,7 +311,7 @@
       "homebase": "Detroit, MI",
       "url": "http://www.briarrabbit.net/",
       "genre": "Thought Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336647/original.jpg?1403710924",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336647/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336647.jpg",
       "photoUrlLocal": "artistimages/336647.jpg"
     },
@@ -326,7 +326,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.brightkind.com",
       "genre": "Indie rock / Basement synth music",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336163/original.jpg?1400870207",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336163/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336163.jpg",
       "photoUrlLocal": "artistimages/336163.jpg"
     },
@@ -341,7 +341,7 @@
       "homebase": "Oshkosh, WI",
       "url": "http://www.BronSage.com",
       "genre": "D.I.Y. rock and roll ",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336967/original.jpg?1401994324",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336967/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336967.jpg",
       "photoUrlLocal": "artistimages/336967.jpg"
     },
@@ -356,7 +356,7 @@
       "homebase": "St. Louis, MO",
       "url": "http://bruiserqueen.com",
       "genre": "Garage pop rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337279/original.jpg?1402509328",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337279/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337279.jpg",
       "photoUrlLocal": "artistimages/337279.jpg"
     },
@@ -371,7 +371,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.buffalogospel.com",
       "genre": "Country / Western / Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338565/original.jpg?1404139699",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338565/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338565.jpg",
       "photoUrlLocal": "artistimages/338565.jpg"
     },
@@ -386,7 +386,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://www.carolinesmithcarolinesmith.com",
       "genre": "Brooklyn Soul",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335529/original.png?1403721057",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335529/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335529.jpg",
       "photoUrlLocal": "artistimages/335529.jpg"
     },
@@ -401,7 +401,7 @@
       "homebase": "Sheboygan, WI",
       "url": "http://www.catofalls.com",
       "genre": "Indie Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336111/original.jpg?1400792361",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336111/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336111.jpg",
       "photoUrlLocal": "artistimages/336111.jpg"
     },
@@ -416,7 +416,7 @@
       "homebase": "WI/MD/NY",
       "url": "http://www.cedarwell.co",
       "genre": "Rock No Rules",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336084/original.JPG?1400778642",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336084/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336084.jpg",
       "photoUrlLocal": "artistimages/336084.jpg"
     },
@@ -431,7 +431,7 @@
       "homebase": "Knoxville, TN",
       "url": "http://cereusbright.com/index.php",
       "genre": "Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336013/original.jpg?1400706098",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336013/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336013.jpg",
       "photoUrlLocal": "artistimages/336013.jpg"
     },
@@ -446,24 +446,24 @@
       "homebase": "Duluth, MN",
       "url": "",
       "genre": "Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335502/original.JPG?1403902449",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335502/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335502.jpg",
       "photoUrlLocal": "artistimages/335502.jpg"
     },
     {
-      "artistId": "341432",
+      "artistId": "342458",
       "artistName": "Chase Cohl",
       "artistNameSort": "Chase Cohl",
-      "twitter": "",
-      "instagram": "",
-      "facebook": "",
-      "description": "",
+      "twitter": "https://twitter.com/ChaseCohl",
+      "instagram": "http://instagram.com/chasecohl",
+      "facebook": "https://www.facebook.com/chasecohlmusic",
+      "description": "The laid back Canadian songstress is as intricate and experienced as the songs she writes. She is all sweetness with a touch of whiskey and campfire, embodying “the true spirit of the wanderer”. She has found her niche in the 60ʼs California vibe, as reflected through her folk style music.",
       "homebase": "Los Angeles, CA",
-      "url": "",
-      "genre": "Indie/Folk/Pop",
-      "photoUrlOriginal": "",
-      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341432.jpg",
-      "photoUrlLocal": null
+      "url": "http://www.youtube.com/user/chasecohl",
+      "genre": "Folk-Pop, Singer-Songwriter",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342458/original.jpg",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342458.jpg",
+      "photoUrlLocal": "artistimages/342458.jpg"
     },
     {
       "artistId": "341433",
@@ -476,9 +476,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341433/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341433.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341433.jpg"
     },
     {
       "artistId": "341691",
@@ -491,9 +491,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341691/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341691.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341691.jpg"
     },
     {
       "artistId": "335711",
@@ -506,7 +506,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.christophergold.com",
       "genre": "Folk / Bluegrass",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335711/original.jpg?1400186811",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335711/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335711.jpg",
       "photoUrlLocal": "artistimages/335711.jpg"
     },
@@ -521,7 +521,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://fieldreportmusic.com",
       "genre": "folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335744/original.jpg?1400210780",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335744/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335744.jpg",
       "photoUrlLocal": "artistimages/335744.jpg"
     },
@@ -536,7 +536,7 @@
       "homebase": "Brooklyn, NY",
       "url": "http://www.coleejamesmusic.com",
       "genre": "Indie Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338736/original.jpg?1404341980",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338736/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338736.jpg",
       "photoUrlLocal": "artistimages/338736.jpg"
     },
@@ -551,9 +551,9 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340344/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340344.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340344.jpg"
     },
     {
       "artistId": "335738",
@@ -566,7 +566,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.coreyhartmusic.com",
       "genre": "Singer/songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335738/original.JPG?1400205580",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335738/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335738.jpg",
       "photoUrlLocal": "artistimages/335738.jpg"
     },
@@ -581,9 +581,9 @@
       "homebase": "Nashville/Fox Cities, WI",
       "url": "",
       "genre": "Folk Rock/Roots Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338253/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338253.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338253.jpg"
     },
     {
       "artistId": "335966",
@@ -596,7 +596,7 @@
       "homebase": "Madison, WI",
       "url": "http://countthispenny.com",
       "genre": "Country-Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335966/original.jpg?1400622221",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335966/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335966.jpg",
       "photoUrlLocal": "artistimages/335966.jpg"
     },
@@ -611,7 +611,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://www.danrodriguezmusic.com",
       "genre": "Blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338645/original.jpg?1404240744",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338645/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338645.jpg",
       "photoUrlLocal": "artistimages/338645.jpg"
     },
@@ -626,9 +626,9 @@
       "homebase": "Indianapolis, IN",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340347/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340347.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340347.jpg"
     },
     {
       "artistId": "337929",
@@ -641,7 +641,7 @@
       "homebase": "Nashville, TN",
       "url": "http://danielellsworthandthegreatlakes.com",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337929/original.jpg?1403196569",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337929/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337929.jpg",
       "photoUrlLocal": "artistimages/337929.jpg"
     },
@@ -656,9 +656,9 @@
       "homebase": "Chicago, IL",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340573/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340573.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340573.jpg"
     },
     {
       "artistId": "336715",
@@ -671,7 +671,7 @@
       "homebase": "Oshkosh, WI",
       "url": "http://www.facebook.com/deadhorseswi",
       "genre": "Folkgrass",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336715/original.jpg?1401727534",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336715/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336715.jpg",
       "photoUrlLocal": "artistimages/336715.jpg"
     },
@@ -686,7 +686,7 @@
       "homebase": "Provo, UT",
       "url": "http://www.desertnoises.com/",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336963/original.jpg?1401991026",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336963/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336963.jpg",
       "photoUrlLocal": "artistimages/336963.jpg"
     },
@@ -701,9 +701,9 @@
       "homebase": "Madison, WI",
       "url": "",
       "genre": "Folk/Pop Solo",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338712/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338712.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338712.jpg"
     },
     {
       "artistId": "340708",
@@ -716,9 +716,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Rock/Indie/Pop Band",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340708/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340708.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340708.jpg"
     },
     {
       "artistId": "336379",
@@ -731,7 +731,7 @@
       "homebase": "Fox Cities, WI",
       "url": "https://www.youtube.com/watch?v=cZdtkRU95mI",
       "genre": "acoustic folk/rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336379/original.jpg?1401202616",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336379/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336379.jpg",
       "photoUrlLocal": "artistimages/336379.jpg"
     },
@@ -746,7 +746,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.ericliveshere.com",
       "genre": "Rock/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338317/original.jpg?1403823162",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338317/original.JPG",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338317.jpg",
       "photoUrlLocal": "artistimages/338317.jpg"
     },
@@ -761,9 +761,9 @@
       "homebase": "Sturgeon Bay, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340705/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340705.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340705.jpg"
     },
     {
       "artistId": "341487",
@@ -776,9 +776,9 @@
       "homebase": "Liverpool, UK",
       "url": "",
       "genre": "Indie Folk Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341487/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341487.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341487.jpg"
     },
     {
       "artistId": "338196",
@@ -791,7 +791,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://www.farewellmilwaukee.com",
       "genre": "Americana, Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338196/original.jpg?1403652676",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338196/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338196.jpg",
       "photoUrlLocal": "artistimages/338196.jpg"
     },
@@ -806,7 +806,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.facebook.com/fatbookmusic",
       "genre": "Reggae/Soul",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338195/original.jpg?1403652067",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338195/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338195.jpg",
       "photoUrlLocal": "artistimages/338195.jpg"
     },
@@ -821,7 +821,7 @@
       "homebase": "Detroit, MI",
       "url": "http://www.flinteastwoodmusic.com",
       "genre": "Spaghetti-Western",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335723/original.jpg?1400194196",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335723/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335723.jpg",
       "photoUrlLocal": "artistimages/335723.jpg"
     },
@@ -836,7 +836,7 @@
       "homebase": "Nashville, TN",
       "url": "http://flygoldeneagle.tumblr.com/",
       "genre": "Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335726/original.jpg?1400195568",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335726/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335726.jpg",
       "photoUrlLocal": "artistimages/335726.jpg"
     },
@@ -851,7 +851,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.fortfrancesmusic.com",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335763/original.jpg?1400245556",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335763/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335763.jpg",
       "photoUrlLocal": "artistimages/335763.jpg"
     },
@@ -866,7 +866,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://fortwilsonriot.com/",
       "genre": "Indie/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336651/original.jpg?1403711097",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336651/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336651.jpg",
       "photoUrlLocal": "artistimages/336651.jpg"
     },
@@ -881,9 +881,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Folk Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340692/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340692.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340692.jpg"
     },
     {
       "artistId": "338079",
@@ -896,7 +896,7 @@
       "homebase": "St Petersburg, FL",
       "url": "http://www.gerixmusic.com",
       "genre": "Indie Blues Folk Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338079/original.jpg?1403545029",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338079/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338079.jpg",
       "photoUrlLocal": "artistimages/338079.jpg"
     },
@@ -911,7 +911,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://ggoollddband.tumblr.com",
       "genre": "Electro, Pop, Indie, Dance, ",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336497/original.jpg?1401311342",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336497/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336497.jpg",
       "photoUrlLocal": "artistimages/336497.jpg"
     },
@@ -926,7 +926,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://greatlakedrifters.bandcamp.com/",
       "genre": "Roots Rock/Alt Country",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335840/original.jpg?1400286794",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335840/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335840.jpg",
       "photoUrlLocal": "artistimages/335840.jpg"
     },
@@ -941,9 +941,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Roots Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341463/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341463.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341463.jpg"
     },
     {
       "artistId": "336655",
@@ -956,7 +956,7 @@
       "homebase": "Oshkosh, WI",
       "url": "http://www.youtube.com/watch?v=TdFtsrnw4Mg",
       "genre": "Kosh Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336655/original.jpg?1401591096",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336655/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336655.jpg",
       "photoUrlLocal": "artistimages/336655.jpg"
     },
@@ -971,7 +971,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.haywardwilliams.com",
       "genre": "Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337821/original.jpg?1403028225",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337821/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337821.jpg",
       "photoUrlLocal": "artistimages/337821.jpg"
     },
@@ -986,7 +986,7 @@
       "homebase": "Boston, MA",
       "url": "http://www.hillaryreynoldsband.com",
       "genre": "Americana/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335941/original.jpg?1400597728",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335941/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335941.jpg",
       "photoUrlLocal": "artistimages/335941.jpg"
     },
@@ -1001,7 +1001,7 @@
       "homebase": "Oshkosh, WI",
       "url": "http://doubleplusgoodrecords.com",
       "genre": "lo-fi singer/songwriter punk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336591/original.jpg?1404412695",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336591/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336591.jpg",
       "photoUrlLocal": "artistimages/336591.jpg"
     },
@@ -1016,9 +1016,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Folk",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341439/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341439.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341439.jpg"
     },
     {
       "artistId": "337324",
@@ -1031,7 +1031,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.hughbobandthehustle.com",
       "genre": "North Country",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337324/original.jpg?1402579575",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337324/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337324.jpg",
       "photoUrlLocal": "artistimages/337324.jpg"
     },
@@ -1046,9 +1046,9 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338705/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338705.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338705.jpg"
     },
     {
       "artistId": "335747",
@@ -1061,7 +1061,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.imnotapilot.com/",
       "genre": "indie-pop-classical",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335747/original.jpg?1400219260",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335747/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335747.jpg",
       "photoUrlLocal": "artistimages/335747.jpg"
     },
@@ -1076,7 +1076,7 @@
       "homebase": "Madison, WI",
       "url": "http://icarushimself.bandcamp.com/",
       "genre": "Rock & Roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335608/original.jpg?1400108765",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335608/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335608.jpg",
       "photoUrlLocal": "artistimages/335608.jpg"
     },
@@ -1091,7 +1091,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.idajo.com",
       "genre": "soul, folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335602/original.jpg?1400101501",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335602/original.JPG",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335602.jpg",
       "photoUrlLocal": "artistimages/335602.jpg"
     },
@@ -1106,9 +1106,9 @@
       "homebase": "Brooklyn, NY",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340738/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340738.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340738.jpg"
     },
     {
       "artistId": "338305",
@@ -1121,7 +1121,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://involuntarystringband.bandcamp.com",
       "genre": "Contemporary Bluegrass/Old-Time",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338305/original.jpg?1403807794",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338305/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338305.jpg",
       "photoUrlLocal": "artistimages/338305.jpg"
     },
@@ -1136,7 +1136,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.JacobFannin.com",
       "genre": "Singer/Songwriter, folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341324/original.jpg?1405264493",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341324/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341324.jpg",
       "photoUrlLocal": "artistimages/341324.jpg"
     },
@@ -1151,7 +1151,7 @@
       "homebase": "Chicago, IL",
       "url": "http://jaikwillis.com",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335524/original.jpg?1400016124",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335524/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335524.jpg",
       "photoUrlLocal": "artistimages/335524.jpg"
     },
@@ -1166,7 +1166,7 @@
       "homebase": "Northampton, MA",
       "url": "http://www.jamiekent.com",
       "genre": "Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336695/original.jpg?1401722126",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336695/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336695.jpg",
       "photoUrlLocal": "artistimages/336695.jpg"
     },
@@ -1181,7 +1181,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://www.jananyberg.com",
       "genre": "Jazz/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336660/original.jpg?1401645218",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336660/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336660.jpg",
       "photoUrlLocal": "artistimages/336660.jpg"
     },
@@ -1196,7 +1196,7 @@
       "homebase": "Peoria, IL",
       "url": "http://jaredbartman.com/",
       "genre": "Indie/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336654/original.jpg?1401562459",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336654/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336654.jpg",
       "photoUrlLocal": "artistimages/336654.jpg"
     },
@@ -1211,7 +1211,7 @@
       "homebase": "Chicago, IL",
       "url": "http://grillybrothers.com",
       "genre": "Contemporary Jazz, Funk, Latin, World Music",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336122/original.jpg?1403720916",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336122/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336122.jpg",
       "photoUrlLocal": "artistimages/336122.jpg"
     },
@@ -1226,9 +1226,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341465/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341465.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341465.jpg"
     },
     {
       "artistId": "335539",
@@ -1241,7 +1241,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://www.joeyryanandtheinks.com ",
       "genre": "Indie Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335539/original.jpg?1400034449",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335539/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335539.jpg",
       "photoUrlLocal": "artistimages/335539.jpg"
     },
@@ -1256,9 +1256,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340345/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340345.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340345.jpg"
     },
     {
       "artistId": "341472",
@@ -1271,9 +1271,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Songwriter Salute Performer",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341472/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341472.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341472.jpg"
     },
     {
       "artistId": "335731",
@@ -1286,7 +1286,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.jordinbaas.com",
       "genre": "Singer/Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335731/original.jpg?1400198376",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335731/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335731.jpg",
       "photoUrlLocal": "artistimages/335731.jpg"
     },
@@ -1301,7 +1301,7 @@
       "homebase": "Milwaukee, WI",
       "url": "https://www.facebook.com/kaneplacerecordclub",
       "genre": "Soul, Pop, Indie, Rock ",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336400/original.jpg?1401216828",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336400/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336400.jpg",
       "photoUrlLocal": "artistimages/336400.jpg"
     },
@@ -1316,7 +1316,7 @@
       "homebase": "Marquette, MI",
       "url": "http://kiddywompus.bandcamp.com",
       "genre": "Gypsy Roadhouse Blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/342232/original.jpg?1406086592",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342232/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342232.jpg",
       "photoUrlLocal": "artistimages/342232.jpg"
     },
@@ -1331,7 +1331,7 @@
       "homebase": "Door County, WI",
       "url": "http://www.korymurphy.com",
       "genre": "Indie, Acoustic, Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335750/original.jpg?1400230249",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335750/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335750.jpg",
       "photoUrlLocal": "artistimages/335750.jpg"
     },
@@ -1346,7 +1346,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.kylemegna.com",
       "genre": "Folk-Rock-Blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336575/original.jpg?1401379569",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336575/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336575.jpg",
       "photoUrlLocal": "artistimages/336575.jpg"
     },
@@ -1361,7 +1361,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.kylemegna.com",
       "genre": "alternative folk-rock blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336565/original.jpg?1403720224",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336565/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336565.jpg",
       "photoUrlLocal": "artistimages/336565.jpg"
     },
@@ -1376,7 +1376,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.leadingtheblindrock.com/",
       "genre": "Alternative Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336213/original.JPG?1401046447",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336213/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336213.jpg",
       "photoUrlLocal": "artistimages/336213.jpg"
     },
@@ -1391,7 +1391,7 @@
       "homebase": "Madison, WI",
       "url": "http://littlelegend.us",
       "genre": "Rock N Roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335713/original.jpg?1400189286",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335713/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335713.jpg",
       "photoUrlLocal": "artistimages/335713.jpg"
     },
@@ -1406,7 +1406,7 @@
       "homebase": "Arvilla, WV",
       "url": "http://www.loganvenderlic.com",
       "genre": "Folk Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335520/original.jpg?1400014029",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335520/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335520.jpg",
       "photoUrlLocal": "artistimages/335520.jpg"
     },
@@ -1421,9 +1421,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337360/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337360.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/337360.jpg"
     },
     {
       "artistId": "338785",
@@ -1436,7 +1436,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.lucascates.com/",
       "genre": "Pop/Rock/Folk/Reggae",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338785/original.jpg?1404402794",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338785/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338785.jpg",
       "photoUrlLocal": "artistimages/338785.jpg"
     },
@@ -1451,7 +1451,7 @@
       "homebase": "Nashville, TN",
       "url": "http://www.maggiethorn.com",
       "genre": "Country",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335801/original.jpg?1400265026",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335801/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335801.jpg",
       "photoUrlLocal": "artistimages/335801.jpg"
     },
@@ -1466,9 +1466,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338647/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338647.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338647.jpg"
     },
     {
       "artistId": "341473",
@@ -1481,9 +1481,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Songwriter Salute Performer",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341473/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341473.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341473.jpg"
     },
     {
       "artistId": "337941",
@@ -1496,7 +1496,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.martinvanruin.com/",
       "genre": "Folk Rock Band",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337941/original.jpg?1403213251",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337941/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337941.jpg",
       "photoUrlLocal": "artistimages/337941.jpg"
     },
@@ -1511,7 +1511,7 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Singer/Songwriter/Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336441/original.jpg?1401262444",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336441/original.JPG",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336441.jpg",
       "photoUrlLocal": "artistimages/336441.jpg"
     },
@@ -1526,7 +1526,7 @@
       "homebase": "Charlotte, NC",
       "url": "http://www.matrimonync.com/",
       "genre": "alt folk rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337018/original.jpg?1402078782",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337018/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337018.jpg",
       "photoUrlLocal": "artistimages/337018.jpg"
     },
@@ -1541,7 +1541,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://matthewdavies.bandcamp.com",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335614/original.jpg?1400114898",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335614/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335614.jpg",
       "photoUrlLocal": "artistimages/335614.jpg"
     },
@@ -1556,7 +1556,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.matthewsantos.com",
       "genre": "Soul/Folk/Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336961/original.jpg?1401990112",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336961/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336961.jpg",
       "photoUrlLocal": "artistimages/336961.jpg"
     },
@@ -1571,7 +1571,7 @@
       "homebase": "Eau Claire, WI",
       "url": "http://meridene.bandcamp.com",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337467/original.jpg?1402674215",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337467/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337467.jpg",
       "photoUrlLocal": "artistimages/337467.jpg"
     },
@@ -1586,7 +1586,7 @@
       "homebase": "De Pere, WI",
       "url": "https://www.facebook.com/michael.gillespie11",
       "genre": "Acoustic Love Songs",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341343/original.JPG?1405306518",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341343/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341343.jpg",
       "photoUrlLocal": "artistimages/341343.jpg"
     },
@@ -1601,7 +1601,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.midnightreruns.com",
       "genre": "ELECTRIC GUITAR WORSHIP",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335780/original.JPG?1400256156",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335780/original.JPG",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335780.jpg",
       "photoUrlLocal": "artistimages/335780.jpg"
     },
@@ -1616,9 +1616,9 @@
       "homebase": "Chicago, IL",
       "url": "",
       "genre": "Blues-Rock Solo",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338728/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338728.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338728.jpg"
     },
     {
       "artistId": "335919",
@@ -1631,7 +1631,7 @@
       "homebase": "Winona, MN",
       "url": "http://www.mikemunson.net",
       "genre": "blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335919/original.jpg?1403711182",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335919/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335919.jpg",
       "photoUrlLocal": "artistimages/335919.jpg"
     },
@@ -1646,9 +1646,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Songwriter Salute Performer",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341474/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341474.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341474.jpg"
     },
     {
       "artistId": "341760",
@@ -1661,7 +1661,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://monicalaplante.bandcamp.com/",
       "genre": "Garage Rock/Garage Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341760/original.jpg?1405641835",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341760/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341760.jpg",
       "photoUrlLocal": "artistimages/341760.jpg"
     },
@@ -1676,9 +1676,9 @@
       "homebase": null,
       "url": "",
       "genre": "",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342286/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342286.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/342286.jpg"
     },
     {
       "artistId": "337871",
@@ -1691,7 +1691,7 @@
       "homebase": "Chicago, IL",
       "url": "http://wearemutts.com",
       "genre": "Lounge/Grunge, Showtunes/Punk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337871/original.jpg?1403107654",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337871/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337871.jpg",
       "photoUrlLocal": "artistimages/337871.jpg"
     },
@@ -1706,7 +1706,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.mylescoyne.com",
       "genre": "Folk, Indie, Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335741/original.jpg?1400207822",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335741/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335741.jpg",
       "photoUrlLocal": "artistimages/335741.jpg"
     },
@@ -1721,14 +1721,14 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.mylescoyne.com",
       "genre": "Alternative Rock, Indie/Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335737/original.jpg?1400205479",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335737/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335737.jpg",
       "photoUrlLocal": "artistimages/335737.jpg"
     },
     {
       "artistId": "342428",
-      "artistName": "Mystery Artists",
-      "artistNameSort": "Mystery Artists",
+      "artistName": "Mystery Music Stage",
+      "artistNameSort": "Mystery Music Stage",
       "twitter": "",
       "instagram": "",
       "facebook": "",
@@ -1736,9 +1736,9 @@
       "homebase": "Conundrum City, MM",
       "url": "",
       "genre": "Mystery",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342428/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342428.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/342428.jpg"
     },
     {
       "artistId": "338176",
@@ -1751,9 +1751,9 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "Folk Solo",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338176/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338176.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338176.jpg"
     },
     {
       "artistId": "338721",
@@ -1766,9 +1766,9 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338721/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338721.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338721.jpg"
     },
     {
       "artistId": "341450",
@@ -1781,9 +1781,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341450/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341450.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341450.jpg"
     },
     {
       "artistId": "338252",
@@ -1796,9 +1796,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338252/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338252.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338252.jpg"
     },
     {
       "artistId": "341452",
@@ -1811,9 +1811,9 @@
       "homebase": "Chicago, IL",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341452/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341452.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341452.jpg"
     },
     {
       "artistId": "336429",
@@ -1826,7 +1826,7 @@
       "homebase": "Brookfield, WI",
       "url": "http://www.noracollins.com/",
       "genre": "Country",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336429/original.jpg?1401229833",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336429/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336429.jpg",
       "photoUrlLocal": "artistimages/336429.jpg"
     },
@@ -1841,7 +1841,7 @@
       "homebase": "Chicago, IL",
       "url": "https://www.facebook.com/northbynorthchicago",
       "genre": "Indie blues garage rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335571/original.jpg?1400082050",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335571/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335571.jpg",
       "photoUrlLocal": "artistimages/335571.jpg"
     },
@@ -1856,7 +1856,7 @@
       "homebase": "Brooklyn NY",
       "url": "http://orcaage.bandcamp.com/",
       "genre": "indie rock, folk, experimental, pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/342400/original.jpg?1406258847",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342400/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342400.jpg",
       "photoUrlLocal": "artistimages/342400.jpg"
     },
@@ -1871,7 +1871,7 @@
       "homebase": "Massillon, OH",
       "url": "http://www.patricksweany.com",
       "genre": "Blues, Vintage Soul, Rock and Roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335501/original.jpg?1400006185",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335501/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335501.jpg",
       "photoUrlLocal": "artistimages/335501.jpg"
     },
@@ -1886,7 +1886,7 @@
       "homebase": "Green Bay, WI",
       "url": "http://www.annexcentral.com",
       "genre": "Rock, Pop, Acoustic",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335609/original.jpg?1403792443",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335609/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335609.jpg",
       "photoUrlLocal": "artistimages/335609.jpg"
     },
@@ -1901,7 +1901,7 @@
       "homebase": "Madison, WI",
       "url": "http://paulotteson.bandcamp.com/",
       "genre": "Chamber Folk, ",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336725/original.jpg?1401733030",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336725/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336725.jpg",
       "photoUrlLocal": "artistimages/336725.jpg"
     },
@@ -1916,9 +1916,9 @@
       "homebase": "West Bend, WI",
       "url": "",
       "genre": "Family Performer",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341470/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341470.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341470.jpg"
     },
     {
       "artistId": "337928",
@@ -1931,7 +1931,7 @@
       "homebase": "Cincinnati, OH",
       "url": "http://popgoesthe.com",
       "genre": "Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337928/original.png?1403196161",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337928/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337928.jpg",
       "photoUrlLocal": "artistimages/337928.jpg"
     },
@@ -1946,7 +1946,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://porkysgroovemachine.com/",
       "genre": "Nerd Funk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/340362/original.jpg?1404770033",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340362/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340362.jpg",
       "photoUrlLocal": "artistimages/340362.jpg"
     },
@@ -1961,7 +1961,7 @@
       "homebase": "Los Angeles, CA",
       "url": "http://rqlrod.com",
       "genre": "Soul",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335523/original.jpg?1400014674",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335523/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335523.jpg",
       "photoUrlLocal": "artistimages/335523.jpg"
     },
@@ -1976,7 +1976,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://redhawksband.com",
       "genre": "Hard Folk/Gentle Psychedelia",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335739/original.jpg?1403711239",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335739/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335739.jpg",
       "photoUrlLocal": "artistimages/335739.jpg"
     },
@@ -1991,7 +1991,7 @@
       "homebase": "Los Angeles, CA",
       "url": "http://www.richieramone.com",
       "genre": "punk and rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336785/original.JPG?1401768657",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336785/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336785.jpg",
       "photoUrlLocal": "artistimages/336785.jpg"
     },
@@ -2006,7 +2006,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.youtube.com/watch?v=s_7z2prnTAQ",
       "genre": "Singer/Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335832/original.jpeg?1404319857",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335832/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335832.jpg",
       "photoUrlLocal": "artistimages/335832.jpg"
     },
@@ -2021,7 +2021,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.robanthonymusic.com",
       "genre": "Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335732/original.jpg?1400198903",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335732/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335732.jpg",
       "photoUrlLocal": "artistimages/335732.jpg"
     },
@@ -2036,9 +2036,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Alt Country",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337889/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337889.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/337889.jpg"
     },
     {
       "artistId": "340845",
@@ -2051,7 +2051,7 @@
       "homebase": "Key West, FL",
       "url": "http://www.rogerjokela.com",
       "genre": "Country/Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/340845/original.jpg?1405099183",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340845/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340845.jpg",
       "photoUrlLocal": "artistimages/340845.jpg"
     },
@@ -2066,7 +2066,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.rorysullivanmusic.com",
       "genre": "Folk/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336947/original.jpg?1401983936",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336947/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336947.jpg",
       "photoUrlLocal": "artistimages/336947.jpg"
     },
@@ -2081,7 +2081,7 @@
       "homebase": "Minneapolis, MN ",
       "url": "https://www.youtube.com/watch?v=w-HxXIDw-js",
       "genre": "Soul/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336440/original.jpg?1401261059",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336440/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336440.jpg",
       "photoUrlLocal": "artistimages/336440.jpg"
     },
@@ -2096,9 +2096,9 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338711/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338711.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/338711.jpg"
     },
     {
       "artistId": "335499",
@@ -2111,7 +2111,7 @@
       "homebase": "Stillwater, MN",
       "url": "http://www.rubentheband.com",
       "genre": "Rock n' Soul",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335499/original.jpg?1400004894",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335499/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335499.jpg",
       "photoUrlLocal": "artistimages/335499.jpg"
     },
@@ -2126,7 +2126,7 @@
       "homebase": "Haydenville, MA",
       "url": "http://ryanhommel.com",
       "genre": "Soul/Country",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337919/original.jpg?1403184131",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337919/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337919.jpg",
       "photoUrlLocal": "artistimages/337919.jpg"
     },
@@ -2141,7 +2141,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.windishagency.com/artists/ryley_walker",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335815/original.jpg?1400271079",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335815/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335815.jpg",
       "photoUrlLocal": "artistimages/335815.jpg"
     },
@@ -2156,9 +2156,9 @@
       "homebase": "Chicago, IL",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341475/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341475.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341475.jpg"
     },
     {
       "artistId": "336953",
@@ -2171,7 +2171,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.santahmusic.com",
       "genre": "Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336953/original.jpg?1401985016",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336953/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336953.jpg",
       "photoUrlLocal": "artistimages/336953.jpg"
     },
@@ -2186,7 +2186,7 @@
       "homebase": "Canada",
       "url": "http://pipeandhat.com/sc-mira.html",
       "genre": "Alt Country/Indie Pop/Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338182/original.jpeg?1403638348",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338182/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338182.jpg",
       "photoUrlLocal": "artistimages/338182.jpg"
     },
@@ -2201,7 +2201,7 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341329/original.jpg?1405607729",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341329/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341329.jpg",
       "photoUrlLocal": "artistimages/341329.jpg"
     },
@@ -2216,7 +2216,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.singseasaw.com",
       "genre": "Folk-Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336266/original.jpg?1401110818",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336266/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336266.jpg",
       "photoUrlLocal": "artistimages/336266.jpg"
     },
@@ -2231,7 +2231,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://semi-twang.com",
       "genre": "Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336438/original.jpg?1401250780",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336438/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336438.jpg",
       "photoUrlLocal": "artistimages/336438.jpg"
     },
@@ -2246,7 +2246,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://shootdownthemoon.tumblr.com/",
       "genre": "Indie/Folk/Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336588/original.jpg?1401397881",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336588/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336588.jpg",
       "photoUrlLocal": "artistimages/336588.jpg"
     },
@@ -2261,7 +2261,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.simonbaltomusic.com",
       "genre": "Folk, Alt-folk, Alt-country",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335537/original.jpg?1400024850",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335537/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335537.jpg",
       "photoUrlLocal": "artistimages/335537.jpg"
     },
@@ -2276,9 +2276,24 @@
       "homebase": "Eau Claire, WI",
       "url": "https://www.facebook.com/SoftlyDear",
       "genre": "Indie Rock, Folk Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338009/original.jpeg?1403726624",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338009/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338009.jpg",
       "photoUrlLocal": "artistimages/338009.jpg"
+    },
+    {
+      "artistId": "342432",
+      "artistName": "Song Before We Go",
+      "artistNameSort": "Song Before We Go",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "description": "",
+      "homebase": "Mutiple",
+      "url": "",
+      "genre": "Many",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342432/original.png",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342432.jpg",
+      "photoUrlLocal": "artistimages/342432.jpg"
     },
     {
       "artistId": "336664",
@@ -2291,7 +2306,7 @@
       "homebase": "Cedarburg, WI",
       "url": "https://www.stephanieerinbrill.com",
       "genre": "Folky Pop Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336664/original.jpg?1403711296",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336664/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336664.jpg",
       "photoUrlLocal": "artistimages/336664.jpg"
     },
@@ -2306,7 +2321,7 @@
       "homebase": "Northampton, MA",
       "url": "http://www.stephenkellogg.com",
       "genre": "Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335496/original.jpeg?1403728661",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335496/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335496.jpg",
       "photoUrlLocal": "artistimages/335496.jpg"
     },
@@ -2321,9 +2336,9 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.reverbnation.com/Strategic",
       "genre": "Pop/Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341693/original.JPG",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341693.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341693.jpg"
     },
     {
       "artistId": "335708",
@@ -2336,7 +2351,7 @@
       "homebase": "Austin, TX",
       "url": "http://www.StukenbergMusic.com",
       "genre": "Appalachian-Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335708/original.jpg?1403721324",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335708/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335708.jpg",
       "photoUrlLocal": "artistimages/335708.jpg"
     },
@@ -2351,7 +2366,7 @@
       "homebase": "Nashville, TN",
       "url": "http://sturgillsimpson.com",
       "genre": "country,roots,bluegrass",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336751/original.jpg?1401739398",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336751/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336751.jpg",
       "photoUrlLocal": "artistimages/336751.jpg"
     },
@@ -2366,7 +2381,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://sugarransom.com",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341520/original.jpeg?1405380779",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341520/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341520.jpg",
       "photoUrlLocal": "artistimages/341520.jpg"
     },
@@ -2381,7 +2396,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.sugarstems.com",
       "genre": "Pop Band",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336096/original.jpg?1400785930",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336096/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336096.jpg",
       "photoUrlLocal": "artistimages/336096.jpg"
     },
@@ -2396,7 +2411,7 @@
       "homebase": "Milwaukee/Madison, WI",
       "url": "http://surgeonsinheat.bandcamp.com/",
       "genre": "Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338538/original.jpg?1404072529",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338538/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338538.jpg",
       "photoUrlLocal": "artistimages/338538.jpg"
     },
@@ -2411,7 +2426,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.puremusic.com/60howe.html",
       "genre": "folk/alt.country",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335867/original.JPG?1400372210",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335867/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335867.jpg",
       "photoUrlLocal": "artistimages/335867.jpg"
     },
@@ -2426,9 +2441,9 @@
       "homebase": "Brooklyn, NY",
       "url": "",
       "genre": "Folk Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337886/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337886.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/337886.jpg"
     },
     {
       "artistId": "336989",
@@ -2441,7 +2456,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://www.tajraj.com",
       "genre": "Indie-Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336989/original.jpg?1403711347",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336989/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336989.jpg",
       "photoUrlLocal": "artistimages/336989.jpg"
     },
@@ -2456,7 +2471,7 @@
       "homebase": "Chicago, IL",
       "url": "http://tallwalkermusic.com/",
       "genre": "Rock/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338396/original.jpg?1403897296",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338396/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338396.jpg",
       "photoUrlLocal": "artistimages/338396.jpg"
     },
@@ -2471,7 +2486,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://4otf.com",
       "genre": "Stompin' Blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335592/original.jpg?1400092584",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335592/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335592.jpg",
       "photoUrlLocal": "artistimages/335592.jpg"
     },
@@ -2486,9 +2501,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Folk Rock",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/340710/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/340710.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/340710.jpg"
     },
     {
       "artistId": "337904",
@@ -2501,9 +2516,9 @@
       "homebase": "Multiple Cities",
       "url": "",
       "genre": "Rock & Roll",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337904/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337904.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/337904.jpg"
     },
     {
       "artistId": "336148",
@@ -2516,7 +2531,7 @@
       "homebase": "Seattle, WA",
       "url": "http://www.theblakesband.com/videos/",
       "genre": "rock/garage",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336148/original.jpg?1400852418",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336148/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336148.jpg",
       "photoUrlLocal": "artistimages/336148.jpg"
     },
@@ -2531,7 +2546,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://coolwatersband.com/",
       "genre": "Roots Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335514/original.jpg?1400010104",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335514/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335514.jpg",
       "photoUrlLocal": "artistimages/335514.jpg"
     },
@@ -2546,7 +2561,7 @@
       "homebase": "Grand Rapids, MI",
       "url": "http://www.thecranewives.com",
       "genre": "Folk Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337749/original.jpg?1402950229",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337749/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337749.jpg",
       "photoUrlLocal": "artistimages/337749.jpg"
     },
@@ -2561,9 +2576,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Americana Band",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341476/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341476.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341476.jpg"
     },
     {
       "artistId": "341872",
@@ -2576,7 +2591,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.thedeltaroutine.com",
       "genre": "Rock/Pop/Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341872/original.JPG?1405808032",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341872/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341872.jpg",
       "photoUrlLocal": "artistimages/341872.jpg"
     },
@@ -2591,9 +2606,9 @@
       "homebase": "Madison, WI",
       "url": "",
       "genre": "Folk Rock and Roots",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337890/original.jpeg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337890.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/337890.jpg"
     },
     {
       "artistId": "335601",
@@ -2606,7 +2621,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.familybusinessband.com",
       "genre": "Rock, Blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335601/original.jpg?1400101251",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335601/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335601.jpg",
       "photoUrlLocal": "artistimages/335601.jpg"
     },
@@ -2621,7 +2636,7 @@
       "homebase": "Minneapolis, MN",
       "url": "http://thefarewellcircuit.com",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335589/original.jpg?1400091209",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335589/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335589.jpg",
       "photoUrlLocal": "artistimages/335589.jpg"
     },
@@ -2636,7 +2651,7 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "Scramble Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341526/original.jpg?1405387815",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341526/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341526.jpg",
       "photoUrlLocal": "artistimages/341526.jpg"
     },
@@ -2651,7 +2666,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.theformrocks.com",
       "genre": "Midwest Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335908/original.jpg?1400526988",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335908/original.png",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335908.jpg",
       "photoUrlLocal": "artistimages/335908.jpg"
     },
@@ -2666,7 +2681,7 @@
       "homebase": "Oshkosh, WI",
       "url": "http://www.facebook.com/theguiltywanted",
       "genre": "Ambient Blues-bent Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336102/original.jpg?1400791562",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336102/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336102.jpg",
       "photoUrlLocal": "artistimages/336102.jpg"
     },
@@ -2681,7 +2696,7 @@
       "homebase": "Eau Claire, WI",
       "url": "http://theheartpills.wordpress.com/20-2/",
       "genre": "Americana Punk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335872/original.jpg?1400437818",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335872/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335872.jpg",
       "photoUrlLocal": "artistimages/335872.jpg"
     },
@@ -2696,7 +2711,7 @@
       "homebase": "Chicago, IL",
       "url": "http://thekickbackband.com",
       "genre": "indie rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335740/original.jpg?1400207363",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335740/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335740.jpg",
       "photoUrlLocal": "artistimages/335740.jpg"
     },
@@ -2711,7 +2726,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.thelately.com",
       "genre": "Indie Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336435/original.jpg?1401241379",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336435/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336435.jpg",
       "photoUrlLocal": "artistimages/336435.jpg"
     },
@@ -2726,7 +2741,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.themascottheory.com",
       "genre": "Alt-Folk Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/341899/original.jpg?1405911269",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341899/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341899.jpg",
       "photoUrlLocal": "artistimages/341899.jpg"
     },
@@ -2741,7 +2756,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.facebook.com/themidwesterncharmwi",
       "genre": "Basement Pop ",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338291/original.jpg?1404233700",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338291/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338291.jpg",
       "photoUrlLocal": "artistimages/338291.jpg"
     },
@@ -2756,9 +2771,9 @@
       "homebase": "Eagle Rock, CA",
       "url": "",
       "genre": "",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341447/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341447.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341447.jpg"
     },
     {
       "artistId": "338033",
@@ -2771,7 +2786,7 @@
       "homebase": "Canada",
       "url": "http://www.thenoblethiefs.com",
       "genre": "Rock 'n' Soul",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338033/original.jpg?1403479150",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338033/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338033.jpg",
       "photoUrlLocal": "artistimages/338033.jpg"
     },
@@ -2786,7 +2801,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.thenoisefm.net",
       "genre": "indie-rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335510/original.jpg?1400008341",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335510/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335510.jpg",
       "photoUrlLocal": "artistimages/335510.jpg"
     },
@@ -2801,7 +2816,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://thequiettime.weebly.com/",
       "genre": "alt rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336161/original.jpg?1400867856",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336161/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336161.jpg",
       "photoUrlLocal": "artistimages/336161.jpg"
     },
@@ -2816,7 +2831,7 @@
       "homebase": "Los Angeles, CA",
       "url": "http://www.therecordcompany.net",
       "genre": "rock/roots/blues",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336008/original.jpg?1400697463",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336008/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336008.jpg",
       "photoUrlLocal": "artistimages/336008.jpg"
     },
@@ -2831,7 +2846,7 @@
       "homebase": "Canada",
       "url": "http://www.therevivalstyle.com",
       "genre": "Rock/EDM",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338209/original.jpg?1403669532",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338209/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338209.jpg",
       "photoUrlLocal": "artistimages/338209.jpg"
     },
@@ -2846,7 +2861,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.facebook.com/thesleepwalkerswi",
       "genre": "Power Pop Twang n Roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336209/original.jpg?1400978900",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336209/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336209.jpg",
       "photoUrlLocal": "artistimages/336209.jpg"
     },
@@ -2861,7 +2876,7 @@
       "homebase": "Oshkosh, WI",
       "url": "http://www.facebook.com/thetravelingsuitcase",
       "genre": "Rock & Roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336100/original.jpg?1400790472",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336100/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336100.jpg",
       "photoUrlLocal": "artistimages/336100.jpg"
     },
@@ -2876,7 +2891,7 @@
       "homebase": "Toronto, Ontario, Canada",
       "url": "http://www.thetreasuresband.com/",
       "genre": "Roots-Rock-Canadiana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/342325/original.jpg?1406176483",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342325/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342325.jpg",
       "photoUrlLocal": "artistimages/342325.jpg"
     },
@@ -2891,7 +2906,7 @@
       "homebase": "Boston, MA",
       "url": "http://www.facebook.com/thewinterbrave",
       "genre": "Rock, Alternative, Garage",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338178/original.jpg?1403635020",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338178/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338178.jpg",
       "photoUrlLocal": "artistimages/338178.jpg"
     },
@@ -2906,7 +2921,7 @@
       "homebase": "Boston, MA",
       "url": "http://www.thesewildplains.com",
       "genre": "American rock 'n' roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337947/original.jpg?1403218771",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337947/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337947.jpg",
       "photoUrlLocal": "artistimages/337947.jpg"
     },
@@ -2921,7 +2936,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://www.thriftones.com",
       "genre": "folkadelic",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335613/original.jpg?1403723064",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335613/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335613.jpg",
       "photoUrlLocal": "artistimages/335613.jpg"
     },
@@ -2936,7 +2951,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.thenewfolk.net",
       "genre": "Alternative/Folk/Pop",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/337924/original.jpg?1403192244",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/337924/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/337924.jpg",
       "photoUrlLocal": "artistimages/337924.jpg"
     },
@@ -2951,7 +2966,7 @@
       "homebase": "Fox Cities, WI",
       "url": "http://www.tonyanders.com",
       "genre": "indie/pop rock with a twang",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338302/original.jpg?1403804088",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338302/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338302.jpg",
       "photoUrlLocal": "artistimages/338302.jpg"
     },
@@ -2966,9 +2981,9 @@
       "homebase": "Nashville, TN",
       "url": "",
       "genre": "Drummer Special Guest",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341461/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341461.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341461.jpg"
     },
     {
       "artistId": "338238",
@@ -2981,7 +2996,7 @@
       "homebase": "Nashville, TN",
       "url": "http://turbofruits.com/",
       "genre": "Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338238/original.jpg?1404228635",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338238/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338238.jpg",
       "photoUrlLocal": "artistimages/338238.jpg"
     },
@@ -2996,7 +3011,7 @@
       "homebase": "Milwaukee/Madison, WI",
       "url": "http://www.twinbrother.net",
       "genre": "Alt, Folk, Rock",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336023/original.jpg?1400712201",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336023/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336023.jpg",
       "photoUrlLocal": "artistimages/336023.jpg"
     },
@@ -3011,9 +3026,9 @@
       "homebase": "Milwaukee, WI",
       "url": "",
       "genre": "",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341890/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341890.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341890.jpg"
     },
     {
       "artistId": "338139",
@@ -3026,7 +3041,7 @@
       "homebase": "Milwaukee, WI",
       "url": "http://vicandgab.com",
       "genre": "Indie pop rock ",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338139/original.jpg?1403625813",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338139/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338139.jpg",
       "photoUrlLocal": "artistimages/338139.jpg"
     },
@@ -3041,9 +3056,9 @@
       "homebase": "Fox Cities, WI",
       "url": "",
       "genre": "Singer-Songwriter",
-      "photoUrlOriginal": "",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341477/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341477.jpg",
-      "photoUrlLocal": null
+      "photoUrlLocal": "artistimages/341477.jpg"
     },
     {
       "artistId": "335572",
@@ -3056,7 +3071,7 @@
       "homebase": "Oxford, MS",
       "url": "http://www.waterliarsmusic.com",
       "genre": "Indie",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335572/original.jpg?1400083087",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335572/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335572.jpg",
       "photoUrlLocal": "artistimages/335572.jpg"
     },
@@ -3071,7 +3086,7 @@
       "homebase": "Madison, WI",
       "url": "http://www.WhitneyMannMusic.com",
       "genre": "Country / Americana",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336500/original.jpg?1401313903",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336500/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336500.jpg",
       "photoUrlLocal": "artistimages/336500.jpg"
     },
@@ -3086,7 +3101,7 @@
       "homebase": "Saratoga Springs, NY",
       "url": "http://www.wildadriatic.com",
       "genre": "Rock & Roll",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335538/original.jpg?1403721204",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335538/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335538.jpg",
       "photoUrlLocal": "artistimages/335538.jpg"
     },
@@ -3101,7 +3116,7 @@
       "homebase": "Oshkosh, WI",
       "url": "https://www.facebook.com/wilfretandmissband",
       "genre": "Folk",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335697/original.jpg?1400175922",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/335697/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335697.jpg",
       "photoUrlLocal": "artistimages/335697.jpg"
     },
@@ -3116,7 +3131,7 @@
       "homebase": "Chicago, IL",
       "url": "http://www.xoewise.com/",
       "genre": "Electronic/Pop/Indie",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336665/original.jpg?1401671850",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/336665/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336665.jpg",
       "photoUrlLocal": "artistimages/336665.jpg"
     }

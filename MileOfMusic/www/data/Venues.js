@@ -1862,8 +1862,8 @@
     },
     {
       "venueId": "707624",
-      "venueName": "University Shot Bar",
-      "venueNameSort": "University Shot Bar",
+      "venueName": "University Shot Bar (now The Ambassador)",
+      "venueNameSort": "University Shot Bar (now The Ambassador)",
       "region": "",
       "address": "117 S. Appleton St.",
       "city": "Appleton",

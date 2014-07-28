@@ -1378,7 +1378,7 @@
     {
       "concertId": "266450",
       "artists": [
-        "341432"
+        "342458"
       ],
       "venueId": "707617",
       "description": null,
@@ -3086,6 +3086,17 @@
         "335801"
       ],
       "venueId": "707603",
+      "description": null,
+      "timeStart": "2014-08-09T17:00:00Z",
+      "timeEnd": "2014-08-09T17:50:00Z",
+      "timeDoor": "0001-01-01T00:00:00"
+    },
+    {
+      "concertId": "265331",
+      "artists": [
+        "342428"
+      ],
+      "venueId": "707649",
       "description": null,
       "timeStart": "2014-08-09T17:00:00Z",
       "timeEnd": "2014-08-09T17:50:00Z",
