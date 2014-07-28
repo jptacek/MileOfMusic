@@ -1,5 +1,5 @@
 ﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper, notificationFactory) {
-    var getRemoteData = function (storageKey, versionUrl, dataUrl, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
+    var getRemoteData = function (storageKey, versionUrl, dataUrl, initialData,newDataCallback, preStoreDataCallback, getCachedDataCallback) {
         var deferred = $q.defer();
 
         var dataKey = storageKey;
@@ -18,8 +18,9 @@
             if (data == null) {
                 data = localStorage.getItem(dataKey);
                 if (data == null) {
-                    alert('data is null, not in local storage');
-                    deferred.reject();
+                    alert('Trying to set local data');
+                    localStorage.setItem(dataKey, JSON.stringify($.get(initialData)));
+                    deferred.resolve(dataResult);
                 }
                 else {
                     // Version get failed, but we have a cached version so just use that
