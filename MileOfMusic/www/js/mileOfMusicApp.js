@@ -122,7 +122,7 @@ mileOfMusicApp.factory("$exceptionHandler", [ '$injector', function ( $injector)
             //errorStack = new Error(),
             error = exception;//+ ' ' + (errorStack.stack == undefined ? '' : errorStack.stack),
 
-       //alert('error: ' + error );
+       alert('error: ' + error );
             var $location = $injector.get('$location');
             $location.path('/error');
         
