@@ -34,7 +34,6 @@ var app = {
     // Jennifer Wagman Hagerfunction, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         var conn = checkConnection();
-        alert("Connection:"+conn);
 
         app.receivedEvent('deviceready');
     },
@@ -53,7 +52,9 @@ function checkConnection(){
     var networkState;
     var test = cordova.exec(
         function(winParam) {networkState = winParam;},
-        function(error) {alert("Network Manager error: "+error);},
+        function(error) {
+
+        },
         "NetworkStatus",
         "getConnectionInfo",
         []

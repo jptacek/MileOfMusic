@@ -18,7 +18,7 @@ mileOfMusicApp.factory('venueData', function ($http, $log, $q, appHelper, common
         }
 
         // if the list is not in the cache, then build it
-        commonData.getRemoteData(storageKey_getVenues, versionUrl, dataUrl, function () { cache_getVenue = null; }, checkForMissingImages,
+        commonData.getRemoteData(storageKey_getVenues, versionUrl, dataUrl, 'data/Venues.txt', function () { cache_getVenue = null; }, checkForMissingImages,
             function () { return cache_venueList; }).then(function (result) {
             cache_venueList = result;
             cache_getVenue = appHelper.buildIndex(result.data.venues, "venueId");
