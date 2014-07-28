@@ -18,15 +18,19 @@
             if (data == null) {
                 data = localStorage.getItem(dataKey);
                 if (data == null) {
+                    alert('data is null, not in local storage');
                     deferred.reject();
                 }
                 else {
                     // Version get failed, but we have a cached version so just use that
+                    alert('data is not null, getting cache');
                     var jsonData = null;
                     if (getCachedDataCallback != null) {
+                        alert('data is not null, getCachedDataCallback');
                         jsonData = getCachedDataCallback();
                     }
                     if (jsonData == null) {
+                        alert('parse is not null, getCachedDataCallback');
                         jsonData = JSON.parse(data);
                     }
                     deferred.resolve(jsonData);
