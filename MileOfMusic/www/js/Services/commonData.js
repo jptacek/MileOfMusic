@@ -11,7 +11,6 @@
 
             var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
             var data = localStorage.getItem(dataKey);
-        checkConnection();
 
             alert(navigator.network.connection.type);
             //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
