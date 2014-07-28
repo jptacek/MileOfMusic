@@ -25,7 +25,9 @@
                     var request = new XMLHttpRequest();
 
                     request.open("GET", initialData);
+                    alert(request.responseType);
                     var textResult =  request.responseText;
+                    alert(textResult);
                     var dataResult = JSON.stringify(textResult);
                     jsonData = JSON.parse(dataResult);
                     if (dataResult==null) {
