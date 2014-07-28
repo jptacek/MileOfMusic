@@ -4,7 +4,7 @@
 
         //document.addEventListener('online', this.onOnline, false);
         //document.addEventListener('offline', this.onOffline, false);
-        
+
         var dataKey = storageKey;
         var versionKey = storageKey + "-version";
         var versionDateKey = versionKey + "-date";
@@ -14,11 +14,9 @@
 
         // Load from local file if none currently in cache
         if (data == null) {
-            alert('data is null');
-            data = $window[initialData];
-            localStorage.setItem(dataKey, JSON.stringify(data));
+            data = JSON.stringify($window[initialData]);
+            localStorage.setItem(dataKey, data);
         }
-        alert(data);
         $window[initialData] = null;
 
         //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
@@ -27,7 +25,7 @@
             navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
             //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
             //if (data == null) {
-                //notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
+            //notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
             //}
             notificationFactory.info("You are currently NOT connected to the network. We may not be using the most recent event information.");
             var jsonData = null;
