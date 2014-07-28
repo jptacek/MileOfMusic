@@ -7,18 +7,24 @@
         var versionDateKey = versionKey + "-date";
         var data;
 
-        if (navigator !== undefined && navigator.network !== undefined && navigator.network.connection !== undefined && navigator.network.connection.type == Connection.NONE) {
-        //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
-            alert('no netowrk');
-            notificationFactory.error("No network connection detected. Cannot display page without a connection.");
-            // Pull from cache
+        if (navigator !== undefined &&
+            navigator.network !== undefined &&
+            navigator.network.connection !== undefined &&
+            navigator.network.connection.type == Connection.NONE) {
+                alert('no netowrk');
+                notificationFactory.error("No network connection detected. Cannot display page without a connection.");
+                // Pull from cache
 
-            data = localStorage.getItem(dataKey);
-            var jsonData = null;
-            if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
-            if (jsonData == null) {
-                jsonData = JSON.parse(data);
-            }
+                data = localStorage.getItem(dataKey);
+                var jsonData = null;
+                if (getCachedDataCallback != null) {
+                    alert('cache callback is null')
+                    jsonData = getCachedDataCallback();
+                }
+                if (jsonData == null) {
+                    alert('cache jsonData is null')
+                    jsonData = JSON.parse(data);
+                }
             deferred.resolve(jsonData);
         }
         else {
@@ -29,15 +35,16 @@
             //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
             var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every hours
 
-            if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
-                var jsonData = null;
-                if (getCachedDataCallback != null) {
-                    jsonData = getCachedDataCallback();
-                }
-                if (jsonData == null) {
-                    jsonData = JSON.parse(data);
-                }
-                deferred.resolve(jsonData);
+            if (data != null && lastVersionCheck != null &&
+                lastVersionCheck > dateCheck) {
+                    var jsonData = null;
+                    if (getCachedDataCallback != null) {
+                        jsonData = getCachedDataCallback();
+                    }
+                    if (jsonData == null) {
+                        jsonData = JSON.parse(data);
+                    }
+                    deferred.resolve(jsonData);
             }
             else {
                 $http.jsonp(versionUrl).then(function (result) {
