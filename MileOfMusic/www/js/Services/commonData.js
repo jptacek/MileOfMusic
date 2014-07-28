@@ -15,6 +15,7 @@
                 notificationFactory.error("No network connection detected. Cannot display page without a connection.");
                 // Pull from cache
             data = localStorage.getItem(dataKey);
+            alert(data);
             if (data === undefined) {
 
                 // Set local storage version
