@@ -22,11 +22,8 @@
                     var jsonData = null;
 
                     alert('Trying to set local data ' + initialData);
-                    var request = new XMLHttpRequest();
-
-                    request.open("GET", initialData);
-                    alert(request.responseType);
-                    var textResult =  request.responseText;
+                    var reader = new FileReader();
+                    textResult = reader.readAsText(initialData);
                     alert(textResult);
                     var dataResult = JSON.stringify(textResult);
                     jsonData = JSON.parse(dataResult);
