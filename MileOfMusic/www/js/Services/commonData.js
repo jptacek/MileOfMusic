@@ -10,7 +10,7 @@
             var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
             var data = localStorage.getItem(dataKey);
 
-
+            alert(navigator.network.connection.type);
             //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
             var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every hours
             if (navigator != null && navigator.network != null &&
