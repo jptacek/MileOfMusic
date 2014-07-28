@@ -18,8 +18,16 @@
             if (data == null) {
                 data = localStorage.getItem(dataKey);
                 if (data == null) {
-                    alert('Trying to set local data');
-                    localStorage.setItem(dataKey, JSON.stringify($.get(initialData)));
+                    alert('Trying to set local data ' + initialData);
+                    var dataResult = JSON.stringify($.get(initialData));
+                    if (dataResult==null) {
+                        alert('try with /');
+                        dataResult = JSON.stringify($.get('/'+initialData));
+                    }
+                    if (dataResult==null) {
+                        alert('still null');
+                    }
+                    localStorage.setItem(dataKey,dataResult );
                     deferred.resolve(dataResult);
                 }
                 else {
