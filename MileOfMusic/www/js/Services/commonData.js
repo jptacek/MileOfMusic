@@ -20,15 +20,26 @@
                 if (data == null  ) {
                     alert ('nulls');
                     var jsonData = null;
-                    if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
-                    if (jsonData == null) {
-                        jsonData = JSON.parse(data);
+
+                    alert('Trying to set local data ' + initialData);
+                    var request = new XMLHttpRequest();
+
+                    request.open("GET", initialData);
+                    var textResult =  request.responseText;
+                    var dataResult = JSON.stringify(textResult);
+                    jsonData = JSON.parse(dataResult);
+                    if (dataResult==null) {
+                        alert('try with  /');
+                        request.open("GET", '/'+initialData);
+                        textResult =  request.responseText;
+                        dataResult = JSON.stringify(textResult);
+                        jsonData = JSON.parse(dataResult);
                     }
+
                     deferred.resolve(jsonData);
                 }
                 else {
-                    alert ('not nulls' + data);
-                    alert ('not nulls' + lastVersionCheck);
+                    notificationFactory.error("No network connection detected and could not get previous data.");
 
                 }
                 notificationFactory.error("No network connection detected. Cannot display page without a connection.");

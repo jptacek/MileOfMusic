@@ -51,7 +51,6 @@ var app = {
 };
 function checkConnection(){
     var networkState;
-    alert('foo');
     var test = cordova.exec(
         function(winParam) {networkState = winParam;},
         function(error) {alert("Network Manager error: "+error);},
