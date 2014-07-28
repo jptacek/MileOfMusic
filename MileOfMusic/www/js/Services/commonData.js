@@ -17,11 +17,11 @@
 
                 data = localStorage.getItem(dataKey);
                 var jsonData = null;
-                if (getCachedDataCallback != null) {
+                if (getCachedDataCallback !== undefined) {
                     alert('cache callback is null')
                     jsonData = getCachedDataCallback();
                 }
-                if (jsonData == null) {
+                if (jsonData === undefined) {
                     alert('cache jsonData is null')
                     jsonData = JSON.parse(data);
                 }
