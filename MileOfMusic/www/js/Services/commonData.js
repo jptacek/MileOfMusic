@@ -2,6 +2,8 @@
     var getRemoteData = function (storageKey, versionUrl, dataUrl,initialData, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
         var deferred = $q.defer();
 
+        document.addEventListener('online', this.onOnline, false);
+        document.addEventListener('offline', this.onOffline, false);
 
             var dataKey = storageKey;
             var versionKey = storageKey + "-version";

@@ -36,8 +36,8 @@ var app = {
         var conn = checkConnection();
 
         app.receivedEvent('deviceready');
-        navigator.addEventListener('online', this.onOnline, false);
-        navigator.addEventListener('offline', this.onOffline, false);
+        document.addEventListener('online', this.onOnline, false);
+        document.addEventListener('offline', this.onOffline, false);
         if((navigator.network.connection.type).toUpperCase() == "NONE" &&
             (navigator.network.connection.type).toUpperCase() == "UNKNOWN") {
             this.onOffline();
@@ -47,13 +47,11 @@ var app = {
         }
     },
     onOnline: function() {
-        alert('online');
-        alert(navigator.network.connection.type);
+        alert('online: ' + navigator.network.connection.type);
         app.receivedEvent('online');
     },
     onOffline: function() {
-        alert('offline');
-        alert(navigator.network.connection.type);
+        alert('offline: ' + navigator.network.connection.type);
         app.receivedEvent('offline');
     },
     // Update DOM on a Received Event
