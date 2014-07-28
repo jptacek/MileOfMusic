@@ -5,15 +5,15 @@
         var dataKey = storageKey;
         var versionKey = storageKey + "-version";
         var versionDateKey = versionKey + "-date";
+        var data;
 
         if (navigator !== undefined && navigator.network !== undefined && navigator.network.connection !== undefined && navigator.network.connection.type == Connection.NONE) {
         //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
             alert('no netowrk');
             notificationFactory.error("No network connection detected. Cannot display page without a connection.");
             // Pull from cache
-            localStorage.setItem(versionDateKey, new Date().toString());
 
-            var data = localStorage.getItem(dataKey);
+            data = localStorage.getItem(dataKey);
             var jsonData = null;
             if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
             if (jsonData == null) {
@@ -25,7 +25,7 @@
             alert(' netowrk');
 
             var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
-            var data = localStorage.getItem(dataKey);
+             data = localStorage.getItem(dataKey);
             //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
             var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every hours
 
