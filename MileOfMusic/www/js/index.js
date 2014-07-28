@@ -41,10 +41,12 @@ var app = {
     },
     onOnline: function() {
         alert('online');
+        alert(navigator.network.connection.type);
         app.receivedEvent('online');
     },
     onOffline: function() {
         alert('offline');
+        alert(navigator.network.connection.type);
         app.receivedEvent('offline');
     },
     // Update DOM on a Received Event
