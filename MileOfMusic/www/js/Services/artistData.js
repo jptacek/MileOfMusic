@@ -42,35 +42,40 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
     var getMusic = function (artistId) {
         var deferred = $q.defer();
 
-        getArtist(artistId).then(function (result) {
+        getArtist(artistId).then(function(result) {
             var name = result.artistName.replace(/ /g, '+');
 
-            $http.jsonp("https://itunes.apple.com/search?callback=JSON_CALLBACK&media=music&attribute=artistTerm&limit=10&term=" + name).then(function (result) {
-                var output = [];
+            if (navigator != null && navigator.network != null &&
+                navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
 
-                if (result.data.resultCount > 0) {
-                    $.each(result.data.results, function (i, item) {
-                        if (item.kind == "song") {
-                            output.push({
-                                name: item.trackCensoredName,
-                                album: item.collectionCensoredName,
-                                musicUrl: item.previewUrl,
-                                imageUrl: item.artworkUrl60
-                            });
-                        }
+                $http.jsonp("https://itunes.apple.com/search?callback=JSON_CALLBACK&media=music&attribute=artistTerm&limit=10&term=" + name).then(function(result) {
+                    var output = [];
 
-                        if (output.length >= 10) {
-                            return false;
-                        }
-                    });
-                }
-                deferred.resolve(output);
-            }, function () {
-                alert('no netowrk;')
-                deferred.resolve(null);
-            });
+                    if (result.data.resultCount > 0) {
+                        $.each(result.data.results, function(i, item) {
+                            if (item.kind == "song") {
+                                output.push({
+                                    name: item.trackCensoredName,
+                                    album: item.collectionCensoredName,
+                                    musicUrl: item.previewUrl,
+                                    imageUrl: item.artworkUrl60
+                                });
+                            }
 
-        }, function () { deferred.reject(); })
+                            if (output.length >= 10) {
+                                return false;
+                            }
+                        });
+                    }
+                    deferred.resolve(output);
+                }, function() {
+                    deferred.reject();
+                });
+            } else {
+                deferred.reject();
+            }
+
+        }, function() { deferred.reject(); });
 
         return deferred.promise;
     }
