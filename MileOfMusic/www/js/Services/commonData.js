@@ -21,7 +21,7 @@
                     alert('Trying to set local data ' + initialData);
                     var dataResult = JSON.stringify($.get(initialData));
                     if (dataResult==null) {
-                        alert('try with /');
+                        alert('try with  /');
                         dataResult = JSON.stringify($.get('/'+initialData));
                     }
                     if (dataResult==null) {
