@@ -33,7 +33,10 @@
             if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
             if (jsonData == null) {
                 alert('data null, trying parse');
+                alert(data.substring(0,40));
                 jsonData = JSON.parse(data);
+                alert(jsonData);
+
             }
             else {
                 alert('data NOT null, trying parse');
