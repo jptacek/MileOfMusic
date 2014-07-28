@@ -40,9 +40,11 @@ var app = {
         app.receivedEvent('deviceready');
     },
     onOnline: function() {
+        alert('online');
         app.receivedEvent('online');
     },
     onOffline: function() {
+        alert('offline');
         app.receivedEvent('offline');
     },
     // Update DOM on a Received Event
