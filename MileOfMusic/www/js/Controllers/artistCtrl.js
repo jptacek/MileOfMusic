@@ -14,7 +14,7 @@ mileOfMusicApp.controller('artistController',
 
                 if (navigator != null && navigator.network != null &&
                     navigator.network.connection != null && navigator.network.connection.type != Connection.NONE) {
-
+                    alert('network - get data');
                     $.each(result, function(i, item) {
                         item.audio = $sce.trustAsHtml("<audio controls='controls' preload='none'><source src='" + item.musicUrl + "' /></audio>");
                     });
