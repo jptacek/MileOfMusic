@@ -10,15 +10,17 @@
         if (navigator !== undefined &&
             navigator.network !== undefined &&
             navigator.network.connection !== undefined &&
-            navigator.network.connection.type == Connection.NONE) {
+            navigator.network.connection.type === Connection.NONE) {
                 alert('no netowrk');
                 notificationFactory.error("No network connection detected. Cannot display page without a connection.");
                 // Pull from cache
             var data = localStorage.getItem(dataKey);
             if (data == null) {
+                alert('data is null:' + dataKey);
                 deferred.reject();
             }
             else {
+                alert('data is NOT null:' + dataKey);
                 // Version get failed, but we have a cached version so just use that
                 var jsonData = null;
                 if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
