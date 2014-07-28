@@ -15,9 +15,13 @@
                 notificationFactory.error("No network connection detected. Cannot display page without a connection.");
                 // Pull from cache
             data = localStorage.getItem(dataKey);
-            if (data == null) {
+            if (data === undefined) {
+
+                // Set local storage version
                 data = localStorage.getItem(dataKey);
-                if (data == null) {
+                if (data === undefined) {
+
+                    // local storage is not set, first load, get from our data
                     alert('Trying to set local data ' + initialData);
                     var request = new XMLHttpRequest();
 
