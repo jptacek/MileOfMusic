@@ -18,8 +18,25 @@
                 //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
                 alert('no network');
                 if (data == null  ) {
-                    notificationFactory.error("No network connection detected. You need to connect to download event data.");
+                    alert ('nulls');
+                    var jsonData = null;
 
+                    alert('Trying to set local data NEW ' + initialData);
+                    var reader = new FileReader();
+                    reader.onloadend = function(evt) {
+                    };
+                    var textResult = reader.readAsText(initialData);
+                    alert(textResult);
+                    var dataResult = JSON.stringify(textResult);
+                    jsonData = JSON.parse(dataResult);
+                    if (dataResult==null) {
+                        alert('try with  /');
+                        textResult = reader.readAsText('/'+initialData);
+                        dataResult = JSON.stringify(textResult);
+                        jsonData = JSON.parse(dataResult);
+                    }
+
+                    deferred.resolve(jsonData);
                 }
                 else {
                     notificationFactory.error("No network connection detected. We may not be using the most recent event information.");
@@ -31,6 +48,7 @@
                     deferred.resolve(jsonData);
 
                 }
+                notificationFactory.error("No network connection detected. Cannot display page without a connection.");
             }
             else {
             if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
