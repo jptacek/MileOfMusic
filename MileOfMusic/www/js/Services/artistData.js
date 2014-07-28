@@ -66,7 +66,8 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
                 }
                 deferred.resolve(output);
             }, function () {
-                deferred.reject();
+                alert('no netowrk;')
+                deferred.resolve(null);
             });
 
         }, function () { deferred.reject(); })
