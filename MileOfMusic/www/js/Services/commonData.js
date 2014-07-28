@@ -14,7 +14,7 @@
                 alert('no netowrk');
                 notificationFactory.error("No network connection detected. Cannot display page without a connection.");
                 // Pull from cache
-            var data = localStorage.getItem(dataKey);
+            data = localStorage.getItem(dataKey);
             if (data == null) {
                 alert('data is null:' + dataKey);
                 deferred.reject();
