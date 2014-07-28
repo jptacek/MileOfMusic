@@ -17,11 +17,11 @@
                 navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
                 //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
                 if (data == null  ) {
-                    notificationFactory.error("No network connection detected. You need to connect to download event data.");
+                    notificationFactory.error("No network connection detected. You need to connect at least once to download the most recent Mile of Music information.");
 
                 }
                 else {
-                    notificationFactory.error("No network connection detected. We may not be using the most recent event information.");
+                    notificationFactory.info("No network connection detected. We may not be using the most recent event information.");
                     var jsonData = null;
                     if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
                     if (jsonData == null) {
@@ -30,7 +30,6 @@
                     deferred.resolve(jsonData);
 
                 }
-                notificationFactory.error("No network connection detected. Cannot display page without a connection.");
             }
             else {
             if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
