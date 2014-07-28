@@ -15,6 +15,7 @@
         // Load from local file if none currently in cache
         if (data == null) {
             data = JSON.stringify($window[initialData]);
+            alert(initialData.substring(0,40));
             localStorage.setItem(dataKey, data);
         }
         $window[initialData] = null;
@@ -38,7 +39,6 @@
                 alert('data NOT null, trying parse');
 
             }
-            alert(jsonData.length.toString());
             deferred.resolve(jsonData);
         }
         else {
