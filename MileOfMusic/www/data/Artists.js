@@ -13,7 +13,7 @@
       "genre": "Folk music where it sounds like everything is breaking at the end",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336561/original.jpg?1401375821",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336561.jpg",
-      "photoUrlLocal": "/artistimages/336561.jpg"
+      "photoUrlLocal": "artistimages/336561.jpg"
     },
     {
       "artistId": "338193",
@@ -28,7 +28,7 @@
       "genre": "Indie Rock",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/338193/original.jpg?1404234162",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338193.jpg",
-      "photoUrlLocal": "/artistimages/338193.jpg"
+      "photoUrlLocal": "artistimages/338193.jpg"
     },
     {
       "artistId": "336128",
@@ -43,7 +43,7 @@
       "genre": "Alternative",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/336128/original.png?1405696789",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/336128.jpg",
-      "photoUrlLocal": "/artistimages/336128.jpg"
+      "photoUrlLocal": "artistimages/336128.jpg"
     },
     {
       "artistId": "335584",
@@ -58,7 +58,7 @@
       "genre": "Soul-Folk Aggressive Americana",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335584/original.jpg?1400089701",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335584.jpg",
-      "photoUrlLocal": "/artistimages/335584.jpg"
+      "photoUrlLocal": "artistimages/335584.jpg"
     },
     {
       "artistId": "340709",
@@ -118,7 +118,7 @@
       "genre": "Indie Folk",
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/photos/335583/original.jpg?1400088897",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/335583.jpg",
-      "photoUrlLocal": "/artistimages/335583.jpg"
+      "photoUrlLocal": "artistimages/335583.jpg"
     },
     {
       "artistId": "335787",

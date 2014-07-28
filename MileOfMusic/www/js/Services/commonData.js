@@ -4,7 +4,7 @@
 
         //document.addEventListener('online', this.onOnline, false);
         //document.addEventListener('offline', this.onOffline, false);
-
+        
         var dataKey = storageKey;
         var versionKey = storageKey + "-version";
         var versionDateKey = versionKey + "-date";
@@ -14,33 +14,26 @@
 
         // Load from local file if none currently in cache
         if (data == null) {
-            data = JSON.stringify($window[initialData]);
-            alert(data.substring(0,40));
+            var val = { data: $window[initialData] };
+            if (preStoreDataCallback != null) preStoreDataCallback(val.data);
+            data = JSON.stringify(val);
             localStorage.setItem(dataKey, data);
         }
         $window[initialData] = null;
-
+        
         //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
         var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every 4 hours
         if (navigator != null && navigator.network != null &&
             navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
             //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
             //if (data == null) {
-            //notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
+                //notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
             //}
             notificationFactory.info("You are currently NOT connected to the network. We may not be using the most recent event information.");
             var jsonData = null;
             if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
             if (jsonData == null) {
-                alert('data null, trying parse');
-                alert(data.substring(0,40));
                 jsonData = JSON.parse(data);
-                alert(jsonData);
-
-            }
-            else {
-                alert('data NOT null, trying parse');
-
             }
             deferred.resolve(jsonData);
         }
@@ -128,7 +121,6 @@
         $.each(data, function (i, item) {
             var localItem = item;
             localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
-
         });
 
         setInterval(function () {

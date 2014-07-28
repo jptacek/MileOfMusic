@@ -14,7 +14,8 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
     var getConcerts = function () {
         var deferred = $q.defer();
 
-        // the list is not in cache, so build it
+        // the list is not in cache, so build ittx
+
         commonData.getRemoteData(storageKey_getConcerts, versionUrl, dataUrl, "initialConcertJson", function () {
             cache_getConcert = null;
             cache_getConcertsByVenue = null;

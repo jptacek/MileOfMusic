@@ -14,7 +14,7 @@ mileOfMusicApp.factory('venueData', function ($http, $log, $q, appHelper, common
         var deferred = $q.defer();
 
         var checkForMissingImages = function (result) {
-            return commonData.checkForMissingImages(result.venues, "venueId", "venueImages");
+            return commonData.checkForMissingImages(result.venues, "venueId", "venueimages");
         }
 
         // if the list is not in the cache, then build it
