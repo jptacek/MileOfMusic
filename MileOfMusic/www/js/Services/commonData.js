@@ -19,10 +19,15 @@
                 data = localStorage.getItem(dataKey);
                 if (data == null) {
                     alert('Trying to set local data ' + initialData);
-                    var dataResult = JSON.stringify($.get(initialData));
+                    var request = new XMLHttpRequest();
+
+                    request.open("GET", "test.txt");
+                    var textResult =  request.responseText;
+                    var dataResult = JSON.stringify(textResult);
                     if (dataResult==null) {
                         alert('try with  /');
-                        dataResult = JSON.stringify($.get('/'+initialData));
+                        textResult =  request.responseText;
+                        dataResult = JSON.stringify(textResult);
                     }
                     if (dataResult==null) {
                         alert('still null');
