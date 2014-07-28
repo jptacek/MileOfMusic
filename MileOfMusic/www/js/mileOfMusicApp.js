@@ -12,6 +12,10 @@ angular.module('fsCordova', ['ngTouch', 'ngResource', 'ui.bootstrap'])
                 resolved = true;
                 d.resolve(window.cordova);
             });
+            document.addEventListener('online', function() {
+            });
+            document.addEventListener('offline', function() {
+            });
 
             // Check to make sure we didn't miss the
             // event (just in case)
