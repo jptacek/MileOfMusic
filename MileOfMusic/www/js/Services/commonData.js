@@ -17,7 +17,7 @@
                 navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
                 //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
                 alert('no network');
-                if (data == null && lastVersionCheck == null ) {
+                if (data == null  ) {
                     alert ('nulls');
                     var jsonData = null;
                     if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
