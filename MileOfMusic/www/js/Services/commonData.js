@@ -17,11 +17,11 @@
                 navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
                 //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
                 if (data == null  ) {
-                    notificationFactory.error("No network connection detected. You need to connect at least once to download the most recent Mile of Music information.");
+                    notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
 
                 }
                 else {
-                    notificationFactory.info("No network connection detected. We may not be using the most recent event information.");
+                    notificationFactory.info("You are not currently connected to the network. We may not be using the most recent event information.");
                     var jsonData = null;
                     if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
                     if (jsonData == null) {
@@ -44,6 +44,7 @@
                 $http.jsonp(versionUrl).then(function (result) {
                     var myVersion = localStorage.getItem(versionKey);
                     if (data == null || myVersion == null || JSON.parse(myVersion).Version != result.data.Version) {
+                        notificationFactory.info("We are getting updated event information.");
 
                         // New version, so go download new JSON
                         $http.jsonp(dataUrl).then(function (dataResult) {
