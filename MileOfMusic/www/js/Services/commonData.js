@@ -21,16 +21,15 @@
                     alert ('nulls');
                     var jsonData = null;
 
-                    alert('Trying to set local data ' + initialData);
+                    alert('Trying to set local data NEW ' + initialData);
                     var reader = new FileReader();
-                    textResult = reader.readAsText(initialData);
+                    var textResult = reader.readAsText(initialData);
                     alert(textResult);
                     var dataResult = JSON.stringify(textResult);
                     jsonData = JSON.parse(dataResult);
                     if (dataResult==null) {
                         alert('try with  /');
-                        request.open("GET", '/'+initialData);
-                        textResult =  request.responseText;
+                        textResult = reader.readAsText('/'+initialData);
                         dataResult = JSON.stringify(textResult);
                         jsonData = JSON.parse(dataResult);
                     }
