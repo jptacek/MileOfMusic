@@ -23,6 +23,10 @@
 
                     alert('Trying to set local data NEW ' + initialData);
                     var reader = new FileReader();
+                    reader.onloadend = function(evt) {
+                        console.log("read success");
+                        console.log(evt.target.result);
+                    };
                     var textResult = reader.readAsText(initialData);
                     alert(textResult);
                     var dataResult = JSON.stringify(textResult);
