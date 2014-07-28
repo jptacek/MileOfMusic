@@ -14,9 +14,11 @@
 
         // Load from local file if none currently in cache
         if (data == null) {
+            alert('data is null');
             data = $window[initialData];
             localStorage.setItem(dataKey, JSON.stringify(data));
         }
+        alert(data);
         $window[initialData] = null;
 
         //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
