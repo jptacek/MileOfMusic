@@ -16,14 +16,28 @@
                 // Pull from cache
             data = localStorage.getItem(dataKey);
             if (data == null) {
-                alert('data is null:' + dataKey);
-                deferred.reject();
+                data = localStorage.getItem(dataKey);
+                if (data == null) {
+                    deferred.reject();
+                }
+                else {
+                    // Version get failed, but we have a cached version so just use that
+                    var jsonData = null;
+                    if (getCachedDataCallback != null) {
+                        jsonData = getCachedDataCallback();
+                    }
+                    if (jsonData == null) {
+                        jsonData = JSON.parse(data);
+                    }
+                    deferred.resolve(jsonData);
+                }
             }
             else {
                 alert('data is NOT null:' + dataKey);
                 // Version get failed, but we have a cached version so just use that
                 var jsonData = null;
-                if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+                if (getCachedDataCallback != null) {
+                    jsonData = getCachedDataCallback();}
                 if (jsonData == null) {
                     jsonData = JSON.parse(data);
                 }
@@ -36,7 +50,7 @@
             var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
              data = localStorage.getItem(dataKey);
             //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
-            var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every hours
+            var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every 4 hours
 
             if (data != null && lastVersionCheck != null &&
                 lastVersionCheck > dateCheck) {
@@ -84,7 +98,9 @@
                         localStorage.setItem(versionDateKey, new Date().toString());
 
                         var jsonData = null;
-                        if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+                        if (getCachedDataCallback != null) {
+                            jsonData = getCachedDataCallback();
+                        }
                         if (jsonData == null) {
                             jsonData = JSON.parse(data);
                         }
@@ -98,7 +114,9 @@
                     else {
                         // Version get failed, but we have a cached version so just use that
                         var jsonData = null;
-                        if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+                        if (getCachedDataCallback != null) {
+                            jsonData = getCachedDataCallback();
+                        }
                         if (jsonData == null) {
                             jsonData = JSON.parse(data);
                         }
