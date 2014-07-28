@@ -16,7 +16,7 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
         var checkForMissingImages = function (result) { return commonData.checkForMissingImages(result.artists, "artistId", "artistImages"); }
 
         // if the list is not in cache, then build it
-        commonData.getRemoteData(storageKey_getArtists, versionUrl, dataUrl, 'data/Artists.txt',function () { cache_getArtist = null; }, checkForMissingImages, function () { return cache_artistList; }).then(function (result) {
+        commonData.getRemoteData(storageKey_getArtists, versionUrl, dataUrl, "initialArtistJson", function () { cache_getArtist = null; }, checkForMissingImages, function () { return cache_artistList; }).then(function (result) {
             cache_artistList = result;
             deferred.resolve(cache_artistList);
         }, function () { deferred.reject(); });
@@ -44,7 +44,7 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
 
         getArtist(artistId).then(function (result) {
             var name = result.artistName.replace(/ /g, '+');
-        
+
             $http.jsonp("https://itunes.apple.com/search?callback=JSON_CALLBACK&media=music&attribute=artistTerm&limit=10&term=" + name).then(function (result) {
                 var output = [];
 
@@ -69,7 +69,7 @@ mileOfMusicApp.factory('artistData', function ($http, $log, $q, appHelper, commo
                 deferred.reject();
             });
 
-        }, function() { deferred.reject(); })
+        }, function () { deferred.reject(); })
 
         return deferred.promise;
     }

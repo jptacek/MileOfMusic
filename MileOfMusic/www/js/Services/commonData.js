@@ -1,39 +1,41 @@
-﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper, notificationFactory) {
-    var getRemoteData = function (storageKey, versionUrl, dataUrl,initialData, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
+﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper, notificationFactory, $window) {
+    var getRemoteData = function (storageKey, versionUrl, dataUrl, initialData, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
         var deferred = $q.defer();
 
-        document.addEventListener('online', this.onOnline, false);
-        document.addEventListener('offline', this.onOffline, false);
+        //document.addEventListener('online', this.onOnline, false);
+        //document.addEventListener('offline', this.onOffline, false);
+        
+        var dataKey = storageKey;
+        var versionKey = storageKey + "-version";
+        var versionDateKey = versionKey + "-date";
 
-            var dataKey = storageKey;
-            var versionKey = storageKey + "-version";
-            var versionDateKey = versionKey + "-date";
+        var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
+        var data = localStorage.getItem(dataKey);
 
-            var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
-            var data = localStorage.getItem(dataKey);
+        // Load from local file if none currently in cache
+        if (data == null) {
+            data = $window[initialData];
+            localStorage.setItem(dataKey, JSON.stringify(data));
+        }
+        $window[initialData] = null;
 
-            alert(navigator.network.connection.type);
-            //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
-            var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every hours
-            if (navigator != null && navigator.network != null &&
-                navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
-                //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
-                if (data == null  ) {
-                    notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
-
-                }
-                else {
-                    notificationFactory.info("You are not currently connected to the network. We may not be using the most recent event information.");
-                    var jsonData = null;
-                    if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
-                    if (jsonData == null) {
-                        jsonData = JSON.parse(data);
-                    }
-                    deferred.resolve(jsonData);
-
-                }
+        //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
+        var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every 4 hours
+        if (navigator != null && navigator.network != null &&
+            navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
+            //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
+            //if (data == null) {
+                //notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
+            //}
+            notificationFactory.info("You are currently NOT connected to the network. We may not be using the most recent event information.");
+            var jsonData = null;
+            if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+            if (jsonData == null) {
+                jsonData = JSON.parse(data);
             }
-            else {
+            deferred.resolve(jsonData);
+        }
+        else {
             if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
                 var jsonData = null;
                 if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
@@ -102,7 +104,7 @@
                     }
                 });
             }
-            }
+        }
 
         return deferred.promise;
     };
