@@ -14,18 +14,19 @@
                 alert('no netowrk');
                 notificationFactory.error("No network connection detected. Cannot display page without a connection.");
                 // Pull from cache
-
-                data = localStorage.getItem(dataKey);
+            var data = localStorage.getItem(dataKey);
+            if (data == null) {
+                deferred.reject();
+            }
+            else {
+                // Version get failed, but we have a cached version so just use that
                 var jsonData = null;
-                if (getCachedDataCallback !== undefined) {
-                    alert('cache callback is null')
-                    jsonData = getCachedDataCallback();
-                }
-                if (jsonData === undefined) {
-                    alert('cache jsonData is null')
+                if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+                if (jsonData == null) {
                     jsonData = JSON.parse(data);
                 }
-            deferred.resolve(jsonData);
+                deferred.resolve(jsonData);
+            }
         }
         else {
             alert(' netowrk');
