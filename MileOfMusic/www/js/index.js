@@ -18,14 +18,14 @@
  */
 var app = {
     // Application Constructor
-    initialize: function() {
+    initialize: function () {
         this.bindEvents();
     },
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
+    bindEvents: function () {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         document.addEventListener('resume', this.onResume, false);
         document.addEventListener('online', this.onOnline, false);
@@ -36,26 +36,24 @@ var app = {
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // Jennifer Wagman Hagerfunction, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
+    onDeviceReady: function () {
         var conn = checkConnection();
 
         app.receivedEvent('deviceready');
     },
-    onResume: function() {
+    onResume: function () {
         var conn = checkConnection();
 
         app.receivedEvent('resume');
     },
-    onOnline: function() {
-        alert('online: ' + navigator.network.connection.type);
+    onOnline: function () {
         app.receivedEvent('online');
     },
-    onOffline: function() {
-        alert('offline: ' + navigator.network.connection.type);
+    onOffline: function () {
         app.receivedEvent('offline');
     },
     // Update DOM on a Received Event
-    receivedEvent: function(id) {
+    receivedEvent: function (id) {
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
@@ -65,11 +63,11 @@ var app = {
 
     }
 };
-function checkConnection(){
+function checkConnection() {
     var networkState;
     var test = cordova.exec(
-        function(winParam) {networkState = winParam;},
-        function(error) {
+        function (winParam) { networkState = winParam; },
+        function (error) {
 
         },
         "NetworkStatus",
@@ -77,13 +75,13 @@ function checkConnection(){
         []
     );
     var states = {};
-    states[navigator.connection.UNKNOWN]  = 'Unknown connection';
+    states[navigator.connection.UNKNOWN] = 'Unknown connection';
     states[navigator.connection.ETHERNET] = 'Ethernet connection';
-    states[navigator.connection.WIFI]     = 'WiFi connection';
-    states[navigator.connection.CELL_2G]  = 'Cell 2G connection';
-    states[navigator.connection.CELL_3G]  = 'Cell 3G connection';
-    states[navigator.connection.CELL_4G]  = 'Cell 4G connection';
-    states[navigator.connection.CELL]     = 'Cell generic connection';
-    states[navigator.connection.NONE]     = 'No network connection';
+    states[navigator.connection.WIFI] = 'WiFi connection';
+    states[navigator.connection.CELL_2G] = 'Cell 2G connection';
+    states[navigator.connection.CELL_3G] = 'Cell 3G connection';
+    states[navigator.connection.CELL_4G] = 'Cell 4G connection';
+    states[navigator.connection.CELL] = 'Cell generic connection';
+    states[navigator.connection.NONE] = 'No network connection';
     return networkState;
 }

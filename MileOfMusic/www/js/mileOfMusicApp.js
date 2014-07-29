@@ -13,7 +13,6 @@ angular.module('fsCordova', ['ngTouch', 'ngResource', 'ui.bootstrap'])
                 d.resolve(window.cordova);
             });
 
-
             // Check to make sure we didn't miss the
             // event (just in case)
             setTimeout(function() {

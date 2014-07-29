@@ -15,12 +15,12 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
         var deferred = $q.defer();
 
         // the list is not in cache, so build it
-        commonData.getRemoteData(storageKey_getConcerts, versionUrl, dataUrl,'data/Concerts.txt', function() {
+        commonData.getRemoteData(storageKey_getConcerts, versionUrl, dataUrl, "initialConcertJson", function () {
             cache_getConcert = null;
             cache_getConcertsByVenue = null;
             cache_getConcertsByArtist = null;
             cache_concertList = null;
-        }, null, function () { return cache_concertList; }).then(function(result) {
+        }, null, function () { return cache_concertList; }).then(function (result) {
             $.each(result.data.concerts, function (i, concert) {
                 concert.artistData = [];
                 $.each(concert.artists, function (j, artist) {
@@ -31,9 +31,9 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
                 });
 
                 // populate the venue into the concert
-                venueData.getVenue(concert.venueId).then(function(result) {
+                venueData.getVenue(concert.venueId).then(function (result) {
                     concert.venue = result;
-                }, function() { concert.venue = null; });
+                }, function () { concert.venue = null; });
 
             });
 
@@ -43,7 +43,7 @@ mileOfMusicApp.factory('concertData', function ($http, $log, $q, artistData, ven
                 var allAssigned = true;
 
                 // the promise only resolves when each concert contains both an artist and venue
-                $.each(result.data.concerts, function(i, item) {
+                $.each(result.data.concerts, function (i, item) {
                     if (item.venue == undefined || item.artistData.length != item.artists.length) {
                         allAssigned = false;
                         return false;

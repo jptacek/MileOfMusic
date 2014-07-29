@@ -1,39 +1,38 @@
-﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper, notificationFactory) {
-    var getRemoteData = function (storageKey, versionUrl, dataUrl,initialData, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
+﻿mileOfMusicApp.factory('commonData', function ($http, $log, $q, appHelper, notificationFactory, $window) {
+    var getRemoteData = function (storageKey, versionUrl, dataUrl, initialData, newDataCallback, preStoreDataCallback, getCachedDataCallback) {
         var deferred = $q.defer();
 
-        document.addEventListener('online', this.onOnline, false);
-        document.addEventListener('offline', this.onOffline, false);
+        //document.addEventListener('online', this.onOnline, false);
+        //document.addEventListener('offline', this.onOffline, false);
+        
+        var dataKey = storageKey;
+        var versionKey = storageKey + "-version";
+        var versionDateKey = versionKey + "-date";
 
-            var dataKey = storageKey;
-            var versionKey = storageKey + "-version";
-            var versionDateKey = versionKey + "-date";
+        var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
+        var data = localStorage.getItem(dataKey);
 
-            var lastVersionCheck = new Date(localStorage.getItem(versionDateKey));
-            var data = localStorage.getItem(dataKey);
-
-            alert(navigator.network.connection.type);
-            //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
-            var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every hours
-            if (navigator != null && navigator.network != null &&
-                navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
-                //    if (navigator == null || navigator.network == null || navigator.network.connection == null || navigator.network.connection.type != Connection.NONE) {
-                if (data == null  ) {
-                    notificationFactory.error("You are not currently connected to the network. You need to connect at least once to download the most recent Mile of Music information.");
-
-                }
-                else {
-                    notificationFactory.info("You are not currently connected to the network. We may not be using the most recent event information.");
-                    var jsonData = null;
-                    if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
-                    if (jsonData == null) {
-                        jsonData = JSON.parse(data);
-                    }
-                    deferred.resolve(jsonData);
-
-                }
+        // Load from local file if none currently in cache
+        if (data == null) {
+            var val = { data: $window[initialData] };
+            if (preStoreDataCallback != null) preStoreDataCallback(val.data);
+            data = JSON.stringify(val);
+            localStorage.setItem(dataKey, data);
+        }
+        $window[initialData] = null;
+        
+        //var dateCheck = new Date(new Date().getTime() - (12 * 60 * 60 * 1000)); // Check twice per day
+        var dateCheck = new Date(new Date().getTime() - (4 * 60 * 1000)); // Check every 4 hours
+        if (navigator != null && navigator.network != null &&
+            navigator.network.connection != null && navigator.network.connection.type == Connection.NONE) {
+            var jsonData = null;
+            if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
+            if (jsonData == null) {
+                jsonData = JSON.parse(data);
             }
-            else {
+            deferred.resolve(jsonData);
+        }
+        else {
             if (data != null && lastVersionCheck != null && lastVersionCheck > dateCheck) {
                 var jsonData = null;
                 if (getCachedDataCallback != null) jsonData = getCachedDataCallback();
@@ -46,7 +45,6 @@
                 $http.jsonp(versionUrl).then(function (result) {
                     var myVersion = localStorage.getItem(versionKey);
                     if (data == null || myVersion == null || JSON.parse(myVersion).Version != result.data.Version) {
-                        notificationFactory.info("We are getting updated event information.");
 
                         // New version, so go download new JSON
                         $http.jsonp(dataUrl).then(function (dataResult) {
@@ -102,7 +100,7 @@
                     }
                 });
             }
-            }
+        }
 
         return deferred.promise;
     };
@@ -117,7 +115,6 @@
         $.each(data, function (i, item) {
             var localItem = item;
             localItem[photoUrlProperty] = localItem[photoUrlLocalProperty];
-
         });
 
         setInterval(function () {
