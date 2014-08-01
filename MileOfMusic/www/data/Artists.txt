@@ -1366,6 +1366,21 @@
       "photoUrlLocal": "artistimages/336565.jpg"
     },
     {
+      "artistId": "342941",
+      "artistName": "Langhorne Slim",
+      "artistNameSort": "Langhorne Slim",
+      "twitter": "twitter.com/langhorneslim",
+      "instagram": "",
+      "facebook": "http://www.facebook.com/langhorneslim",
+      "description": "",
+      "homebase": "Langhorne Slim",
+      "url": "http://www.langhorneslim.com/",
+      "genre": "Folk/Soul/Rock",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342941/original.png",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342941.jpg",
+      "photoUrlLocal": "artistimages/342941.jpg"
+    },
+    {
       "artistId": "336213",
       "artistName": "Leading the Blind",
       "artistNameSort": "Leading the Blind",
@@ -2116,6 +2131,21 @@
       "photoUrlLocal": "artistimages/335499.jpg"
     },
     {
+      "artistId": "342942",
+      "artistName": "Ruby Amanfu",
+      "artistNameSort": "Ruby Amanfu",
+      "twitter": "twitter.com/RubyAmanfu",
+      "instagram": "@RubyAmanfu",
+      "facebook": "https://www.facebook.com/rubyamanfu",
+      "description": "",
+      "homebase": "Nashville, TN",
+      "url": "http://www.rubyamanfu.com/",
+      "genre": "Soul/Pop, Singer-Songwriter",
+      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/342942/original.png",
+      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/342942.jpg",
+      "photoUrlLocal": "artistimages/342942.jpg"
+    },
+    {
       "artistId": "337919",
       "artistName": "Ryan Hommel's Optical Shop",
       "artistNameSort": "Ryan Hommel's Optical Shop",
@@ -2759,21 +2789,6 @@
       "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/338291/original.jpg",
       "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/338291.jpg",
       "photoUrlLocal": "artistimages/338291.jpg"
-    },
-    {
-      "artistId": "341447",
-      "artistName": "The Milk Carton Kids",
-      "artistNameSort": "Milk Carton Kids, The",
-      "twitter": "",
-      "instagram": "",
-      "facebook": "",
-      "description": "",
-      "homebase": "Eagle Rock, CA",
-      "url": "",
-      "genre": "",
-      "photoUrlOriginal": "https://s3-us-west-2.amazonaws.com/marcato.west/artists_files/web_photos/341447/original.jpg",
-      "photoUrlRemote": "https://mileofmusicmarcato.blob.core.windows.net/artistimages/341447.jpg",
-      "photoUrlLocal": "artistimages/341447.jpg"
     },
     {
       "artistId": "338033",
